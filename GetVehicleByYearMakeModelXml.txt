@@ -1,0 +1,26 @@
+<VINLookupReply xmlns="">
+  <Valid>1</Valid>
+  <Message>OK</Message>
+  <VehicleInfo>
+    <Vehicle>
+      <Body>PKP4X44D</Body>
+      <Style>04CYL 2.8E</Style>
+      <ModelID>155402</ModelID>
+      <ModelVIN>1GC&amp;T198&amp;6</ModelVIN>
+      <VehicleType>5</VehicleType>
+      <Performance>1</Performance>
+      <Symbol>PKP4X44D 04CYL 2.8E (Symb 14, 1GC&amp;T198&amp;6)</Symbol>
+      <SymbolLiab>11</SymbolLiab>
+      <SymbolComp>7</SymbolComp>
+      <SymbolColl>8</SymbolColl>
+      <SymbolPip>7</SymbolPip>
+      <SymbolIsoComp>0</SymbolIsoComp>
+      <SymbolIsoColl>0</SymbolIsoColl>
+      <AdjToMakeModel>CCF</AdjToMakeModel>
+      <SafeVehicle>2</SafeVehicle>
+      <Exposure>4</Exposure>
+      <YearMakeModel>CCF</YearMakeModel>
+      <HiPerfInd>0</HiPerfInd>
+    </Vehicle>
+  </VehicleInfo>
+</VINLookupReply>

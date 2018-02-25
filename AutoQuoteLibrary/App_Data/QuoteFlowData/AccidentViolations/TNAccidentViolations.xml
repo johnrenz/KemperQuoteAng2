@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccidentViolations>
+    <AccidentViolation Type="accident" ID="2041+" Action="override">
+        <Number>2041</Number>
+        <Amount>1001</Amount>
+        <Description>Accident - At Fault with payout of $1000 or more</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041-" Action="override">
+        <Number>2041</Number>
+        <Amount>999</Amount>
+        <Description>Accident - At Fault with payout of less than $1000</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="3141+" Action="add">
+		<Number>3141</Number>
+		<Amount>1001</Amount>
+		<Description>Accident – At Fault with Property Damage ONLY of $1,000 or more</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="3141-" Action="add">
+		<Number>3141</Number>
+		<Amount>999</Amount>
+		<Description>Accident – At Fault with Property Damage ONLY of less than $1,000</Description>
+    </AccidentViolation>
+</AccidentViolations>

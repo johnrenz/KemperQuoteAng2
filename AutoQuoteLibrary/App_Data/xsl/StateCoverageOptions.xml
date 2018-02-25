@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<States>
+	<State abbrev="PA">
+		<AdditionalCoverages>
+			<AdditionalCoverage cov_type="FPB" question_id="POLCOV_PAFPB" desc="First Party Benefits" input_type="label" faq_text="" active="0">
+			<Options>
+				<!-- The key structure is as follows:
+            PipMed~PipWorkLoss~PipDeath~PipFuneral~PipPackage~PipExtraMed-->
+				<Option opt_key="50~0~0~0~1~0" opt_value="$5,000 Medical, $0 Income Loss, $0 Accidental Death, $0 Funeral"></Option>
+				<Option opt_key="100~0~0~0~20~0" opt_value="$10,000 Medical, $0 Income Loss, $0 Accidental Death, $0 Funeral"></Option>
+				<Option opt_key="250~0~0~0~20~0" opt_value="$25,000 Medical, $0 Income Loss, $0 Accidental Death, $0 Funeral"></Option>
+				<Option opt_key="500~0~0~0~20~0" opt_value="$50,000 Medical, $0 Income Loss, $0 Accidental Death, $0 Funeral"></Option>
+				<Option opt_key="1000~0~0~0~20~0" opt_value="$100,000 Medical, $0 Income Loss, $0 Accidental Death, $0 Funeral"></Option>
+				<Option opt_key="50~500~500~150~20~0" opt_value="$5,000 Medical, $5,000 Income Loss, $5,000 Accidental Death, $1,500 Funeral"></Option>
+				<Option opt_key="100~500~500~150~20~0" opt_value="$10,000 Medical, $5,000 Income Loss, $5,000 Accidental Death, $1,500 Funeral"></Option>
+				<Option opt_key="250~2500~1000~250~20~0" opt_value="$25,000 Medical, $25,000 Income Loss, $10,000 Accidental Death, $2,500 Funeral"></Option>
+				<Option opt_key="500~5000~1500~250~20~0" opt_value="$50,000 Medical, $50,000 Income Loss, $15,000 Accidental Death, $2,500 Funeral"></Option>
+				<Option opt_key="1000~5000~2500~250~20~0" opt_value="$100,000 Medical, $50,000 Income Loss, $25,000 Accidental Death, $2,500 Funeral"></Option>
+				<Option opt_key="0~0~0~0~2~0" opt_value="$177,500 Combined First Party Benefits"></Option>
+				<Option opt_key="0~0~0~0~2~1000" opt_value="$177,500 Combined First Party Benefits &amp; 1M Extraordinary Medical"></Option>
+			</Options>
+		</AdditionalCoverage>
+		</AdditionalCoverages>
+
+</State>
+	<State abbrev="NJ">
+		<AdditionalCoverages>
+			<AdditionalCoverage cov_type="NonMedLabel" question_id="pipTest" desc="PIP Non Medical Expense label" input_type="label" faq_text="" active="1">
+			<Options>			
+				<Option opt_key="2" opt_value="Essential Services Benefit $12 day/$4,380 total, base Death benefit, Funeral Expenses $1,000"></Option>
+				<Option opt_key="3" opt_value="Essential Services Benefit $12 day/$8,760 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="4" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="5" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="6" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="7" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="8" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="9" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="10" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="11" opt_value="Essential Services Benefit $12 day/$8,760 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="12" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="13" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="14" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="15" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="16" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="17" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="18" opt_value="Essential Services Benefit $20 day/$14,600 total, $10,000 Death benefit, Funeral Expenses $2,000"></Option>
+				<Option opt_key="1" opt_value="No Coverage"></Option>
+			</Options>
+		</AdditionalCoverage>			
+		</AdditionalCoverages>
+	
+</State>
+</States>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccidentViolations>
+    <AccidentViolation Type="accident" ID="3141+" Action="add">
+		<Number>3141</Number>
+		<Amount>1001</Amount>
+		<Description>Accident – At Fault with Property Damage ONLY of $1,000 or more</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="3141-" Action="add">
+		<Number>3141</Number>
+		<Amount>999</Amount>
+		<Description>Accident – At Fault with Property Damage ONLY of less than $1,000</Description>
+    </AccidentViolation>
+</AccidentViolations>

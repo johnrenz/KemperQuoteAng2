@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="421e9238b5fc4fcabc0dfb3be79ed835" Name="Diagram1">
+        <EntityTypeShape EntityType="AutoQuoteModel.ModelYearMake" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.Quote" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.QuoteAccident" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.QuoteDriver" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.QuoteVehicle" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.QuoteViolation" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.states_master" Width="1.5" PointX="10.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.tbl_web_session" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.tbl_web_session_flex" Width="1.5" PointX="10.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.tbl_web_split_zips" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.tbl_web_state_zip_ranges" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.Vehicle" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoQuoteModel.YearMake" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

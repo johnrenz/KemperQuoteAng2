@@ -1,0 +1,159 @@
+
+<form (ngSubmit)="onSubmit()" [formGroup]="vehiclesForm">
+    <div>
+        <h1 mat-dialog-title>
+            <span><mat-icon>create</mat-icon>{{modalTitle}}</span>
+
+        </h1>
+        <button class="btn btn-info" type="button" (click)="dialogRef.close()">Cancel</button>&nbsp;
+        <button type="submit" class="btn btn-danger" [disabled]="vehiclesForm.invalid">{{modalBtnTitle}}</button>
+        <br /><br />
+    </div>
+    <div style="padding-bottom:1px;background-color:#d8d8d8"></div>
+
+    <div class="form-group ">
+        <div formGroupName="Vehicle1">
+            <label class="center-block">
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="Year"
+                                [(value)]="selectedVehicle1YearOption"
+                                placeholder="Year"
+                                (change)="getVehicle1Makes($event.value);
+                                                selectedVehicle1MakeOption='0000';
+                                                vehicle1ModelOptions = [{Value: 'Please Select', Description: 'Please Select'}];
+                                                selectedVehicle1ModelOption='Please Select';;
+                                                Vehicle1Vin.setValue('');">
+                        <mat-option *ngFor="let option of vehicleYearOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <div *ngIf="Vehicle1Year.invalid && (Vehicle1Year.dirty || Vehicle1Year.touched)"
+                     class="alert alert-danger">
+                    <div *ngIf="Vehicle1Year.errors.required">
+                        Year is required.
+                    </div>
+                </div>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="MakeNumber"
+                                [(value)]="selectedVehicle1MakeOption"
+                                [ngModel]="selectedVehicle1MakeOption"
+                                placeholder="Make"
+                                (change)="getWebVehicle1Models(Vehicle1Year.value, $event.value);
+                                                selectedVehicle1ModelOption='Please Select';
+                                                Vehicle1Vin.setValue('');">
+                        <mat-option *ngFor="let option of vehicle1MakeOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <div *ngIf="Vehicle1MakeNumber.invalid && (Vehicle1MakeNumber.dirty || Vehicle1MakeNumber.touched)"
+                     class="alert alert-danger">
+                    <div *ngIf="Vehicle1MakeNumber.errors.required">
+                        Make is required.
+                    </div>
+                </div>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="Model"
+                                [(value)]="selectedVehicle1ModelOption"
+                                [ngModel]="selectedVehicle1ModelOption"
+                                placeholder="Model"
+                                (change)="getWebVehicle1Vin(Vehicle1Year.value,selectedVehicle1MakeOption,$event.value)">
+                        <mat-option *ngFor="let option of vehicle1ModelOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <div *ngIf="Vehicle1Model.invalid && (Vehicle1Model.dirty || Vehicle1Model.touched)"
+                     class="alert alert-danger">
+                    <div *ngIf="Vehicle1Model.errors.required">
+                        Model is required.
+                    </div>
+                </div>
+                <br />
+                <mat-form-field style="width:250px">
+                    <input matInput formControlName="vin" placeholder="Know your VIN?" />
+                    <!--                        
+                    (change)="getVehicle1YearMakeWebModel(Vehicle1Vin)">
+                    -->
+                </mat-form-field>
+                <!--
+                <div *ngIf="Vehicle1Vin.invalid && (Vehicle1Vin.dirty || Vehicle1Vin.touched)"
+                        class="alert alert-danger">
+                    <div *ngIf="Vehicle1Vin.errors.required">
+                        VIN is required.
+                    </div>
+                </div>
+                -->
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="primaryUse" [(value)]="selectedVehicle1PrimaryUseOption" placeholder="Primary Use">
+                        <mat-option *ngFor="let option of primaryUseOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <div *ngIf="Vehicle1PrimaryUse.invalid && (Vehicle1PrimaryUse.dirty || Vehicle1PrimaryUse.touched)"
+                     class="alert alert-danger">
+                    Please select primary use.
+                </div>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="airBag" [(value)]="selectedVehicle1AirBagOption" placeholder="Air Bags">
+                        <mat-option *ngFor="let option of airbagOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="seatBelt" [(value)]="selectedVehicle1SeatBeltOption" placeholder="Seat Belts">
+                        <mat-option *ngFor="let option of seatBeltOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="antiTheft" [(value)]="selectedVehicle1AntiTheftOption" placeholder="Antitheft Device">
+                        <mat-option *ngFor="let option of antiTheftOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="antiLockBrakes" [(value)]="selectedVehicle1AntiLockBrakesOption" placeholder="Antilock Brakes">
+                        <mat-option *ngFor="let option of antiLockBrakesOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <br />
+                <mat-form-field style="width:250px">
+                    <mat-select formControlName="daytimeRunningLights" [(value)]="selectedVehicle1DaytimeRunningLightsOption" placeholder="Daytime running lights">
+                        <mat-option *ngFor="let option of daytimeRunningLightsOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </label>
+        </div>
+    </div>
+    <mat-dialog-actions class="mat-dialog-footer">
+        <button class="btn btn-info" type="button" (click)="dialogRef.close()">Cancel</button>&nbsp;
+        <button type="submit" class="btn btn-danger" [disabled]="vehiclesForm.invalid">{{modalBtnTitle}}</button>
+
+        </ mat-dialog-actions>
+</form>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccidentViolations>
+    <AccidentViolation Type="accident" ID="3142">
+        <Number>3142</Number>
+        <Amount>1</Amount>
+        <Description>Accident - Not at fault</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041+">
+        <Number>2041</Number>
+        <Amount>501</Amount>
+        <Description>Accident - At Fault with payout of $500 or more</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041-">
+        <Number>2041</Number>
+        <Amount>499</Amount>
+        <Description>Accident - At Fault with payout under $500</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="loss" ID="3300+">
+        <Number>3300</Number>
+        <Amount>1001</Amount>
+        <Description>Comprehensive claim (fire, theft, glass, etc.) over $1000</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="loss" ID="3300-">
+        <Number>3300</Number>
+        <Amount>999</Amount>
+        <Description>Comprehensive claim (fire, theft, glass, etc.) of less than $1000</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="1">
+        <Number>1</Number>
+        <Description>Careless Driving</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="5">
+        <Number>5</Number>
+        <Description>Driving under the influence / while impaired</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="8">
+        <Number>8</Number>
+        <Description>Driving while license suspended / revoked</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="12">
+        <Number>12</Number>
+        <Description>Driving wrong way</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="18">
+        <Number>18</Number>
+        <Description>Failure to keep proper lane</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="22">
+        <Number>22</Number>
+        <Description>Failure to obey stop sign</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="23">
+        <Number>23</Number>
+        <Description>Failure to obey traffic control device</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="27">
+        <Number>27</Number>
+        <Description>Failure to stop for a school bus</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="28">
+        <Number>28</Number>
+        <Description>Failure to yield</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="32">
+        <Number>32</Number>
+        <Description>Following too closely</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="40">
+        <Number>40</Number>
+        <Description>Improper passing</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="42">
+        <Number>42</Number>
+        <Description>Improper turning</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="53">
+        <Number>53</Number>
+        <Description>Reckless driving</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="57">
+        <Number>57</Number>
+        <Description>Speeding 1-15 mph over the limit</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="58">
+        <Number>58</Number>
+        <Description>Speeding 16-29 mph over the limit</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="59">
+        <Number>59</Number>
+        <Description>Speeding 30+ mph over the limit</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="60">
+        <Number>60</Number>
+        <Description>Speeding in a school zone</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="46">
+        <Number>46</Number>
+        <Description>Violation not listed</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="87">
+        <Number>87</Number>
+        <Description>Refusal to submit to DUI test</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="64">
+        <Number>64</Number>
+        <Description>Vehicular manslaughter</Description>
+    </AccidentViolation>
+</AccidentViolations>

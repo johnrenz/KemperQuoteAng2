@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+	<Question ID="VehicleAntiTheft">
+		<Options>
+			<Option value="0">None</Option>
+			<Option value="1">Alarm Only</Option>
+			<Option value="3">Active Disabling Device</Option>
+			<Option value="2">Passive Disabling Device</Option>
+			<Option value="4">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="CurrentBI">
+		<Options>
+			<Option value="6">Less than $15,000/$30,000</Option>
+			<Option value="7">$15,000/$30,000</Option>
+			<Option value="8">$20,000/$40,000</Option>
+			<Option value="1">$25,000/$50,000</Option>
+			<Option value="10">$30,000/$60,000</Option>
+			<Option value="2">$50,000/$100,000</Option>
+			<Option value="3">$100,000/$300,000</Option>
+			<Option value="4">Greater than $100,000/$300,000</Option>
+		</Options>
+	</Question>
+	<Question ID="CurrentCarrier">
+		<Options>
+			<Option value="1">1 - 11 months</Option>
+			<Option value="2">12 - 23 months</Option>
+			<Option value="3">24 - 35 months</Option>
+			<Option value="4">36 or more months</Option>
+		</Options>
+	</Question>
+	<Question ID="CurrentInsLapse">
+		<Options>
+			<Option value="9">1 to 11 months</Option>
+			<Option value="2">12 or more months</Option>
+		</Options>
+	</Question>
+
+</Questions>

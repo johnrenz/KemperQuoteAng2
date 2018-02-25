@@ -1,0 +1,66 @@
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\obj\Debug\KdQuoteLibrary.csprojResolveAssemblyReference.cache
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\KdQuoteLibrary.dll.config
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\KdQuoteLibrary.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\KdQuoteLibrary.pdb
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\AddressServicePlugin.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Quote.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\SiteLibrary.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\SynchronousPluginHelper.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\UDILibrary.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\SiteDTOs.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\PolicyServiceObjects.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\UDILibrary.Web.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\AntiXssLibrary.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Policy.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Recv.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\DRC.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\amqmdnet.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Database.xml
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\AntiXssLibrary.xml
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\obj\Debug\KdQuoteLibrary.dll
+c:\source\dev\KemperQuoteAng2\KdQuoteLibrary\obj\Debug\KdQuoteLibrary.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\obj\Debug\KdQuoteLibrary.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\obj\Debug\KdQuoteLibrary.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\KdQuoteLibrary.dll.config
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\KdQuoteLibrary.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\KdQuoteLibrary.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\obj\Debug\KdQuoteLibrary.csprojResolveAssemblyReference.cache
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\CommonServiceLocator.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.Helpers.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.Mvc.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.Razor.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.WebPages.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Abstractions.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Configuration.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Container.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Interception.Configuration.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Interception.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Mvc5.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.RegistrationByConvention.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.ServiceLocation.dll
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\CommonServiceLocator.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.Helpers.xml
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.Mvc.xml
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.Razor.xml
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.WebPages.xml
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\System.Web.WebPages.Razor.xml
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Abstractions.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Configuration.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Container.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Interception.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.Interception.Configuration.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.RegistrationByConvention.pdb
+C:\VS projects\KemperQuoteAng2\KdQuoteLibrary\bin\Debug\Unity.ServiceLocation.pdb

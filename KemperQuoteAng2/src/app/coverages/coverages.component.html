@@ -1,0 +1,225 @@
+<div *ngIf="sessionObject">
+    <app-header [sessionObject]="sessionObject"></app-header>
+</div>
+<div class="container-fluid">
+    <ng-template #loadingScreen><div class="alert" role="alert" style="margin:auto;"><mat-progress-spinner mode="indeterminate" style="width:50px; height:50px;;margin: auto"></mat-progress-spinner>loading...</div></ng-template>
+    <div *ngIf="LoadComplete; else loadingScreen" style="padding:15px">
+
+        <form [formGroup]="coverageForm" (ngSubmit)="onSubmit()" class="text-left">
+            <div class='panel panel-primary'>
+                <div class='panel-heading'>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            12 Month Auto Policy
+                        </div>
+                        <div class="col-sm-4">
+                            
+                            {{ DownPaymentAmount }}
+                            <br />
+                            {{ NumberOfInstallments }} {{ InstallmentType }} {{ InstallmentAmount }}
+                            <br />
+                        </div>
+                        <div class="col-sm-4">
+                            <span [matTooltip]="!coverageForm.valid ? 'Please correct errors on this page!' : null">
+                                <button type="submit" class="btn btn-success" [disabled]="!coverageForm.valid">Buy now!</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding:15px">
+                    <div *ngIf="msg" role="alert" class="alert alert-info alert-dismissible">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        <span class="sr-only">Error:</span>
+                        {{msg}}
+                    </div>
+                    <div *ngIf="ratedSaveSuccess" class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+                            <mat-form-field style="width:100%">
+                                <mat-select placeholder="Pick your payment" 
+                                            [value]="coverageForm.controls.payPlanArray.controls[0].value.Value"
+                                            (change)="getSelectedPayPlanValue($event.value)" >
+                                    <mat-option *ngFor="let plan of coverageForm.controls.payPlanArray.controls; let pp=index" [value]="plan.value.Value">
+                                        {{ plan.value.Description }} 
+                                    </mat-option>
+                                    
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                    <div *ngIf="ratedSaveSuccess" class="row">
+                        <div class="col-sm-6">
+                            <mat-card style="padding-left:15px;padding-right:10px;">
+                                <mat-card-title>                                    
+                                    Liability Coverages
+                                    <button title="Change Liablilty Coverages" class="btn btn-primary" (click)="editPolicyCoverages()" style="float:right">Update</button>
+                                </mat-card-title>
+                                <mat-card-content>
+                                    <div formArrayName="policyCoverageArray">
+                                        <table class='table table-striped'>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2" style="padding-left:0;">Coverage Name</th>
+                                                    <th>Limits/Deductibles</th>
+                                                    <th>Premiums</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr [formGroupName]="i" *ngFor="let child of coverageForm.controls.policyCoverageArray.controls; let i=index">
+                                                    <ng-template [ngIf]="child.value.SuppressRendering == 'false'">
+                                                        <td matTooltip="{{child.value.HelpText}}" style="padding-left:0;">
+                                                            <img src="/assets/images/k_help.png" alt="help" />
+                                                        </td>
+                                                        <td style="padding-left:0;">
+                                                            {{child.value.Caption}}
+                                                        </td>
+
+                                                        <ng-template [ngIf]="child.value.CovInputType == 'combo'">
+                                                            <td>{{child.value.SelectedLimit.Caption}}</td>
+                                                        </ng-template>
+                                                        <ng-template [ngIf]="child.value.CovInputType == 'label'">
+                                                            <td>{{child.value.LabelDescription}}</td>
+                                                        </ng-template>
+                                                        <td>{{child.value.Premium}}</td>
+                                                    </ng-template>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                            <br />
+                            <mat-card style="padding-left:15px;padding-right:10px;">
+                                <mat-card-title>
+                                    Total Discount Savings
+                                    <span style="float:right">
+                                        {{ TotalDiscountSavings }}
+                                    </span>
+                                </mat-card-title>
+                                <mat-card-content>
+                                    <div formArrayName="discountArray">
+                                        <table class='table table-striped'>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2" style="padding-left:0;">Discount Name</th>
+                                                    <th>Amount</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr [formGroupName]="d" *ngFor="let disc of coverageForm.controls.discountArray.controls; let d=index">
+                                                    <td matTooltip="{{disc.value.ExpandedDesc}}" style="padding-left:0;">
+                                                        <img src="/assets/images/k_help.png" alt="help" />
+                                                    </td>
+                                                    <td style="padding-left:0;">
+                                                        {{ disc.value.Name }}
+                                                    </td>
+                                                    <td *ngIf="disc.value.ID == 'PreferredPayerDiscount'">
+                                                        {{ preferredPaymentAmount }}
+                                                    </td>
+                                                    <td *ngIf="disc.value.ID != 'PreferredPayerDiscount'">
+                                                        {{ disc.value.Amount }}
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                        </div>
+                        <div class="col-sm-6">
+                            
+                            <mat-card style="padding-left:10px;padding-right:0">
+                                <mat-card-title>
+                                    Vehicle Coverages
+                                </mat-card-title>
+                                <mat-card-content>
+                                    <div formArrayName="vehicleCoverageArray">
+                                        <div [formGroupName]="j" *ngFor="let veh of coverageForm.controls.vehicleCoverageArray.controls; let j=index" style="padding:15px">                                            
+                                            <span style="font-size:18px">{{ veh.value.Year }} {{ veh.value.Make }} {{ veh.value.Model }}</span>                                            
+                                            <button title="Change Vehicle Coverages" class="btn btn-primary" (click)="editVehicleCoverages(veh.value.VehicleNumber)" style="float:right">Update</button>
+                                            <table class='table table-striped'>
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="2" style="padding-left:0">Coverage Name</th>
+                                                        <th>Limits/Deductibles</th>
+                                                        <th>Premiums</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody formArrayName="Coverages">
+
+                                                    <tr *ngFor="let cov of veh.value.Coverages; let k=index">
+                                                        <ng-template [ngIf]="cov.SuppressRendering == 'false'">
+                                                            <td matTooltip="{{cov.HelpText}}" style="padding-left:0;">
+                                                                <img src="/assets/images/k_help.png" alt="help" />
+                                                            </td>
+                                                            <td style="padding-left:0;">
+                                                                {{ cov.Name }}
+                                                            </td>
+                                                            <td>
+                                                                <span *ngIf="cov.CovInputType == 'combo'">
+                                                                    {{ cov.SelectedLimit.Caption }}
+                                                                </span>
+                                                            </td>
+                                                            <td>{{ cov.Premium }}</td>
+                                                        </ng-template>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span [matTooltip]="!coverageForm.valid ? 'Please correct errors on this page!' : null">
+                <button type="submit" class="btn btn-success" [disabled]="!coverageForm.valid">Buy now!</button>
+            </span>
+        </form>
+    </div>
+</div>
+<!--
+                sessionObject:
+                <pre>{{sessionObject | json }}</pre>
+
+                coverageForm.controls.policyCoverageArray.value:
+                <pre>{{coverageForm.controls.policyCoverageArray.value | json }}</pre>
+                policyCoverageControl.value:
+                <pre>{{policyCoverageControl.value | json }}</pre>
+                                policyCoverageControl.value:
+                <pre>{{policyCoverageControl.value | json }}</pre>
+                policyCoverageControl.controls[0].value:
+                <pre>{{policyCoverageControl.controls[0].value | json }}</pre>
+                policyCoverageControl.controls[0].value.Desc:
+                <pre>{{policyCoverageControl.controls[0].value.Desc  }}</pre>
+                policyCoverageControl.controls[0].Desc:
+                <pre>{{policyCoverageControl.controls[0].Desc  }}</pre>
+                policyCoverageControl.controls[0].Desc:
+                <pre>{{policyCoverageControl.controls[0].Desc  }}</pre>
+
+                coverageForm.controls.policyCoverageArray.value.at[0]:
+                coverageForm.controls.policyCoverageArray.value.at[0].value:
+                coverageForm.controls.policyCoverageArray.value.get(0):
+                coverageForm.controls.policyCoverageArray.value.get(0).value:
+                    coverageForm.controls.policyCoverageArray.controls :
+                    <pre>{{coverageForm.controls.policyCoverageArray.controls | json }}</pre>
+                    coverageForm.controls.policyCoverageArray.controls[0].value :
+                    <pre>{{coverageForm.controls.policyCoverageArray.controls[0].value | json }}</pre>
+                    coverageForm.controls.coverageArray.controls.value :
+                    <pre>{{coverageForm.controls.coverageArray.controls.value | json }}</pre>
+                    coverageForm.controls.coverageArray[0].value :
+                    <pre>{{coverageForm.controls.coverageArray[0].value | json }}</pre>
+                    coverageForm.controls.coverageArray[0] :
+                    <pre>{{coverageForm.controls.coverageArray[0] | json }}</pre>
+                    coverageForm.controls.coverageArray.at(0).get('group') :
+                    <pre>{{coverageForm.controls.coverageArray.at(0).get('group') | json }}</pre>
+                    coverageForm.controls.coverageArray.at(0).get('group').Desc :
+                    <pre>{{coverageForm.controls.coverageArray.at(0).get('group').Desc | json }}</pre>
+
+                    coverageForm.controls.coverageArray.at(0).Desc :
+                    <pre>{{coverageForm.controls.coverageArray.at(0).Desc | json }}</pre>
+-->

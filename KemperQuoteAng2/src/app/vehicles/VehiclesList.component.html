@@ -1,0 +1,60 @@
+﻿<div *ngIf="sessionObject">
+    <app-header [sessionObject]="sessionObject"></app-header>
+</div>
+<div class="container-fluid">
+    <div class='panel panel-primary'>
+        <div class='panel-heading'>
+            Vehicles
+        </div>
+
+        <div class='panel-body'>
+            <div class='table-responsive'>
+                    
+                <div *ngIf='vehicles && vehicles.length==0' class="alert alert-info" role="alert">Please add vehicles!</div>
+                <div style="padding-bottom:10px">
+                    <span [matTooltip]="maxVehicles ? 'Maximum 4 vehicles!' : null">
+                        <button class="btn btn-primary"
+                                (click)="addVehicle()"
+                                [disabled]="maxVehicles">
+                            Add
+                        </button>
+                    </span>
+                </div>
+                <table class='table table-striped' *ngIf='vehicles; else loadingScreen;'>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Make</th>
+                            <th>Model</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let vehicle of vehicles">
+                            <td>{{vehicle.Year}}</td>
+                            <td>{{vehicle.Make}}</td>
+                            <td>{{vehicle.Model}}</td>
+                            <td>
+                                <button title="Edit" class="btn btn-primary" (click)="editVehicle(vehicle.id)">Edit</button>
+                                <span [matTooltip]="oneVehicle ? 'At least 1 vehicle required!' : null">
+                                    <button title="Delete" class="btn btn-danger" (click)="deleteVehicle(vehicle.id)" [disabled]="oneVehicle">Delete</button>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ng-template #loadingScreen><div class="alert alert-info" role="alert"><mat-progress-spinner mode="indeterminate" style="width:50px; height:50px;margin: auto"></mat-progress-spinner>loading...</div></ng-template>
+            </div>
+            <div *ngIf="msg" role="alert" class="alert alert-info alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                {{msg}}
+            </div>
+            <span [matTooltip]="!minVehicles ? 'At least 1 vehicle required!' : null">
+                <button type="button" (click)="onContinue()" class="btn btn-success" [disabled]="!minVehicles">Continue</button>
+            </span>
+        </div>
+
+    </div>
+</div>

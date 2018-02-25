@@ -1,0 +1,84 @@
+<VINLookupReply xmlns="">
+  <Valid>1</Valid>
+  <Message>OK</Message>
+  <VehicleInfo>
+    <Model>
+      <Name>AVALANCHE C1500/K1500</Name>
+    </Model>
+    <Model>
+      <Name>AVALANCHE C2500/K2500</Name>
+    </Model>
+    <Model>
+      <Name>AVEO</Name>
+    </Model>
+    <Model>
+      <Name>COBALT</Name>
+    </Model>
+    <Model>
+      <Name>COLORADO</Name>
+    </Model>
+    <Model>
+      <Name>CORVETTE</Name>
+    </Model>
+    <Model>
+      <Name>EQUINOX</Name>
+    </Model>
+    <Model>
+      <Name>EXPRESS G1500</Name>
+    </Model>
+    <Model>
+      <Name>EXPRESS G2500</Name>
+    </Model>
+    <Model>
+      <Name>EXPRESS G3500</Name>
+    </Model>
+    <Model>
+      <Name>HHR</Name>
+    </Model>
+    <Model>
+      <Name>IMPALA</Name>
+    </Model>
+    <Model>
+      <Name>MALIBU</Name>
+    </Model>
+    <Model>
+      <Name>MALIBU MAXX</Name>
+    </Model>
+    <Model>
+      <Name>MONTE CARLO</Name>
+    </Model>
+    <Model>
+      <Name>SILVERADO 1500</Name>
+    </Model>
+    <Model>
+      <Name>SILVERADO 2500</Name>
+    </Model>
+    <Model>
+      <Name>SILVERADO C1500/K1500</Name>
+    </Model>
+    <Model>
+      <Name>SILVERADO C2500/K2500</Name>
+    </Model>
+    <Model>
+      <Name>SILVERADO C3500/K3500</Name>
+    </Model>
+    <Model>
+      <Name>SSR</Name>
+    </Model>
+    <Model>
+      <Name>SUBURBAN C1500/K1500</Name>
+    </Model>
+    <Model>
+      <Name>SUBURBAN C2500/K2500</Name>
+    </Model>
+    <Model>
+      <Name>TAHOE C1500/K1500</Name>
+    </Model>
+    <Model>
+      <Name>TRAILBLAZER</Name>
+    </Model>
+    <Model>
+      <Name>UPLANDER</Name>
+    </Model>
+  </VehicleInfo>
+</VINLookupReply>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LOBS>
+	<LOB id="AUTO">
+		<SavingAmounts>
+			<SavingAmount state="AZ" stateName="Across the country, the average customer savings is" name="Arizona">$574</SavingAmount>
+			<SavingAmount state="CA" stateName="The average customer savings in California is" name="California">$594</SavingAmount>
+			<SavingAmount state="CO" stateName="Across the country, the average customer savings is" name="Colorado">$574</SavingAmount>
+			<SavingAmount state="CT" stateName="The average customer savings in Connecticut is" name="Connecticut">$777</SavingAmount>
+			<SavingAmount state="FL" stateName="Across the country, the average customer savings is" name="Florida">$574</SavingAmount>
+			<SavingAmount state="GA" stateName="The average customer savings in Georgia is" name="Georgia">$674</SavingAmount>
+			<SavingAmount state="IA" stateName="Across the country, the average customer savings is" Name="Iowa">$574</SavingAmount>
+			<SavingAmount state="IN" stateName="Across the country, the average customer savings is" name="Indiana">$574</SavingAmount>
+			<SavingAmount state="IL" stateName="Across the country, the average customer savings is" name="Illinois">$574</SavingAmount>
+			<SavingAmount state="KY" stateName="The average customer savings in Kentucky is" name="Kentucky">$660</SavingAmount>
+			<SavingAmount state="MD" stateName="The average customer savings in Maryland is" name="Maryland">$1,069</SavingAmount>
+			<SavingAmount state="MI" stateName="The average customer savings in Michigan is" name="Michigan">$614</SavingAmount>
+			<SavingAmount state="MN" stateName="Across the country, the average customer savings is" name="Minnesota">$574</SavingAmount>
+			<SavingAmount state="MO" stateName="Across the country, the average customer savings is" name="Missouri">$574</SavingAmount>
+			<SavingAmount state="NJ" stateName="The average customer savings in New Jersey is " name="New Jersey">$578</SavingAmount>
+			<SavingAmount state="NV" stateName="The average customer savings in Nevada is" name="Nevada">$672</SavingAmount>
+			<SavingAmount state="NY" stateName="The average customer savings in New York is" name="New York">$699</SavingAmount>
+			<SavingAmount state="OH" stateName="Across the country, the average customer savings is" name="Ohio">$574</SavingAmount>
+			<SavingAmount state="OR" stateName="The average customer savings in Oregon is" name="Oregon">$656</SavingAmount>
+			<SavingAmount state="PA" stateName="The average customer savings in Pennsylvania is" naem="Pennsylvania">$684</SavingAmount>
+			<SavingAmount state="SC" stateName="Across the country, the average customer savings is" name="South Carolina">$574</SavingAmount>
+			<SavingAmount state="TX" stateName="Across the country, the average customer savings is" name="Texas">$574</SavingAmount>
+			<SavingAmount state="VA" stateName="The average customer savings in Virginia is" name="Virginia">$608</SavingAmount>
+			<SavingAmount state="WA" stateName="Across the country, the average customer savings is" name="Washington">$574</SavingAmount>
+			<SavingAmount state="WI" stateName="Across the country, the average customer savings is" name="Wisconsin">$574</SavingAmount>
+		</SavingAmounts>
+	</LOB>
+</LOBS>

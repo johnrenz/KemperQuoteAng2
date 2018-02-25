@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/DecisionMaker/IRScenarios" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/DecisionMaker/IRScenarios" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/DecisionMaker/IRScenarios">
+      <s:element name="LookupCoverages">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="FormCode" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EffectiveDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zipcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupCoveragesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LookupCoveragesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupEndorsements">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="FormCode" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EffectiveDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zipcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupEndorsementsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LookupEndorsementsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupCoveragesWithCity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="FormCode" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EffectiveDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zipcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupCoveragesWithCityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LookupCoveragesWithCityResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupEndorsementsWithCity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AccountNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="FormCode" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EffectiveDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Zipcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LookupEndorsementsWithCityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LookupEndorsementsWithCityResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LookupCoveragesSoapIn">
+    <wsdl:part name="parameters" element="tns:LookupCoverages" />
+  </wsdl:message>
+  <wsdl:message name="LookupCoveragesSoapOut">
+    <wsdl:part name="parameters" element="tns:LookupCoveragesResponse" />
+  </wsdl:message>
+  <wsdl:message name="LookupEndorsementsSoapIn">
+    <wsdl:part name="parameters" element="tns:LookupEndorsements" />
+  </wsdl:message>
+  <wsdl:message name="LookupEndorsementsSoapOut">
+    <wsdl:part name="parameters" element="tns:LookupEndorsementsResponse" />
+  </wsdl:message>
+  <wsdl:message name="LookupCoveragesWithCitySoapIn">
+    <wsdl:part name="parameters" element="tns:LookupCoveragesWithCity" />
+  </wsdl:message>
+  <wsdl:message name="LookupCoveragesWithCitySoapOut">
+    <wsdl:part name="parameters" element="tns:LookupCoveragesWithCityResponse" />
+  </wsdl:message>
+  <wsdl:message name="LookupEndorsementsWithCitySoapIn">
+    <wsdl:part name="parameters" element="tns:LookupEndorsementsWithCity" />
+  </wsdl:message>
+  <wsdl:message name="LookupEndorsementsWithCitySoapOut">
+    <wsdl:part name="parameters" element="tns:LookupEndorsementsWithCityResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ScenariosSoap">
+    <wsdl:operation name="LookupCoverages">
+      <wsdl:input message="tns:LookupCoveragesSoapIn" />
+      <wsdl:output message="tns:LookupCoveragesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LookupEndorsements">
+      <wsdl:input message="tns:LookupEndorsementsSoapIn" />
+      <wsdl:output message="tns:LookupEndorsementsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LookupCoveragesWithCity">
+      <wsdl:input message="tns:LookupCoveragesWithCitySoapIn" />
+      <wsdl:output message="tns:LookupCoveragesWithCitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LookupEndorsementsWithCity">
+      <wsdl:input message="tns:LookupEndorsementsWithCitySoapIn" />
+      <wsdl:output message="tns:LookupEndorsementsWithCitySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ScenariosSoap" type="tns:ScenariosSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LookupCoverages">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupCoverages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupEndorsements">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupEndorsements" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupCoveragesWithCity">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupCoveragesWithCity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupEndorsementsWithCity">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupEndorsementsWithCity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ScenariosSoap12" type="tns:ScenariosSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LookupCoverages">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupCoverages" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupEndorsements">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupEndorsements" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupCoveragesWithCity">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupCoveragesWithCity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LookupEndorsementsWithCity">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/IRScenarios/LookupEndorsementsWithCity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Scenarios">
+    <wsdl:port name="ScenariosSoap" binding="tns:ScenariosSoap">
+      <soap:address location="http://udiplyhomwt1/decisionmaker/quotesvc/Scenarios.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ScenariosSoap12" binding="tns:ScenariosSoap12">
+      <soap12:address location="http://udiplyhomwt1/decisionmaker/quotesvc/Scenarios.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

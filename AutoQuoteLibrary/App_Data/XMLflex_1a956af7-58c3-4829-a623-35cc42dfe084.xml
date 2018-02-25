@@ -1,0 +1,1139 @@
+﻿<Quote>
+  <Guid>1a956af7-58c3-4829-a623-35cc42dfe084</Guid>
+  <Coverages>
+    <PolicyCoverages>
+      <Coverage>
+        <CovCode>Bi</CovCode>
+        <QuoteProperty>BiPerPerson100~BiPerOcc100</QuoteProperty>
+        <WebQuestionID>POLCOV_BI_LABEL</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>BI</Abbrev>
+        <Desc>Bodily Injury Liability</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>250~500</Value>
+            <Abbrev>25/50</Abbrev>
+            <Caption>$25,000 per person / $50,000 per accident</Caption>
+            <SortOrder>2</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>500~1000</Value>
+            <Abbrev>50/100</Abbrev>
+            <Caption>$50,000 per person / $100,000 per accident</Caption>
+            <SortOrder>3</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>1000~3000</Value>
+            <Abbrev>100/300</Abbrev>
+            <Caption>$100,000 per person / $300,000 per accident</Caption>
+            <SortOrder>4</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>2500~5000</Value>
+            <Abbrev>250/500</Abbrev>
+            <Caption>$250,000 per person / $500,000 per accident</Caption>
+            <SortOrder>5</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>250~500</SelectedLimitValue>
+        </Limits>
+        <FAQText> Pays for financial loss when you are held legally responsible for an accident that causes injury or loss of life to other individuals.  This protection also provides for your defense against a claim or lawsuit.</FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+      <Coverage>
+        <CovCode>Pd</CovCode>
+        <QuoteProperty>PdSl100</QuoteProperty>
+        <WebQuestionID>POLCOV_PD</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>Pd</Abbrev>
+        <Desc>Property Damage Liability</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>250</Value>
+            <Abbrev>25K</Abbrev>
+            <Caption>$25,000</Caption>
+            <SortOrder>2</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>500</Value>
+            <Abbrev>50K</Abbrev>
+            <Caption>$50,000</Caption>
+            <SortOrder>3</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>1000</Value>
+            <Abbrev>100K</Abbrev>
+            <Caption>$100,000</Caption>
+            <SortOrder>4</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>250</SelectedLimitValue>
+        </Limits>
+        <FAQText> Pays for financial loss when you are held legally responsible for an auto accident that causes damage to other people's property, including the vehicles of other drivers.</FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+      <Coverage>
+        <CovCode>MedPay</CovCode>
+        <QuoteProperty>MedPay10</QuoteProperty>
+        <WebQuestionID>POLCOV_MEDPAY_LABEL</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>MedPay</Abbrev>
+        <Desc>Medical Payments</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>50</Value>
+            <Abbrev>500</Abbrev>
+            <Caption>$500</Caption>
+            <SortOrder>1</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>100</Value>
+            <Abbrev>1K</Abbrev>
+            <Caption>$1,000</Caption>
+            <SortOrder>2</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>200</Value>
+            <Abbrev>2K</Abbrev>
+            <Caption>$2,000</Caption>
+            <SortOrder>3</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>500</Value>
+            <Abbrev>5K</Abbrev>
+            <Caption>$5,000</Caption>
+            <SortOrder>4</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>1000</Value>
+            <Abbrev>10K</Abbrev>
+            <Caption>$10,000</Caption>
+            <SortOrder>5</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>2500</Value>
+            <Abbrev>25K</Abbrev>
+            <Caption>$25,000</Caption>
+            <SortOrder>6</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>0</Value>
+            <Abbrev>No cov</Abbrev>
+            <Caption>No Coverage</Caption>
+            <SortOrder>7</SortOrder>
+            <IsNoCov>True</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>0</SelectedLimitValue>
+        </Limits>
+        <FAQText> Pays reasonable expenses for you and your passengers for medical services which result from an automobile accident. </FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+      <Coverage>
+        <CovCode>Umbi</CovCode>
+        <QuoteProperty>UmbiPerPerson100~UmbiPerOcc100</QuoteProperty>
+        <WebQuestionID>POLCOV_UMBI_A_LABEL</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>Umbi</Abbrev>
+        <Desc>Uninsured Motorists Bodily Liability</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>250~500</Value>
+            <Abbrev>25/50</Abbrev>
+            <Caption>$25,000 per person / $50,000 per accident</Caption>
+            <SortOrder>2</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>500~1000</Value>
+            <Abbrev>50/100</Abbrev>
+            <Caption>$50,000 per person / $100,000 per accident</Caption>
+            <SortOrder>3</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>1000~3000</Value>
+            <Abbrev>100/300</Abbrev>
+            <Caption>$100,000 per person / $300,000 per accident</Caption>
+            <SortOrder>4</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>2500~5000</Value>
+            <Abbrev>250/500</Abbrev>
+            <Caption>$250,000 per person / $500,000 per accident</Caption>
+            <SortOrder>5</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>0~0</Value>
+            <Abbrev>No cov</Abbrev>
+            <Caption>No Coverage</Caption>
+            <SortOrder>6</SortOrder>
+            <IsNoCov>True</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>250~500</SelectedLimitValue>
+        </Limits>
+        <FAQText> Coverage designed to provide protection for you, your family members and others in your auto for financial loss resulting from bodily injury or death caused by someone who did not buy insurance or if you are involved in a hit-and-run accident.</FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+      <Coverage>
+        <CovCode>Umpd</CovCode>
+        <QuoteProperty>UmPd100</QuoteProperty>
+        <WebQuestionID>POLCOV_UMPD</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>Umpd</Abbrev>
+        <Desc>Uninsured Motorists Property Damage</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>250</Value>
+            <Abbrev>25K</Abbrev>
+            <Caption>$25,000</Caption>
+            <SortOrder>3</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>500</Value>
+            <Abbrev>50K</Abbrev>
+            <Caption>$50,000</Caption>
+            <SortOrder>4</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>1000</Value>
+            <Abbrev>100K</Abbrev>
+            <Caption>$100,000</Caption>
+            <SortOrder>5</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>0</Value>
+            <Abbrev>No cov</Abbrev>
+            <Caption>No Coverage</Caption>
+            <SortOrder>6</SortOrder>
+            <IsNoCov>True</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>250</SelectedLimitValue>
+        </Limits>
+        <FAQText> Pays for loss or damage to your vehicle that you are legally entitled to receive from the owner or driver of an underinsured vehicle.</FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+      <Coverage>
+        <CovCode>UmpdOption</CovCode>
+        <QuoteProperty>UmPdDed</QuoteProperty>
+        <WebQuestionID>POLCOV_UMPDDED</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>Umpd Ded</Abbrev>
+        <Desc>Uninsured Motorists Property Damage Deductible</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>250</Value>
+            <Abbrev>250 ded</Abbrev>
+            <Caption>$250</Caption>
+            <SortOrder>1</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>500</Value>
+            <Abbrev>500</Abbrev>
+            <Caption>$500</Caption>
+            <SortOrder>2</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>1000</Value>
+            <Abbrev>1000</Abbrev>
+            <Caption>$1,000</Caption>
+            <SortOrder>3</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>0</Value>
+            <Abbrev>n/a</Abbrev>
+            <Caption>n/a</Caption>
+            <SortOrder>5</SortOrder>
+            <IsNoCov>True</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>250</SelectedLimitValue>
+        </Limits>
+        <FAQText> Pays for loss or damage to your vehicle that you are legally entitled to receive from the owner or driver of an underinsured vehicle.</FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+      <Coverage>
+        <CovCode>UmType</CovCode>
+        <QuoteProperty>UmType</QuoteProperty>
+        <WebQuestionID>POLCOV_UMTYPE</WebQuestionID>
+        <SuppressRendering>False</SuppressRendering>
+        <VehIndex>-1</VehIndex>
+        <HelpText />
+        <Invalid>False</Invalid>
+        <Offered>True</Offered>
+        <Abbrev>UMType</Abbrev>
+        <Desc>Uninsured Motorists Coverage Type</Desc>
+        <CovOption>False</CovOption>
+        <CovMessage />
+        <CovInputType>combo</CovInputType>
+        <Limits>
+          <Limit>
+            <Value>0</Value>
+            <Abbrev>Added on</Abbrev>
+            <Caption>Added on to At-Fault Liability Limits</Caption>
+            <SortOrder>1</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <Limit>
+            <Value>6</Value>
+            <Abbrev>Reduced by</Abbrev>
+            <Caption>Reduced by At-Fault Liability Limits</Caption>
+            <SortOrder>2</SortOrder>
+            <IsNoCov>False</IsNoCov>
+            <Tag />
+          </Limit>
+          <SelectedLimitValue>0</SelectedLimitValue>
+        </Limits>
+        <FAQText> &lt;B&gt;&lt;center&gt;Uninsured Motorist Coverage Types&lt;/center&gt;&lt;/b&gt;&lt;P&gt;&lt;B&gt;Uninsured Motorists Coverage-Added on to At-Fault Liability Limits &lt;/b&gt;&lt;BR&gt;If you or other eligible insureds are injured or have property damage caused by an uninsured or underinsured motorist, this coverage provides protection that will pay for your damages up to your Uninsured Motorists Coverage limit in addition to the at-fault driver's Liability Coverage limit.  In other words, the maximum payment available from this coverage for a claim would be equal to your Uninsured Motorists Coverage limit plus the at-fault driver's Liability Coverage limit.&lt;/p&gt;&lt;P&gt;&lt;b&gt;Uninsured Motorists Coverage-Reduced by At-Fault Liability Limits&lt;/b&gt;&lt;BR&gt;This coverage will only pay up to the difference between the at-fault driver's Liability Coverage and your Uninsured Motorists Coverage limits.  This means that this coverage will allow you to collect from the at-fault driver's and your Uninsured Motorists Coverage, combined, up to the same limit of Uninsured Motorists Coverage you have purchased.  In other words, the maximum payment available from this coverage for a claim would be equal to your Uninsured Motorists Coverage limit regardless of the at-fault driver's Liability Coverage limit.&lt;/P&gt;&lt;P&gt;The two Uninsured Motorists Coverage choices do not differ if the at-fault driver responsible for your injuries or property damage does not have any Liability Coverage.  In such cases, both types of Uninsured Motorists Coverage will pay up to the amount of Uninsured Motorist Coverage purchased.&lt;/p&gt;  &lt;P&gt;&lt;a href="/UMTypeExample.asp?links=no" TARGET="popup" onClick="window.open('/UMTypeExample.asp?links=No','popup', 'width=500,height=500, scrollbars=yes');return false"&gt;View examples of claim payment calculations for each of these coverage types.&lt;/a&gt;&lt;/p&gt;</FAQText>
+        <IsForceEditOnChange>False</IsForceEditOnChange>
+      </Coverage>
+    </PolicyCoverages>
+    <VehicleCoverages>
+      <Vehicle>
+        <VehIndex>0</VehIndex>
+        <Coverage>
+          <CovCode>OtcDed</CovCode>
+          <QuoteProperty>CompDed</QuoteProperty>
+          <WebQuestionID>VEHCOV_COMPDED_O_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>0</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Otc</Abbrev>
+          <Desc>Other Than Collision</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>100</Value>
+              <Abbrev>100</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $100</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>250</Value>
+              <Abbrev>250</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $250</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>500</Value>
+              <Abbrev>500</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $500</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>1000</Value>
+              <Abbrev>1000</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $1,000</Caption>
+              <SortOrder>4</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>5</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>500</SelectedLimitValue>
+          </Limits>
+          <FAQText> Previously known as Comprehensive Coverage, pays up to the actual cash value of your vehicle,   less the deductible, for damage that is not caused by impact with another   vehicle or object (for example: fire, theft, vandalism, flood, or striking an animal).   If you lease your vehicle, your finance company may require Other Than Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance company.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>CollDed</CovCode>
+          <QuoteProperty>CollDed</QuoteProperty>
+          <WebQuestionID>VEHCOV_COLLDED_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>0</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Coll</Abbrev>
+          <Desc>Collision Coverage</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>100</Value>
+              <Abbrev>100</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $100</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>250</Value>
+              <Abbrev>250</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $250</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>500</Value>
+              <Abbrev>500</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $500</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>1000</Value>
+              <Abbrev>1000</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $1,000</Caption>
+              <SortOrder>4</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>5</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>500</SelectedLimitValue>
+          </Limits>
+          <FAQText> Pays up to the actual cash value of your vehicle,   less the deductible, for damage caused by an impact with another vehicle or object.   If you lease your vehicle, your finance company may require Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance Company.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>Towing</CovCode>
+          <QuoteProperty>TowAndLabor</QuoteProperty>
+          <WebQuestionID>VEHCOV_TOWLABOR_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>0</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Tow</Abbrev>
+          <Desc>Towing and Labor:</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>50</Value>
+              <Abbrev>50</Abbrev>
+              <Caption>Each Occurrence: $50</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>75</Value>
+              <Abbrev>75</Abbrev>
+              <Caption>Each Occurrence: $75</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>0</SelectedLimitValue>
+          </Limits>
+          <FAQText> If you have Other Than Collision Coverage and Collision Coverage, you can purchase additional coverage to pay necessary towing and labor costs to move your damaged or inoperable vehicle to a body shop or other location.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>Transportation</CovCode>
+          <QuoteProperty>RentalExtdTest</QuoteProperty>
+          <WebQuestionID>VEHCOV_RENTALRE_OTP_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>0</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Trans</Abbrev>
+          <Desc>Optional Transportation     Expenses:</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>4</Value>
+              <Abbrev>20/600</Abbrev>
+              <Caption>Per day / Maximum: $20/$600</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>3</Value>
+              <Abbrev>30/900</Abbrev>
+              <Caption>Per day / Maximum: $30/$900</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>2</Value>
+              <Abbrev>40/1200</Abbrev>
+              <Caption>Per day / Maximum: $40/$1200</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>4</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>0</SelectedLimitValue>
+          </Limits>
+          <FAQText> If you have Other Than Collision and Collision Coverage, you can purchase an additional amount of coverage to pay for a rental car while your vehicle is being repaired or until it can be replaced.  This coverage pays a flat amount per day, depending on a pre-determined limit.  For your convenience, we may even arrange to drop the rental car off at your home or workplace when you call to file the claim.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>CustEquip</CovCode>
+          <QuoteProperty>SoundRecTranCost</QuoteProperty>
+          <WebQuestionID />
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>0</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Cust</Abbrev>
+          <Desc />
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>text</CovInputType>
+          <TextIncrement>1</TextIncrement>
+          <TextMaxVal>10000</TextMaxVal>
+          <TextMinVal>0</TextMinVal>
+          <TextNoCovVal>0</TextNoCovVal>
+          <TextValue>0</TextValue>
+          <FAQText></FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <SortOrder>1</SortOrder>
+        <Year>2014</Year>
+        <Make>TOYOTA</Make>
+        <Model>MATRIX</Model>
+        <BodyStyle>WAG   4D</BodyStyle>
+        <VinNumber>2T1KU4EE&amp;E</VinNumber>
+      </Vehicle>
+      <Vehicle>
+        <VehIndex>1</VehIndex>
+        <Coverage>
+          <CovCode>OtcDed</CovCode>
+          <QuoteProperty>CompDed</QuoteProperty>
+          <WebQuestionID>VEHCOV_COMPDED_O_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>1</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Otc</Abbrev>
+          <Desc>Other Than Collision</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>100</Value>
+              <Abbrev>100</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $100</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>250</Value>
+              <Abbrev>250</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $250</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>500</Value>
+              <Abbrev>500</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $500</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>1000</Value>
+              <Abbrev>1000</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $1,000</Caption>
+              <SortOrder>4</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>5</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>500</SelectedLimitValue>
+          </Limits>
+          <FAQText> Previously known as Comprehensive Coverage, pays up to the actual cash value of your vehicle,   less the deductible, for damage that is not caused by impact with another   vehicle or object (for example: fire, theft, vandalism, flood, or striking an animal).   If you lease your vehicle, your finance company may require Other Than Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance company.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>CollDed</CovCode>
+          <QuoteProperty>CollDed</QuoteProperty>
+          <WebQuestionID>VEHCOV_COLLDED_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>1</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Coll</Abbrev>
+          <Desc>Collision Coverage</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>100</Value>
+              <Abbrev>100</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $100</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>250</Value>
+              <Abbrev>250</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $250</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>500</Value>
+              <Abbrev>500</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $500</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>1000</Value>
+              <Abbrev>1000</Abbrev>
+              <Caption>Actual Cash Value less deductibles: $1,000</Caption>
+              <SortOrder>4</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>5</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>500</SelectedLimitValue>
+          </Limits>
+          <FAQText> Pays up to the actual cash value of your vehicle,   less the deductible, for damage caused by an impact with another vehicle or object.   If you lease your vehicle, your finance company may require Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance Company.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>Towing</CovCode>
+          <QuoteProperty>TowAndLabor</QuoteProperty>
+          <WebQuestionID>VEHCOV_TOWLABOR_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>1</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Tow</Abbrev>
+          <Desc>Towing and Labor:</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>50</Value>
+              <Abbrev>50</Abbrev>
+              <Caption>Each Occurrence: $50</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>75</Value>
+              <Abbrev>75</Abbrev>
+              <Caption>Each Occurrence: $75</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>0</SelectedLimitValue>
+          </Limits>
+          <FAQText> If you have Other Than Collision Coverage and Collision Coverage, you can purchase additional coverage to pay necessary towing and labor costs to move your damaged or inoperable vehicle to a body shop or other location.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>Transportation</CovCode>
+          <QuoteProperty>RentalExtdTest</QuoteProperty>
+          <WebQuestionID>VEHCOV_RENTALRE_OTP_LABEL</WebQuestionID>
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>1</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Trans</Abbrev>
+          <Desc>Optional Transportation     Expenses:</Desc>
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>combo</CovInputType>
+          <Limits>
+            <Limit>
+              <Value>4</Value>
+              <Abbrev>20/600</Abbrev>
+              <Caption>Per day / Maximum: $20/$600</Caption>
+              <SortOrder>1</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>3</Value>
+              <Abbrev>30/900</Abbrev>
+              <Caption>Per day / Maximum: $30/$900</Caption>
+              <SortOrder>2</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>2</Value>
+              <Abbrev>40/1200</Abbrev>
+              <Caption>Per day / Maximum: $40/$1200</Caption>
+              <SortOrder>3</SortOrder>
+              <IsNoCov>False</IsNoCov>
+              <Tag />
+            </Limit>
+            <Limit>
+              <Value>0</Value>
+              <Abbrev>No cov</Abbrev>
+              <Caption>No Coverage</Caption>
+              <SortOrder>4</SortOrder>
+              <IsNoCov>True</IsNoCov>
+              <Tag />
+            </Limit>
+            <SelectedLimitValue>0</SelectedLimitValue>
+          </Limits>
+          <FAQText> If you have Other Than Collision and Collision Coverage, you can purchase an additional amount of coverage to pay for a rental car while your vehicle is being repaired or until it can be replaced.  This coverage pays a flat amount per day, depending on a pre-determined limit.  For your convenience, we may even arrange to drop the rental car off at your home or workplace when you call to file the claim.</FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <Coverage>
+          <CovCode>CustEquip</CovCode>
+          <QuoteProperty>SoundRecTranCost</QuoteProperty>
+          <WebQuestionID />
+          <SuppressRendering>False</SuppressRendering>
+          <VehIndex>1</VehIndex>
+          <HelpText />
+          <Invalid>False</Invalid>
+          <Offered>True</Offered>
+          <Abbrev>Cust</Abbrev>
+          <Desc />
+          <CovOption>False</CovOption>
+          <CovMessage />
+          <CovInputType>text</CovInputType>
+          <TextIncrement>1</TextIncrement>
+          <TextMaxVal>10000</TextMaxVal>
+          <TextMinVal>0</TextMinVal>
+          <TextNoCovVal>0</TextNoCovVal>
+          <TextValue>0</TextValue>
+          <FAQText></FAQText>
+          <IsForceEditOnChange>False</IsForceEditOnChange>
+        </Coverage>
+        <SortOrder>2</SortOrder>
+        <Year>2014</Year>
+        <Make>JEEP</Make>
+        <Model>CHEROKEE SPORT</Model>
+        <BodyStyle>UTL4X44D</BodyStyle>
+        <VinNumber>1C4&amp;JMAB&amp;E</VinNumber>
+      </Vehicle>
+    </VehicleCoverages>
+    <PolicyPremiums>
+      <Premium>
+        <CovCode>Bi</CovCode>
+        <Amount>480</Amount>
+      </Premium>
+      <Premium>
+        <CovCode>Pd</CovCode>
+        <Amount>184</Amount>
+      </Premium>
+      <Premium>
+        <CovCode>MedPay</CovCode>
+        <Amount></Amount>
+      </Premium>
+      <Premium>
+        <CovCode>Umbi</CovCode>
+        <Amount>249</Amount>
+      </Premium>
+      <Premium>
+        <CovCode>Umpd</CovCode>
+        <Amount>33</Amount>
+      </Premium>
+      <Premium>
+        <CovCode>UmpdOption</CovCode>
+        <Amount>33</Amount>
+      </Premium>
+      <Premium>
+        <CovCode>UmType</CovCode>
+        <Amount></Amount>
+      </Premium>
+    </PolicyPremiums>
+    <VehiclePremiums>
+      <Vehicle>
+        <VehIndex>0</VehIndex>
+        <Premium>
+          <CovCode>OtcDed</CovCode>
+          <Amount>70</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>CollDed</CovCode>
+          <Amount>397</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>Towing</CovCode>
+          <Amount>0</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>Transportation</CovCode>
+          <Amount>0</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>CustEquip</CovCode>
+          <Amount>0</Amount>
+        </Premium>
+      </Vehicle>
+      <Vehicle>
+        <VehIndex>1</VehIndex>
+        <Premium>
+          <CovCode>OtcDed</CovCode>
+          <Amount>92</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>CollDed</CovCode>
+          <Amount>283</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>Towing</CovCode>
+          <Amount>0</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>Transportation</CovCode>
+          <Amount>0</Amount>
+        </Premium>
+        <Premium>
+          <CovCode>CustEquip</CovCode>
+          <Amount>0</Amount>
+        </Premium>
+      </Vehicle>
+    </VehiclePremiums>
+    <EnhancedPremiums></EnhancedPremiums>
+    <CalculatedPremiums>
+      <Amount>1788</Amount>
+      <Fees>0</Fees>
+      <DownpaymentFees>0</DownpaymentFees>
+    </CalculatedPremiums>
+  </Coverages>
+  <GeneralInfo>
+    <Customer>
+      <FirstName>JOHN</FirstName>
+      <LastName>UWCLEAN</LastName>
+      <MiddleInitial></MiddleInitial>
+      <RentOwnTest>0</RentOwnTest>
+      <IsHOOfferedInDRC>false</IsHOOfferedInDRC>
+      <HomeownershipType>0</HomeownershipType>
+      <NoOfDaysLapsed>2</NoOfDaysLapsed>
+    </Customer>
+    <SalesOffice>
+      <OfficeHours>Mon - Fri 9 am - 8 pm Eastern&lt;br&gt;Saturday 9 am - 1 pm Eastern</OfficeHours>
+      <PhoneNumber>877.481.8836</PhoneNumber>
+      <HOPhoneNumber>800.628.1892</HOPhoneNumber>
+    </SalesOffice>
+    <Quote>
+      <RiskStateAbbreviation>GA</RiskStateAbbreviation>
+      <IsAffinity>False</IsAffinity>
+      <IsAffinityAgent>False</IsAffinityAgent>
+      <AffinityNo>0</AffinityNo>
+      <CTID>0</CTID>
+      <IsIvanka>false</IsIvanka>
+      <IsNewBind>False</IsNewBind>
+      <IsPortal>false</IsPortal>
+      <MarketBrand>0</MarketBrand>
+      <QuoteNumber>03130418</QuoteNumber>
+      <QuoteHashCode>46374125</QuoteHashCode>
+      <IpAmfAccountNo>61300</IpAmfAccountNo>
+      <InstallmentFees>
+        <InstallFeeDirect>6</InstallFeeDirect>
+        <InstallFeeCC>6</InstallFeeCC>
+        <InstallFeeEFT>5</InstallFeeEFT>
+      </InstallmentFees>
+    </Quote>
+    <Network>
+      <Connected>false</Connected>
+      <Referral>
+        <Referrer></Referrer>
+      </Referral>
+    </Network>
+  </GeneralInfo>
+  <Discounts>
+    <DiscountCoverages>
+      <Discount>
+        <Name>Focused Driver Discount</Name>
+        <ImageFileName></ImageFileName>
+        <Description>Your quote includes a special 6% discount* for agreeing to focus your attention on the road and drive safely.  &lt;a href='https://direct-int.kemperi.com/esig/focusdrivdiscountpop.asp' target='_blank' &gt;View The Pledge&lt;/a&gt;</Description>
+        <ExpandedDesc>You may qualify for this discount by signing a pledge to commit to being a focused driver.</ExpandedDesc>
+        <CanBeDeleted>true</CanBeDeleted>
+        <Purchased>true</Purchased>
+      </Discount>
+      <Discount>
+        <Name>Multi-Car Discount</Name>
+        <ImageFileName></ImageFileName>
+        <Description>You may qualify for this discount when you insure more than one vehicle on the same policy.</Description>
+        <ExpandedDesc></ExpandedDesc>
+        <CanBeDeleted>false</CanBeDeleted>
+        <Purchased>true</Purchased>
+      </Discount>
+    </DiscountCoverages>
+    <DiscountPremiums>
+      <Premium>
+        <Name>Focused Driver Discount</Name>
+        <Amount>1</Amount>
+      </Premium>
+      <Premium>
+        <Name>Multi-Car Discount</Name>
+        <Amount>2</Amount>
+      </Premium>
+    </DiscountPremiums>
+  </Discounts>
+  <InstantRenters>
+    <HOIRenterInfo>
+      <HOIRenterProvide>YES</HOIRenterProvide>
+      <HONoOfUnit>1</HONoOfUnit>
+      <HOIRenterProperty>0</HOIRenterProperty>
+      <HOIRenterLiability>0</HOIRenterLiability>
+      <HOIRenterDeductible>0</HOIRenterDeductible>
+      <HOIRenterInculded>0</HOIRenterInculded>
+      <HOIRenterPremium>0</HOIRenterPremium>
+    </HOIRenterInfo>
+    <State statecode="GA">
+      <Coverages>
+        <Property default="N">5000</Property>
+        <Property default="N">10000</Property>
+        <Property default="N">15000</Property>
+        <Property default="N">20000</Property>
+        <Property default="Y">25000</Property>
+        <Property default="N">30000</Property>
+        <Property default="N">35000</Property>
+        <Property default="N">40000</Property>
+        <Liability default="N">25000</Liability>
+        <Liability default="Y">50000</Liability>
+        <Liability default="N">100000</Liability>
+        <Deductible default="N">500</Deductible>
+        <Deductible default="Y">1000</Deductible>
+      </Coverages>
+      <Rates>
+        <Rate property="5000" liability="25000" deductible="500" premium="120" />
+        <Rate property="5000" liability="50000" deductible="500" premium="132" />
+        <Rate property="5000" liability="100000" deductible="500" premium="144" />
+        <Rate property="5000" liability="25000" deductible="1000" premium="120" />
+        <Rate property="5000" liability="50000" deductible="1000" premium="120" />
+        <Rate property="5000" liability="100000" deductible="1000" premium="132" />
+        <Rate property="10000" liability="25000" deductible="500" premium="156" />
+        <Rate property="10000" liability="50000" deductible="500" premium="168" />
+        <Rate property="10000" liability="100000" deductible="500" premium="192" />
+        <Rate property="10000" liability="25000" deductible="1000" premium="144" />
+        <Rate property="10000" liability="50000" deductible="1000" premium="168" />
+        <Rate property="10000" liability="100000" deductible="1000" premium="168" />
+        <Rate property="15000" liability="25000" deductible="500" premium="192" />
+        <Rate property="15000" liability="50000" deductible="500" premium="216" />
+        <Rate property="15000" liability="100000" deductible="500" premium="228" />
+        <Rate property="15000" liability="25000" deductible="1000" premium="168" />
+        <Rate property="15000" liability="50000" deductible="1000" premium="192" />
+        <Rate property="15000" liability="100000" deductible="1000" premium="216" />
+        <Rate property="20000" liability="25000" deductible="500" premium="216" />
+        <Rate property="20000" liability="50000" deductible="500" premium="228" />
+        <Rate property="20000" liability="100000" deductible="500" premium="264" />
+        <Rate property="20000" liability="25000" deductible="1000" premium="192" />
+        <Rate property="20000" liability="50000" deductible="1000" premium="216" />
+        <Rate property="20000" liability="100000" deductible="1000" premium="240" />
+        <Rate property="25000" liability="25000" deductible="500" premium="228" />
+        <Rate property="25000" liability="50000" deductible="500" premium="264" />
+        <Rate property="25000" liability="100000" deductible="500" premium="288" />
+        <Rate property="25000" liability="25000" deductible="1000" premium="216" />
+        <Rate property="25000" liability="50000" deductible="1000" premium="240" />
+        <Rate property="25000" liability="100000" deductible="1000" premium="264" />
+        <Rate property="30000" liability="25000" deductible="500" premium="252" />
+        <Rate property="30000" liability="50000" deductible="500" premium="276" />
+        <Rate property="30000" liability="100000" deductible="500" premium="312" />
+        <Rate property="30000" liability="25000" deductible="1000" premium="228" />
+        <Rate property="30000" liability="50000" deductible="1000" premium="264" />
+        <Rate property="30000" liability="100000" deductible="1000" premium="288" />
+        <Rate property="35000" liability="25000" deductible="500" premium="264" />
+        <Rate property="35000" liability="50000" deductible="500" premium="312" />
+        <Rate property="35000" liability="100000" deductible="500" premium="336" />
+        <Rate property="35000" liability="25000" deductible="1000" premium="252" />
+        <Rate property="35000" liability="50000" deductible="1000" premium="276" />
+        <Rate property="35000" liability="100000" deductible="1000" premium="312" />
+        <Rate property="40000" liability="25000" deductible="500" premium="300" />
+        <Rate property="40000" liability="50000" deductible="500" premium="336" />
+        <Rate property="40000" liability="100000" deductible="500" premium="360" />
+        <Rate property="40000" liability="25000" deductible="1000" premium="276" />
+        <Rate property="40000" liability="50000" deductible="1000" premium="312" />
+        <Rate property="40000" liability="100000" deductible="1000" premium="336" />
+      </Rates>
+    </State>
+  </InstantRenters>
+  <PayPlans>
+    <PayPlan id="1">
+      <Name>Pay in Full(Non Vibe)</Name>
+      <PaymentCount>1</PaymentCount>
+      <InstallmentFee>6</InstallmentFee>
+    </PayPlan>
+    <PayPlan id="2">
+      <Name>2 Payments(Non Vibe)</Name>
+      <PaymentCount>2</PaymentCount>
+      <InstallmentFee>6</InstallmentFee>
+    </PayPlan>
+    <PayPlan id="3">
+      <Name>3 Payments(Non Vibe)</Name>
+      <PaymentCount>3</PaymentCount>
+      <InstallmentFee>6</InstallmentFee>
+    </PayPlan>
+    <PayPlan id="4">
+      <Name>4 Payments(Non Vibe)</Name>
+      <PaymentCount>4</PaymentCount>
+      <InstallmentFee>6</InstallmentFee>
+    </PayPlan>
+    <PayPlan id="5">
+      <Name>5 Payments(Non Vibe)</Name>
+      <PaymentCount>5</PaymentCount>
+      <InstallmentFee>6</InstallmentFee>
+    </PayPlan>
+    <SelectedPayPlan></SelectedPayPlan>
+    <UseDefaultPayPlan>true</UseDefaultPayPlan>
+  </PayPlans>
+</Quote>
+
+<Quote><Guid>1a956af7-58c3-4829-a623-35cc42dfe084</Guid><Coverages><PolicyCoverages><Coverage><CovCode>Bi</CovCode><QuoteProperty>BiPerPerson100~BiPerOcc100</QuoteProperty><WebQuestionID>POLCOV_BI_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>BI</Abbrev><Desc>Bodily Injury Liability</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>250~500</Value><Abbrev>25/50</Abbrev><Caption>$25,000 per person / $50,000 per accident</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500~1000</Value><Abbrev>50/100</Abbrev><Caption>$50,000 per person / $100,000 per accident</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000~3000</Value><Abbrev>100/300</Abbrev><Caption>$100,000 per person / $300,000 per accident</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>2500~5000</Value><Abbrev>250/500</Abbrev><Caption>$250,000 per person / $500,000 per accident</Caption><SortOrder>5</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><SelectedLimitValue>250~500</SelectedLimitValue></Limits><FAQText> Pays for financial loss when you are held legally responsible for an accident that causes injury or loss of life to other individuals.  This protection also provides for your defense against a claim or lawsuit.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Pd</CovCode><QuoteProperty>PdSl100</QuoteProperty><WebQuestionID>POLCOV_PD</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Pd</Abbrev><Desc>Property Damage Liability</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>250</Value><Abbrev>25K</Abbrev><Caption>$25,000</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>50K</Abbrev><Caption>$50,000</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>100K</Abbrev><Caption>$100,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><SelectedLimitValue>250</SelectedLimitValue></Limits><FAQText> Pays for financial loss when you are held legally responsible for an auto accident that causes damage to other people's property, including the vehicles of other drivers.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>MedPay</CovCode><QuoteProperty>MedPay10</QuoteProperty><WebQuestionID>POLCOV_MEDPAY_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>MedPay</Abbrev><Desc>Medical Payments</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>50</Value><Abbrev>500</Abbrev><Caption>$500</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>100</Value><Abbrev>1K</Abbrev><Caption>$1,000</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>200</Value><Abbrev>2K</Abbrev><Caption>$2,000</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>5K</Abbrev><Caption>$5,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>10K</Abbrev><Caption>$10,000</Caption><SortOrder>5</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>2500</Value><Abbrev>25K</Abbrev><Caption>$25,000</Caption><SortOrder>6</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>7</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>0</SelectedLimitValue></Limits><FAQText> Pays reasonable expenses for you and your passengers for medical services which result from an automobile accident. </FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Umbi</CovCode><QuoteProperty>UmbiPerPerson100~UmbiPerOcc100</QuoteProperty><WebQuestionID>POLCOV_UMBI_A_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Umbi</Abbrev><Desc>Uninsured Motorists Bodily Liability</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>250~500</Value><Abbrev>25/50</Abbrev><Caption>$25,000 per person / $50,000 per accident</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500~1000</Value><Abbrev>50/100</Abbrev><Caption>$50,000 per person / $100,000 per accident</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000~3000</Value><Abbrev>100/300</Abbrev><Caption>$100,000 per person / $300,000 per accident</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>2500~5000</Value><Abbrev>250/500</Abbrev><Caption>$250,000 per person / $500,000 per accident</Caption><SortOrder>5</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0~0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>6</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>250~500</SelectedLimitValue></Limits><FAQText> Coverage designed to provide protection for you, your family members and others in your auto for financial loss resulting from bodily injury or death caused by someone who did not buy insurance or if you are involved in a hit-and-run accident.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Umpd</CovCode><QuoteProperty>UmPd100</QuoteProperty><WebQuestionID>POLCOV_UMPD</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Umpd</Abbrev><Desc>Uninsured Motorists Property Damage</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>250</Value><Abbrev>25K</Abbrev><Caption>$25,000</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>50K</Abbrev><Caption>$50,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>100K</Abbrev><Caption>$100,000</Caption><SortOrder>5</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>6</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>250</SelectedLimitValue></Limits><FAQText> Pays for loss or damage to your vehicle that you are legally entitled to receive from the owner or driver of an underinsured vehicle.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>UmpdOption</CovCode><QuoteProperty>UmPdDed</QuoteProperty><WebQuestionID>POLCOV_UMPDDED</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Umpd Ded</Abbrev><Desc>Uninsured Motorists Property Damage Deductible</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>250</Value><Abbrev>250 ded</Abbrev><Caption>$250</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>500</Abbrev><Caption>$500</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>1000</Abbrev><Caption>$1,000</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>n/a</Abbrev><Caption>n/a</Caption><SortOrder>5</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>250</SelectedLimitValue></Limits><FAQText> Pays for loss or damage to your vehicle that you are legally entitled to receive from the owner or driver of an underinsured vehicle.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>UmType</CovCode><QuoteProperty>UmType</QuoteProperty><WebQuestionID>POLCOV_UMTYPE</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>-1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>UMType</Abbrev><Desc>Uninsured Motorists Coverage Type</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>0</Value><Abbrev>Added on</Abbrev><Caption>Added on to At-Fault Liability Limits</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>6</Value><Abbrev>Reduced by</Abbrev><Caption>Reduced by At-Fault Liability Limits</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><SelectedLimitValue>0</SelectedLimitValue></Limits><FAQText> &lt;B&gt;&lt;center&gt;Uninsured Motorist Coverage Types&lt;/center&gt;&lt;/b&gt;&lt;P&gt;&lt;B&gt;Uninsured Motorists Coverage-Added on to At-Fault Liability Limits &lt;/b&gt;&lt;BR&gt;If you or other eligible insureds are injured or have property damage caused by an uninsured or underinsured motorist, this coverage provides protection that will pay for your damages up to your Uninsured Motorists Coverage limit in addition to the at-fault driver's Liability Coverage limit.  In other words, the maximum payment available from this coverage for a claim would be equal to your Uninsured Motorists Coverage limit plus the at-fault driver's Liability Coverage limit.&lt;/p&gt;&lt;P&gt;&lt;b&gt;Uninsured Motorists Coverage-Reduced by At-Fault Liability Limits&lt;/b&gt;&lt;BR&gt;This coverage will only pay up to the difference between the at-fault driver's Liability Coverage and your Uninsured Motorists Coverage limits.  This means that this coverage will allow you to collect from the at-fault driver's and your Uninsured Motorists Coverage, combined, up to the same limit of Uninsured Motorists Coverage you have purchased.  In other words, the maximum payment available from this coverage for a claim would be equal to your Uninsured Motorists Coverage limit regardless of the at-fault driver's Liability Coverage limit.&lt;/P&gt;&lt;P&gt;The two Uninsured Motorists Coverage choices do not differ if the at-fault driver responsible for your injuries or property damage does not have any Liability Coverage.  In such cases, both types of Uninsured Motorists Coverage will pay up to the amount of Uninsured Motorist Coverage purchased.&lt;/p&gt;  &lt;P&gt;&lt;a href="/UMTypeExample.asp?links=no" TARGET="popup" onClick="window.open('/UMTypeExample.asp?links=No','popup', 'width=500,height=500, scrollbars=yes');return false"&gt;View examples of claim payment calculations for each of these coverage types.&lt;/a&gt;&lt;/p&gt;</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage></PolicyCoverages><VehicleCoverages><Vehicle><VehIndex>0</VehIndex><Coverage><CovCode>OtcDed</CovCode><QuoteProperty>CompDed</QuoteProperty><WebQuestionID>VEHCOV_COMPDED_O_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>0</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Otc</Abbrev><Desc>Other Than Collision</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>100</Value><Abbrev>100</Abbrev><Caption>Actual Cash Value less deductibles: $100</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>250</Value><Abbrev>250</Abbrev><Caption>Actual Cash Value less deductibles: $250</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>500</Abbrev><Caption>Actual Cash Value less deductibles: $500</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>1000</Abbrev><Caption>Actual Cash Value less deductibles: $1,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>5</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>500</SelectedLimitValue></Limits><FAQText> Previously known as Comprehensive Coverage, pays up to the actual cash value of your vehicle,   less the deductible, for damage that is not caused by impact with another   vehicle or object (for example: fire, theft, vandalism, flood, or striking an animal).   If you lease your vehicle, your finance company may require Other Than Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance company.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>CollDed</CovCode><QuoteProperty>CollDed</QuoteProperty><WebQuestionID>VEHCOV_COLLDED_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>0</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Coll</Abbrev><Desc>Collision Coverage</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>100</Value><Abbrev>100</Abbrev><Caption>Actual Cash Value less deductibles: $100</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>250</Value><Abbrev>250</Abbrev><Caption>Actual Cash Value less deductibles: $250</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>500</Abbrev><Caption>Actual Cash Value less deductibles: $500</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>1000</Abbrev><Caption>Actual Cash Value less deductibles: $1,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>5</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>500</SelectedLimitValue></Limits><FAQText> Pays up to the actual cash value of your vehicle,   less the deductible, for damage caused by an impact with another vehicle or object.   If you lease your vehicle, your finance company may require Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance Company.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Towing</CovCode><QuoteProperty>TowAndLabor</QuoteProperty><WebQuestionID>VEHCOV_TOWLABOR_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>0</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Tow</Abbrev><Desc>Towing and Labor:</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>50</Value><Abbrev>50</Abbrev><Caption>Each Occurrence: $50</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>75</Value><Abbrev>75</Abbrev><Caption>Each Occurrence: $75</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>3</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>0</SelectedLimitValue></Limits><FAQText> If you have Other Than Collision Coverage and Collision Coverage, you can purchase additional coverage to pay necessary towing and labor costs to move your damaged or inoperable vehicle to a body shop or other location.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Transportation</CovCode><QuoteProperty>RentalExtdTest</QuoteProperty><WebQuestionID>VEHCOV_RENTALRE_OTP_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>0</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Trans</Abbrev><Desc>Optional Transportation     Expenses:</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>4</Value><Abbrev>20/600</Abbrev><Caption>Per day / Maximum: $20/$600</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>3</Value><Abbrev>30/900</Abbrev><Caption>Per day / Maximum: $30/$900</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>2</Value><Abbrev>40/1200</Abbrev><Caption>Per day / Maximum: $40/$1200</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>4</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>0</SelectedLimitValue></Limits><FAQText> If you have Other Than Collision and Collision Coverage, you can purchase an additional amount of coverage to pay for a rental car while your vehicle is being repaired or until it can be replaced.  This coverage pays a flat amount per day, depending on a pre-determined limit.  For your convenience, we may even arrange to drop the rental car off at your home or workplace when you call to file the claim.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>CustEquip</CovCode><QuoteProperty>SoundRecTranCost</QuoteProperty><WebQuestionID /><SuppressRendering>False</SuppressRendering><VehIndex>0</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Cust</Abbrev><Desc /><CovOption>False</CovOption><CovMessage /><CovInputType>text</CovInputType><TextIncrement>1</TextIncrement><TextMaxVal>10000</TextMaxVal><TextMinVal>0</TextMinVal><TextNoCovVal>0</TextNoCovVal><TextValue>0</TextValue><FAQText></FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><SortOrder>1</SortOrder><Year>2014</Year><Make>TOYOTA</Make><Model>MATRIX</Model><BodyStyle>WAG   4D</BodyStyle><VinNumber>2T1KU4EE&amp;E</VinNumber></Vehicle><Vehicle><VehIndex>1</VehIndex><Coverage><CovCode>OtcDed</CovCode><QuoteProperty>CompDed</QuoteProperty><WebQuestionID>VEHCOV_COMPDED_O_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Otc</Abbrev><Desc>Other Than Collision</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>100</Value><Abbrev>100</Abbrev><Caption>Actual Cash Value less deductibles: $100</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>250</Value><Abbrev>250</Abbrev><Caption>Actual Cash Value less deductibles: $250</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>500</Abbrev><Caption>Actual Cash Value less deductibles: $500</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>1000</Abbrev><Caption>Actual Cash Value less deductibles: $1,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>5</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>500</SelectedLimitValue></Limits><FAQText> Previously known as Comprehensive Coverage, pays up to the actual cash value of your vehicle,   less the deductible, for damage that is not caused by impact with another   vehicle or object (for example: fire, theft, vandalism, flood, or striking an animal).   If you lease your vehicle, your finance company may require Other Than Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance company.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>CollDed</CovCode><QuoteProperty>CollDed</QuoteProperty><WebQuestionID>VEHCOV_COLLDED_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Coll</Abbrev><Desc>Collision Coverage</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>100</Value><Abbrev>100</Abbrev><Caption>Actual Cash Value less deductibles: $100</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>250</Value><Abbrev>250</Abbrev><Caption>Actual Cash Value less deductibles: $250</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>500</Value><Abbrev>500</Abbrev><Caption>Actual Cash Value less deductibles: $500</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>1000</Value><Abbrev>1000</Abbrev><Caption>Actual Cash Value less deductibles: $1,000</Caption><SortOrder>4</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>5</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>500</SelectedLimitValue></Limits><FAQText> Pays up to the actual cash value of your vehicle,   less the deductible, for damage caused by an impact with another vehicle or object.   If you lease your vehicle, your finance company may require Collision Coverage.   If you are considering rejecting this coverage, we recommend that you first contact your finance Company.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Towing</CovCode><QuoteProperty>TowAndLabor</QuoteProperty><WebQuestionID>VEHCOV_TOWLABOR_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Tow</Abbrev><Desc>Towing and Labor:</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>50</Value><Abbrev>50</Abbrev><Caption>Each Occurrence: $50</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>75</Value><Abbrev>75</Abbrev><Caption>Each Occurrence: $75</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>3</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>0</SelectedLimitValue></Limits><FAQText> If you have Other Than Collision Coverage and Collision Coverage, you can purchase additional coverage to pay necessary towing and labor costs to move your damaged or inoperable vehicle to a body shop or other location.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>Transportation</CovCode><QuoteProperty>RentalExtdTest</QuoteProperty><WebQuestionID>VEHCOV_RENTALRE_OTP_LABEL</WebQuestionID><SuppressRendering>False</SuppressRendering><VehIndex>1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Trans</Abbrev><Desc>Optional Transportation     Expenses:</Desc><CovOption>False</CovOption><CovMessage /><CovInputType>combo</CovInputType><Limits><Limit><Value>4</Value><Abbrev>20/600</Abbrev><Caption>Per day / Maximum: $20/$600</Caption><SortOrder>1</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>3</Value><Abbrev>30/900</Abbrev><Caption>Per day / Maximum: $30/$900</Caption><SortOrder>2</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>2</Value><Abbrev>40/1200</Abbrev><Caption>Per day / Maximum: $40/$1200</Caption><SortOrder>3</SortOrder><IsNoCov>False</IsNoCov><Tag /></Limit><Limit><Value>0</Value><Abbrev>No cov</Abbrev><Caption>No Coverage</Caption><SortOrder>4</SortOrder><IsNoCov>True</IsNoCov><Tag /></Limit><SelectedLimitValue>0</SelectedLimitValue></Limits><FAQText> If you have Other Than Collision and Collision Coverage, you can purchase an additional amount of coverage to pay for a rental car while your vehicle is being repaired or until it can be replaced.  This coverage pays a flat amount per day, depending on a pre-determined limit.  For your convenience, we may even arrange to drop the rental car off at your home or workplace when you call to file the claim.</FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><Coverage><CovCode>CustEquip</CovCode><QuoteProperty>SoundRecTranCost</QuoteProperty><WebQuestionID /><SuppressRendering>False</SuppressRendering><VehIndex>1</VehIndex><HelpText /><Invalid>False</Invalid><Offered>True</Offered><Abbrev>Cust</Abbrev><Desc /><CovOption>False</CovOption><CovMessage /><CovInputType>text</CovInputType><TextIncrement>1</TextIncrement><TextMaxVal>10000</TextMaxVal><TextMinVal>0</TextMinVal><TextNoCovVal>0</TextNoCovVal><TextValue>0</TextValue><FAQText></FAQText><IsForceEditOnChange>False</IsForceEditOnChange></Coverage><SortOrder>2</SortOrder><Year>2014</Year><Make>JEEP</Make><Model>CHEROKEE SPORT</Model><BodyStyle>UTL4X44D</BodyStyle><VinNumber>1C4&amp;JMAB&amp;E</VinNumber></Vehicle></VehicleCoverages><PolicyPremiums><Premium><CovCode>Bi</CovCode><Amount>480</Amount></Premium><Premium><CovCode>Pd</CovCode><Amount>184</Amount></Premium><Premium><CovCode>MedPay</CovCode><Amount></Amount></Premium><Premium><CovCode>Umbi</CovCode><Amount>249</Amount></Premium><Premium><CovCode>Umpd</CovCode><Amount>33</Amount></Premium><Premium><CovCode>UmpdOption</CovCode><Amount>33</Amount></Premium><Premium><CovCode>UmType</CovCode><Amount></Amount></Premium></PolicyPremiums><VehiclePremiums><Vehicle><VehIndex>0</VehIndex><Premium><CovCode>OtcDed</CovCode><Amount>70</Amount></Premium><Premium><CovCode>CollDed</CovCode><Amount>397</Amount></Premium><Premium><CovCode>Towing</CovCode><Amount>0</Amount></Premium><Premium><CovCode>Transportation</CovCode><Amount>0</Amount></Premium><Premium><CovCode>CustEquip</CovCode><Amount>0</Amount></Premium></Vehicle><Vehicle><VehIndex>1</VehIndex><Premium><CovCode>OtcDed</CovCode><Amount>92</Amount></Premium><Premium><CovCode>CollDed</CovCode><Amount>283</Amount></Premium><Premium><CovCode>Towing</CovCode><Amount>0</Amount></Premium><Premium><CovCode>Transportation</CovCode><Amount>0</Amount></Premium><Premium><CovCode>CustEquip</CovCode><Amount>0</Amount></Premium></Vehicle></VehiclePremiums><EnhancedPremiums></EnhancedPremiums><CalculatedPremiums><Amount>1788</Amount><Fees>0</Fees><DownpaymentFees>0</DownpaymentFees></CalculatedPremiums></Coverages><GeneralInfo><Customer><FirstName>JOHN</FirstName><LastName>UWCLEAN</LastName><MiddleInitial></MiddleInitial><RentOwnTest>0</RentOwnTest><IsHOOfferedInDRC>false</IsHOOfferedInDRC><HomeownershipType>0</HomeownershipType><NoOfDaysLapsed>2</NoOfDaysLapsed></Customer><SalesOffice><OfficeHours>Mon - Fri 9 am - 8 pm Eastern&lt;br&gt;Saturday 9 am - 1 pm Eastern</OfficeHours><PhoneNumber>877.481.8836</PhoneNumber><HOPhoneNumber>800.628.1892</HOPhoneNumber></SalesOffice><Quote><RiskStateAbbreviation>GA</RiskStateAbbreviation><IsAffinity>False</IsAffinity><IsAffinityAgent>False</IsAffinityAgent><AffinityNo>0</AffinityNo><CTID>0</CTID><IsIvanka>false</IsIvanka><IsNewBind>False</IsNewBind><IsPortal>false</IsPortal><MarketBrand>0</MarketBrand><QuoteNumber>03130418</QuoteNumber><QuoteHashCode>46374125</QuoteHashCode><IpAmfAccountNo>61300</IpAmfAccountNo><InstallmentFees><InstallFeeDirect>6</InstallFeeDirect><InstallFeeCC>6</InstallFeeCC><InstallFeeEFT>5</InstallFeeEFT></InstallmentFees></Quote><Network><Connected>false</Connected><Referral><Referrer></Referrer></Referral></Network></GeneralInfo><Discounts><DiscountCoverages><Discount><Name>Focused Driver Discount</Name><ImageFileName></ImageFileName><Description>Your quote includes a special 6% discount* for agreeing to focus your attention on the road and drive safely.  &lt;a href='https://direct-int.kemperi.com/esig/focusdrivdiscountpop.asp' target='_blank' &gt;View The Pledge&lt;/a&gt;</Description><ExpandedDesc>You may qualify for this discount by signing a pledge to commit to being a focused driver.</ExpandedDesc><CanBeDeleted>true</CanBeDeleted><Purchased>true</Purchased></Discount><Discount><Name>Multi-Car Discount</Name><ImageFileName></ImageFileName><Description>You may qualify for this discount when you insure more than one vehicle on the same policy.</Description><ExpandedDesc></ExpandedDesc><CanBeDeleted>false</CanBeDeleted><Purchased>true</Purchased></Discount></DiscountCoverages><DiscountPremiums><Premium><Name>Focused Driver Discount</Name><Amount>1</Amount></Premium><Premium><Name>Multi-Car Discount</Name><Amount>2</Amount></Premium></DiscountPremiums></Discounts><InstantRenters><HOIRenterInfo><HOIRenterProvide>YES</HOIRenterProvide><HONoOfUnit>1</HONoOfUnit><HOIRenterProperty>0</HOIRenterProperty><HOIRenterLiability>0</HOIRenterLiability><HOIRenterDeductible>0</HOIRenterDeductible><HOIRenterInculded>0</HOIRenterInculded><HOIRenterPremium>0</HOIRenterPremium></HOIRenterInfo><State statecode="GA"><Coverages><Property default="N">5000</Property><Property default="N">10000</Property><Property default="N">15000</Property><Property default="N">20000</Property><Property default="Y">25000</Property><Property default="N">30000</Property><Property default="N">35000</Property><Property default="N">40000</Property><Liability default="N">25000</Liability><Liability default="Y">50000</Liability><Liability default="N">100000</Liability><Deductible default="N">500</Deductible><Deductible default="Y">1000</Deductible></Coverages><Rates><Rate property="5000" liability="25000" deductible="500" premium="120" /><Rate property="5000" liability="50000" deductible="500" premium="132" /><Rate property="5000" liability="100000" deductible="500" premium="144" /><Rate property="5000" liability="25000" deductible="1000" premium="120" /><Rate property="5000" liability="50000" deductible="1000" premium="120" /><Rate property="5000" liability="100000" deductible="1000" premium="132" /><Rate property="10000" liability="25000" deductible="500" premium="156" /><Rate property="10000" liability="50000" deductible="500" premium="168" /><Rate property="10000" liability="100000" deductible="500" premium="192" /><Rate property="10000" liability="25000" deductible="1000" premium="144" /><Rate property="10000" liability="50000" deductible="1000" premium="168" /><Rate property="10000" liability="100000" deductible="1000" premium="168" /><Rate property="15000" liability="25000" deductible="500" premium="192" /><Rate property="15000" liability="50000" deductible="500" premium="216" /><Rate property="15000" liability="100000" deductible="500" premium="228" /><Rate property="15000" liability="25000" deductible="1000" premium="168" /><Rate property="15000" liability="50000" deductible="1000" premium="192" /><Rate property="15000" liability="100000" deductible="1000" premium="216" /><Rate property="20000" liability="25000" deductible="500" premium="216" /><Rate property="20000" liability="50000" deductible="500" premium="228" /><Rate property="20000" liability="100000" deductible="500" premium="264" /><Rate property="20000" liability="25000" deductible="1000" premium="192" /><Rate property="20000" liability="50000" deductible="1000" premium="216" /><Rate property="20000" liability="100000" deductible="1000" premium="240" /><Rate property="25000" liability="25000" deductible="500" premium="228" /><Rate property="25000" liability="50000" deductible="500" premium="264" /><Rate property="25000" liability="100000" deductible="500" premium="288" /><Rate property="25000" liability="25000" deductible="1000" premium="216" /><Rate property="25000" liability="50000" deductible="1000" premium="240" /><Rate property="25000" liability="100000" deductible="1000" premium="264" /><Rate property="30000" liability="25000" deductible="500" premium="252" /><Rate property="30000" liability="50000" deductible="500" premium="276" /><Rate property="30000" liability="100000" deductible="500" premium="312" /><Rate property="30000" liability="25000" deductible="1000" premium="228" /><Rate property="30000" liability="50000" deductible="1000" premium="264" /><Rate property="30000" liability="100000" deductible="1000" premium="288" /><Rate property="35000" liability="25000" deductible="500" premium="264" /><Rate property="35000" liability="50000" deductible="500" premium="312" /><Rate property="35000" liability="100000" deductible="500" premium="336" /><Rate property="35000" liability="25000" deductible="1000" premium="252" /><Rate property="35000" liability="50000" deductible="1000" premium="276" /><Rate property="35000" liability="100000" deductible="1000" premium="312" /><Rate property="40000" liability="25000" deductible="500" premium="300" /><Rate property="40000" liability="50000" deductible="500" premium="336" /><Rate property="40000" liability="100000" deductible="500" premium="360" /><Rate property="40000" liability="25000" deductible="1000" premium="276" /><Rate property="40000" liability="50000" deductible="1000" premium="312" /><Rate property="40000" liability="100000" deductible="1000" premium="336" /></Rates></State></InstantRenters><PayPlans><PayPlan id="1"><Name>Pay in Full(Non Vibe)</Name><PaymentCount>1</PaymentCount><InstallmentFee>6</InstallmentFee></PayPlan><PayPlan id="2"><Name>2 Payments(Non Vibe)</Name><PaymentCount>2</PaymentCount><InstallmentFee>6</InstallmentFee></PayPlan><PayPlan id="3"><Name>3 Payments(Non Vibe)</Name><PaymentCount>3</PaymentCount><InstallmentFee>6</InstallmentFee></PayPlan><PayPlan id="4"><Name>4 Payments(Non Vibe)</Name><PaymentCount>4</PaymentCount><InstallmentFee>6</InstallmentFee></PayPlan><PayPlan id="5"><Name>5 Payments(Non Vibe)</Name><PaymentCount>5</PaymentCount><InstallmentFee>6</InstallmentFee></PayPlan><SelectedPayPlan></SelectedPayPlan><UseDefaultPayPlan>true</UseDefaultPayPlan></PayPlans></Quote>

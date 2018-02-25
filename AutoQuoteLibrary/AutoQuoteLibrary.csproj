@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26328020-C9A9-4CDF-850C-B78C864E1051}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoQuoteLibrary</RootNamespace>
+    <AssemblyName>AutoQuoteLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AddressServicePlugin">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\AddressServicePlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="amqmdnet, Version=1.0.0.3, Culture=neutral, PublicKeyToken=dd3cb1c9aae9ec97">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Source\test\Shared\SharedDlls\amqmdnet.dll</HintPath>
+    </Reference>
+    <Reference Include="DRC">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\DRC.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="MoreLinq">
+      <HintPath>..\packages\morelinq.1.1.0\lib\net35\MoreLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="Quote">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\Quote.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="UDILibrary">
+      <HintPath>..\..\KdQuoteFlow_20140818\KdQuoteLibrary\bin\Release\UDILibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\AutoQuote.mdf" />
+    <Content Include="App_Data\AutoQuote_log.ldf">
+      <DependentUpon>AutoQuote.mdf</DependentUpon>
+    </Content>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractServices\ILoggingServices.cs" />
+    <Compile Include="AbstractServices\INavigationServices.cs" />
+    <Compile Include="AbstractServices\ISessionServices.cs" />
+    <Compile Include="AbstractServices\IVINServices.cs" />
+    <Compile Include="AutoQuoteHelper\AddInfo.cs" />
+    <Compile Include="AutoQuoteHelper\Affinity.cs" />
+    <Compile Include="AutoQuoteHelper\Brand.cs" />
+    <Compile Include="AutoQuoteHelper\CacheExpiration.cs" />
+    <Compile Include="AutoQuoteHelper\CalculatedPremium.cs" />
+    <Compile Include="AutoQuoteHelper\ClickThruPartnerInfo.cs" />
+    <Compile Include="AutoQuoteHelper\Coverage.cs" />
+    <Compile Include="AutoQuoteHelper\CoverageError.cs" />
+    <Compile Include="AutoQuoteHelper\Credit.cs" />
+    <Compile Include="AutoQuoteHelper\Discount.cs" />
+    <Compile Include="AutoQuoteHelper\DNQ.cs" />
+    <Compile Include="AutoQuoteHelper\Driver.cs" />
+    <Compile Include="AutoQuoteHelper\Drivers.cs" />
+    <Compile Include="AutoQuoteHelper\DropDownSelection.cs" />
+    <Compile Include="AutoQuoteHelper\EnhancedCoverage.cs" />
+    <Compile Include="AutoQuoteHelper\ErrorMessage.cs" />
+    <Compile Include="AutoQuoteHelper\HOIRenterInfo.cs" />
+    <Compile Include="AutoQuoteHelper\HOIRenterProvide.cs" />
+    <Compile Include="AutoQuoteHelper\Incident.cs" />
+    <Compile Include="AutoQuoteHelper\InstallmentFee.cs" />
+    <Compile Include="AutoQuoteHelper\Limit.cs" />
+    <Compile Include="AutoQuoteHelper\Option.cs" />
+    <Compile Include="AutoQuoteHelper\Packages.cs" />
+    <Compile Include="AutoQuoteHelper\Page.cs" />
+    <Compile Include="AutoQuoteHelper\PayPlan.cs" />
+    <Compile Include="AutoQuoteHelper\Question.cs" />
+    <Compile Include="AutoQuoteHelper\QuoteEnumerators.cs" />
+    <Compile Include="AutoQuoteHelper\Referral.cs" />
+    <Compile Include="AutoQuoteHelper\RentersRateScenario.cs" />
+    <Compile Include="AutoQuoteHelper\StringExtensions.cs" />
+    <Compile Include="AutoQuoteHelper\Utilities.cs" />
+    <Compile Include="AutoQuoteHelper\Vehicle.cs" />
+    <Compile Include="AutoQuoteHelper\VehicleCoverage.cs" />
+    <Compile Include="AutoQuoteHelper\VehicleInfo.cs" />
+    <Compile Include="AutoQuoteHelper\VehicleMake.cs" />
+    <Compile Include="AutoQuoteHelper\VehicleModel.cs" />
+    <Compile Include="AutoQuoteHelper\Vehicles.cs" />
+    <Compile Include="AutoQuoteHelper\WebSession.cs" />
+    <Compile Include="AutoQuoteHelper\WebSessionDRC.cs" />
+    <Compile Include="AutoQuoteHelper\XELementExtensions.cs" />
+    <Compile Include="AutoQuoteHelper\XmlDocumentExtensions.cs" />
+    <Compile Include="AutoQuoteHelper\XmlNodeExtensions.cs" />
+    <Compile Include="BL\AccidentViolationPlugin.cs" />
+    <Compile Include="BL\CreditPlugin.cs" />
+    <Compile Include="BL\DiscountPlugin.cs" />
+    <Compile Include="BL\LogUtility.cs" />
+    <Compile Include="BL\QuestionPlugin.cs" />
+    <Compile Include="BL\Quote.cs" />
+    <Compile Include="BL\SessionPlugin.cs" />
+    <Compile Include="BL\UD3Plugin.cs" />
+    <Compile Include="BL\WebDiscount.cs" />
+    <Compile Include="Concrete\EFDbContext.cs" />
+    <Compile Include="BL\VINLookupPlugin.cs" />
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModelYearMake.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quote.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteAccident.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteDriver.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteVehicle.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteViolation.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Services\LoggingServices.cs" />
+    <Compile Include="Services\NavigationServices.cs" />
+    <Compile Include="Services\SessionServices.cs" />
+    <Compile Include="Services\VINServices.cs" />
+    <Compile Include="states_master.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_web_session.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_web_session_flex.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_web_split_zips.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_web_state_zip_ranges.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AutoQuoteHelper\BrandUtilities.cs" />
+    <Compile Include="Vehicle.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="YearMake.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64414</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64414/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

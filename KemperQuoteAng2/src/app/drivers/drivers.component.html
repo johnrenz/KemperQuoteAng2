@@ -1,0 +1,59 @@
+<div *ngIf="sessionObject">
+    <app-header [sessionObject]="sessionObject"></app-header>
+</div>
+<div class="container-fluid">
+    <div class='panel panel-primary'>
+        <div class='panel-heading'>
+            Drivers
+        </div>
+
+        <div class='panel-body'>
+            <div class='table-responsive'>
+                
+                <div *ngIf='drivers && drivers.length==0' class="alert alert-info" role="alert">Please add drivers!</div>
+                <div style="padding-bottom:10px">
+                    <span [matTooltip]="maxDrivers ? 'Maximum 6 drivers!' : null">
+                        <button class="btn btn-primary"
+                                (click)="addDriver()"
+                                [disabled]="maxDrivers">
+                            Add
+                        </button>
+                    </span>
+                </div>
+
+                <table class='table table-striped' *ngIf='drivers; else loadingScreen;'>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Birth Date</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let driver of drivers">
+                            <td>{{driver.IpDrivFirst}} {{driver.IpDrivLast}}</td>
+                            <td>{{driver.IpBirthDateOfDriv}}</td>
+                            <td>
+                                <button title="Edit" class="btn btn-primary" (click)="editDriver(driver.id)">Edit</button>
+                                <span [matTooltip]="oneDriver ? 'At least 1 driver required!' : null">
+                                    <button title="Delete" class="btn btn-danger" (click)="deleteDriver(driver.id)" [disabled]="oneDriver">Delete</button>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ng-template #loadingScreen><div class="alert alert-info" role="alert"><mat-progress-spinner mode="indeterminate" style="width:50px; height:50px;margin: auto;"></mat-progress-spinner>loading...</div></ng-template>
+            </div>
+            <div *ngIf="msg" role="alert" class="alert alert-info alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only">Error:</span>
+                {{msg}}
+            </div>
+            <span [matTooltip]="!minDrivers ? 'At least 1 driver required!' : null">
+                <button type="button" (click)="onContinue()" class="btn btn-success" [disabled]="!minDrivers">Continue</button>
+            </span>
+        </div>
+
+    </div>
+</div>

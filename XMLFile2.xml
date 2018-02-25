@@ -1,0 +1,7512 @@
+﻿<?xml version="1.0"?>
+
+-<WebSessionDRC xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:json="http://james.newtonking.com/projects/json">
+
+
+  -<AddInfo>
+
+    <Guid>4aaf7071-60fc-4246-b854-1141cfd043d5</Guid>
+
+    <RiskState>IL</RiskState>
+
+    <CurrentPage>vehicles</CurrentPage>
+
+    <Application>UD Web</Application>
+
+    <KemperCorpUrl>http://wwwint.kemperi.com/wps/portal/KemperDirect/Home</KemperCorpUrl>
+
+    <Redirect/>
+
+    <SystemDate>01/10/2018</SystemDate>
+
+    <CSRQueue/>
+
+    <ReturnDiscount/>
+
+
+    -<ClickThruPartnerInfo>
+
+      <CTID>80001</CTID>
+
+      <Custom/>
+
+      <MarketKeyCode>WUD001</MarketKeyCode>
+
+      <AMFAccountNumber>71305</AMFAccountNumber>
+
+
+      -<Affinity>
+
+        <IsAffinity>False</IsAffinity>
+
+        <IsAgent>False</IsAgent>
+
+        <Logo/>
+
+        <Description/>
+
+      </Affinity>
+
+      <Keywords/>
+
+      <HTTPReferrer/>
+
+      <SalesPhone>877.481.8836</SalesPhone>
+
+      <SalesHours>Mon - Fri 9 am - 8 pm Eastern&lt;br&gt;Saturday 9 am - 1 pm Eastern</SalesHours>
+
+      <LandingPage/>
+
+    </ClickThruPartnerInfo>
+
+
+    -<DNQ>
+
+      <Knockout>no</Knockout>
+
+      <Template>0</Template>
+
+      <Reason>0</Reason>
+
+      <Description/>
+
+      <EmailSent>0</EmailSent>
+
+    </DNQ>
+
+    <UseDefaultPayPlan>true</UseDefaultPayPlan>
+
+    <HomeOfficeAccountName/>
+
+    <AccountPremierFlag>False</AccountPremierFlag>
+
+    <PayRollDeductAcct>2</PayRollDeductAcct>
+
+    <SplitZip/>
+
+
+    -<Vehicles>
+
+
+      -<Vehicle SLICE="1" json:Array="true">
+
+        <AltGarZipCode1>60103</AltGarZipCode1>
+
+        <CommuteZip>0</CommuteZip>
+
+      </Vehicle>
+
+    </Vehicles>
+
+
+    -<Drivers>
+
+
+      -<Driver>
+
+        <AiAge>47</AiAge>
+
+        <AiAgeLicensed>0</AiAgeLicensed>
+
+        <AiLicReinstDate3Yr>0001-01-01T00:00:00</AiLicReinstDate3Yr>
+
+        <AiFullTimeStudent>0</AiFullTimeStudent>
+
+        <AiAwayAtSchool>1</AiAwayAtSchool>
+
+        <HasAccidentsViolations>false</HasAccidentsViolations>
+
+      </Driver>
+
+
+      -<Driver>
+
+        <AiAge>48</AiAge>
+
+        <AiAgeLicensed>0</AiAgeLicensed>
+
+        <AiLicReinstDate3Yr>0001-01-01T00:00:00</AiLicReinstDate3Yr>
+
+        <AiFullTimeStudent>0</AiFullTimeStudent>
+
+        <AiAwayAtSchool>1</AiAwayAtSchool>
+
+        <HasAccidentsViolations>true</HasAccidentsViolations>
+
+      </Driver>
+
+    </Drivers>
+
+    <AiCurrInsLapse>10</AiCurrInsLapse>
+
+    <paperlessdiscount>true</paperlessdiscount>
+
+    <multipolicydiscount>false</multipolicydiscount>
+
+    <multipolicydiscountNumeric>0</multipolicydiscountNumeric>
+
+    <iminglediscount>0</iminglediscount>
+
+    <CredRptID>7139642</CredRptID>
+
+    <ErrorMessages/>
+
+    <OwnRentOther>0</OwnRentOther>
+
+
+    -<HOIRenterInfo>
+
+      <HOIRenterProvide>NO</HOIRenterProvide>
+
+      <HONoOfUnit>0</HONoOfUnit>
+
+      <HOIRenterDeductible>0</HOIRenterDeductible>
+
+      <HOIRenterInculded>0</HOIRenterInculded>
+
+      <HOIRenterLiability>0</HOIRenterLiability>
+
+      <HOIRenterPremium>0</HOIRenterPremium>
+
+      <HOIRenterProperty>0</HOIRenterProperty>
+
+    </HOIRenterInfo>
+
+
+    -<HOIRenterProvide>
+
+      <HONoOfUnit>5</HONoOfUnit>
+
+    </HOIRenterProvide>
+
+    <DegreedProf>false</DegreedProf>
+
+    <AlumniCollege>false</AlumniCollege>
+
+  </AddInfo>
+
+  <Guid>4aaf7071-60fc-4246-b854-1141cfd043d5</Guid>
+
+
+  -<Discounts>
+
+
+    -<Discount>
+
+      <ID>MingleMateDiscount</ID>
+
+      <Description>You will have 40 days from the day you buy your policy to establish your Kemper Direct by bringing another policyholder to Kemper Direct. Don’t worry. It’s easy, and we’ll help you.</Description>
+
+      <Name>
+        Network<sup>&reg;</sup>
+      </Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>PreferPayerDiscount</ID>
+
+      <Description>The more you pay up-front, the more you save. Get this discount on your auto insurance policy when you pay more of your premium up front. The larger your down payment, the greater your discount.</Description>
+
+      <Name>Preferred Payer</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>PaperlessDiscount</ID>
+
+      <Description>Save on your auto insurance policy (and save some trees!). Get this discount when you provide a valid email address, sign your policy documents online and enroll in our EasyPay automatic payment service.</Description>
+
+      <Name>
+        Free-A-Tree<sup>&reg;</sup>
+      </Name>
+
+      <Applied>true</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>RetroLoyaltyDiscount</ID>
+
+      <Description>Save money just for switching to Kemper Direct. With this discount, we reward your loyalty to your previous carrier based on how long you were with them. Retro never looked so good.</Description>
+
+      <Name>Retro Loyalty</Name>
+
+      <Applied>true</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>SafeSoundDiscount</ID>
+
+      <Description>We like rewarding good driving. You get this discount if you have been continuously insured for 12 months or more, and you haven’t had any chargeable accidents or violations during the past three years.</Description>
+
+      <Name>
+        Safe & Sound<sup>&reg;</sup>
+      </Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>MarriedDiscount</ID>
+
+      <Description>We think happy couples make good drivers and deserve a discount. And for any couples who are less than happy, perk up - you get this discount, too. Marriages, as well as legally recognized civil unions and domestic partnerships qualify.</Description>
+
+      <Name>Happily Married</Name>
+
+      <Applied>true</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>MultPolicyDiscount</ID>
+
+      <Description>{multi_policy_discount_display}</Description>
+
+      <Name>Multi-Policy</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>GroupDiscount</ID>
+
+      <Description>Get this discount if you belong to any of the groups affiliated with the [Kemper Direct/Teachers/Partnership Direct] family of companies</Description>
+
+      <Name>Group</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>MulticarDiscount</ID>
+
+      <Description>Get this discount when you insure more than one vehicle on the same policy. This is just one of the many ways we reward our loyal customers.</Description>
+
+      <Name>Multi-Car</Name>
+
+      <Applied>true</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>HomeownershipDiscount</ID>
+
+      <Description>Homeownership Discount</Description>
+
+      <Name>Homeownership</Name>
+
+      <Applied>true</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>ADisabledvcDiscount</ID>
+
+      <Description>Get this discount if your vehicle is equipped with a device that will help prevent theft losses.</Description>
+
+      <Name>Anti-Theft</Name>
+
+      <Applied>true</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>MatureDriverDiscount</ID>
+
+      <Description>Get this discount if you are age 55 or older, have recently completed a state-approved accident prevention course, and do not have any chargeable accidents or violations.</Description>
+
+      <Name>Mature Driver</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>WelcomeBackDiscount</ID>
+
+      <Description>Welcome back is for previous policyholders.</Description>
+
+      <Name>Welcome Back</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>ComeBackAndSaveDiscount</ID>
+
+      <Description>Come Back and Save is for return quoters.</Description>
+
+      <Name>Come Back and Save</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </Discount>
+
+  </Discounts>
+
+  <TotalDiscountSavingsWithoutPreferredPayer>471</TotalDiscountSavingsWithoutPreferredPayer>
+
+  <TotalDiscountSavings>1242</TotalDiscountSavings>
+
+  <SelectedPreferredPayerDiscount>0</SelectedPreferredPayerDiscount>
+
+
+  -<PolicyCoverages>
+
+
+    -<Coverage>
+
+      <CovCode>Bi</CovCode>
+
+      <Name>Bodily Injury Liability</Name>
+
+      <Caption>Bodily Injury Liability</Caption>
+
+      <IncludeCaptionInLayout>true</IncludeCaptionInLayout>
+
+      <SelectedValue>500~1000</SelectedValue>
+
+      <Premium>$854.00</Premium>
+
+      <PremiumNumeric>854</PremiumNumeric>
+
+      <IncludePremiumInLayout>true</IncludePremiumInLayout>
+
+      <HelpText> Bodily Injury Liability Coverage pays injury or loss of life to other people resulting from an auto accident for which you are legally responsible. In addition, this protection also provides for defense costs we incur. The options for this coverage are expressed in terms of limits per person and per accident. Limits of $100,000/$300,000 mean that the maximum payout would be $100,000 per person or $300,000 per accident.</HelpText>
+
+
+      -<Limits>
+
+
+        -<Limit>
+
+          <Value>250~500</Value>
+
+          <Abbrev>25/50</Abbrev>
+
+          <Caption>$25,000 / $50,000</Caption>
+
+          <SortOrder>2</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>500~1000</Value>
+
+          <Abbrev>50/100</Abbrev>
+
+          <Caption>$50,000 / $100,000</Caption>
+
+          <SortOrder>3</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>1000~3000</Value>
+
+          <Abbrev>100/300</Abbrev>
+
+          <Caption>$100,000 / $300,000</Caption>
+
+          <SortOrder>4</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>2500~5000</Value>
+
+          <Abbrev>250/500</Abbrev>
+
+          <Caption>$250,000 / $500,000</Caption>
+
+          <SortOrder>5</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+      </Limits>
+
+
+      -<SelectedLimit>
+
+        <Value>500~1000</Value>
+
+        <Abbrev>50/100</Abbrev>
+
+        <Caption>$50,000 / $100,000</Caption>
+
+        <SortOrder>3</SortOrder>
+
+        <IsNoCov>False</IsNoCov>
+
+      </SelectedLimit>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>combo</CovInputType>
+
+      <WebQuestionID>POLCOV_BI_LABEL_30V</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+    </Coverage>
+
+
+    -<Coverage>
+
+      <CovCode>Pd</CovCode>
+
+      <Name>Property Damage Liability</Name>
+
+      <Caption>Property Damage Liability</Caption>
+
+      <IncludeCaptionInLayout>true</IncludeCaptionInLayout>
+
+      <SelectedValue>250</SelectedValue>
+
+      <Premium>$644.00</Premium>
+
+      <PremiumNumeric>644</PremiumNumeric>
+
+      <IncludePremiumInLayout>true</IncludePremiumInLayout>
+
+      <HelpText> Property Damage Liability Coverage pays for damage to other people’s property (including the vehicles of other drivers) resulting from an auto accident for which you are legally responsible. The options for this coverage are expressed in terms of limits per accident. A limit of $100,000 means that the maximum payout would be $100,000 per accident.</HelpText>
+
+
+      -<Limits>
+
+
+        -<Limit>
+
+          <Value>250</Value>
+
+          <Abbrev>25K</Abbrev>
+
+          <Caption>$25,000</Caption>
+
+          <SortOrder>2</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>200</Value>
+
+          <Abbrev>20K</Abbrev>
+
+          <Caption>$20,000</Caption>
+
+          <SortOrder>2</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>500</Value>
+
+          <Abbrev>50K</Abbrev>
+
+          <Caption>$50,000</Caption>
+
+          <SortOrder>3</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>1000</Value>
+
+          <Abbrev>100K</Abbrev>
+
+          <Caption>$100,000</Caption>
+
+          <SortOrder>4</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+      </Limits>
+
+
+      -<SelectedLimit>
+
+        <Value>250</Value>
+
+        <Abbrev>25K</Abbrev>
+
+        <Caption>$25,000</Caption>
+
+        <SortOrder>2</SortOrder>
+
+        <IsNoCov>False</IsNoCov>
+
+      </SelectedLimit>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>combo</CovInputType>
+
+      <WebQuestionID>POLCOV_PD_30V</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+    </Coverage>
+
+
+    -<Coverage>
+
+      <CovCode>MedPay</CovCode>
+
+      <Name>Medical Payments</Name>
+
+      <Caption>Medical Payments</Caption>
+
+      <IncludeCaptionInLayout>true</IncludeCaptionInLayout>
+
+      <SelectedValue>500</SelectedValue>
+
+      <Premium>$271.00</Premium>
+
+      <PremiumNumeric>271</PremiumNumeric>
+
+      <IncludePremiumInLayout>true</IncludePremiumInLayout>
+
+      <HelpText> Medical Payments Coverage for reasonable medical expenses for you and your passengers resulting from an auto accident, regardless of who is at fault.</HelpText>
+
+
+      -<Limits>
+
+
+        -<Limit>
+
+          <Value>50</Value>
+
+          <Abbrev>500</Abbrev>
+
+          <Caption>$500</Caption>
+
+          <SortOrder>1</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>100</Value>
+
+          <Abbrev>1K</Abbrev>
+
+          <Caption>$1,000</Caption>
+
+          <SortOrder>2</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>200</Value>
+
+          <Abbrev>2K</Abbrev>
+
+          <Caption>$2,000</Caption>
+
+          <SortOrder>3</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>500</Value>
+
+          <Abbrev>5K</Abbrev>
+
+          <Caption>$5,000</Caption>
+
+          <SortOrder>5</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>1000</Value>
+
+          <Abbrev>10K</Abbrev>
+
+          <Caption>$10,000</Caption>
+
+          <SortOrder>6</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>2500</Value>
+
+          <Abbrev>25K</Abbrev>
+
+          <Caption>$25,000</Caption>
+
+          <SortOrder>7</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>5000</Value>
+
+          <Abbrev>50K</Abbrev>
+
+          <Caption>$50,000</Caption>
+
+          <SortOrder>8</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>0</Value>
+
+          <Abbrev>No cov</Abbrev>
+
+          <Caption>No Coverage</Caption>
+
+          <SortOrder>9</SortOrder>
+
+          <IsNoCov>True</IsNoCov>
+
+        </Limit>
+
+      </Limits>
+
+
+      -<SelectedLimit>
+
+        <Value>500</Value>
+
+        <Abbrev>5K</Abbrev>
+
+        <Caption>$5,000</Caption>
+
+        <SortOrder>5</SortOrder>
+
+        <IsNoCov>False</IsNoCov>
+
+      </SelectedLimit>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>combo</CovInputType>
+
+      <WebQuestionID>POLCOV_MEDCOV_LABEL_30V</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+    </Coverage>
+
+
+    -<Coverage>
+
+      <CovCode>Umbi</CovCode>
+
+      <Name>Uninsured/Underinsured Motorists - Bodily Injury</Name>
+
+      <Caption>Uninsured/Underinsured Motorists - Bodily Injury</Caption>
+
+      <IncludeCaptionInLayout>true</IncludeCaptionInLayout>
+
+      <SelectedValue>500~1000~500~1000</SelectedValue>
+
+      <Premium>$188.00</Premium>
+
+      <PremiumNumeric>188</PremiumNumeric>
+
+      <IncludePremiumInLayout>true</IncludePremiumInLayout>
+
+      <HelpText> Uninsured/Underinsured Motorists Liability Coverage pays for bodily injury or loss of life to you and your passengers resulting from an auto accident caused by an uninsured or underinsured driver or vehicle owner.</HelpText>
+
+
+      -<Limits>
+
+
+        -<Limit>
+
+          <Value>250~500~250~500</Value>
+
+          <Abbrev>25/50</Abbrev>
+
+          <Caption>$25,000/$50,000</Caption>
+
+          <SortOrder>2</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>500~1000~500~1000</Value>
+
+          <Abbrev>50/100</Abbrev>
+
+          <Caption>$50,000/$100,000</Caption>
+
+          <SortOrder>3</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>1000~3000~1000~3000</Value>
+
+          <Abbrev>100/300</Abbrev>
+
+          <Caption>$100,000/$300,000</Caption>
+
+          <SortOrder>4</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>2500~5000~2500~5000</Value>
+
+          <Abbrev>250/500</Abbrev>
+
+          <Caption>$250,000/$500,000</Caption>
+
+          <SortOrder>5</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+      </Limits>
+
+
+      -<SelectedLimit>
+
+        <Value>500~1000~500~1000</Value>
+
+        <Abbrev>50/100</Abbrev>
+
+        <Caption>$50,000/$100,000</Caption>
+
+        <SortOrder>3</SortOrder>
+
+        <IsNoCov>False</IsNoCov>
+
+      </SelectedLimit>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>combo</CovInputType>
+
+      <WebQuestionID>POLCOV_UIMBI_30V</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+    </Coverage>
+
+
+    -<Coverage>
+
+      <CovCode>Umpd</CovCode>
+
+      <Name>Uninsured Motorists Property Damage</Name>
+
+      <Caption>Uninsured Motorists Property Damage</Caption>
+
+      <IncludeCaptionInLayout>true</IncludeCaptionInLayout>
+
+      <SelectedValue>0</SelectedValue>
+
+      <Premium/>
+
+      <PremiumNumeric>0</PremiumNumeric>
+
+      <IncludePremiumInLayout>true</IncludePremiumInLayout>
+
+      <HelpText> Uninsured Motorists Property Damage Liability Coverage pays for damage to or loss of your vehicle resulting from an auto accident caused by owner or driver of an uninsured vehicle.</HelpText>
+
+
+      -<Limits>
+
+
+        -<Limit>
+
+          <Value>0</Value>
+
+          <Abbrev>No cov</Abbrev>
+
+          <Caption>No Coverage</Caption>
+
+          <SortOrder>1</SortOrder>
+
+          <IsNoCov>True</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>200</Value>
+
+          <Abbrev>20K</Abbrev>
+
+          <Caption>$20,000</Caption>
+
+          <SortOrder>2</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+      </Limits>
+
+
+      -<SelectedLimit>
+
+        <Value>0</Value>
+
+        <Abbrev>No cov</Abbrev>
+
+        <Caption>No Coverage</Caption>
+
+        <SortOrder>1</SortOrder>
+
+        <IsNoCov>True</IsNoCov>
+
+      </SelectedLimit>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>combo</CovInputType>
+
+      <WebQuestionID>POLCOV_UMPD_30V</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+    </Coverage>
+
+
+    -<Coverage>
+
+      <CovCode>UmpdOption</CovCode>
+
+      <Name>Uninsured Motorists Property Damage Deductible</Name>
+
+      <Caption>Uninsured Motorists Property Damage Deductible</Caption>
+
+      <IncludeCaptionInLayout>true</IncludeCaptionInLayout>
+
+      <SelectedValue>0</SelectedValue>
+
+      <Premium/>
+
+      <PremiumNumeric>0</PremiumNumeric>
+
+      <IncludePremiumInLayout>true</IncludePremiumInLayout>
+
+      <HelpText> Pays for loss or damage to your vehicle that you are legally entitled to receive from the owner or driver of an uninsured vehicle.</HelpText>
+
+
+      -<Limits>
+
+
+        -<Limit>
+
+          <Value>250</Value>
+
+          <Abbrev>250 ded</Abbrev>
+
+          <Caption>$250</Caption>
+
+          <SortOrder>1</SortOrder>
+
+          <IsNoCov>False</IsNoCov>
+
+        </Limit>
+
+
+        -<Limit>
+
+          <Value>0</Value>
+
+          <Abbrev>No cov</Abbrev>
+
+          <Caption>No Coverage</Caption>
+
+          <SortOrder>1</SortOrder>
+
+          <IsNoCov>True</IsNoCov>
+
+        </Limit>
+
+      </Limits>
+
+
+      -<SelectedLimit>
+
+        <Value>0</Value>
+
+        <Abbrev>No cov</Abbrev>
+
+        <Caption>No Coverage</Caption>
+
+        <SortOrder>1</SortOrder>
+
+        <IsNoCov>True</IsNoCov>
+
+      </SelectedLimit>
+
+      <SuppressRendering>true</SuppressRendering>
+
+      <CovInputType>combo</CovInputType>
+
+      <WebQuestionID>POLCOV_UMPDDED_LABEL</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+    </Coverage>
+
+  </PolicyCoverages>
+
+  <PolicyCoverageErrors/>
+
+
+  -<VehicleCoverages>
+
+
+    -<VehicleCoverage json:Array="true">
+
+
+      -<Coverages>
+
+
+        -<Coverage>
+
+          <CovCode>UmPdVeh</CovCode>
+
+          <Name>Uninsured Motorists Property Damage</Name>
+
+          <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+          <SelectedValue/>
+
+          <Premium>$0.00</Premium>
+
+          <PremiumNumeric>0</PremiumNumeric>
+
+          <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+          <HelpText> Pays for loss or damage to your vehicle that you are legally entitled to receive from the owner or driver of an uninsured vehicle.</HelpText>
+
+          <Limits/>
+
+
+          -<SelectedLimit>
+
+            <Value/>
+
+            <Abbrev/>
+
+            <Caption/>
+
+            <SortOrder/>
+
+            <IsNoCov/>
+
+          </SelectedLimit>
+
+          <SuppressRendering>true</SuppressRendering>
+
+          <CovInputType>text</CovInputType>
+
+          <WebQuestionID>POLCOV_UMPD_LABEL_99C</WebQuestionID>
+
+          <Purchased>false</Purchased>
+
+        </Coverage>
+
+
+        -<Coverage>
+
+          <CovCode>OtcDed</CovCode>
+
+          <Name>Other Than Collision</Name>
+
+          <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+          <SelectedValue>500</SelectedValue>
+
+          <Premium>$254.00</Premium>
+
+          <PremiumNumeric>254</PremiumNumeric>
+
+          <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+          <HelpText> Other Than Collision Coverage, sometimes called Comprehensive Coverage, pays up to the actual cash value (ACV) of your vehicle, less the deductible, for damage to your vehicle that is not caused by an accident with another vehicle or object (examples: fire, theft, vandalism, flood, striking an animal, etc.). If you are financing or leasing your vehicle, you may be required to have Other Than Collision Coverage. If you are considering rejecting this coverage, we recommend that you first contact your finance or leasing company.</HelpText>
+
+
+          -<Limits>
+
+
+            -<Limit>
+
+              <Value>250</Value>
+
+              <Abbrev>250</Abbrev>
+
+              <Caption>$250 deductible</Caption>
+
+              <SortOrder>2</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>500</Value>
+
+              <Abbrev>500</Abbrev>
+
+              <Caption>$500 deductible</Caption>
+
+              <SortOrder>3</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>1000</Value>
+
+              <Abbrev>1000</Abbrev>
+
+              <Caption>$1,000 deductible</Caption>
+
+              <SortOrder>4</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>2500</Value>
+
+              <Abbrev>2500</Abbrev>
+
+              <Caption>$2,500 deductible</Caption>
+
+              <SortOrder>5</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>0</Value>
+
+              <Abbrev>No cov</Abbrev>
+
+              <Caption>No Coverage</Caption>
+
+              <SortOrder>6</SortOrder>
+
+              <IsNoCov>True</IsNoCov>
+
+            </Limit>
+
+          </Limits>
+
+
+          -<SelectedLimit>
+
+            <Value>500</Value>
+
+            <Abbrev>500</Abbrev>
+
+            <Caption>$500 deductible</Caption>
+
+            <SortOrder>3</SortOrder>
+
+            <IsNoCov>False</IsNoCov>
+
+          </SelectedLimit>
+
+          <SuppressRendering>false</SuppressRendering>
+
+          <CovInputType>combo</CovInputType>
+
+          <WebQuestionID>VEHCOV_COMPDED_O_30V</WebQuestionID>
+
+          <Purchased>false</Purchased>
+
+        </Coverage>
+
+
+        -<Coverage>
+
+          <CovCode>CollDed</CovCode>
+
+          <Name>Collision</Name>
+
+          <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+          <SelectedValue>500</SelectedValue>
+
+          <Premium>$1,015.00</Premium>
+
+          <PremiumNumeric>1015</PremiumNumeric>
+
+          <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+          <HelpText> Collision Coverage pays up to the actual cash value (ACV) of your vehicle, less the deductible, for damage to your vehicle resulting from an auto accident involving another vehicle or object for which you are legally responsible. If you are financing or leasing your vehicle, you may be required to have Collision Coverage. If you are considering rejecting this coverage, we recommend that you first contact your finance or leasing company.</HelpText>
+
+
+          -<Limits>
+
+
+            -<Limit>
+
+              <Value>250</Value>
+
+              <Abbrev>250</Abbrev>
+
+              <Caption>$250 deductible</Caption>
+
+              <SortOrder>2</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>500</Value>
+
+              <Abbrev>500</Abbrev>
+
+              <Caption>$500 deductible</Caption>
+
+              <SortOrder>3</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>1000</Value>
+
+              <Abbrev>1000</Abbrev>
+
+              <Caption>$1,000 deductible</Caption>
+
+              <SortOrder>4</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>2500</Value>
+
+              <Abbrev>2500</Abbrev>
+
+              <Caption>$2,500 deductible</Caption>
+
+              <SortOrder>5</SortOrder>
+
+              <IsNoCov>False</IsNoCov>
+
+            </Limit>
+
+
+            -<Limit>
+
+              <Value>0</Value>
+
+              <Abbrev>No cov</Abbrev>
+
+              <Caption>No Coverage</Caption>
+
+              <SortOrder>6</SortOrder>
+
+              <IsNoCov>True</IsNoCov>
+
+            </Limit>
+
+          </Limits>
+
+
+          -<SelectedLimit>
+
+            <Value>500</Value>
+
+            <Abbrev>500</Abbrev>
+
+            <Caption>$500 deductible</Caption>
+
+            <SortOrder>3</SortOrder>
+
+            <IsNoCov>False</IsNoCov>
+
+          </SelectedLimit>
+
+          <SuppressRendering>false</SuppressRendering>
+
+          <CovInputType>combo</CovInputType>
+
+          <WebQuestionID>VEHCOV_COLLDED_30V</WebQuestionID>
+
+          <Purchased>false</Purchased>
+
+        </Coverage>
+
+
+        -<Coverage>
+
+          <CovCode>CustEquip</CovCode>
+
+          <Name/>
+
+          <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+          <SelectedValue/>
+
+          <Premium>$0.00</Premium>
+
+          <PremiumNumeric>0</PremiumNumeric>
+
+          <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+          <HelpText/>
+
+          <Limits/>
+
+
+          -<SelectedLimit>
+
+            <Value/>
+
+            <Abbrev/>
+
+            <Caption/>
+
+            <SortOrder/>
+
+            <IsNoCov/>
+
+          </SelectedLimit>
+
+          <SuppressRendering>false</SuppressRendering>
+
+          <CovInputType>text</CovInputType>
+
+          <WebQuestionID/>
+
+          <Purchased>false</Purchased>
+
+        </Coverage>
+
+      </Coverages>
+
+      <VehicleNumber>0</VehicleNumber>
+
+      <Year>2009</Year>
+
+      <Make>LEXUS</Make>
+
+      <Model>IS 250</Model>
+
+      <StateFeeOption1>0</StateFeeOption1>
+
+    </VehicleCoverage>
+
+  </VehicleCoverages>
+
+  <VehicleCoverageErrors/>
+
+
+  -<EnhancedCoverages>
+
+
+    -<EnhancedCoverage>
+
+      <CovCode>Bundle1</CovCode>
+
+      <Name>Protect Your Sanity</Name>
+
+      <Desc>
+        When the unexpected happens, get back on the road with Roadside Assistance, <br>Rental Car Reimbursement and Trip Interruption.</Desc>
+
+      <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+      <Premium>$47.00</Premium>
+
+      <PremiumNumeric>47.00</PremiumNumeric>
+
+      <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>bivalue</CovInputType>
+
+      <WebQuestionID>POLCOV_BUNDLE1TEST</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+
+      -<Bundle>
+
+
+        -<BundledCoverage>
+
+          <header>Roadside Assistance</header>
+
+          <description>Getting stuck on the side of the road isn’t any fun. We’ll send someone to change your tire, bring you gas, jumpstart your vehicle, help if you’re locked out, or give you a tow.</description>
+
+        </BundledCoverage>
+
+
+        -<BundledCoverage>
+
+          <header>Rental Car Reimbursement</header>
+
+          <description>If your car is out of commission due to a covered loss, get back on the road with a rental car. We’ll reimburse you for up to $30 per day with a $600 maximum benefit.</description>
+
+        </BundledCoverage>
+
+
+        -<BundledCoverage>
+
+          <header>Trip Interruption</header>
+
+          <description>When you’re on a road trip, an accident or mechanical breakdown can really slow you down. If you’re stuck more than 100 miles from home, we’ll provide up to $600 to use for things like transportation and lodging.</description>
+
+        </BundledCoverage>
+
+      </Bundle>
+
+    </EnhancedCoverage>
+
+
+    -<EnhancedCoverage>
+
+      <CovCode>Bundle2</CovCode>
+
+      <Name>Protect Your Wallet</Name>
+
+      <Desc>Avoid unwanted dents to your wallet with Ticket Forgiveness, Accident Forgiveness, Renewal Assurance&trade; and Disappearing Deductible.</Desc>
+
+      <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+      <Premium>$216.00</Premium>
+
+      <PremiumNumeric>216.00</PremiumNumeric>
+
+      <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>bivalue</CovInputType>
+
+      <WebQuestionID>POLCOV_BUNDLE2TEST_TKT</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+
+      -<Bundle>
+
+
+        -<BundledCoverage>
+
+          <header>Accident Forgiveness</header>
+
+          <description>We won’t raise your rates just because you have an accident – even if it’s your fault.</description>
+
+        </BundledCoverage>
+
+
+        -<BundledCoverage>
+
+          <header>Renewal Assurance</header>
+
+          <description>Don’t worry about getting dropped by your insurance company. As long as you continue to drive safely (for example, no DUIs) and meet a few other easy requirements, we won’t “break up” with you. That’s peace of mind you deserve.</description>
+
+        </BundledCoverage>
+
+
+        -<BundledCoverage>
+
+          <header>Disappearing Deductible</header>
+
+          <description>We’ll take $100 off your Collision deductible right now. Then, we’ll keep lowering it by $100 each year you’re accident free. (Note: Pennsylvania law does not allow this deductible to be less than $100.)</description>
+
+        </BundledCoverage>
+
+      </Bundle>
+
+    </EnhancedCoverage>
+
+
+    -<EnhancedCoverage>
+
+      <CovCode>Bundle3</CovCode>
+
+      <Name>Protect Your Family</Name>
+
+      <Desc>
+        Keep your loved ones better protected with Enhanced Car Seat Replacement, <br>Pet Protection and Dependent Protection.</Desc>
+
+      <IncludeCaptionInLayout>false</IncludeCaptionInLayout>
+
+      <Premium>$27.00</Premium>
+
+      <PremiumNumeric>27.00</PremiumNumeric>
+
+      <IncludePremiumInLayout>false</IncludePremiumInLayout>
+
+      <SuppressRendering>false</SuppressRendering>
+
+      <CovInputType>bivalue</CovInputType>
+
+      <WebQuestionID>POLCOV_BUNDLE3TEST_ECS</WebQuestionID>
+
+      <Purchased>false</Purchased>
+
+
+      -<Bundle>
+
+
+        -<BundledCoverage>
+
+          <header>Enhanced Car Seat Replacement</header>
+
+          <description>We know that a car seat’s safety can be compromised after an accident. That’s why we’ll replace your child car seats after a crash regardless of damage and without requiring you to pay a deductible.</description>
+
+        </BundledCoverage>
+
+
+        -<BundledCoverage>
+
+          <header>Pet Protection</header>
+
+          <description>Your pets mean a lot to you. That’s why we’ll cover up to $2,000 for injury or death to your furry family members due to an accident. Dogs and cats apply.</description>
+
+        </BundledCoverage>
+
+
+        -<BundledCoverage>
+
+          <header>Dependent Protection</header>
+
+          <description>Taking care of your children is your most important duty. That’s why we’ll provide up to $1,000 in daycare costs if an accident leaves you unable to care for your child. We’ll also provide $10,000 to your dependants if you die due to an accident.</description>
+
+        </BundledCoverage>
+
+      </Bundle>
+
+    </EnhancedCoverage>
+
+  </EnhancedCoverages>
+
+
+  -<CoveragePageDiscounts>
+
+
+    -<Discount>
+
+      <ID>NetworkDiscount</ID>
+
+      <ShortDescription>If you bring a friend to Kemper Direct, and they purchase a policy, both you AND them get an extra 10% discount.</ShortDescription>
+
+      <ExpandedDesc>You will have 40 days from the day you buy your policy to establish your Network Discount by bringing another policyholder to Kemper Direct. Don’t worry. It’s easy, and we’ll help you.</ExpandedDesc>
+
+      <Name>iMingle Network™ Discount</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>true</CanBeDeleted>
+
+      <Amount>$291.00</Amount>
+
+      <AmountNumeric>291</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>PreferredPayerDiscount</ID>
+
+      <ShortDescription>The more you pay up-front, the more you save. You save the most when you pay your policy in-full.</ShortDescription>
+
+      <ExpandedDesc>Get this discount on your auto policy when you pay more of your premium up front. The bigger your down payment, the bigger your discount.</ExpandedDesc>
+
+      <Name>Preferred Payer Discount™</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>true</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <Amount>$189.00</Amount>
+
+      <AmountNumeric>189</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>FreeATree</ID>
+
+      <ShortDescription>Save on your insurance, and save some trees! Just sign your documents online and enroll in our EasyPay automatic payment service.</ShortDescription>
+
+      <ExpandedDesc>Get this discount when you provide a valid email address, sign your policy documents online, and enroll in our EasyPay automatic payment service.</ExpandedDesc>
+
+      <Name>Free-A-Tree™ Discount</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>true</Purchased>
+
+      <CanBeDeleted>true</CanBeDeleted>
+
+      <Amount>$145.00</Amount>
+
+      <AmountNumeric>145</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>RetroLoyaltyDiscount</ID>
+
+      <ShortDescription>Save just for switching to us. We'll reward your past loyalty to your previous carrier based on how long you were with them.</ShortDescription>
+
+      <ExpandedDesc/>
+
+      <Name>Retro Loyalty Discount™</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>true</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <Amount>$108.00</Amount>
+
+      <AmountNumeric>108</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>HappilyMarried</ID>
+
+      <ShortDescription/>
+
+      <ExpandedDesc/>
+
+      <Name>Happily Married Discount™</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>true</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <Amount>$128.00</Amount>
+
+      <AmountNumeric>128</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>MultiPolicy</ID>
+
+      <ShortDescription/>
+
+      <ExpandedDesc>Buy a Homeowners or Condo policy with your Auto and save on both! Talk to one of our friendly agents at 1-877.481.8836.</ExpandedDesc>
+
+      <Name>Multi-Policy Discount</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>false</Purchased>
+
+      <CanBeDeleted>true</CanBeDeleted>
+
+      <Amount>$291.00</Amount>
+
+      <AmountNumeric>291</AmountNumeric>
+
+    </Discount>
+
+
+    -<Discount>
+
+      <ID>HomeownershipDiscount</ID>
+
+      <ShortDescription/>
+
+      <ExpandedDesc/>
+
+      <Name>Homeownership Discount</Name>
+
+      <Applied>false</Applied>
+
+      <Purchased>true</Purchased>
+
+      <CanBeDeleted>false</CanBeDeleted>
+
+      <Amount>$90.00</Amount>
+
+      <AmountNumeric>90</AmountNumeric>
+
+    </Discount>
+
+  </CoveragePageDiscounts>
+
+  <TotalPremium>3226</TotalPremium>
+
+
+  -<PayPlans>
+
+
+    -<PayPlan>
+
+      <Name>1/11 Down</Name>
+
+      <ID>7</ID>
+
+      <Description>$229.58 Monthly ($2,755.00/year)</Description>
+
+      <Discount>0</Discount>
+
+      <Installments>11</Installments>
+
+      <Payments>0</Payments>
+
+      <Yearly>2755</Yearly>
+
+      <Downpayment>229.58333333333333333333333333</Downpayment>
+
+      <Installment>229.58333333333333333333333334</Installment>
+
+      <Order>0</Order>
+
+      <Value>11~229.58333333333333333333333334~229.58333333333333333333333333~0~Monthly~2755~12~7</Value>
+
+      <InstallmentType>Monthly</InstallmentType>
+
+      <DownDivisor>12</DownDivisor>
+
+    </PayPlan>
+
+
+    -<PayPlan>
+
+      <Name>1/8 Down</Name>
+
+      <ID>6</ID>
+
+      <Description>$214.14 Monthly ($2,692.00/year)</Description>
+
+      <Discount>63</Discount>
+
+      <Installments>11</Installments>
+
+      <Payments>0</Payments>
+
+      <Yearly>2692</Yearly>
+
+      <Downpayment>336.5</Downpayment>
+
+      <Installment>214.13636363636363636363636364</Installment>
+
+      <Order>0</Order>
+
+      <Value>11~214.13636363636363636363636364~336.5~63~Monthly~2692~8~6</Value>
+
+      <InstallmentType>Monthly</InstallmentType>
+
+      <DownDivisor>8</DownDivisor>
+
+    </PayPlan>
+
+
+    -<PayPlan>
+
+      <Name>1/6 Down</Name>
+
+      <ID>5</ID>
+
+      <Description>$199.17 Monthly ($2,629.00/year)</Description>
+
+      <Discount>126</Discount>
+
+      <Installments>11</Installments>
+
+      <Payments>0</Payments>
+
+      <Yearly>2629</Yearly>
+
+      <Downpayment>438.16666666666666666666666667</Downpayment>
+
+      <Installment>199.16666666666666666666666666</Installment>
+
+      <Order>0</Order>
+
+      <Value>11~199.16666666666666666666666666~438.16666666666666666666666667~126~Monthly~2629~6~5</Value>
+
+      <InstallmentType>Monthly</InstallmentType>
+
+      <DownDivisor>6</DownDivisor>
+
+    </PayPlan>
+
+
+    -<PayPlan>
+
+      <Name>Quarterly</Name>
+
+      <ID>4</ID>
+
+      <Description>$641.50 Quarterly ($2,566.00/year)</Description>
+
+      <Discount>189</Discount>
+
+      <Installments>3</Installments>
+
+      <Payments>0</Payments>
+
+      <Yearly>2566</Yearly>
+
+      <Downpayment>641.5</Downpayment>
+
+      <Installment>641.5</Installment>
+
+      <Order>0</Order>
+
+      <Value>3~641.5~641.5~189~Quarterly~2566~4~4</Value>
+
+      <InstallmentType>Quarterly</InstallmentType>
+
+      <DownDivisor>4</DownDivisor>
+
+    </PayPlan>
+
+
+    -<PayPlan>
+
+      <Name>Semi-Annually</Name>
+
+      <ID>2</ID>
+
+      <Description>$1,250.50 Semi-Annually ($2,501.00/year)</Description>
+
+      <Discount>254</Discount>
+
+      <Installments>1</Installments>
+
+      <Payments>0</Payments>
+
+      <Yearly>2501</Yearly>
+
+      <Downpayment>1250.5</Downpayment>
+
+      <Installment>1250.5</Installment>
+
+      <Order>0</Order>
+
+      <Value>1~1250.5~1250.5~254~Semi-Annually~2501~2~2</Value>
+
+      <InstallmentType>Semi-Annually</InstallmentType>
+
+      <DownDivisor>2</DownDivisor>
+
+    </PayPlan>
+
+
+    -<PayPlan>
+
+      <Name>Annually (Pay-In-Full)</Name>
+
+      <ID>1</ID>
+
+      <Description>$2,375.00 Annually (Pay-In-Full)</Description>
+
+      <Discount>380</Discount>
+
+      <Installments>0</Installments>
+
+      <Payments>0</Payments>
+
+      <Yearly>2375</Yearly>
+
+      <Downpayment>2375</Downpayment>
+
+      <Installment>0</Installment>
+
+      <Order>0</Order>
+
+      <Value>0~0~2375~380~Annually~2375~1~1</Value>
+
+      <InstallmentType>Annually</InstallmentType>
+
+      <DownDivisor>1</DownDivisor>
+
+    </PayPlan>
+
+  </PayPlans>
+
+
+  -<SelectedPayPlan>
+
+    <Name>Quarterly</Name>
+
+    <ID>4</ID>
+
+    <Description>$641.50 Quarterly ($2,566.00/year)</Description>
+
+    <Discount>189</Discount>
+
+    <Installments>3</Installments>
+
+    <Payments>0</Payments>
+
+    <Yearly>2566</Yearly>
+
+    <Downpayment>641.5</Downpayment>
+
+    <Installment>641.5</Installment>
+
+    <Order>0</Order>
+
+    <Value>3~641.5~641.5~189~Quarterly~2566~4~4</Value>
+
+    <InstallmentType>Quarterly</InstallmentType>
+
+    <DownDivisor>4</DownDivisor>
+
+  </SelectedPayPlan>
+
+  <AnnualPayPlanDiscountSavings>380</AnnualPayPlanDiscountSavings>
+
+
+  -<InstallmentFees>
+
+
+    -<InstallmentFee>
+
+      <Name>InstallFeeDirect</Name>
+
+      <Amount>0</Amount>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </InstallmentFee>
+
+
+    -<InstallmentFee>
+
+      <Name>InstallFeeCC</Name>
+
+      <Amount>0</Amount>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </InstallmentFee>
+
+
+    -<InstallmentFee>
+
+      <Name>InstallFeeEFT</Name>
+
+      <Amount>0</Amount>
+
+      <AmountNumeric>0</AmountNumeric>
+
+    </InstallmentFee>
+
+  </InstallmentFees>
+
+  <HasInstallmentFees>false</HasInstallmentFees>
+
+  <IsVibeState>true</IsVibeState>
+
+  <IsWebModelState>true</IsWebModelState>
+
+
+  -<Questions>
+
+
+    -<Question>
+
+      <ID>CurrentBI</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Less than $15,000/$30,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>$15,000/$30,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>$20,000/$40,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>$25,000/$50,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>10</Value>
+
+          <Description>$30,000/$60,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>$50,000/$100,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>$100,000/$300,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Greater than $100,000/$300,000</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>CurrentCarrier</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>1 - 11 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>12 - 23 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>24 - 35 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>36 or more months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>CurrentCarrierPortal</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>1 - 11 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>12 - 23 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>24 - 35 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>36 or more months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>0 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>CurrentInsLapse</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>9</Value>
+
+          <Description>1 to 11 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>12 or more months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>CurrentInsLapseVibe2B</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Continuously Insured for 3 or more years</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Continuously Insured for 2 more years</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Continuously Insured for 1 more years</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Insurand less than 1 year</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>No insurance for last 12 months</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>deployed Military for all uninsured days</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>DriverEducationLevel</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>No High School diploma or GED</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>High School diploma or GED</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Vocational or Trade School degree</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Some College</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Currently in College</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Bachelors Degree</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Associates Degree</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>5</Value>
+
+          <Description>Graduate work or degree</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>9</Value>
+
+          <Description>Prefer not to disclose</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>DriverMaritalStatus</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Single</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Married</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>10</Value>
+
+          <Description>Domestic Partnership</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Divorced</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Widowed</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Separated</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>DriverRelationship</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Spouse</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>5</Value>
+
+          <Description>Child</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Parent</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Brother</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Sister</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Grandparent</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Aunt</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Uncle</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>9</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>DriverWhyNoSpouse</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>Please add spouse to policy</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Never licensed</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Voluntarily surrendered license</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>License is suspended or revoked</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Never renewed license</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>5</Value>
+
+          <Description>Insured elsewhere</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Has company vehicle</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Not a permanent resident of household</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Does not drive vehicle</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>9</Value>
+
+          <Description>Do not want spouse on policy</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HouseholdFamilySize</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>0</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>1</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>2</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>3</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>4 </Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HouseholdHear</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>11</Value>
+
+          <Description>Billboard</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>5</Value>
+
+          <Description>Radio</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Mail Offer</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Friend/Family Referral</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Internet Search</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>15</Value>
+
+          <Description>Social Media</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Email</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Another Website</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HouseholdHearUDP</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>11</Value>
+
+          <Description>Billboard</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>5</Value>
+
+          <Description>Radio</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Mail Offer</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Friend/Family Referral</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Internet Search</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Email</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Another Website</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HouseholdHearTeachers</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Mail Offer</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Friend/Family Referral</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Internet Search</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>15</Value>
+
+          <Description>Social Media</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Email</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Another Website</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HouseholdHomeType</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Apartment/Condo</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Mobile Home</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>House Or Other Dwelling</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HouseholdZipReason</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Mail is sent to work/school address</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Have more than one residence</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Planning to move</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>LapseLessThanOneYear</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>1 - 30 days break in coverage</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>31 day break in coverage</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Deployed Military for all uninsured days</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>ReasonNoCoverage</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>Purchased a vehicle in the last 90 days</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Established residence out of the country</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>VehicleAirbags</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>None</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Driver Side</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Driver and Passenger Side</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>VehicleAntiTheft</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>None</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Alarm Only</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Active Disabling Device</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Passive alarm or device, and/or VIN etching</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>VehiclePrimaryUse</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Personal/Commute</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Pleasure</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Business</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Farming</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>VehicleBusinessType</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Contractor</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Delivery</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>3</Value>
+
+          <Description>Real-estate</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>4</Value>
+
+          <Description>Taxi/Shuttle Service</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>5</Value>
+
+          <Description>Snow Removal</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>6</Value>
+
+          <Description>Health Care</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>7</Value>
+
+          <Description>Sales (No Delivery)</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>8</Value>
+
+          <Description>Other</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>VehicleSeatBelts</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>None</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Driver Side</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>2</Value>
+
+          <Description>Driver and Passenger Side</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>VehicleAntilockBrakes</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Yes</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>No</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>CurrentlyInsured</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Yes</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>No</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>HadInsuredLast30days</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>1</Value>
+
+          <Description>Yes</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>0</Value>
+
+          <Description>No</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+
+    -<Question>
+
+      <ID>GroupsFilterTypes</ID>
+
+
+      -<Options>
+
+
+        -<Option>
+
+          <Value>A</Value>
+
+          <Description>Show All</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>D</Value>
+
+          <Description>Degreed Professionals</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>T</Value>
+
+          <Description>Educational Professionals</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+
+        -<Option>
+
+          <Value>L</Value>
+
+          <Description>Licensed Professionals</Description>
+
+          <Selected>false</Selected>
+
+        </Option>
+
+      </Options>
+
+    </Question>
+
+  </Questions>
+
+  <HasAccidentsViolations>false</HasAccidentsViolations>
+
+
+  -<IncidentSelections>
+
+
+    -<Incident>
+
+      <Type>Accident</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>2041 </ID>
+
+      <Number>2041</Number>
+
+      <Description>Accident - At Fault with payout of $500 or more</Description>
+
+      <Amount>501</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Accident</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>2041-</ID>
+
+      <Number>2041</Number>
+
+      <Description>Accident - At Fault with payout under $500</Description>
+
+      <Amount>499</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Accident</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>3142</ID>
+
+      <Number>3142</Number>
+
+      <Description>Accident - Not at fault</Description>
+
+      <Amount>1</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>1</ID>
+
+      <Number>1</Number>
+
+      <Description>Careless Driving</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Loss</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>3300-</ID>
+
+      <Number>3300</Number>
+
+      <Description>Comprehensive claim (fire, theft, glass, etc.) of less than $1000</Description>
+
+      <Amount>999</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Loss</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>3300 </ID>
+
+      <Number>3300</Number>
+
+      <Description>Comprehensive claim (fire, theft, glass, etc.) over $1000</Description>
+
+      <Amount>1001</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>5</ID>
+
+      <Number>5</Number>
+
+      <Description>Driving under the influence / while impaired</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>8</ID>
+
+      <Number>8</Number>
+
+      <Description>Driving while license suspended / revoked</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>12</ID>
+
+      <Number>12</Number>
+
+      <Description>Driving wrong way</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>18</ID>
+
+      <Number>18</Number>
+
+      <Description>Failure to keep proper lane</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>22</ID>
+
+      <Number>22</Number>
+
+      <Description>Failure to obey stop sign</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>23</ID>
+
+      <Number>23</Number>
+
+      <Description>Failure to obey traffic control device</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>27</ID>
+
+      <Number>27</Number>
+
+      <Description>Failure to stop for a school bus</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>28</ID>
+
+      <Number>28</Number>
+
+      <Description>Failure to yield</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>32</ID>
+
+      <Number>32</Number>
+
+      <Description>Following too closely</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>40</ID>
+
+      <Number>40</Number>
+
+      <Description>Improper passing</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>42</ID>
+
+      <Number>42</Number>
+
+      <Description>Improper turning</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>53</ID>
+
+      <Number>53</Number>
+
+      <Description>Reckless driving</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>87</ID>
+
+      <Number>87</Number>
+
+      <Description>Refusal to submit to DUI test</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>57</ID>
+
+      <Number>57</Number>
+
+      <Description>Speeding 1-15 mph over the limit</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>58</ID>
+
+      <Number>58</Number>
+
+      <Description>Speeding 16-29 mph over the limit</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>59</ID>
+
+      <Number>59</Number>
+
+      <Description>Speeding 30 mph over the limit</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>60</ID>
+
+      <Number>60</Number>
+
+      <Description>Speeding in a school zone</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>64</ID>
+
+      <Number>64</Number>
+
+      <Description>Vehicular manslaughter</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+
+    -<Incident>
+
+      <Type>Violation</Type>
+
+      <Date>0001-01-01T00:00:00</Date>
+
+      <ID>46</ID>
+
+      <Number>46</Number>
+
+      <Description>Violation not listed</Description>
+
+      <Amount>0</Amount>
+
+    </Incident>
+
+  </IncidentSelections>
+
+  <RentersPropertySelections/>
+
+  <RentersLiabilitySelections/>
+
+  <RentersDeductibleSelections/>
+
+  <RentersRates/>
+
+  <Groups/>
+
+  <IsZipCodeDown>false</IsZipCodeDown>
+
+
+  -<Quote>
+
+
+    -<QuoteInfo>
+
+      <IpOrigCompleteDate>00/00/0000</IpOrigCompleteDate>
+
+      <IpStateCoLockTest>0</IpStateCoLockTest>
+
+      <IpNoOfRequotes>0</IpNoOfRequotes>
+
+      <IpReguaranteeQuoteTest>0</IpReguaranteeQuoteTest>
+
+      <IpRequoteDate>00/00/0000</IpRequoteDate>
+
+      <IpMailStnoLockTest>0</IpMailStnoLockTest>
+
+      <IpQuotePrintTest>2</IpQuotePrintTest>
+
+      <IpQuoteTest>0</IpQuoteTest>
+
+      <IpResponseNo>2</IpResponseNo>
+
+      <IpTeleContactDate>00/00/0000</IpTeleContactDate>
+
+      <IpPhoneQuoteTest>0</IpPhoneQuoteTest>
+
+      <IpDnqNo>0</IpDnqNo>
+
+      <IpQuoteConvDate>00/00/0000</IpQuoteConvDate>
+
+      <IpTierLockTest>0</IpTierLockTest>
+
+      <IpAcctnumLockTest>0</IpAcctnumLockTest>
+
+      <IpQuotePrintPointer>0</IpQuotePrintPointer>
+
+      <IpAltQuoteTest>0</IpAltQuoteTest>
+
+      <IpLastRequoteTrans>0</IpLastRequoteTrans>
+
+      <IpPolicyEffDate>04/29/2017</IpPolicyEffDate>
+
+      <IpMailZipLockTest>0</IpMailZipLockTest>
+
+      <IpCompleteCode>1</IpCompleteCode>
+
+      <IpQuoteNo0>03136615</IpQuoteNo0>
+
+
+      -<ExcludedDrivers>
+
+        <IpExcludedDriverCt>0</IpExcludedDriverCt>
+
+      </ExcludedDrivers>
+
+      <IpRiskStnoLockTest>0</IpRiskStnoLockTest>
+
+      <IpQuoteTransType>1</IpQuoteTransType>
+
+      <IpOrigQuoteDate>04/28/2017</IpOrigQuoteDate>
+
+      <IpQuoteCancelDate>00/00/0000</IpQuoteCancelDate>
+
+      <IpRiskZipLockTest>0</IpRiskZipLockTest>
+
+      <IpPostMarkDate>00/00/0000</IpPostMarkDate>
+
+      <IpPolicyExpDate>12/01/2017</IpPolicyExpDate>
+
+      <IpPersonalMessNo>0</IpPersonalMessNo>
+
+    </QuoteInfo>
+
+
+    -<Violations>
+
+      <IpViolationCt>1</IpViolationCt>
+
+
+      -<Violation SLICE="1">
+
+        <IpViolationRatingType>0</IpViolationRatingType>
+
+        <IpViolationType>0</IpViolationType>
+
+        <IpViolationNo>5</IpViolationNo>
+
+        <IpViolIncidentNo>0</IpViolIncidentNo>
+
+        <IpDateOfViol>01/01/2015</IpDateOfViol>
+
+        <IpDrivNoOfViol>2</IpDrivNoOfViol>
+
+        <IpViolChargedTest>0</IpViolChargedTest>
+
+        <IpDateOfChargeViol>00/00/0000</IpDateOfChargeViol>
+
+        <IpViolSource>1</IpViolSource>
+
+      </Violation>
+
+    </Violations>
+
+
+    -<Customer>
+
+      <IpDayPhoneType>0</IpDayPhoneType>
+
+      <IpAddressLine1>1002 CONCORD DR</IpAddressLine1>
+
+      <IpHomeownerVerifyTest>0</IpHomeownerVerifyTest>
+
+      <IpProductVersion>4</IpProductVersion>
+
+      <IpRentOwnTest>1</IpRentOwnTest>
+
+      <IpMarketSourceAdq>1</IpMarketSourceAdq>
+
+      <IpOriginCodeNo>0</IpOriginCodeNo>
+
+      <IpCurrentCarrierType>3</IpCurrentCarrierType>
+
+      <IpRegOwnerTest>0</IpRegOwnerTest>
+
+      <IpRiskTerr>0</IpRiskTerr>
+
+      <IpRiskZipCode1>0</IpRiskZipCode1>
+
+      <IpCreditModel>R96</IpCreditModel>
+
+      <IpLastNameOfCustomer>UWCLEAN</IpLastNameOfCustomer>
+
+      <IpPhoneExtension>0</IpPhoneExtension>
+
+      <IpEveAreaCode>0</IpEveAreaCode>
+
+      <IpMarketKeyCode>WUD001</IpMarketKeyCode>
+
+      <IpCurrentCarrierNo>19</IpCurrentCarrierNo>
+
+      <IpMasterTerrAdjType>3</IpMasterTerrAdjType>
+
+      <IpMasterCoNo>2</IpMasterCoNo>
+
+      <IpMasterStateNo>12</IpMasterStateNo>
+
+      <IpEvePhone2>0</IpEvePhone2>
+
+      <IpExcludeAutoCall>0</IpExcludeAutoCall>
+
+      <IpZipCode1>60103</IpZipCode1>
+
+      <IpNoOfAdd3Yrs>0</IpNoOfAdd3Yrs>
+
+      <IpDayAreaCode>0</IpDayAreaCode>
+
+      <IpSr22AppliedTest>0</IpSr22AppliedTest>
+
+      <IpLl3AppliedTest>0</IpLl3AppliedTest>
+
+      <IpEvePhoneType>0</IpEvePhoneType>
+
+      <IpSubProductCode>0</IpSubProductCode>
+
+      <IpAddressTerr>132</IpAddressTerr>
+
+      <IpRiskZipCode2>0</IpRiskZipCode2>
+
+      <IpAddressStateNo>12</IpAddressStateNo>
+
+      <IpDayPhone1>0</IpDayPhone1>
+
+      <IpAddressCity>BARTLETT</IpAddressCity>
+
+      <IpDayPhone2>0</IpDayPhone2>
+
+      <IpRiskState>0</IpRiskState>
+
+      <IpSpecialCorresNo>4</IpSpecialCorresNo>
+
+      <IpContactTypeNo>4</IpContactTypeNo>
+
+      <IpEvePhone1>0</IpEvePhone1>
+
+      <IpAddressStateCode>IL</IpAddressStateCode>
+
+      <IpMasterTerrNo>132</IpMasterTerrNo>
+
+      <IpCurrentLimits>2</IpCurrentLimits>
+
+      <IpSocialSecurityNo>7078</IpSocialSecurityNo>
+
+      <IpEMailAddress>TMOSER@KEMPER.COM</IpEMailAddress>
+
+      <IpAnnualIncome>0</IpAnnualIncome>
+
+      <IpBestTimeToCall>0</IpBestTimeToCall>
+
+      <IpZipCode2>0</IpZipCode2>
+
+      <IpNoOfEmp3Yrs>0</IpNoOfEmp3Yrs>
+
+      <IpCreditScore>0400</IpCreditScore>
+
+      <IpAddressVerificationTest>0</IpAddressVerificationTest>
+
+      <IpDayExt>0</IpDayExt>
+
+      <IpMultiStateTest>0</IpMultiStateTest>
+
+      <IpEveExt>0</IpEveExt>
+
+      <IpQuasiBindTest>0</IpQuasiBindTest>
+
+      <IpDrivExclusionTest>0</IpDrivExclusionTest>
+
+      <IpMasterTerrAdqType>2</IpMasterTerrAdqType>
+
+      <IpFirstNameOfCustomer>John</IpFirstNameOfCustomer>
+
+    </Customer>
+
+
+    -<Coverages>
+
+      <IpCoverageCt>1</IpCoverageCt>
+
+
+      -<Coverage SLICE="1" json:Array="true">
+
+
+        -<VehicleCoverages>
+
+          <IpVehicleCoverageCt>1</IpVehicleCoverageCt>
+
+
+          -<VehicleCoverage SLICE="1">
+
+            <IpCompPrem>192</IpCompPrem>
+
+            <IpCarSeatTest>0</IpCarSeatTest>
+
+            <IpBiBasePrem>854</IpBiBasePrem>
+
+            <IpCustCompPrem>0</IpCustCompPrem>
+
+            <IpUmBiPrem>162</IpUmBiPrem>
+
+            <IpUimPd100>0</IpUimPd100>
+
+            <IpUmbiSl100>0</IpUmbiSl100>
+
+            <IpVehMexicoCovTest>0</IpVehMexicoCovTest>
+
+            <IpVehMexicoCovPrem>0</IpVehMexicoCovPrem>
+
+            <IpRespCollDedPrem>0</IpRespCollDedPrem>
+
+            <IpCollPrem>766</IpCollPrem>
+
+            <IpDependentProtTest>0</IpDependentProtTest>
+
+            <IpSoundReproPrem>0</IpSoundReproPrem>
+
+            <IpSoundRecTranCost>0</IpSoundRecTranCost>
+
+            <IpCompBasePrem>254</IpCompBasePrem>
+
+            <IpTapeCoverageTest>0</IpTapeCoverageTest>
+
+            <IpExtdMedPrem>0</IpExtdMedPrem>
+
+            <IpRentalVehCollPrem>0</IpRentalVehCollPrem>
+
+            <IpLossOfUseTest>0</IpLossOfUseTest>
+
+            <IpUmPd100>0</IpUmPd100>
+
+            <IpMhRentTest>0</IpMhRentTest>
+
+            <IpRateLockPrem>0</IpRateLockPrem>
+
+            <IpAutoLoanCollPrem>0</IpAutoLoanCollPrem>
+
+            <IpRespCollDedTest>0</IpRespCollDedTest>
+
+            <IpPlatinumDisplayPrem>36</IpPlatinumDisplayPrem>
+
+            <IpTowAndLaborPrem>4</IpTowAndLaborPrem>
+
+            <IpRateLockTest>0</IpRateLockTest>
+
+            <IpAddlPipPrem>0</IpAddlPipPrem>
+
+            <IpPipBasePrem>0</IpPipBasePrem>
+
+            <IpTowAndLabor>0</IpTowAndLabor>
+
+            <IpDependentProtPrem>21</IpDependentProtPrem>
+
+            <IpVehSecIso>10</IpVehSecIso>
+
+            <IpMedPayBasePrem>271</IpMedPayBasePrem>
+
+            <IpUimbiPerOcc100>1000</IpUimbiPerOcc100>
+
+            <IpAssuranceTest>0</IpAssuranceTest>
+
+            <IpElectEquipCost>0</IpElectEquipCost>
+
+            <IpDisappearDedTest>0</IpDisappearDedTest>
+
+            <IpTotalVehPrem>2464</IpTotalVehPrem>
+
+            <IpUimbiPerPerson100>500</IpUimbiPerPerson100>
+
+            <IpAutoDeathPrem>0</IpAutoDeathPrem>
+
+            <IpRentalExtdTest>0</IpRentalExtdTest>
+
+            <IpPetTest>0</IpPetTest>
+
+            <IpWaivedCollTest>0</IpWaivedCollTest>
+
+            <IpUmbiCsl100>0</IpUmbiCsl100>
+
+            <IpUimBiPrem>0</IpUimBiPrem>
+
+            <IpObelPrem>0</IpObelPrem>
+
+            <IpPetPrem>6</IpPetPrem>
+
+            <IpTripInterruptPrem>9</IpTripInterruptPrem>
+
+            <IpVehPriIso>1481</IpVehPriIso>
+
+            <IpAccForgiveTest>0</IpAccForgiveTest>
+
+            <IpUmBiBasePrem>188</IpUmBiBasePrem>
+
+            <IpCoveredPropDed>0</IpCoveredPropDed>
+
+            <IpCatClaimsPrem>0</IpCatClaimsPrem>
+
+            <IpUimbiSl100>0</IpUimbiSl100>
+
+            <IpUmbiPerOcc100>1000</IpUmbiPerOcc100>
+
+            <IpLiabSubsidyFee>0</IpLiabSubsidyFee>
+
+            <IpAutoLoanTest>0</IpAutoLoanTest>
+
+            <IpRentalRePrem>34</IpRentalRePrem>
+
+            <IpSoundRecTranPrem>0</IpSoundRecTranPrem>
+
+            <IpPpiPrem>0</IpPpiPrem>
+
+            <IpUmPdPrem>0</IpUmPdPrem>
+
+            <IpCarSeatPrem>0</IpCarSeatPrem>
+
+            <IpUimPdBasePrem>0</IpUimPdBasePrem>
+
+            <IpWorkLossPrem>0</IpWorkLossPrem>
+
+            <IpCompSubsidyFee>0</IpCompSubsidyFee>
+
+            <IpWorkLossBasePrem>0</IpWorkLossBasePrem>
+
+            <IpCollBasePrem>1015</IpCollBasePrem>
+
+            <IpBrodCollTest>0</IpBrodCollTest>
+
+            <IpRentalPrem>0</IpRentalPrem>
+
+            <IpCollDed>500</IpCollDed>
+
+            <IpPdSlPrem>486</IpPdSlPrem>
+
+            <IpRentalVehCompPrem>0</IpRentalVehCompPrem>
+
+            <IpUimbiCsl100>0</IpUimbiCsl100>
+
+            <IpUimBiBasePrem>0</IpUimBiBasePrem>
+
+            <IpTotalDisablePrem>0</IpTotalDisablePrem>
+
+            <IpLossOfUsePrem>0</IpLossOfUsePrem>
+
+            <IpMedPayPrem>213</IpMedPayPrem>
+
+            <IpUmbiPerPerson100>500</IpUmbiPerPerson100>
+
+            <IpCompDed>500</IpCompDed>
+
+            <IpUmPdDed>0</IpUmPdDed>
+
+            <IpPipPrem>0</IpPipPrem>
+
+            <IpRatedDriver>2</IpRatedDriver>
+
+            <IpBiPrem>645</IpBiPrem>
+
+            <IpFsgTest>0</IpFsgTest>
+
+            <IpAutoLoanCompPrem>0</IpAutoLoanCompPrem>
+
+            <IpUimPdPrem>0</IpUimPdPrem>
+
+            <IpCollSubsidyFee>0</IpCollSubsidyFee>
+
+            <IpDisappearDedPrem>60</IpDisappearDedPrem>
+
+            <IpAddlPipBasePrem>0</IpAddlPipBasePrem>
+
+            <IpAccForgivePrem>156</IpAccForgivePrem>
+
+            <IpPdBasePrem>644</IpPdBasePrem>
+
+            <IpAssurancePrem>0</IpAssurancePrem>
+
+            <IpCustEquipTest>0</IpCustEquipTest>
+
+            <IpLimitedCollTest>0</IpLimitedCollTest>
+
+            <IpUmPdBasePrem>0</IpUmPdBasePrem>
+
+            <IpTripInterruptTest>0</IpTripInterruptTest>
+
+            <IpCovPropertyPrem>0</IpCovPropertyPrem>
+
+            <IpRentalVehTest>0</IpRentalVehTest>
+
+            <IpCustCollPrem>0</IpCustCollPrem>
+
+          </VehicleCoverage>
+
+        </VehicleCoverages>
+
+
+        -<PolicyCoverage>
+
+          <IpNoOfMinors>0</IpNoOfMinors>
+
+          <IpNoOfOtc>0</IpNoOfOtc>
+
+          <IpBiPerPerson100>500</IpBiPerPerson100>
+
+          <IpPipFuneral10>0</IpPipFuneral10>
+
+          <IpHomeownershipType>3</IpHomeownershipType>
+
+          <IpStateOption5>0</IpStateOption5>
+
+          <IpInsolvencyFactor>0</IpInsolvencyFactor>
+
+          <IpTierLevelUw>CA</IpTierLevelUw>
+
+          <IpTierLevelCredit>X3</IpTierLevelCredit>
+
+          <IpStateOption2>0</IpStateOption2>
+
+          <IpTierLevel>5</IpTierLevel>
+
+          <IpPipAgg100>0</IpPipAgg100>
+
+          <IpPdSl100>250</IpPdSl100>
+
+          <IpUimType>0</IpUimType>
+
+          <IpAccDeathPrem>0</IpAccDeathPrem>
+
+          <IpPrdPrem>0</IpPrdPrem>
+
+          <IpTierFactor>0</IpTierFactor>
+
+          <IpExtraMed1000>0</IpExtraMed1000>
+
+          <IpDisappearDedCredit>0</IpDisappearDedCredit>
+
+          <IpStateOption6>0</IpStateOption6>
+
+          <IpTierScore>0</IpTierScore>
+
+          <IpWorkLossTest>0</IpWorkLossTest>
+
+          <IpNoOfOmittedIncidents>0</IpNoOfOmittedIncidents>
+
+          <IpPipWork10>0</IpPipWork10>
+
+          <IpPpiTest>0</IpPpiTest>
+
+          <IpExtLiabPrem>0</IpExtLiabPrem>
+
+          <IpPipMed100>0</IpPipMed100>
+
+          <IpAutoDeathTest>0</IpAutoDeathTest>
+
+          <IpAltQuoteTestCov>0</IpAltQuoteTestCov>
+
+          <IpExtMedPrem>0</IpExtMedPrem>
+
+          <IpTortTest>0</IpTortTest>
+
+          <IpStateOption3>0</IpStateOption3>
+
+
+          -<IpOptionalCovDates>
+
+            <IpRateLockDate>00/00/0000</IpRateLockDate>
+
+            <IpAccForgiveDate>00/00/0000</IpAccForgiveDate>
+
+            <IpDisappearDedDate>00/00/0000</IpDisappearDedDate>
+
+          </IpOptionalCovDates>
+
+          <IpBundle2Prem>216</IpBundle2Prem>
+
+          <IpLiabBuybackTest>0</IpLiabBuybackTest>
+
+          <IpNoOfNonchargeables>0</IpNoOfNonchargeables>
+
+          <IpCcmcCovTest>0</IpCcmcCovTest>
+
+          <IpStateOption4>0</IpStateOption4>
+
+          <IpBundle3Prem>27</IpBundle3Prem>
+
+          <IpBundle1Prem>47</IpBundle1Prem>
+
+          <IpMexicoCovTest>0</IpMexicoCovTest>
+
+          <IpCcmcPrem>0</IpCcmcPrem>
+
+          <IpPipTest>0</IpPipTest>
+
+          <IpPipSl1000>0</IpPipSl1000>
+
+          <IpPipDed>0</IpPipDed>
+
+          <IpBrodNoOfPersons>0</IpBrodNoOfPersons>
+
+          <IpPipPerOcc1000>0</IpPipPerOcc1000>
+
+          <IpPipDeath10>0</IpPipDeath10>
+
+          <IpStateOption1>0</IpStateOption1>
+
+          <IpLiabDed>0</IpLiabDed>
+
+          <IpObelTest>0</IpObelTest>
+
+          <IpBiCsl100>0</IpBiCsl100>
+
+          <IpNoOfChargeables>0</IpNoOfChargeables>
+
+          <IpPipPerPerson1000>0</IpPipPerPerson1000>
+
+          <IpExtMed100>0</IpExtMed100>
+
+          <IpPipWorkDed>0</IpPipWorkDed>
+
+          <IpAccDeath1000>0</IpAccDeath1000>
+
+          <IpUmBiDed>0</IpUmBiDed>
+
+          <IpUwCoScore>0</IpUwCoScore>
+
+          <IpExtMedTest>0</IpExtMedTest>
+
+          <IpMedPay10>500</IpMedPay10>
+
+          <IpNoOfVehiclesCov>0</IpNoOfVehiclesCov>
+
+          <IpTotalDisableTest>0</IpTotalDisableTest>
+
+          <IpExtNamedOrRelative>0</IpExtNamedOrRelative>
+
+          <IpMexicoPrem>0</IpMexicoPrem>
+
+          <IpUmType>0</IpUmType>
+
+          <IpBiPerOcc100>1000</IpBiPerOcc100>
+
+        </PolicyCoverage>
+
+
+        -<SixMonthPremiums>
+
+          <IpSmTWorkLossBasePrem>0</IpSmTWorkLossBasePrem>
+
+          <IpSmTAirBagPrem>0</IpSmTAirBagPrem>
+
+          <IpSmInsolvencyPrem>0</IpSmInsolvencyPrem>
+
+          <IpSmTRetroLoyaltyPrem>108</IpSmTRetroLoyaltyPrem>
+
+          <IpSmVariableExpensePrem>0</IpSmVariableExpensePrem>
+
+          <IpSmTAwaySchoolPrem>0</IpSmTAwaySchoolPrem>
+
+          <IpSmTTotalVehPrem>2464</IpSmTTotalVehPrem>
+
+          <IpSmTPdBasePrem>644</IpSmTPdBasePrem>
+
+          <IpSmAccDeathPrem>0</IpSmAccDeathPrem>
+
+          <IpSmTWelcomeBackPrem>0</IpSmTWelcomeBackPrem>
+
+          <IpSmTPref4payPrem>189</IpSmTPref4payPrem>
+
+          <IpSmTPrefMonthlyBPrem>63</IpSmTPrefMonthlyBPrem>
+
+          <IpSmTotalTortPrem>0</IpSmTotalTortPrem>
+
+          <IpSmExclDrivSurchPrem>0</IpSmExclDrivSurchPrem>
+
+          <IpSmTBiBasePrem>854</IpSmTBiBasePrem>
+
+          <IpSmTAssurancePrem>0</IpSmTAssurancePrem>
+
+          <IpSmTMultiPolicyPrem>291</IpSmTMultiPolicyPrem>
+
+          <IpSmTPetPrem>6</IpSmTPetPrem>
+
+          <IpSmCommuteSurchPrem>0</IpSmCommuteSurchPrem>
+
+          <IpSmTUimBiBasePrem>0</IpSmTUimBiBasePrem>
+
+          <IpSmTUimPdBasePrem>0</IpSmTUimPdBasePrem>
+
+          <IpSmTSoundReproPrem>0</IpSmTSoundReproPrem>
+
+          <IpSmTBasePrem>3226</IpSmTBasePrem>
+
+          <IpSmTRateLockPrem>0</IpSmTRateLockPrem>
+
+          <IpSmTPipPrem>0</IpSmTPipPrem>
+
+          <IpSmTCompBasePrem>254</IpSmTCompBasePrem>
+
+          <IpSmTRentalRePrem>34</IpSmTRentalRePrem>
+
+          <IpSmTPipBasePrem>0</IpSmTPipBasePrem>
+
+          <IpSmTotalPolPrem>2464</IpSmTotalPolPrem>
+
+          <IpSmOtherPolPrem>0</IpSmOtherPolPrem>
+
+          <IpSmAccViolPrem>0</IpSmAccViolPrem>
+
+          <IpSmExpenseLoadSurchPrem>372</IpSmExpenseLoadSurchPrem>
+
+          <IpSmTGroupdiscPrem>0</IpSmTGroupdiscPrem>
+
+          <IpSmTUmBiBasePrem>188</IpSmTUmBiBasePrem>
+
+          <IpSmTUmPdBasePrem>0</IpSmTUmPdBasePrem>
+
+          <IpSmTPrefPayPrem>0</IpSmTPrefPayPrem>
+
+          <IpSmTWorkLossPrem>0</IpSmTWorkLossPrem>
+
+          <IpSmTPrefMonthlyAPrem>126</IpSmTPrefMonthlyAPrem>
+
+          <IpSmTotalBasicPrem>0</IpSmTotalBasicPrem>
+
+          <IpSmTPrefMonthlyCPrem>0</IpSmTPrefMonthlyCPrem>
+
+          <IpSmTPaperlessPrem>145</IpSmTPaperlessPrem>
+
+          <IpSmTDisappearDedPrem>60</IpSmTDisappearDedPrem>
+
+          <IpSmExtLiabPrem>0</IpSmExtLiabPrem>
+
+          <IpSmTDiscountPrem>762</IpSmTDiscountPrem>
+
+          <IpSixMonthPremiumCt>1</IpSixMonthPremiumCt>
+
+
+          -<SixMonthPremium SLICE="1">
+
+            <IpSmRetiredDrivPrem>0</IpSmRetiredDrivPrem>
+
+            <IpSmPrefPayrollPrem>126</IpSmPrefPayrollPrem>
+
+            <IpSmTotalVehBasePrem>3226</IpSmTotalVehBasePrem>
+
+            <IpSmPref1payPrem>380</IpSmPref1payPrem>
+
+            <IpSmUmPdBasePrem>0</IpSmUmPdBasePrem>
+
+            <IpSmAutoLoanPrem>0</IpSmAutoLoanPrem>
+
+            <IpSmEftDiscPrem>0</IpSmEftDiscPrem>
+
+            <IpSmAccForgivePrem>156</IpSmAccForgivePrem>
+
+            <IpSmMedPayBasePrem>271</IpSmMedPayBasePrem>
+
+            <IpSmComeBackPrem>0</IpSmComeBackPrem>
+
+            <IpSmTripInterruptPrem>9</IpSmTripInterruptPrem>
+
+            <IpSmTotalVehNonPrem>0</IpSmTotalVehNonPrem>
+
+            <IpSmWorkLossPrem>0</IpSmWorkLossPrem>
+
+            <IpSmSoundReproPrem>0</IpSmSoundReproPrem>
+
+            <IpSmCustomizedPrem>0</IpSmCustomizedPrem>
+
+            <IpSmTotalTaxPrem>0</IpSmTotalTaxPrem>
+
+            <IpSmGoodDriverPrem>0</IpSmGoodDriverPrem>
+
+            <IpSmPaidInFullPrem>0</IpSmPaidInFullPrem>
+
+            <IpSmDisappearDedPrem>60</IpSmDisappearDedPrem>
+
+            <IpSmTotalVehBasicPrem>0</IpSmTotalVehBasicPrem>
+
+            <IpSmPpiPrem>0</IpSmPpiPrem>
+
+            <IpSmPassiveRestraintPrem>0</IpSmPassiveRestraintPrem>
+
+            <IpSmGoodStudentPrem>0</IpSmGoodStudentPrem>
+
+            <IpSmBiBasePrem>854</IpSmBiBasePrem>
+
+            <IpSmPrefMonthlyBPrem>63</IpSmPrefMonthlyBPrem>
+
+            <IpSmPref4payPrem>189</IpSmPref4payPrem>
+
+            <IpSmRenewalCreditPrem>0</IpSmRenewalCreditPrem>
+
+            <IpSmMatureDrivPrem>0</IpSmMatureDrivPrem>
+
+            <IpSmAntiLockBrakePrem>0</IpSmAntiLockBrakePrem>
+
+            <IpSmTotalVehPrem>2464</IpSmTotalVehPrem>
+
+            <IpSmMuniTaxPrem>0</IpSmMuniTaxPrem>
+
+            <IpSmRentalPrem>0</IpSmRentalPrem>
+
+            <IpSmUmPdPrem>0</IpSmUmPdPrem>
+
+            <IpSmRentalRePrem>34</IpSmRentalRePrem>
+
+            <IpSmCarSeatPrem>0</IpSmCarSeatPrem>
+
+            <IpSmWecomeBackPrem>0</IpSmWecomeBackPrem>
+
+            <IpSmExtdMedPrem>0</IpSmExtdMedPrem>
+
+            <IpSmUmBiBasePrem>188</IpSmUmBiBasePrem>
+
+            <IpSmBiPrem>645</IpSmBiPrem>
+
+            <IpSmTotalDisablePrem>0</IpSmTotalDisablePrem>
+
+            <IpSmUimBiPrem>0</IpSmUimBiPrem>
+
+            <IpSmMarriedPrem>128</IpSmMarriedPrem>
+
+            <IpSmLossOfUsePrem>0</IpSmLossOfUsePrem>
+
+            <IpSmCustCollPrem>0</IpSmCustCollPrem>
+
+            <IpSmMingleMatePrem>291</IpSmMingleMatePrem>
+
+            <IpSmPipBasePrem>0</IpSmPipBasePrem>
+
+            <IpSmAssurancePrem>0</IpSmAssurancePrem>
+
+            <IpSmPrefPayPrem>0</IpSmPrefPayPrem>
+
+            <IpSmPaperlessPrem>145</IpSmPaperlessPrem>
+
+            <IpSmBasicPdSlPrem>0</IpSmBasicPdSlPrem>
+
+            <IpSmLiabSubsidyFee>0</IpSmLiabSubsidyFee>
+
+            <IpSmPdSlPrem>486</IpSmPdSlPrem>
+
+            <IpSmPrefMonthlyAPrem>126</IpSmPrefMonthlyAPrem>
+
+            <IpSmPipPrem>0</IpSmPipPrem>
+
+            <IpSmTowAndLaborPrem>4</IpSmTowAndLaborPrem>
+
+            <IpSmMedPayPrem>213</IpSmMedPayPrem>
+
+            <IpSmPref2payPrem>254</IpSmPref2payPrem>
+
+            <IpSmPipFuneralPrem>0</IpSmPipFuneralPrem>
+
+            <IpSmCollBasePrem>1015</IpSmCollBasePrem>
+
+            <IpSmRespCollDedPrem>0</IpSmRespCollDedPrem>
+
+            <IpSmPetPrem>6</IpSmPetPrem>
+
+            <IpSmCompSubsidyFee>0</IpSmCompSubsidyFee>
+
+            <IpSmCollSubsidyFee>0</IpSmCollSubsidyFee>
+
+            <IpSmMuniTaxSurchargePrem>0</IpSmMuniTaxSurchargePrem>
+
+            <IpSmBasicPipPrem>0</IpSmBasicPipPrem>
+
+            <IpSmMultiPolicyPrem>291</IpSmMultiPolicyPrem>
+
+            <IpSmAutoLoanCompPrem>0</IpSmAutoLoanCompPrem>
+
+            <IpSmDisablingDevicePrem>0</IpSmDisablingDevicePrem>
+
+            <IpSmRetroLoyaltyPrem>108</IpSmRetroLoyaltyPrem>
+
+            <IpSmDependentProtPrem>21</IpSmDependentProtPrem>
+
+            <IpSmUmBiPrem>162</IpSmUmBiPrem>
+
+            <IpSmMuniTaxDiff>0</IpSmMuniTaxDiff>
+
+            <IpSmAutoLoanCollPrem>0</IpSmAutoLoanCollPrem>
+
+            <IpSmContCoveragePrem>0</IpSmContCoveragePrem>
+
+            <IpSmSoundRecTranPrem>0</IpSmSoundRecTranPrem>
+
+            <IpSmCollPrem>766</IpSmCollPrem>
+
+            <IpSmCustCompPrem>0</IpSmCustCompPrem>
+
+            <IpSmVehMexicoCovPrem>0</IpSmVehMexicoCovPrem>
+
+            <IpSmPrefMonthlyCPrem>0</IpSmPrefMonthlyCPrem>
+
+            <IpSmPdBasePrem>644</IpSmPdBasePrem>
+
+            <IpSmAutoDeathPrem>0</IpSmAutoDeathPrem>
+
+            <IpSmSafeVehPrem>0</IpSmSafeVehPrem>
+
+            <IpSmDdcPrem>0</IpSmDdcPrem>
+
+            <IpSmRateLockPrem>0</IpSmRateLockPrem>
+
+            <IpSmBasicBiPrem>0</IpSmBasicBiPrem>
+
+            <IpSmRentalVehCollPrem>0</IpSmRentalVehCollPrem>
+
+            <IpSmDrivTrainingPrem>0</IpSmDrivTrainingPrem>
+
+            <IpSmAutoSurchargePrem>0</IpSmAutoSurchargePrem>
+
+            <IpSmSafeSoundPrem>0</IpSmSafeSoundPrem>
+
+            <IpSmAddlPipPrem>0</IpSmAddlPipPrem>
+
+            <IpSmRentalVehPrem>0</IpSmRentalVehPrem>
+
+            <IpSmOtherVehPrem>0</IpSmOtherVehPrem>
+
+            <IpSmAutoSurchargeDiff>0</IpSmAutoSurchargeDiff>
+
+            <IpSmCatClaimsPrem>0</IpSmCatClaimsPrem>
+
+            <IpSmMuniSurchargeDiff>0</IpSmMuniSurchargeDiff>
+
+            <IpSmPayrolldiscPrem>0</IpSmPayrolldiscPrem>
+
+            <IpSmHomeownerPrem>90</IpSmHomeownerPrem>
+
+            <IpSmCompPrem>192</IpSmCompPrem>
+
+            <IpSmUimBiBasePrem>0</IpSmUimBiBasePrem>
+
+            <IpSmCompBasePrem>254</IpSmCompBasePrem>
+
+            <IpSmAirBagPrem>0</IpSmAirBagPrem>
+
+            <IpSmMultiCarPrem>0</IpSmMultiCarPrem>
+
+            <IpSmTotalVehNoTaxes>0</IpSmTotalVehNoTaxes>
+
+            <IpSmUimPdPrem>0</IpSmUimPdPrem>
+
+            <IpSmPrefBiWeeklyPrem>126</IpSmPrefBiWeeklyPrem>
+
+            <IpSmRentalVehCompPrem>0</IpSmRentalVehCompPrem>
+
+            <IpSmUimPdBasePrem>0</IpSmUimPdBasePrem>
+
+            <IpSmObelPrem>0</IpSmObelPrem>
+
+            <IpSmAddlPipBasePrem>0</IpSmAddlPipBasePrem>
+
+            <IpSmCovPropertyPrem>0</IpSmCovPropertyPrem>
+
+          </SixMonthPremium>
+
+          <IpSmTDisablingDevicePrem>0</IpSmTDisablingDevicePrem>
+
+          <IpSmTMingleMatePrem>291</IpSmTMingleMatePrem>
+
+          <IpSmTBundle1Prem>47</IpSmTBundle1Prem>
+
+          <IpSmTPrefBiWeeklyPrem>126</IpSmTPrefBiWeeklyPrem>
+
+          <IpSmTAddlPipBasePrem>0</IpSmTAddlPipBasePrem>
+
+          <IpSmTotalBasicTortPrem>0</IpSmTotalBasicTortPrem>
+
+          <IpSmTDdcPrem>0</IpSmTDdcPrem>
+
+          <IpSmTMultiCarPrem>0</IpSmTMultiCarPrem>
+
+          <IpSmTAffinityPrem>0</IpSmTAffinityPrem>
+
+          <IpSmTGoodStudentPrem>0</IpSmTGoodStudentPrem>
+
+          <IpSmTDependentProtPrem>21</IpSmTDependentProtPrem>
+
+          <IpSmTPref1payPrem>380</IpSmTPref1payPrem>
+
+          <IpSmTMedPayBasePrem>271</IpSmTMedPayBasePrem>
+
+          <IpSmTotalVehPremNoTaxes>0</IpSmTotalVehPremNoTaxes>
+
+          <IpSmTBundle3Prem>27</IpSmTBundle3Prem>
+
+          <IpSmTPref2payPrem>254</IpSmTPref2payPrem>
+
+          <IpSmTHomeownerPrem>90</IpSmTHomeownerPrem>
+
+          <IpSmTCollBasePrem>1015</IpSmTCollBasePrem>
+
+          <IpSmTotalPremNoTaxes>0</IpSmTotalPremNoTaxes>
+
+          <IpSmTBundle2Prem>216</IpSmTBundle2Prem>
+
+          <IpSmTComeBackPrem>0</IpSmTComeBackPrem>
+
+          <IpSmTMatureDrivPrem>0</IpSmTMatureDrivPrem>
+
+          <IpSmTAccForgivePrem>156</IpSmTAccForgivePrem>
+
+          <IpSmTContCoveragePrem>0</IpSmTContCoveragePrem>
+
+          <IpSmExtMedPrem>0</IpSmExtMedPrem>
+
+          <IpSmTPdSlPrem>486</IpSmTPdSlPrem>
+
+          <IpSmTUimBiPrem>0</IpSmTUimBiPrem>
+
+          <IpSmHighPerfSurchPrem>0</IpSmHighPerfSurchPrem>
+
+          <IpSmTBiPrem>645</IpSmTBiPrem>
+
+          <IpSmTMarriedPrem>128</IpSmTMarriedPrem>
+
+          <IpSmTTripInterruptPrem>9</IpSmTTripInterruptPrem>
+
+          <IpSmTCollPrem>766</IpSmTCollPrem>
+
+          <IpSmTUmBiPrem>162</IpSmTUmBiPrem>
+
+          <IpSmTTowAndLaborPrem>4</IpSmTTowAndLaborPrem>
+
+          <IpSmTPassiveRestraintPrem>0</IpSmTPassiveRestraintPrem>
+
+          <IpSmCcmcPrem>0</IpSmCcmcPrem>
+
+          <IpSmTCarSeatPrem>0</IpSmTCarSeatPrem>
+
+          <IpSmMexicoPrem>0</IpSmMexicoPrem>
+
+          <IpSmTMedPayPrem>213</IpSmTMedPayPrem>
+
+          <IpSmTPrefPayrollPrem>126</IpSmTPrefPayrollPrem>
+
+          <IpSmTSafeSoundPrem>0</IpSmTSafeSoundPrem>
+
+          <IpSmTCompPrem>192</IpSmTCompPrem>
+
+          <IpSmTotalNonPrem>0</IpSmTotalNonPrem>
+
+        </SixMonthPremiums>
+
+
+        -<Savings>
+
+          <IpHighPerfSurchPrem>0</IpHighPerfSurchPrem>
+
+          <IpExclDrivSurchPrem>0</IpExclDrivSurchPrem>
+
+          <IpAccViolPrem>0</IpAccViolPrem>
+
+          <IpVariableExpensePrem>0</IpVariableExpensePrem>
+
+          <IpExpenseLoadSurchPrem>372</IpExpenseLoadSurchPrem>
+
+          <IpCommuteSurchPrem>0</IpCommuteSurchPrem>
+
+          <IpSavingCt>1</IpSavingCt>
+
+
+          -<Saving SLICE="1">
+
+            <IpComeBackPrem>0</IpComeBackPrem>
+
+            <IpSafeSoundPrem>0</IpSafeSoundPrem>
+
+            <IpDdcPrem>0</IpDdcPrem>
+
+            <IpAntiLockBrakePrem>0</IpAntiLockBrakePrem>
+
+            <IpPrefPayrollPrem>126</IpPrefPayrollPrem>
+
+            <IpContCoveragePrem>0</IpContCoveragePrem>
+
+            <IpMingleMatePrem>291</IpMingleMatePrem>
+
+            <IpPref1payPrem>380</IpPref1payPrem>
+
+            <IpPrefMonthlyBPrem>63</IpPrefMonthlyBPrem>
+
+            <IpMultiCarPrem>0</IpMultiCarPrem>
+
+            <IpDisablingDevicePrem>0</IpDisablingDevicePrem>
+
+            <IpPayrolldiscPrem>0</IpPayrolldiscPrem>
+
+            <IpEftDiscPrem>0</IpEftDiscPrem>
+
+            <IpPrefBiWeeklyPrem>126</IpPrefBiWeeklyPrem>
+
+            <IpPref4payPrem>189</IpPref4payPrem>
+
+            <IpPassiveRestraintPrem>0</IpPassiveRestraintPrem>
+
+            <IpGoodDriverPrem>0</IpGoodDriverPrem>
+
+            <IpWelcomeBackPrem>0</IpWelcomeBackPrem>
+
+            <IpNonDrinkSmokePrem>0</IpNonDrinkSmokePrem>
+
+            <IpPrefMonthlyAPrem>126</IpPrefMonthlyAPrem>
+
+            <IpPref2payPrem>254</IpPref2payPrem>
+
+            <IpMultiPolicyPrem>291</IpMultiPolicyPrem>
+
+            <IpRenewalCreditPrem>0</IpRenewalCreditPrem>
+
+            <IpMatureDrivPrem>0</IpMatureDrivPrem>
+
+            <IpPrefPayPrem>0</IpPrefPayPrem>
+
+            <IpSafeVehPrem>0</IpSafeVehPrem>
+
+            <IpPrefMonthlyCPrem>0</IpPrefMonthlyCPrem>
+
+            <IpMarriedPrem>128</IpMarriedPrem>
+
+            <IpPaidInFullPrem>0</IpPaidInFullPrem>
+
+            <IpRetroLoyaltyPrem>108</IpRetroLoyaltyPrem>
+
+            <IpGoodStudentPrem>0</IpGoodStudentPrem>
+
+            <IpAirBagPrem>0</IpAirBagPrem>
+
+            <IpDrivTrainingPrem>0</IpDrivTrainingPrem>
+
+            <IpHomeownerPrem>90</IpHomeownerPrem>
+
+            <IpRetiredDrivPrem>0</IpRetiredDrivPrem>
+
+            <IpPaperlessPrem>145</IpPaperlessPrem>
+
+          </Saving>
+
+        </Savings>
+
+      </Coverage>
+
+    </Coverages>
+
+
+    -<DownPayOptions>
+
+      <IpDownPayOptionCt>6</IpDownPayOptionCt>
+
+
+      -<DownPayOption SLICE="1">
+
+        <IpDpoTotalPref>2084</IpDpoTotalPref>
+
+        <IpDpoInstamt>0</IpDpoInstamt>
+
+        <IpDpoBplanno>030179</IpDpoBplanno>
+
+        <IpDpoInstfee>0</IpDpoInstfee>
+
+        <IpDpoRdnamt>2084</IpDpoRdnamt>
+
+        <IpDpoBplan>PAY IN FULL</IpDpoBplan>
+
+        <IpDpoPolicyfee>0</IpDpoPolicyfee>
+
+        <IpDpoAnonins>0</IpDpoAnonins>
+
+        <IpDpoAdnamt>0</IpDpoAdnamt>
+
+        <IpDpoRnonins>0</IpDpoRnonins>
+
+        <IpDpoDnfee>0</IpDpoDnfee>
+
+      </DownPayOption>
+
+
+      -<DownPayOption SLICE="2">
+
+        <IpDpoTotalPref>2210</IpDpoTotalPref>
+
+        <IpDpoInstamt>1105</IpDpoInstamt>
+
+        <IpDpoBplanno>040179</IpDpoBplanno>
+
+        <IpDpoInstfee>0</IpDpoInstfee>
+
+        <IpDpoRdnamt>1105</IpDpoRdnamt>
+
+        <IpDpoBplan>2 PAYMENTS</IpDpoBplan>
+
+        <IpDpoPolicyfee>0</IpDpoPolicyfee>
+
+        <IpDpoAnonins>0</IpDpoAnonins>
+
+        <IpDpoAdnamt>0</IpDpoAdnamt>
+
+        <IpDpoRnonins>0</IpDpoRnonins>
+
+        <IpDpoDnfee>0</IpDpoDnfee>
+
+      </DownPayOption>
+
+
+      -<DownPayOption SLICE="3">
+
+        <IpDpoTotalPref>2275</IpDpoTotalPref>
+
+        <IpDpoInstamt>568.75</IpDpoInstamt>
+
+        <IpDpoBplanno>050179</IpDpoBplanno>
+
+        <IpDpoInstfee>0</IpDpoInstfee>
+
+        <IpDpoRdnamt>568.75</IpDpoRdnamt>
+
+        <IpDpoBplan>4 PAYMENTS</IpDpoBplan>
+
+        <IpDpoPolicyfee>0</IpDpoPolicyfee>
+
+        <IpDpoAnonins>0</IpDpoAnonins>
+
+        <IpDpoAdnamt>0</IpDpoAdnamt>
+
+        <IpDpoRnonins>0</IpDpoRnonins>
+
+        <IpDpoDnfee>0</IpDpoDnfee>
+
+      </DownPayOption>
+
+
+      -<DownPayOption SLICE="4">
+
+        <IpDpoTotalPref>2464</IpDpoTotalPref>
+
+        <IpDpoInstamt>205.32</IpDpoInstamt>
+
+        <IpDpoBplanno>150579</IpDpoBplanno>
+
+        <IpDpoInstfee>0</IpDpoInstfee>
+
+        <IpDpoRdnamt>205.48</IpDpoRdnamt>
+
+        <IpDpoBplan>MONTHLY C</IpDpoBplan>
+
+        <IpDpoPolicyfee>0</IpDpoPolicyfee>
+
+        <IpDpoAnonins>0</IpDpoAnonins>
+
+        <IpDpoAdnamt>0</IpDpoAdnamt>
+
+        <IpDpoRnonins>0</IpDpoRnonins>
+
+        <IpDpoDnfee>0</IpDpoDnfee>
+
+      </DownPayOption>
+
+
+      -<DownPayOption SLICE="5">
+
+        <IpDpoTotalPref>2338</IpDpoTotalPref>
+
+        <IpDpoInstamt>177.05</IpDpoInstamt>
+
+        <IpDpoBplanno>150579</IpDpoBplanno>
+
+        <IpDpoInstfee>0</IpDpoInstfee>
+
+        <IpDpoRdnamt>390.45</IpDpoRdnamt>
+
+        <IpDpoBplan>MONTHLY A</IpDpoBplan>
+
+        <IpDpoPolicyfee>0</IpDpoPolicyfee>
+
+        <IpDpoAnonins>0</IpDpoAnonins>
+
+        <IpDpoAdnamt>0</IpDpoAdnamt>
+
+        <IpDpoRnonins>0</IpDpoRnonins>
+
+        <IpDpoDnfee>0</IpDpoDnfee>
+
+      </DownPayOption>
+
+
+      -<DownPayOption SLICE="6">
+
+        <IpDpoTotalPref>2401</IpDpoTotalPref>
+
+        <IpDpoInstamt>196.45</IpDpoInstamt>
+
+        <IpDpoBplanno>150579</IpDpoBplanno>
+
+        <IpDpoInstfee>0</IpDpoInstfee>
+
+        <IpDpoRdnamt>240.05</IpDpoRdnamt>
+
+        <IpDpoBplan>MONTHLY B</IpDpoBplan>
+
+        <IpDpoPolicyfee>0</IpDpoPolicyfee>
+
+        <IpDpoAnonins>0</IpDpoAnonins>
+
+        <IpDpoAdnamt>0</IpDpoAdnamt>
+
+        <IpDpoRnonins>0</IpDpoRnonins>
+
+        <IpDpoDnfee>0</IpDpoDnfee>
+
+      </DownPayOption>
+
+    </DownPayOptions>
+
+
+    -<BillScheduleProperties>
+
+      <IpBillSchedulePremium>0</IpBillSchedulePremium>
+
+      <IpBillSchedulePlanType>0</IpBillSchedulePlanType>
+
+    </BillScheduleProperties>
+
+
+    -<Drivers>
+
+      <IpDriverCt>2</IpDriverCt>
+
+
+      -<Driver SLICE="1" json:Array="true">
+
+        <IpDriverExclusionStatus>0</IpDriverExclusionStatus>
+
+        <IpYouthGroupTest>0</IpYouthGroupTest>
+
+        <IpDrivSdipPointsPd>0</IpDrivSdipPointsPd>
+
+        <IpAgeFirstLicensedMonths>0</IpAgeFirstLicensedMonths>
+
+        <IpRelationToResp>10</IpRelationToResp>
+
+        <IpGoodDrivTest>0</IpGoodDrivTest>
+
+        <IpDriverLicenseStatus>0</IpDriverLicenseStatus>
+
+        <IpDrugAlcoholDis>0</IpDrugAlcoholDis>
+
+        <IpDdcDate>00/00/0000</IpDdcDate>
+
+        <IpDrivLicStateNo>12</IpDrivLicStateNo>
+
+        <IpDrivSdipPointsColl>0</IpDrivSdipPointsColl>
+
+        <IpCollegeGradDis>0</IpCollegeGradDis>
+
+        <IpGoodStudentDate>00/00/0000</IpGoodStudentDate>
+
+        <IpFinancialRespTest>0</IpFinancialRespTest>
+
+        <IpLl3Test>0</IpLl3Test>
+
+        <IpDrivTrainingDis>0</IpDrivTrainingDis>
+
+        <IpGoodStudentDis>0</IpGoodStudentDis>
+
+        <IpFinancialRespStateNo>0</IpFinancialRespStateNo>
+
+        <IpAgeFirstLicensedYrs>0</IpAgeFirstLicensedYrs>
+
+        <IpDrivFirst>ILEIGHT</IpDrivFirst>
+
+        <IpAwaySchoolDis>0</IpAwaySchoolDis>
+
+        <IpCleanCovdDis>0</IpCleanCovdDis>
+
+        <IpOrigDriverNo>1</IpOrigDriverNo>
+
+        <IpEducationTest>0</IpEducationTest>
+
+        <IpDrivSdipPoints>0</IpDrivSdipPoints>
+
+        <IpFinancialRespDate>00/00/0000</IpFinancialRespDate>
+
+        <IpOccupationNo>0</IpOccupationNo>
+
+        <IpEmploymentStatus>0</IpEmploymentStatus>
+
+        <IpDrivSdipPointsOtc>0</IpDrivSdipPointsOtc>
+
+        <IpMvrReturnDate>00/00/0000</IpMvrReturnDate>
+
+        <IpDriverStatus>0</IpDriverStatus>
+
+        <IpDrivTrainingTest>0</IpDrivTrainingTest>
+
+        <IpDrivLast>UWCLEAN</IpDrivLast>
+
+        <IpOperatorType>1</IpOperatorType>
+
+        <IpDriverAddedDate>00/00/0000</IpDriverAddedDate>
+
+        <IpDrivSdipPointsPip>0</IpDrivSdipPointsPip>
+
+        <IpGoodDriverDis>0</IpGoodDriverDis>
+
+        <IpBirthDateOfDriv>01/01/1970</IpBirthDateOfDriv>
+
+        <IpDrivSdipPointsBi>0</IpDrivSdipPointsBi>
+
+        <IpMatureDriverDis>0</IpMatureDriverDis>
+
+        <IpDrivSex>2</IpDrivSex>
+
+        <IpDrugAndAlcoholDate>00/00/0000</IpDrugAndAlcoholDate>
+
+        <IpYouthGroupDis>0</IpYouthGroupDis>
+
+        <IpVehOfDriv>1</IpVehOfDriv>
+
+        <IpMatureDrivDate>00/00/0000</IpMatureDrivDate>
+
+        <IpDrivMarriedSingle>1</IpDrivMarriedSingle>
+
+        <IpOccupationCat>0</IpOccupationCat>
+
+        <IpDateLicensed>00/00/0000</IpDateLicensed>
+
+        <IpDrivSdipPointsPpi>0</IpDrivSdipPointsPpi>
+
+        <IpDrivSdipPointsUmbi>0</IpDrivSdipPointsUmbi>
+
+        <IpNonDrnkSmkDis>0</IpNonDrnkSmkDis>
+
+        <IpMatureDrivType>0</IpMatureDrivType>
+
+        <IpDdcDiscount>0</IpDdcDiscount>
+
+        <IpDrivSdipPointsUmpd>0</IpDrivSdipPointsUmpd>
+
+        <IpNonDrinkSmokeTest>0</IpNonDrinkSmokeTest>
+
+      </Driver>
+
+
+      -<Driver SLICE="2" json:Array="true">
+
+        <IpDriverExclusionStatus>0</IpDriverExclusionStatus>
+
+        <IpYouthGroupTest>0</IpYouthGroupTest>
+
+        <IpDrivSdipPointsPd>0</IpDrivSdipPointsPd>
+
+        <IpAgeFirstLicensedMonths>0</IpAgeFirstLicensedMonths>
+
+        <IpRelationToResp>3</IpRelationToResp>
+
+        <IpGoodDrivTest>0</IpGoodDrivTest>
+
+        <IpDriverLicenseStatus>0</IpDriverLicenseStatus>
+
+        <IpDrugAlcoholDis>0</IpDrugAlcoholDis>
+
+        <IpDdcDate>00/00/0000</IpDdcDate>
+
+        <IpDrivLicStateNo>12</IpDrivLicStateNo>
+
+        <IpDrivSdipPointsColl>0</IpDrivSdipPointsColl>
+
+        <IpCollegeGradDis>0</IpCollegeGradDis>
+
+        <IpGoodStudentDate>00/00/0000</IpGoodStudentDate>
+
+        <IpFinancialRespTest>0</IpFinancialRespTest>
+
+        <IpLl3Test>0</IpLl3Test>
+
+        <IpDrivTrainingDis>0</IpDrivTrainingDis>
+
+        <IpGoodStudentDis>0</IpGoodStudentDis>
+
+        <IpFinancialRespStateNo>0</IpFinancialRespStateNo>
+
+        <IpAgeFirstLicensedYrs>0</IpAgeFirstLicensedYrs>
+
+        <IpDrivFirst>SPOUSE</IpDrivFirst>
+
+        <IpAwaySchoolDis>0</IpAwaySchoolDis>
+
+        <IpCleanCovdDis>0</IpCleanCovdDis>
+
+        <IpOrigDriverNo>2</IpOrigDriverNo>
+
+        <IpEducationTest>0</IpEducationTest>
+
+        <IpDrivSdipPoints>0</IpDrivSdipPoints>
+
+        <IpFinancialRespDate>00/00/0000</IpFinancialRespDate>
+
+        <IpOccupationNo>0</IpOccupationNo>
+
+        <IpEmploymentStatus>0</IpEmploymentStatus>
+
+        <IpDrivSdipPointsOtc>0</IpDrivSdipPointsOtc>
+
+        <IpMvrReturnDate>00/00/0000</IpMvrReturnDate>
+
+        <IpDriverStatus>0</IpDriverStatus>
+
+        <IpDrivTrainingTest>0</IpDrivTrainingTest>
+
+        <IpDrivLast>UWCLEAN</IpDrivLast>
+
+        <IpOperatorType>1</IpOperatorType>
+
+        <IpDriverAddedDate>00/00/0000</IpDriverAddedDate>
+
+        <IpDrivSdipPointsPip>0</IpDrivSdipPointsPip>
+
+        <IpGoodDriverDis>0</IpGoodDriverDis>
+
+        <IpBirthDateOfDriv>02/02/1969</IpBirthDateOfDriv>
+
+        <IpDrivSdipPointsBi>0</IpDrivSdipPointsBi>
+
+        <IpMatureDriverDis>0</IpMatureDriverDis>
+
+        <IpDrivSex>1</IpDrivSex>
+
+        <IpDrugAndAlcoholDate>00/00/0000</IpDrugAndAlcoholDate>
+
+        <IpYouthGroupDis>0</IpYouthGroupDis>
+
+        <IpVehOfDriv>1</IpVehOfDriv>
+
+        <IpMatureDrivDate>00/00/0000</IpMatureDrivDate>
+
+        <IpDrivMarriedSingle>1</IpDrivMarriedSingle>
+
+        <IpOccupationCat>0</IpOccupationCat>
+
+        <IpDateLicensed>00/00/0000</IpDateLicensed>
+
+        <IpDrivSdipPointsPpi>0</IpDrivSdipPointsPpi>
+
+        <IpDrivSdipPointsUmbi>0</IpDrivSdipPointsUmbi>
+
+        <IpNonDrnkSmkDis>0</IpNonDrnkSmkDis>
+
+        <IpMatureDrivType>0</IpMatureDrivType>
+
+        <IpDdcDiscount>0</IpDdcDiscount>
+
+        <IpDrivSdipPointsUmpd>0</IpDrivSdipPointsUmpd>
+
+        <IpNonDrinkSmokeTest>0</IpNonDrinkSmokeTest>
+
+      </Driver>
+
+    </Drivers>
+
+
+    -<CheckEarlyCashProperties>
+
+      <IpEarlyCashInd>0</IpEarlyCashInd>
+
+    </CheckEarlyCashProperties>
+
+
+    -<MiscPremData>
+
+      <IpWebPrem>0</IpWebPrem>
+
+
+      -<MiscPremiums>
+
+
+        -<MiscPremiumData SLICE="1">
+
+          <IpMiscPrem04>0</IpMiscPrem04>
+
+          <IpMiscPrem01>73</IpMiscPrem01>
+
+          <IpMiscPrem03>0</IpMiscPrem03>
+
+          <IpMiscPrem02>0</IpMiscPrem02>
+
+        </MiscPremiumData>
+
+
+        -<MiscPremiumData SLICE="2">
+
+          <IpMiscPrem04>0</IpMiscPrem04>
+
+          <IpMiscPrem01>0</IpMiscPrem01>
+
+          <IpMiscPrem03>0</IpMiscPrem03>
+
+          <IpMiscPrem02>0</IpMiscPrem02>
+
+        </MiscPremiumData>
+
+
+        -<MiscPremiumData SLICE="3">
+
+          <IpMiscPrem04>0</IpMiscPrem04>
+
+          <IpMiscPrem01>0</IpMiscPrem01>
+
+          <IpMiscPrem03>0</IpMiscPrem03>
+
+          <IpMiscPrem02>0</IpMiscPrem02>
+
+        </MiscPremiumData>
+
+
+        -<MiscPremiumData SLICE="4">
+
+          <IpMiscPrem04>0</IpMiscPrem04>
+
+          <IpMiscPrem01>0</IpMiscPrem01>
+
+          <IpMiscPrem03>0</IpMiscPrem03>
+
+          <IpMiscPrem02>0</IpMiscPrem02>
+
+        </MiscPremiumData>
+
+
+        -<MiscPremiumData SLICE="5">
+
+          <IpMiscPrem04>0</IpMiscPrem04>
+
+          <IpMiscPrem01>0</IpMiscPrem01>
+
+          <IpMiscPrem03>0</IpMiscPrem03>
+
+          <IpMiscPrem02>0</IpMiscPrem02>
+
+        </MiscPremiumData>
+
+
+        -<MiscPremiumData SLICE="6">
+
+          <IpMiscPrem04>0</IpMiscPrem04>
+
+          <IpMiscPrem01>0</IpMiscPrem01>
+
+          <IpMiscPrem03>0</IpMiscPrem03>
+
+          <IpMiscPrem02>0</IpMiscPrem02>
+
+        </MiscPremiumData>
+
+      </MiscPremiums>
+
+    </MiscPremData>
+
+
+    -<AllBillSchedProperties>
+
+      <IpAllBillSchedulePlanCt>0</IpAllBillSchedulePlanCt>
+
+    </AllBillSchedProperties>
+
+    <IpMethodFlag>1</IpMethodFlag>
+
+
+    -<Accidents>
+
+      <IpAccidentCt>0</IpAccidentCt>
+
+    </Accidents>
+
+    <IpMoveFlag>0</IpMoveFlag>
+
+
+    -<QuotePolicyControl>
+
+      <IpCalledFrom>0</IpCalledFrom>
+
+      <IpMemoryStatus>0</IpMemoryStatus>
+
+      <IpRetierTest>0</IpRetierTest>
+
+
+      -<BpAmfPolicyFees>
+
+        <IpBpAmfPolicyFeeCt>0</IpBpAmfPolicyFeeCt>
+
+      </BpAmfPolicyFees>
+
+
+      -<Mvrs>
+
+        <IpMvrReqIdCt>0</IpMvrReqIdCt>
+
+      </Mvrs>
+
+      <IpCalcTest>1</IpCalcTest>
+
+      <IpClueReqId>0</IpClueReqId>
+
+      <IpCoByAccountTest>1</IpCoByAccountTest>
+
+      <IpQuotePolicyRecallTest>1</IpQuotePolicyRecallTest>
+
+      <IpQuotePolStatusTest>0</IpQuotePolStatusTest>
+
+      <IpRecalculateTest>0</IpRecalculateTest>
+
+
+      -<LpAiTransType>
+
+        <IpLpAiTransTypeCt>0</IpLpAiTransTypeCt>
+
+      </LpAiTransType>
+
+
+      -<CoByAccountOverrides>
+
+        <IpCoByAcctPrimary>0</IpCoByAcctPrimary>
+
+        <IpCoByAcctRateLevelsCt>0</IpCoByAcctRateLevelsCt>
+
+        <IpCoByAcctPriAltEffDate>00/00/0000</IpCoByAcctPriAltEffDate>
+
+        <IpCoByAcctPrimaryAlt>0</IpCoByAcctPrimaryAlt>
+
+      </CoByAccountOverrides>
+
+    </QuotePolicyControl>
+
+
+    -<Vehicles>
+
+      <IpVehicleCt>4</IpVehicleCt>
+
+
+      -<Vehicle SLICE="1" json:Array="true">
+
+        <IpPhysDamLoanLease>0</IpPhysDamLoanLease>
+
+        <IpCityCode>0</IpCityCode>
+
+        <IpCustomEquipCost>0</IpCustomEquipCost>
+
+        <IpVehModel>CHEROKEE</IpVehModel>
+
+        <IpVehHiPerfInd>0</IpVehHiPerfInd>
+
+        <IpVehSymbolIsoComp>0</IpVehSymbolIsoComp>
+
+        <IpPdInFullDis>0</IpPdInFullDis>
+
+        <IpPurchaseOdom>0</IpPurchaseOdom>
+
+        <IpInspPriorDamageTest>0</IpInspPriorDamageTest>
+
+        <IpCurrOdomDate>00/00/0000</IpCurrOdomDate>
+
+        <IpPhysDamTow>0</IpPhysDamTow>
+
+        <IpRetiredDrivAgeCat>0</IpRetiredDrivAgeCat>
+
+        <IpVehUse>0</IpVehUse>
+
+        <IpVehicleAddedDate>00/00/0000</IpVehicleAddedDate>
+
+        <IpCamperTopTest>0</IpCamperTopTest>
+
+        <IpVehSymbolComp>8</IpVehSymbolComp>
+
+
+        -<LossPayee>
+
+          <IpLpCancelDate>00/00/0000</IpLpCancelDate>
+
+          <IpLpZipCode1>0</IpLpZipCode1>
+
+          <IpLpZipCode2>0</IpLpZipCode2>
+
+        </LossPayee>
+
+        <IpInspLocationId>0</IpInspLocationId>
+
+        <IpInspectionRecvdTest>0</IpInspectionRecvdTest>
+
+        <IpPhysDamOte>0</IpPhysDamOte>
+
+        <IpAffinityPrem>0</IpAffinityPrem>
+
+        <IpAirBagTest>2</IpAirBagTest>
+
+        <IpPhysDamFsg>0</IpPhysDamFsg>
+
+        <IpVehTerrUm>0</IpVehTerrUm>
+
+        <IpCurrentOdom>0</IpCurrentOdom>
+
+        <IpOrigVehicleNo>0</IpOrigVehicleNo>
+
+
+        -<AddlInsured>
+
+          <IpAiZipCode2>0</IpAiZipCode2>
+
+          <IpAiZipCode1>0</IpAiZipCode1>
+
+          <IpAiCancelDate>00/00/0000</IpAiCancelDate>
+
+        </AddlInsured>
+
+        <IpOrigVehicleNoW>0</IpOrigVehicleNoW>
+
+        <IpPhysDamCustEquip>0</IpPhysDamCustEquip>
+
+        <IpOdomNeedsUpdFlag>0</IpOdomNeedsUpdFlag>
+
+        <IpVehTerrPip>0</IpVehTerrPip>
+
+        <IpFlCountyTest>0</IpFlCountyTest>
+
+        <IpPriorAnnualMileage>0</IpPriorAnnualMileage>
+
+        <IpSafeVeh>2</IpSafeVeh>
+
+        <IpParkingType>0</IpParkingType>
+
+        <IpInspDueDate>00/00/0000</IpInspDueDate>
+
+        <IpMakeNumber>33</IpMakeNumber>
+
+        <IpVehBodyStyle>UTL4X24D</IpVehBodyStyle>
+
+        <IpUpdOdomDate>00/00/0000</IpUpdOdomDate>
+
+        <IpPhysDamColl>0</IpPhysDamColl>
+
+        <IpAltGarZipCode1>0</IpAltGarZipCode1>
+
+        <IpCostNew>0</IpCostNew>
+
+        <IpRetiredDrivDis>0</IpRetiredDrivDis>
+
+        <IpAltZipLockTest>0</IpAltZipLockTest>
+
+        <IpTaxCode>0</IpTaxCode>
+
+        <IpAddlInsuredNo>0</IpAddlInsuredNo>
+
+        <IpVehMake>JEEP</IpVehMake>
+
+        <IpVehExposure>4</IpVehExposure>
+
+        <IpVehYear>2001</IpVehYear>
+
+        <IpPremierDiscountData>0</IpPremierDiscountData>
+
+        <IpDistance>0</IpDistance>
+
+        <IpSafeVehDis>0</IpSafeVehDis>
+
+        <IpVehSymbolLiab>12</IpVehSymbolLiab>
+
+        <IpPhysDamStatus>0</IpPhysDamStatus>
+
+        <IpVehTerrBi>0</IpVehTerrBi>
+
+        <IpStoredVehTest>0</IpStoredVehTest>
+
+        <IpTerrAdqType>0</IpTerrAdqType>
+
+        <IpNyWaiver2>0</IpNyWaiver2>
+
+        <IpInspFollowup1DueDate>00/00/0000</IpInspFollowup1DueDate>
+
+        <IpModelNumber>109474</IpModelNumber>
+
+        <IpEnterVehDate>00/00/0000</IpEnterVehDate>
+
+        <IpPassiveRestraint>2</IpPassiveRestraint>
+
+        <IpMultiPolicyDis>0</IpMultiPolicyDis>
+
+        <IpRenewalCreditData>0</IpRenewalCreditData>
+
+        <IpOdom2>0</IpOdom2>
+
+        <IpVehSymbolIsoColl>0</IpVehSymbolIsoColl>
+
+        <IpVehSymbol>15</IpVehSymbol>
+
+        <IpDaytimeLightsTest>0</IpDaytimeLightsTest>
+
+        <IpCountyCode>0</IpCountyCode>
+
+        <IpVehSymbolYearAdj>0</IpVehSymbolYearAdj>
+
+        <IpExLiabTest>0</IpExLiabTest>
+
+        <IpInspFollowup2DueDate>00/00/0000</IpInspFollowup2DueDate>
+
+        <IpTerrAdjType>0</IpTerrAdjType>
+
+        <IpEftDis>0</IpEftDis>
+
+        <IpPriorOdom>0</IpPriorOdom>
+
+        <IpMultiCarDis>0</IpMultiCarDis>
+
+        <IpPerformance>1</IpPerformance>
+
+        <IpUpdCurrentOdom>0</IpUpdCurrentOdom>
+
+        <IpVehAltTerr>0</IpVehAltTerr>
+
+        <IpManualOverrideTest>0</IpManualOverrideTest>
+
+        <IpLeaseAiTest>0</IpLeaseAiTest>
+
+        <IpUpdAnnualMileage>0</IpUpdAnnualMileage>
+
+        <IpVehSymbolColl>6</IpVehSymbolColl>
+
+        <IpWeeksPerMonth>0</IpWeeksPerMonth>
+
+        <IpAdjustToMakeModel>JC1</IpAdjustToMakeModel>
+
+        <IpVehTerrComp>0</IpVehTerrComp>
+
+        <IpDriveTypeTest>0</IpDriveTypeTest>
+
+        <IpVehSymbolPip>10</IpVehSymbolPip>
+
+        <IpCostOfCamperTop>0</IpCostOfCamperTop>
+
+        <IpStoredVehDate>00/00/0000</IpStoredVehDate>
+
+        <IpYearMakeModel>JC1</IpYearMakeModel>
+
+        <IpRegToNonRelativesTest>0</IpRegToNonRelativesTest>
+
+        <IpAltGarZipCode2>0</IpAltGarZipCode2>
+
+        <IpCoveredPropAmt>0</IpCoveredPropAmt>
+
+        <IpDisablingDevice>5</IpDisablingDevice>
+
+        <IpFactoryCustTest>0</IpFactoryCustTest>
+
+        <IpInspDate>00/00/0000</IpInspDate>
+
+        <IpMuniRate>0</IpMuniRate>
+
+        <IpOdomDate2>00/00/0000</IpOdomDate2>
+
+        <IpInspectionReqTest>0</IpInspectionReqTest>
+
+        <IpCustEstPleasureMiles>0</IpCustEstPleasureMiles>
+
+        <IpTonageTest>0</IpTonageTest>
+
+        <IpAutoSurcharge>0</IpAutoSurcharge>
+
+        <IpInspSuspendDate>00/00/0000</IpInspSuspendDate>
+
+        <IpVehTerrPd>0</IpVehTerrPd>
+
+        <IpVehType>1</IpVehType>
+
+        <IpCoverageStartDate>00/00/0000</IpCoverageStartDate>
+
+        <IpPriorOdomDate>00/00/0000</IpPriorOdomDate>
+
+        <IpAnnualMileage>0</IpAnnualMileage>
+
+        <IpInspPurchaseNew>0</IpInspPurchaseNew>
+
+        <IpDaysPerWeek>0</IpDaysPerWeek>
+
+        <IpReplacementVehicleFlag>0</IpReplacementVehicleFlag>
+
+        <IpWindowEtchingTest>0</IpWindowEtchingTest>
+
+        <IpPercentBusiness>0</IpPercentBusiness>
+
+        <RegOwner/>
+
+        <IpLossPayeeNo>0</IpLossPayeeNo>
+
+        <IpHomeownerDis>0</IpHomeownerDis>
+
+        <IpInspSuspendProcDate>00/00/0000</IpInspSuspendProcDate>
+
+        <IpVehVinNumber>2J4&T68S&1</IpVehVinNumber>
+
+        <IpVehTerrColl>0</IpVehTerrColl>
+
+        <IpNyWaiver1>0</IpNyWaiver1>
+
+        <IpAntiLockBrakeTest>2</IpAntiLockBrakeTest>
+
+        <IpPurchVehDate>00/00/0000</IpPurchVehDate>
+
+        <IpPhysDamComp>0</IpPhysDamComp>
+
+        <IpMuniSurcharge>0</IpMuniSurcharge>
+
+        <IpVehWebModel>CHEROKEE</IpVehWebModel>
+
+        <IpVehicleRecoveryTest>0</IpVehicleRecoveryTest>
+
+        <IpGroupdiscPrem>0</IpGroupdiscPrem>
+
+        <IpWebData>0</IpWebData>
+
+      </Vehicle>
+
+
+      -<Vehicle SLICE="2" json:Array="true">
+
+        <IpPhysDamLoanLease>0</IpPhysDamLoanLease>
+
+        <IpCityCode>0</IpCityCode>
+
+        <IpCustomEquipCost>0</IpCustomEquipCost>
+
+        <IpVehModel>MATRIX</IpVehModel>
+
+        <IpVehHiPerfInd>0</IpVehHiPerfInd>
+
+        <IpVehSymbolIsoComp>0</IpVehSymbolIsoComp>
+
+        <IpPdInFullDis>0</IpPdInFullDis>
+
+        <IpPurchaseOdom>0</IpPurchaseOdom>
+
+        <IpInspPriorDamageTest>0</IpInspPriorDamageTest>
+
+        <IpCurrOdomDate>00/00/0000</IpCurrOdomDate>
+
+        <IpPhysDamTow>0</IpPhysDamTow>
+
+        <IpRetiredDrivAgeCat>0</IpRetiredDrivAgeCat>
+
+        <IpVehUse>1</IpVehUse>
+
+        <IpVehicleAddedDate>00/00/0000</IpVehicleAddedDate>
+
+        <IpCamperTopTest>0</IpCamperTopTest>
+
+        <IpVehSymbolComp>7</IpVehSymbolComp>
+
+
+        -<LossPayee>
+
+          <IpLpCancelDate>00/00/0000</IpLpCancelDate>
+
+          <IpLpZipCode1>0</IpLpZipCode1>
+
+          <IpLpZipCode2>0</IpLpZipCode2>
+
+        </LossPayee>
+
+        <IpInspLocationId>0</IpInspLocationId>
+
+        <IpInspectionRecvdTest>0</IpInspectionRecvdTest>
+
+        <IpPhysDamOte>0</IpPhysDamOte>
+
+        <IpAffinityPrem>0</IpAffinityPrem>
+
+        <IpAirBagTest>2</IpAirBagTest>
+
+        <IpPhysDamFsg>0</IpPhysDamFsg>
+
+        <IpVehTerrUm>0</IpVehTerrUm>
+
+        <IpCurrentOdom>0</IpCurrentOdom>
+
+        <IpOrigVehicleNo>0</IpOrigVehicleNo>
+
+
+        -<AddlInsured>
+
+          <IpAiZipCode2>0</IpAiZipCode2>
+
+          <IpAiZipCode1>0</IpAiZipCode1>
+
+          <IpAiCancelDate>00/00/0000</IpAiCancelDate>
+
+        </AddlInsured>
+
+        <IpOrigVehicleNoW>0</IpOrigVehicleNoW>
+
+        <IpPhysDamCustEquip>0</IpPhysDamCustEquip>
+
+        <IpOdomNeedsUpdFlag>0</IpOdomNeedsUpdFlag>
+
+        <IpVehTerrPip>0</IpVehTerrPip>
+
+        <IpFlCountyTest>0</IpFlCountyTest>
+
+        <IpPriorAnnualMileage>0</IpPriorAnnualMileage>
+
+        <IpSafeVeh>2</IpSafeVeh>
+
+        <IpParkingType>0</IpParkingType>
+
+        <IpInspDueDate>00/00/0000</IpInspDueDate>
+
+        <IpMakeNumber>61</IpMakeNumber>
+
+        <IpVehBodyStyle>WAG 4D</IpVehBodyStyle>
+
+        <IpUpdOdomDate>00/00/0000</IpUpdOdomDate>
+
+        <IpPhysDamColl>0</IpPhysDamColl>
+
+        <IpAltGarZipCode1>0</IpAltGarZipCode1>
+
+        <IpCostNew>0</IpCostNew>
+
+        <IpRetiredDrivDis>0</IpRetiredDrivDis>
+
+        <IpAltZipLockTest>0</IpAltZipLockTest>
+
+        <IpTaxCode>0</IpTaxCode>
+
+        <IpAddlInsuredNo>0</IpAddlInsuredNo>
+
+        <IpVehMake>TOYOTA</IpVehMake>
+
+        <IpVehExposure>4</IpVehExposure>
+
+        <IpVehYear>2009</IpVehYear>
+
+        <IpPremierDiscountData>0</IpPremierDiscountData>
+
+        <IpDistance>0</IpDistance>
+
+        <IpSafeVehDis>0</IpSafeVehDis>
+
+        <IpVehSymbolLiab>9</IpVehSymbolLiab>
+
+        <IpPhysDamStatus>0</IpPhysDamStatus>
+
+        <IpVehTerrBi>0</IpVehTerrBi>
+
+        <IpStoredVehTest>0</IpStoredVehTest>
+
+        <IpTerrAdqType>0</IpTerrAdqType>
+
+        <IpNyWaiver2>0</IpNyWaiver2>
+
+        <IpInspFollowup1DueDate>00/00/0000</IpInspFollowup1DueDate>
+
+        <IpModelNumber>180605</IpModelNumber>
+
+        <IpEnterVehDate>00/00/0000</IpEnterVehDate>
+
+        <IpPassiveRestraint>2</IpPassiveRestraint>
+
+        <IpMultiPolicyDis>0</IpMultiPolicyDis>
+
+        <IpRenewalCreditData>0</IpRenewalCreditData>
+
+        <IpOdom2>0</IpOdom2>
+
+        <IpVehSymbolIsoColl>0</IpVehSymbolIsoColl>
+
+        <IpVehSymbol>13</IpVehSymbol>
+
+        <IpDaytimeLightsTest>0</IpDaytimeLightsTest>
+
+        <IpCountyCode>0</IpCountyCode>
+
+        <IpVehSymbolYearAdj>0</IpVehSymbolYearAdj>
+
+        <IpExLiabTest>0</IpExLiabTest>
+
+        <IpInspFollowup2DueDate>00/00/0000</IpInspFollowup2DueDate>
+
+        <IpTerrAdjType>0</IpTerrAdjType>
+
+        <IpEftDis>0</IpEftDis>
+
+        <IpPriorOdom>0</IpPriorOdom>
+
+        <IpMultiCarDis>0</IpMultiCarDis>
+
+        <IpPerformance>1</IpPerformance>
+
+        <IpUpdCurrentOdom>0</IpUpdCurrentOdom>
+
+        <IpVehAltTerr>0</IpVehAltTerr>
+
+        <IpManualOverrideTest>0</IpManualOverrideTest>
+
+        <IpLeaseAiTest>0</IpLeaseAiTest>
+
+        <IpUpdAnnualMileage>0</IpUpdAnnualMileage>
+
+        <IpVehSymbolColl>10</IpVehSymbolColl>
+
+        <IpWeeksPerMonth>0</IpWeeksPerMonth>
+
+        <IpAdjustToMakeModel>TM1</IpAdjustToMakeModel>
+
+        <IpVehTerrComp>0</IpVehTerrComp>
+
+        <IpDriveTypeTest>0</IpDriveTypeTest>
+
+        <IpVehSymbolPip>18</IpVehSymbolPip>
+
+        <IpCostOfCamperTop>0</IpCostOfCamperTop>
+
+        <IpStoredVehDate>00/00/0000</IpStoredVehDate>
+
+        <IpYearMakeModel>TM1</IpYearMakeModel>
+
+        <IpRegToNonRelativesTest>0</IpRegToNonRelativesTest>
+
+        <IpAltGarZipCode2>0</IpAltGarZipCode2>
+
+        <IpCoveredPropAmt>0</IpCoveredPropAmt>
+
+        <IpDisablingDevice>2</IpDisablingDevice>
+
+        <IpFactoryCustTest>0</IpFactoryCustTest>
+
+        <IpInspDate>00/00/0000</IpInspDate>
+
+        <IpMuniRate>0</IpMuniRate>
+
+        <IpOdomDate2>00/00/0000</IpOdomDate2>
+
+        <IpInspectionReqTest>0</IpInspectionReqTest>
+
+        <IpCustEstPleasureMiles>0</IpCustEstPleasureMiles>
+
+        <IpTonageTest>0</IpTonageTest>
+
+        <IpAutoSurcharge>0</IpAutoSurcharge>
+
+        <IpInspSuspendDate>00/00/0000</IpInspSuspendDate>
+
+        <IpVehTerrPd>0</IpVehTerrPd>
+
+        <IpVehType>1</IpVehType>
+
+        <IpCoverageStartDate>00/00/0000</IpCoverageStartDate>
+
+        <IpPriorOdomDate>00/00/0000</IpPriorOdomDate>
+
+        <IpAnnualMileage>0</IpAnnualMileage>
+
+        <IpInspPurchaseNew>0</IpInspPurchaseNew>
+
+        <IpDaysPerWeek>0</IpDaysPerWeek>
+
+        <IpReplacementVehicleFlag>0</IpReplacementVehicleFlag>
+
+        <IpWindowEtchingTest>0</IpWindowEtchingTest>
+
+        <IpPercentBusiness>0</IpPercentBusiness>
+
+        <RegOwner/>
+
+        <IpLossPayeeNo>0</IpLossPayeeNo>
+
+        <IpHomeownerDis>0</IpHomeownerDis>
+
+        <IpInspSuspendProcDate>00/00/0000</IpInspSuspendProcDate>
+
+        <IpVehVinNumber>2t1ku40e99c042721</IpVehVinNumber>
+
+        <IpVehTerrColl>0</IpVehTerrColl>
+
+        <IpNyWaiver1>0</IpNyWaiver1>
+
+        <IpAntiLockBrakeTest>2</IpAntiLockBrakeTest>
+
+        <IpPurchVehDate>00/00/0000</IpPurchVehDate>
+
+        <IpPhysDamComp>0</IpPhysDamComp>
+
+        <IpMuniSurcharge>0</IpMuniSurcharge>
+
+        <IpVehWebModel>MATRIX</IpVehWebModel>
+
+        <IpVehicleRecoveryTest>0</IpVehicleRecoveryTest>
+
+        <IpGroupdiscPrem>0</IpGroupdiscPrem>
+
+        <IpWebData>0</IpWebData>
+
+      </Vehicle>
+
+
+      -<Vehicle SLICE="3" json:Array="true">
+
+        <IpPhysDamLoanLease>0</IpPhysDamLoanLease>
+
+        <IpCityCode>0</IpCityCode>
+
+        <IpCustomEquipCost>0</IpCustomEquipCost>
+
+        <IpVehModel>PHOENIX</IpVehModel>
+
+        <IpVehHiPerfInd>0</IpVehHiPerfInd>
+
+        <IpVehSymbolIsoComp>0</IpVehSymbolIsoComp>
+
+        <IpPdInFullDis>0</IpPdInFullDis>
+
+        <IpPurchaseOdom>0</IpPurchaseOdom>
+
+        <IpInspPriorDamageTest>0</IpInspPriorDamageTest>
+
+        <IpCurrOdomDate>00/00/0000</IpCurrOdomDate>
+
+        <IpPhysDamTow>0</IpPhysDamTow>
+
+        <IpRetiredDrivAgeCat>0</IpRetiredDrivAgeCat>
+
+        <IpVehUse>1</IpVehUse>
+
+        <IpVehicleAddedDate>00/00/0000</IpVehicleAddedDate>
+
+        <IpCamperTopTest>0</IpCamperTopTest>
+
+        <IpVehSymbolComp>1</IpVehSymbolComp>
+
+
+        -<LossPayee>
+
+          <IpLpCancelDate>00/00/0000</IpLpCancelDate>
+
+          <IpLpZipCode1>0</IpLpZipCode1>
+
+          <IpLpZipCode2>0</IpLpZipCode2>
+
+        </LossPayee>
+
+        <IpInspLocationId>0</IpInspLocationId>
+
+        <IpInspectionRecvdTest>0</IpInspectionRecvdTest>
+
+        <IpPhysDamOte>0</IpPhysDamOte>
+
+        <IpAffinityPrem>0</IpAffinityPrem>
+
+        <IpAirBagTest>0</IpAirBagTest>
+
+        <IpPhysDamFsg>0</IpPhysDamFsg>
+
+        <IpVehTerrUm>0</IpVehTerrUm>
+
+        <IpCurrentOdom>0</IpCurrentOdom>
+
+        <IpOrigVehicleNo>0</IpOrigVehicleNo>
+
+
+        -<AddlInsured>
+
+          <IpAiZipCode2>0</IpAiZipCode2>
+
+          <IpAiZipCode1>0</IpAiZipCode1>
+
+          <IpAiCancelDate>00/00/0000</IpAiCancelDate>
+
+        </AddlInsured>
+
+        <IpOrigVehicleNoW>0</IpOrigVehicleNoW>
+
+        <IpPhysDamCustEquip>0</IpPhysDamCustEquip>
+
+        <IpOdomNeedsUpdFlag>0</IpOdomNeedsUpdFlag>
+
+        <IpVehTerrPip>0</IpVehTerrPip>
+
+        <IpFlCountyTest>0</IpFlCountyTest>
+
+        <IpPriorAnnualMileage>0</IpPriorAnnualMileage>
+
+        <IpSafeVeh>0</IpSafeVeh>
+
+        <IpParkingType>0</IpParkingType>
+
+        <IpInspDueDate>00/00/0000</IpInspDueDate>
+
+        <IpMakeNumber>50</IpMakeNumber>
+
+        <IpVehBodyStyle>HCHBK 5D</IpVehBodyStyle>
+
+        <IpUpdOdomDate>00/00/0000</IpUpdOdomDate>
+
+        <IpPhysDamColl>0</IpPhysDamColl>
+
+        <IpAltGarZipCode1>0</IpAltGarZipCode1>
+
+        <IpCostNew>0</IpCostNew>
+
+        <IpRetiredDrivDis>0</IpRetiredDrivDis>
+
+        <IpAltZipLockTest>0</IpAltZipLockTest>
+
+        <IpTaxCode>0</IpTaxCode>
+
+        <IpAddlInsuredNo>0</IpAddlInsuredNo>
+
+        <IpVehMake>PONTIAC</IpVehMake>
+
+        <IpVehExposure>0</IpVehExposure>
+
+        <IpVehYear>1981</IpVehYear>
+
+        <IpPremierDiscountData>0</IpPremierDiscountData>
+
+        <IpDistance>0</IpDistance>
+
+        <IpSafeVehDis>0</IpSafeVehDis>
+
+        <IpVehSymbolLiab>7</IpVehSymbolLiab>
+
+        <IpPhysDamStatus>0</IpPhysDamStatus>
+
+        <IpVehTerrBi>0</IpVehTerrBi>
+
+        <IpStoredVehTest>0</IpStoredVehTest>
+
+        <IpTerrAdqType>0</IpTerrAdqType>
+
+        <IpNyWaiver2>0</IpNyWaiver2>
+
+        <IpInspFollowup1DueDate>00/00/0000</IpInspFollowup1DueDate>
+
+        <IpModelNumber>47710</IpModelNumber>
+
+        <IpEnterVehDate>00/00/0000</IpEnterVehDate>
+
+        <IpPassiveRestraint>2</IpPassiveRestraint>
+
+        <IpMultiPolicyDis>0</IpMultiPolicyDis>
+
+        <IpRenewalCreditData>0</IpRenewalCreditData>
+
+        <IpOdom2>0</IpOdom2>
+
+        <IpVehSymbolIsoColl>0</IpVehSymbolIsoColl>
+
+        <IpVehSymbol>6</IpVehSymbol>
+
+        <IpDaytimeLightsTest>0</IpDaytimeLightsTest>
+
+        <IpCountyCode>0</IpCountyCode>
+
+        <IpVehSymbolYearAdj>0</IpVehSymbolYearAdj>
+
+        <IpExLiabTest>0</IpExLiabTest>
+
+        <IpInspFollowup2DueDate>00/00/0000</IpInspFollowup2DueDate>
+
+        <IpTerrAdjType>0</IpTerrAdjType>
+
+        <IpEftDis>0</IpEftDis>
+
+        <IpPriorOdom>0</IpPriorOdom>
+
+        <IpMultiCarDis>0</IpMultiCarDis>
+
+        <IpPerformance>1</IpPerformance>
+
+        <IpUpdCurrentOdom>0</IpUpdCurrentOdom>
+
+        <IpVehAltTerr>0</IpVehAltTerr>
+
+        <IpManualOverrideTest>0</IpManualOverrideTest>
+
+        <IpLeaseAiTest>0</IpLeaseAiTest>
+
+        <IpUpdAnnualMileage>0</IpUpdAnnualMileage>
+
+        <IpVehSymbolColl>1</IpVehSymbolColl>
+
+        <IpWeeksPerMonth>0</IpWeeksPerMonth>
+
+        <IpAdjustToMakeModel>XXX</IpAdjustToMakeModel>
+
+        <IpVehTerrComp>0</IpVehTerrComp>
+
+        <IpDriveTypeTest>0</IpDriveTypeTest>
+
+        <IpVehSymbolPip>6</IpVehSymbolPip>
+
+        <IpCostOfCamperTop>0</IpCostOfCamperTop>
+
+        <IpStoredVehDate>00/00/0000</IpStoredVehDate>
+
+        <IpYearMakeModel>PP2</IpYearMakeModel>
+
+        <IpRegToNonRelativesTest>0</IpRegToNonRelativesTest>
+
+        <IpAltGarZipCode2>0</IpAltGarZipCode2>
+
+        <IpCoveredPropAmt>0</IpCoveredPropAmt>
+
+        <IpDisablingDevice>1</IpDisablingDevice>
+
+        <IpFactoryCustTest>0</IpFactoryCustTest>
+
+        <IpInspDate>00/00/0000</IpInspDate>
+
+        <IpMuniRate>0</IpMuniRate>
+
+        <IpOdomDate2>00/00/0000</IpOdomDate2>
+
+        <IpInspectionReqTest>0</IpInspectionReqTest>
+
+        <IpCustEstPleasureMiles>0</IpCustEstPleasureMiles>
+
+        <IpTonageTest>0</IpTonageTest>
+
+        <IpAutoSurcharge>0</IpAutoSurcharge>
+
+        <IpInspSuspendDate>00/00/0000</IpInspSuspendDate>
+
+        <IpVehTerrPd>0</IpVehTerrPd>
+
+        <IpVehType>1</IpVehType>
+
+        <IpCoverageStartDate>00/00/0000</IpCoverageStartDate>
+
+        <IpPriorOdomDate>00/00/0000</IpPriorOdomDate>
+
+        <IpAnnualMileage>0</IpAnnualMileage>
+
+        <IpInspPurchaseNew>0</IpInspPurchaseNew>
+
+        <IpDaysPerWeek>0</IpDaysPerWeek>
+
+        <IpReplacementVehicleFlag>0</IpReplacementVehicleFlag>
+
+        <IpWindowEtchingTest>0</IpWindowEtchingTest>
+
+        <IpPercentBusiness>0</IpPercentBusiness>
+
+        <RegOwner/>
+
+        <IpLossPayeeNo>0</IpLossPayeeNo>
+
+        <IpHomeownerDis>0</IpHomeownerDis>
+
+        <IpInspSuspendProcDate>00/00/0000</IpInspSuspendProcDate>
+
+        <IpVehVinNumber>1G2AY68X&B</IpVehVinNumber>
+
+        <IpVehTerrColl>0</IpVehTerrColl>
+
+        <IpNyWaiver1>0</IpNyWaiver1>
+
+        <IpAntiLockBrakeTest>2</IpAntiLockBrakeTest>
+
+        <IpPurchVehDate>00/00/0000</IpPurchVehDate>
+
+        <IpPhysDamComp>0</IpPhysDamComp>
+
+        <IpMuniSurcharge>0</IpMuniSurcharge>
+
+        <IpVehWebModel>PHOENIX</IpVehWebModel>
+
+        <IpVehicleRecoveryTest>0</IpVehicleRecoveryTest>
+
+        <IpGroupdiscPrem>0</IpGroupdiscPrem>
+
+        <IpWebData>0</IpWebData>
+
+      </Vehicle>
+
+
+      -<Vehicle SLICE="4" json:Array="true">
+
+        <IpPhysDamLoanLease>0</IpPhysDamLoanLease>
+
+        <IpCityCode>0</IpCityCode>
+
+        <IpCustomEquipCost>0</IpCustomEquipCost>
+
+        <IpVehModel>328</IpVehModel>
+
+        <IpVehHiPerfInd>1</IpVehHiPerfInd>
+
+        <IpVehSymbolIsoComp>0</IpVehSymbolIsoComp>
+
+        <IpPdInFullDis>0</IpPdInFullDis>
+
+        <IpPurchaseOdom>0</IpPurchaseOdom>
+
+        <IpInspPriorDamageTest>0</IpInspPriorDamageTest>
+
+        <IpCurrOdomDate>00/00/0000</IpCurrOdomDate>
+
+        <IpPhysDamTow>0</IpPhysDamTow>
+
+        <IpRetiredDrivAgeCat>0</IpRetiredDrivAgeCat>
+
+        <IpVehUse>0</IpVehUse>
+
+        <IpVehicleAddedDate>00/00/0000</IpVehicleAddedDate>
+
+        <IpCamperTopTest>0</IpCamperTopTest>
+
+        <IpVehSymbolComp>15</IpVehSymbolComp>
+
+
+        -<LossPayee>
+
+          <IpLpCancelDate>00/00/0000</IpLpCancelDate>
+
+          <IpLpZipCode1>0</IpLpZipCode1>
+
+          <IpLpZipCode2>0</IpLpZipCode2>
+
+        </LossPayee>
+
+        <IpInspLocationId>0</IpInspLocationId>
+
+        <IpInspectionRecvdTest>0</IpInspectionRecvdTest>
+
+        <IpPhysDamOte>0</IpPhysDamOte>
+
+        <IpAffinityPrem>0</IpAffinityPrem>
+
+        <IpAirBagTest>2</IpAirBagTest>
+
+        <IpPhysDamFsg>0</IpPhysDamFsg>
+
+        <IpVehTerrUm>0</IpVehTerrUm>
+
+        <IpCurrentOdom>0</IpCurrentOdom>
+
+        <IpOrigVehicleNo>0</IpOrigVehicleNo>
+
+
+        -<AddlInsured>
+
+          <IpAiZipCode2>0</IpAiZipCode2>
+
+          <IpAiZipCode1>0</IpAiZipCode1>
+
+          <IpAiCancelDate>00/00/0000</IpAiCancelDate>
+
+        </AddlInsured>
+
+        <IpOrigVehicleNoW>0</IpOrigVehicleNoW>
+
+        <IpPhysDamCustEquip>0</IpPhysDamCustEquip>
+
+        <IpOdomNeedsUpdFlag>0</IpOdomNeedsUpdFlag>
+
+        <IpVehTerrPip>0</IpVehTerrPip>
+
+        <IpFlCountyTest>0</IpFlCountyTest>
+
+        <IpPriorAnnualMileage>0</IpPriorAnnualMileage>
+
+        <IpSafeVeh>2</IpSafeVeh>
+
+        <IpParkingType>0</IpParkingType>
+
+        <IpInspDueDate>00/00/0000</IpInspDueDate>
+
+        <IpMakeNumber>10</IpMakeNumber>
+
+        <IpVehBodyStyle>WAG 4D</IpVehBodyStyle>
+
+        <IpUpdOdomDate>00/00/0000</IpUpdOdomDate>
+
+        <IpPhysDamColl>0</IpPhysDamColl>
+
+        <IpAltGarZipCode1>0</IpAltGarZipCode1>
+
+        <IpCostNew>0</IpCostNew>
+
+        <IpRetiredDrivDis>0</IpRetiredDrivDis>
+
+        <IpAltZipLockTest>0</IpAltZipLockTest>
+
+        <IpTaxCode>0</IpTaxCode>
+
+        <IpAddlInsuredNo>0</IpAddlInsuredNo>
+
+        <IpVehMake>BMW</IpVehMake>
+
+        <IpVehExposure>4</IpVehExposure>
+
+        <IpVehYear>2016</IpVehYear>
+
+        <IpPremierDiscountData>0</IpPremierDiscountData>
+
+        <IpDistance>0</IpDistance>
+
+        <IpSafeVehDis>0</IpSafeVehDis>
+
+        <IpVehSymbolLiab>4</IpVehSymbolLiab>
+
+        <IpPhysDamStatus>0</IpPhysDamStatus>
+
+        <IpVehTerrBi>0</IpVehTerrBi>
+
+        <IpStoredVehTest>0</IpStoredVehTest>
+
+        <IpTerrAdqType>0</IpTerrAdqType>
+
+        <IpNyWaiver2>0</IpNyWaiver2>
+
+        <IpInspFollowup1DueDate>00/00/0000</IpInspFollowup1DueDate>
+
+        <IpModelNumber>227478</IpModelNumber>
+
+        <IpEnterVehDate>00/00/0000</IpEnterVehDate>
+
+        <IpPassiveRestraint>2</IpPassiveRestraint>
+
+        <IpMultiPolicyDis>0</IpMultiPolicyDis>
+
+        <IpRenewalCreditData>0</IpRenewalCreditData>
+
+        <IpOdom2>0</IpOdom2>
+
+        <IpVehSymbolIsoColl>56</IpVehSymbolIsoColl>
+
+        <IpVehSymbol>0</IpVehSymbol>
+
+        <IpDaytimeLightsTest>0</IpDaytimeLightsTest>
+
+        <IpCountyCode>0</IpCountyCode>
+
+        <IpVehSymbolYearAdj>0</IpVehSymbolYearAdj>
+
+        <IpExLiabTest>0</IpExLiabTest>
+
+        <IpInspFollowup2DueDate>00/00/0000</IpInspFollowup2DueDate>
+
+        <IpTerrAdjType>0</IpTerrAdjType>
+
+        <IpEftDis>0</IpEftDis>
+
+        <IpPriorOdom>0</IpPriorOdom>
+
+        <IpMultiCarDis>0</IpMultiCarDis>
+
+        <IpPerformance>1</IpPerformance>
+
+        <IpUpdCurrentOdom>0</IpUpdCurrentOdom>
+
+        <IpVehAltTerr>0</IpVehAltTerr>
+
+        <IpManualOverrideTest>0</IpManualOverrideTest>
+
+        <IpLeaseAiTest>0</IpLeaseAiTest>
+
+        <IpUpdAnnualMileage>0</IpUpdAnnualMileage>
+
+        <IpVehSymbolColl>18</IpVehSymbolColl>
+
+        <IpWeeksPerMonth>0</IpWeeksPerMonth>
+
+        <IpAdjustToMakeModel>B31</IpAdjustToMakeModel>
+
+        <IpVehTerrComp>0</IpVehTerrComp>
+
+        <IpDriveTypeTest>0</IpDriveTypeTest>
+
+        <IpVehSymbolPip>5</IpVehSymbolPip>
+
+        <IpCostOfCamperTop>0</IpCostOfCamperTop>
+
+        <IpStoredVehDate>00/00/0000</IpStoredVehDate>
+
+        <IpYearMakeModel>B38</IpYearMakeModel>
+
+        <IpRegToNonRelativesTest>0</IpRegToNonRelativesTest>
+
+        <IpAltGarZipCode2>0</IpAltGarZipCode2>
+
+        <IpCoveredPropAmt>0</IpCoveredPropAmt>
+
+        <IpDisablingDevice>2</IpDisablingDevice>
+
+        <IpFactoryCustTest>0</IpFactoryCustTest>
+
+        <IpInspDate>00/00/0000</IpInspDate>
+
+        <IpMuniRate>0</IpMuniRate>
+
+        <IpOdomDate2>00/00/0000</IpOdomDate2>
+
+        <IpInspectionReqTest>0</IpInspectionReqTest>
+
+        <IpCustEstPleasureMiles>0</IpCustEstPleasureMiles>
+
+        <IpTonageTest>0</IpTonageTest>
+
+        <IpAutoSurcharge>0</IpAutoSurcharge>
+
+        <IpInspSuspendDate>00/00/0000</IpInspSuspendDate>
+
+        <IpVehTerrPd>0</IpVehTerrPd>
+
+        <IpVehType>1</IpVehType>
+
+        <IpCoverageStartDate>00/00/0000</IpCoverageStartDate>
+
+        <IpPriorOdomDate>00/00/0000</IpPriorOdomDate>
+
+        <IpAnnualMileage>0</IpAnnualMileage>
+
+        <IpInspPurchaseNew>0</IpInspPurchaseNew>
+
+        <IpDaysPerWeek>0</IpDaysPerWeek>
+
+        <IpReplacementVehicleFlag>0</IpReplacementVehicleFlag>
+
+        <IpWindowEtchingTest>0</IpWindowEtchingTest>
+
+        <IpPercentBusiness>0</IpPercentBusiness>
+
+        <RegOwner/>
+
+        <IpLossPayeeNo>0</IpLossPayeeNo>
+
+        <IpHomeownerDis>0</IpHomeownerDis>
+
+        <IpInspSuspendProcDate>00/00/0000</IpInspSuspendProcDate>
+
+        <IpVehVinNumber>WBA8J1C5&G</IpVehVinNumber>
+
+        <IpVehTerrColl>0</IpVehTerrColl>
+
+        <IpNyWaiver1>0</IpNyWaiver1>
+
+        <IpAntiLockBrakeTest>2</IpAntiLockBrakeTest>
+
+        <IpPurchVehDate>00/00/0000</IpPurchVehDate>
+
+        <IpPhysDamComp>0</IpPhysDamComp>
+
+        <IpMuniSurcharge>0</IpMuniSurcharge>
+
+        <IpVehWebModel>328</IpVehWebModel>
+
+        <IpVehicleRecoveryTest>0</IpVehicleRecoveryTest>
+
+        <IpGroupdiscPrem>0</IpGroupdiscPrem>
+
+        <IpWebData>0</IpWebData>
+
+      </Vehicle>
+
+    </Vehicles>
+
+
+    -<AutoconvertProperties>
+
+      <IpEasypayPostAmount>0</IpEasypayPostAmount>
+
+      <IpEasypayBankAcctType>0</IpEasypayBankAcctType>
+
+      <IpBankAcctType>0</IpBankAcctType>
+
+      <IpEasypayAuthMethod>0</IpEasypayAuthMethod>
+
+      <IpPayMethod>0</IpPayMethod>
+
+      <IpCreditCardSaveInd>0</IpCreditCardSaveInd>
+
+      <IpTokenStatusDate>00/00/0000</IpTokenStatusDate>
+
+      <IpGroupNo>0</IpGroupNo>
+
+      <IpPayrollEmployeeNamIns>0</IpPayrollEmployeeNamIns>
+
+      <IpEasypayPayMethod>0</IpEasypayPayMethod>
+
+      <IpBindSource>0</IpBindSource>
+
+      <IpBillPlanType>0</IpBillPlanType>
+
+      <IpCreditCardExpDate>00/00/0000</IpCreditCardExpDate>
+
+      <IpPaymentAmount>0</IpPaymentAmount>
+
+      <IpPaySourceType>0</IpPaySourceType>
+
+      <IpFeeAmount>0</IpFeeAmount>
+
+      <IpEasypayCreditCardZip>0</IpEasypayCreditCardZip>
+
+      <IpTokenStatus>0</IpTokenStatus>
+
+      <IpEasypayCardExpDate>00/00/0000</IpEasypayCardExpDate>
+
+      <IpAutoconvertApplication>0</IpAutoconvertApplication>
+
+      <IpChargeFee>0</IpChargeFee>
+
+      <IpHomesiteReferral>0</IpHomesiteReferral>
+
+      <IpCreditCardType>0</IpCreditCardType>
+
+      <IpEmployerNo>0</IpEmployerNo>
+
+      <IpCreditCardZip>0</IpCreditCardZip>
+
+      <IpEasypayCreditCardType>0</IpEasypayCreditCardType>
+
+    </AutoconvertProperties>
+
+
+    -<PolicyInfo>
+
+      <IpNoOfDaysLapsed>2</IpNoOfDaysLapsed>
+
+      <IpAffinityDiscLevel>0</IpAffinityDiscLevel>
+
+      <IpNoOfHhDrivers>4</IpNoOfHhDrivers>
+
+      <IpInspContCovSinceDate>00/00/0000</IpInspContCovSinceDate>
+
+      <IpOptionFee1Tfa>0</IpOptionFee1Tfa>
+
+      <IpCurrentCarrierTest>0</IpCurrentCarrierTest>
+
+      <IpAssocDiscLevel>0</IpAssocDiscLevel>
+
+      <IpMarketBrand>0</IpMarketBrand>
+
+      <IpPaidInFullOptionPrem>0</IpPaidInFullOptionPrem>
+
+      <IpHoPropLimit1000>0</IpHoPropLimit1000>
+
+      <IpSafeSoundDis>0</IpSafeSoundDis>
+
+      <IpInspPriInsWaiverTest>0</IpInspPriInsWaiverTest>
+
+      <IpLevelIiiCommRate>0</IpLevelIiiCommRate>
+
+      <IpPremiumFinanceCoNo>0</IpPremiumFinanceCoNo>
+
+      <IpLevelIiiNo>0</IpLevelIiiNo>
+
+      <IpAmfAccountNo>71305</IpAmfAccountNo>
+
+      <IpTotalPremium>2464</IpTotalPremium>
+
+      <IpAlumniDis>0</IpAlumniDis>
+
+      <IpChannelMethod>1</IpChannelMethod>
+
+      <IpVersionDate>04/28/2017</IpVersionDate>
+
+      <IpLastEndorsementDate>00/00/0000</IpLastEndorsementDate>
+
+      <IpRenewalCvgLapse>0</IpRenewalCvgLapse>
+
+      <IpOptionFee2Diff>0</IpOptionFee2Diff>
+
+      <IpPremiumTerm>0</IpPremiumTerm>
+
+      <IpSoPhone1>0</IpSoPhone1>
+
+      <IpSoAreacode>0</IpSoAreacode>
+
+      <IpDeptNo>0</IpDeptNo>
+
+      <IpBundle2Test>0</IpBundle2Test>
+
+      <IpErmfFactor>1</IpErmfFactor>
+
+      <IpPaperlessLock>1</IpPaperlessLock>
+
+      <IpRenewalRetier>0</IpRenewalRetier>
+
+      <IpMarriedLock>2</IpMarriedLock>
+
+      <IpUnderwritingCoNo>4</IpUnderwritingCoNo>
+
+      <IpPayrollDis>0</IpPayrollDis>
+
+      <IpExpDate>12/01/2017</IpExpDate>
+
+      <IpOptionFee1>0</IpOptionFee1>
+
+      <IpMultiPolicyTest>0</IpMultiPolicyTest>
+
+      <IpUseNewBillingFlag>1</IpUseNewBillingFlag>
+
+      <IpMultiCarLock>2</IpMultiCarLock>
+
+      <IpOptionFee2Tfa>0</IpOptionFee2Tfa>
+
+      <IpPriorContInsTest>0</IpPriorContInsTest>
+
+      <IpWelcomeBackDis>0</IpWelcomeBackDis>
+
+      <IpLevelIiNo>0</IpLevelIiNo>
+
+      <IpRateVersionDate>00/00/0000</IpRateVersionDate>
+
+      <IpPrefPayLevel>7</IpPrefPayLevel>
+
+      <IpHomeOfficeNo>1000</IpHomeOfficeNo>
+
+      <IpMingleMateLock>1</IpMingleMateLock>
+
+      <IpRenewalRateCapped>0</IpRenewalRateCapped>
+
+      <IpEDocumentLevel>0</IpEDocumentLevel>
+
+      <IpOptionFee4>0</IpOptionFee4>
+
+      <IpOptionFee1Diff>0</IpOptionFee1Diff>
+
+      <IpGroupdiscLock>1</IpGroupdiscLock>
+
+      <IpHoProduct>1</IpHoProduct>
+
+      <IpRerateFlag>1</IpRerateFlag>
+
+      <IpEmailAddressTest>0</IpEmailAddressTest>
+
+      <IpAffinityLock>1</IpAffinityLock>
+
+      <IpEftTest>0</IpEftTest>
+
+      <IpHoPremium>0</IpHoPremium>
+
+      <IpProductCode>1</IpProductCode>
+
+      <IpLevelINo>0</IpLevelINo>
+
+      <IpHoLiabLimit1000>0</IpHoLiabLimit1000>
+
+      <IpAffinityNo>0</IpAffinityNo>
+
+      <IpHoDedLimit>0</IpHoDedLimit>
+
+      <IpCreditScoreType>2</IpCreditScoreType>
+
+      <IpHoRentersInterestTest>0</IpHoRentersInterestTest>
+
+      <IpCalculatePayroll>0</IpCalculatePayroll>
+
+      <IpBundle3Test>0</IpBundle3Test>
+
+      <IpMarriedDis>1</IpMarriedDis>
+
+      <IpCurrentCarrierPrem>0</IpCurrentCarrierPrem>
+
+      <IpAffinityDis>0</IpAffinityDis>
+
+      <IpMinglePledgeTest>0</IpMinglePledgeTest>
+
+      <IpNoOfYouthfuls>0</IpNoOfYouthfuls>
+
+      <IpLevelIiCommRate>0</IpLevelIiCommRate>
+
+      <IpAssocDis>0</IpAssocDis>
+
+      <IpComeBackDis>0</IpComeBackDis>
+
+      <IpCreditSource>0</IpCreditSource>
+
+      <IpOptionFee3Tfa>0</IpOptionFee3Tfa>
+
+      <IpOptionFee4Diff>0</IpOptionFee4Diff>
+
+      <IpOptionFee4Tfa>0</IpOptionFee4Tfa>
+
+      <IpEffDate>04/28/2017</IpEffDate>
+
+      <IpMethodCvForms>1</IpMethodCvForms>
+
+      <IpMingleMateDis>0</IpMingleMateDis>
+
+      <IpOptionFee2>0</IpOptionFee2>
+
+      <IpHomeownerLock>2</IpHomeownerLock>
+
+      <IpMultiPolicyLock>2</IpMultiPolicyLock>
+
+      <IpCreditVendor>0</IpCreditVendor>
+
+      <IpSoPhone2>0</IpSoPhone2>
+
+      <IpOptionFee3Diff>0</IpOptionFee3Diff>
+
+      <IpSafeSoundLock>2</IpSafeSoundLock>
+
+      <IpBundle1Test>0</IpBundle1Test>
+
+      <IpQuoteEffDate>04/29/2017</IpQuoteEffDate>
+
+      <IpHoUnitsInBldg>1</IpHoUnitsInBldg>
+
+      <IpContCoverageLock>0</IpContCoverageLock>
+
+      <IpAlumniLock>0</IpAlumniLock>
+
+      <IpAssocNo>0</IpAssocNo>
+
+      <IpEndorserUserIdNo>0</IpEndorserUserIdNo>
+
+      <IpPremiumFinanceTest>0</IpPremiumFinanceTest>
+
+      <IpVersionNo>12</IpVersionNo>
+
+      <IpRateCalcType>0</IpRateCalcType>
+
+      <IpBillingMethod>0</IpBillingMethod>
+
+      <IpPaymentMethod>0</IpPaymentMethod>
+
+      <IpPaperlessDis>1</IpPaperlessDis>
+
+      <IpNextDriverNo>0</IpNextDriverNo>
+
+      <IpPrefPayLock>2</IpPrefPayLock>
+
+      <IpUserIdNo>888</IpUserIdNo>
+
+      <IpRatemakerVersDate>00/00/0000</IpRatemakerVersDate>
+
+      <IpProductType>0</IpProductType>
+
+      <IpDocumentNo>0</IpDocumentNo>
+
+      <IpContactRecvDate>00/00/0000</IpContactRecvDate>
+
+      <IpOptionFee3>0</IpOptionFee3>
+
+      <IpRateAdjTerm>12</IpRateAdjTerm>
+
+      <IpRenewalAfAccident>0</IpRenewalAfAccident>
+
+      <IpTermFactor>1</IpTermFactor>
+
+      <IpServicingOffice>13</IpServicingOffice>
+
+      <IpIssueDate>04/28/2017</IpIssueDate>
+
+      <IpRenewalLatePay>0</IpRenewalLatePay>
+
+      <IpAlumniNo>0</IpAlumniNo>
+
+      <IpPaidInFullTest>0</IpPaidInFullTest>
+
+      <IpDrivingCourseLock>1</IpDrivingCourseLock>
+
+      <IpSr22FilingFee>0</IpSr22FilingFee>
+
+      <IpRateAdjFactorIncrmnt>0</IpRateAdjFactorIncrmnt>
+
+      <IpVehicleDiscountsLock>1</IpVehicleDiscountsLock>
+
+      <IpNextVehNo>0</IpNextVehNo>
+
+      <IpRetroLoyaltyLevel>4</IpRetroLoyaltyLevel>
+
+      <IpRetroLoyaltyLock>2</IpRetroLoyaltyLock>
+
+      <IpRateAdjFactor>0</IpRateAdjFactor>
+
+      <IpCreditScoreEffDate>11/16/2017</IpCreditScoreEffDate>
+
+      <IpNoOfCanNotice12Month>0</IpNoOfCanNotice12Month>
+
+      <IpAlumniDiscLevel>0</IpAlumniDiscLevel>
+
+      <IpLocationNo>88</IpLocationNo>
+
+      <IpLevelICommRate>0</IpLevelICommRate>
+
+      <IpPolicyForm>0</IpPolicyForm>
+
+      <IpPolicyFee>0</IpPolicyFee>
+
+    </PolicyInfo>
+
+  </Quote>
+
+</WebSessionDRC>

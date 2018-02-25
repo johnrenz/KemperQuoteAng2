@@ -1,0 +1,25 @@
+REM
+REM export d014800 year make table
+REM
+bcp aiis_t03..d014800 out YearMake.dat -S sqltst -U aiis_inqy -P aiis_inqy08 -c
+REM
+REM
+REM export d014800 columns 
+REM
+bcp "select prime_key, va_mk_year, va_mk_number_ver, va_mk_descrip from aiis_t03..d014800 where va_old_flag <> 'Y'" queryout YearMake2.dat -S sqltst -U aiis_inqy -P aiis_inqy08 -c
+bcp "select va_mk_year, va_mk_number_ver, va_mk_descrip from aiis_t03..d014800 where va_old_flag <> 'Y'" queryout YearMake3.dat -S sqltst -U aiis_inqy -P aiis_inqy08 -c
+REM
+REM export d014900 vehicle table
+REM
+bcp aiis_t03..d014900 out Vehicle.dat -S sqltst -U aiis_inqy -P aiis_inqy08 -c
+REM
+REM export d014901 year make model table
+REM
+bcp aiis_t03..d014901 out ModelMakeYear.dat -S sqltst -U aiis_inqy -P aiis_inqy08 -c
+REM
+REM import
+REM
+bcp AutoQuote.YearMake in YearMake2.dat -T -c
+bcp AutoQuote.Vehicle in Vehicle.dat -T -c
+bcp AutoQuote.ModelMakeYear in ModelMakeYear.dat -T -c
+REM

@@ -1,0 +1,125 @@
+<div *ngIf="sessionObject">
+    <app-header [sessionObject]="sessionObject"></app-header>
+</div>
+<div class="container-fluid">
+    <div class='panel panel-primary'>
+        <div class='panel-heading'>
+            Policy Information
+        </div>
+        <ng-template #loadingScreen><div class="alert" role="alert"><mat-progress-spinner mode="indeterminate" style="width:50px; height:50px;margin: auto"></mat-progress-spinner>loading...</div></ng-template>
+        <div *ngIf="LoadComplete; else loadingScreen" style="padding:15px">
+            <form (ngSubmit)="onSubmit()" [formGroup]="policyInfoForm" novalidate class="well well-lg">
+
+                <mat-form-field style="width:100%">
+                    <mat-select formControlName="CurrentlyInsured"
+                                [(value)]="selectedCurrentlyInsuredOption"
+                                placeholder="Are you currently insured? ">
+                        <mat-option *ngFor="let option of YesNoOptions"
+                                    [value]="option.Value">
+                            {{ option.Description }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <div class="form-group" [@visibilityChanged]="CurrentlyInsured.value=='1'">
+                    <mat-form-field style="width:100%">
+                        <mat-select formControlName="HowLongInsured" [(value)]="selectedHowLongInsuredOption" placeholder="How long have you been currently insured? ">
+                            <mat-option *ngFor="let option of HowLongInsuredOptions"
+                                        [value]="option.Value">
+                                {{ option.Description }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field style="width:100%">
+                        <mat-select formControlName="MonthsInsured" [(value)]="selectedMonthsInsuredOption" placeholder="Months With current insurance company ">
+                            <mat-option *ngFor="let option of MonthsInsuredOptions"
+                                        [value]="option.Value">
+                                {{ option.Description }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field style="width:100%">
+                        <mat-select formControlName="CurrentLimits" [(value)]="selectedCurrentLimitsOption" placeholder="Current Bodily Injury Limits ">
+                            <mat-option *ngFor="let option of BiLimitOptions"
+                                        [value]="option.Value">
+                                {{ option.Description }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <div class="form-group">
+                        <mat-form-field>
+                            <input formControlName="ExpireDate"
+                                   matInput
+                                   [matDatepicker]="dpExpireDate"
+                                   placeholder="Expire Date"
+                                   [formControl]="serializedDate"
+                                   (dateChange)="updateExpireDateControl($event)"
+                                   [min]="minExpDate"
+                                   [max]="maxExpDate">
+
+                            <mat-datepicker-toggle matSuffix [for]="dpExpireDate"></mat-datepicker-toggle>
+                            <mat-datepicker #dpExpireDate></mat-datepicker>
+                        </mat-form-field>
+                        <div *ngIf="ExpireDate.invalid "
+                             class="alert alert-danger">
+                            <div *ngIf="ExpireDate.errors.required">
+                                Valid expire date required.
+                            </div>
+                            <div *ngIf="ExpireDate.invalid">
+                                Expire date must be a future date within one year.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" [@visibilityChanged]="CurrentlyInsured.value=='0'">
+                    <mat-form-field style="width:100%">
+                        <mat-select formControlName="Last30" [(value)]="selectedLast30Option" placeholder="Have you had insurance in the last 30 days? ">
+                            <mat-option *ngFor="let option of YesNoOptions"
+                                        [value]="option.Value">
+                                {{ option.Description }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <div class="form-group" [@visibilityChanged]="Last30.value=='1'">
+
+                        <mat-form-field style="width:100%">
+                            <mat-select formControlName="PriorLimits" [(value)]="selectedPriorLimitOption" placeholder="Prior Bodily Injury Limits ">
+                                <mat-option *ngFor="let option of BiLimitOptions"
+                                            [value]="option.Value">
+                                    {{ option.Description }}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <span [matTooltip]="!policyInfoForm.valid ? 'Please complete selections and correct errors on this page!' : null">
+                    <button type="submit" class="btn btn-success" [disabled]="!policyInfoForm.valid">
+                        Submit
+                    </button>
+                </span>
+            </form>
+        </div>
+
+        <!--
+        <div class="col-sm-4" style="text-align:right">
+            Are you currently insured?
+        </div>
+        <div class="col-sm-8">
+            <label class="center-block">
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn btn-success" (click)="SetCurrentlyInsured('1')">
+                        <input class="form-control" type="radio" formControlName="CurrentlyInsured" value="1">
+                        <span class="glyphicon glyphicon-ok" *ngIf="CurrentlyInsuredYes"></span>
+                        Yes
+                    </label>
+                    <label class="btn btn-success" (click)="SetCurrentlyInsured('0')">
+                        <input class="form-control" type="radio" formControlName="CurrentlyInsured" value="0">
+                        <span class="glyphicon glyphicon-ok"  *ngIf="CurrentlyInsuredNo"></span>
+                        No
+                    </label>
+                </div>
+            </label>
+        </div>
+            -->
+
+    </div>
+</div>

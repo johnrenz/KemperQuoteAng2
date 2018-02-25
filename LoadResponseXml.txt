@@ -1,0 +1,914 @@
+<Response xmlns="">
+  <DRCXML>
+    <RETURN>
+      <AiisQuoteMaster>
+        <QuoteInfo>
+          <IpOrigCompleteDate>00/00/0000</IpOrigCompleteDate>
+          <IpStateCoLockTest>0</IpStateCoLockTest>
+          <IpNoOfRequotes>0</IpNoOfRequotes>
+          <IpReguaranteeQuoteTest>0</IpReguaranteeQuoteTest>
+          <IpRequoteDate>00/00/0000</IpRequoteDate>
+          <IpMailStnoLockTest>0</IpMailStnoLockTest>
+          <IpQuotePrintTest>2</IpQuotePrintTest>
+          <IpQuoteTest>0</IpQuoteTest>
+          <IpResponseNo>2</IpResponseNo>
+          <IpTeleContactDate>00/00/0000</IpTeleContactDate>
+          <IpPhoneQuoteTest>0</IpPhoneQuoteTest>
+          <IpDnqNo>0</IpDnqNo>
+          <IpQuoteConvDate>00/00/0000</IpQuoteConvDate>
+          <IpTierLockTest>0</IpTierLockTest>
+          <IpAcctnumLockTest>0</IpAcctnumLockTest>
+          <IpQuotePrintPointer>0</IpQuotePrintPointer>
+          <IpAltQuoteTest>0</IpAltQuoteTest>
+          <IpLastRequoteTrans>0</IpLastRequoteTrans>
+          <IpPolicyEffDate>03/11/2018</IpPolicyEffDate>
+          <IpMailZipLockTest>0</IpMailZipLockTest>
+          <IpCompleteCode>0</IpCompleteCode>
+          <ExcludedDrivers>
+            <IpExcludedDriverCt>0</IpExcludedDriverCt>
+          </ExcludedDrivers>
+          <IpRiskStnoLockTest>0</IpRiskStnoLockTest>
+          <IpQuoteTransType>0</IpQuoteTransType>
+          <IpOrigQuoteDate>03/10/2018</IpOrigQuoteDate>
+          <IpQuoteCancelDate>00/00/0000</IpQuoteCancelDate>
+          <IpRiskZipLockTest>0</IpRiskZipLockTest>
+          <IpPostMarkDate>00/00/0000</IpPostMarkDate>
+          <IpPolicyExpDate>00/00/0000</IpPolicyExpDate>
+          <IpPersonalMessNo>0</IpPersonalMessNo>
+        </QuoteInfo>
+        <Violations>
+          <IpViolationCt>0</IpViolationCt>
+        </Violations>
+        <Customer>
+          <IpDayPhoneType>0</IpDayPhoneType>
+          <IpHomeownerVerifyTest>0</IpHomeownerVerifyTest>
+          <IpProductVersion>4</IpProductVersion>
+          <IpRentOwnTest>0</IpRentOwnTest>
+          <IpMarketSourceAdq>1</IpMarketSourceAdq>
+          <IpOriginCodeNo>0</IpOriginCodeNo>
+          <IpCurrentCarrierType>0</IpCurrentCarrierType>
+          <IpRegOwnerTest>0</IpRegOwnerTest>
+          <IpRiskTerr>0</IpRiskTerr>
+          <IpRiskZipCode1>0</IpRiskZipCode1>
+          <IpPhoneExtension>0</IpPhoneExtension>
+          <IpEveAreaCode>0</IpEveAreaCode>
+          <IpMarketKeyCode>WUD001</IpMarketKeyCode>
+          <IpCurrentCarrierNo>0</IpCurrentCarrierNo>
+          <IpMasterTerrAdjType>0</IpMasterTerrAdjType>
+          <IpMasterCoNo>0</IpMasterCoNo>
+          <IpMasterStateNo>2</IpMasterStateNo>
+          <IpEvePhone2>0</IpEvePhone2>
+          <IpExcludeAutoCall>0</IpExcludeAutoCall>
+          <IpZipCode1>85003</IpZipCode1>
+          <IpNoOfAdd3Yrs>0</IpNoOfAdd3Yrs>
+          <IpDayAreaCode>0</IpDayAreaCode>
+          <IpSr22AppliedTest>0</IpSr22AppliedTest>
+          <IpLl3AppliedTest>0</IpLl3AppliedTest>
+          <IpEvePhoneType>0</IpEvePhoneType>
+          <IpSubProductCode>0</IpSubProductCode>
+          <IpAddressTerr>0</IpAddressTerr>
+          <IpRiskZipCode2>0</IpRiskZipCode2>
+          <IpAddressStateNo>0</IpAddressStateNo>
+          <IpDayPhone1>0</IpDayPhone1>
+          <IpDayPhone2>0</IpDayPhone2>
+          <IpRiskState>0</IpRiskState>
+          <IpSpecialCorresNo>5</IpSpecialCorresNo>
+          <IpContactTypeNo>4</IpContactTypeNo>
+          <IpEvePhone1>0</IpEvePhone1>
+          <IpAddressStateCode>AZ</IpAddressStateCode>
+          <IpMasterTerrNo>0</IpMasterTerrNo>
+          <IpCurrentLimits>0</IpCurrentLimits>
+          <IpAnnualIncome>0</IpAnnualIncome>
+          <IpBestTimeToCall>0</IpBestTimeToCall>
+          <IpZipCode2>0</IpZipCode2>
+          <IpNoOfEmp3Yrs>0</IpNoOfEmp3Yrs>
+          <IpAddressVerificationTest>0</IpAddressVerificationTest>
+          <IpDayExt>0</IpDayExt>
+          <IpMultiStateTest>0</IpMultiStateTest>
+          <IpEveExt>0</IpEveExt>
+          <IpQuasiBindTest>0</IpQuasiBindTest>
+          <IpDrivExclusionTest>0</IpDrivExclusionTest>
+          <IpMasterTerrAdqType>0</IpMasterTerrAdqType>
+        </Customer>
+        <Coverages>
+          <IpCoverageCt>0</IpCoverageCt>
+        </Coverages>
+        <DownPayOptions>
+          <IpDownPayOptionCt>0</IpDownPayOptionCt>
+        </DownPayOptions>
+        <BillScheduleProperties>
+          <IpBillSchedulePremium>0</IpBillSchedulePremium>
+          <IpBillSchedulePlanType>0</IpBillSchedulePlanType>
+        </BillScheduleProperties>
+        <Drivers>
+          <IpDriverCt>0</IpDriverCt>
+        </Drivers>
+        <CheckEarlyCashProperties>
+          <IpEarlyCashInd>0</IpEarlyCashInd>
+        </CheckEarlyCashProperties>
+        <MiscPremData>
+          <IpWebPrem>0</IpWebPrem>
+          <MiscPremiums></MiscPremiums>
+        </MiscPremData>
+        <AllBillSchedProperties>
+          <IpAllBillSchedulePlanCt>0</IpAllBillSchedulePlanCt>
+        </AllBillSchedProperties>
+        <IpMethodFlag>0</IpMethodFlag>
+        <Accidents>
+          <IpAccidentCt>0</IpAccidentCt>
+        </Accidents>
+        <IpMoveFlag>0</IpMoveFlag>
+        <QuotePolicyControl>
+          <IpCalledFrom>0</IpCalledFrom>
+          <IpMemoryStatus>0</IpMemoryStatus>
+          <IpRetierTest>0</IpRetierTest>
+          <BpAmfPolicyFees>
+            <IpBpAmfPolicyFeeCt>0</IpBpAmfPolicyFeeCt>
+          </BpAmfPolicyFees>
+          <Mvrs>
+            <IpMvrReqIdCt>0</IpMvrReqIdCt>
+          </Mvrs>
+          <IpCalcTest>0</IpCalcTest>
+          <IpClueReqId>0</IpClueReqId>
+          <IpCoByAccountTest>0</IpCoByAccountTest>
+          <IpQuotePolicyRecallTest>0</IpQuotePolicyRecallTest>
+          <IpQuotePolStatusTest>0</IpQuotePolStatusTest>
+          <IpRecalculateTest>0</IpRecalculateTest>
+          <LpAiTransType>
+            <IpLpAiTransTypeCt>0</IpLpAiTransTypeCt>
+          </LpAiTransType>
+          <CoByAccountOverrides>
+            <IpCoByAcctPrimary>0</IpCoByAcctPrimary>
+            <IpCoByAcctRateLevelsCt>0</IpCoByAcctRateLevelsCt>
+            <IpCoByAcctPriAltEffDate>00/00/0000</IpCoByAcctPriAltEffDate>
+            <IpCoByAcctPrimaryAlt>0</IpCoByAcctPrimaryAlt>
+          </CoByAccountOverrides>
+        </QuotePolicyControl>
+        <Vehicles>
+          <IpVehicleCt>0</IpVehicleCt>
+        </Vehicles>
+        <AutoconvertProperties>
+          <IpEasypayPostAmount>0</IpEasypayPostAmount>
+          <IpEasypayBankAcctType>0</IpEasypayBankAcctType>
+          <IpBankAcctType>0</IpBankAcctType>
+          <IpEasypayAuthMethod>0</IpEasypayAuthMethod>
+          <IpPayMethod>0</IpPayMethod>
+          <IpCreditCardSaveInd>0</IpCreditCardSaveInd>
+          <IpTokenStatusDate>00/00/0000</IpTokenStatusDate>
+          <IpGroupNo>0</IpGroupNo>
+          <IpPayrollEmployeeNamIns>0</IpPayrollEmployeeNamIns>
+          <IpEasypayPayMethod>0</IpEasypayPayMethod>
+          <IpBindSource>0</IpBindSource>
+          <IpBillPlanType>0</IpBillPlanType>
+          <IpCreditCardExpDate>00/00/0000</IpCreditCardExpDate>
+          <IpPaymentAmount>0</IpPaymentAmount>
+          <IpPaySourceType>0</IpPaySourceType>
+          <IpFeeAmount>0</IpFeeAmount>
+          <IpEasypayCreditCardZip>0</IpEasypayCreditCardZip>
+          <IpTokenStatus>0</IpTokenStatus>
+          <IpEasypayCardExpDate>00/00/0000</IpEasypayCardExpDate>
+          <IpAutoconvertApplication>0</IpAutoconvertApplication>
+          <IpChargeFee>0</IpChargeFee>
+          <IpHomesiteReferral>0</IpHomesiteReferral>
+          <IpCreditCardType>0</IpCreditCardType>
+          <IpEmployerNo>0</IpEmployerNo>
+          <IpCreditCardZip>0</IpCreditCardZip>
+          <IpEasypayCreditCardType>0</IpEasypayCreditCardType>
+        </AutoconvertProperties>
+        <PolicyInfo>
+          <IpNoOfDaysLapsed>0</IpNoOfDaysLapsed>
+          <IpAffinityDiscLevel>0</IpAffinityDiscLevel>
+          <IpNoOfHhDrivers>0</IpNoOfHhDrivers>
+          <IpInspContCovSinceDate>00/00/0000</IpInspContCovSinceDate>
+          <IpOptionFee1Tfa>0</IpOptionFee1Tfa>
+          <IpCurrentCarrierTest>0</IpCurrentCarrierTest>
+          <IpAssocDiscLevel>0</IpAssocDiscLevel>
+          <IpMarketBrand>0</IpMarketBrand>
+          <IpPaidInFullOptionPrem>0</IpPaidInFullOptionPrem>
+          <IpHoPropLimit1000>0</IpHoPropLimit1000>
+          <IpSafeSoundDis>0</IpSafeSoundDis>
+          <IpInspPriInsWaiverTest>0</IpInspPriInsWaiverTest>
+          <IpLevelIiiCommRate>0</IpLevelIiiCommRate>
+          <IpPremiumFinanceCoNo>0</IpPremiumFinanceCoNo>
+          <IpLevelIiiNo>0</IpLevelIiiNo>
+          <IpAmfAccountNo>71305</IpAmfAccountNo>
+          <IpTotalPremium>0</IpTotalPremium>
+          <IpAlumniDis>0</IpAlumniDis>
+          <IpChannelMethod>1</IpChannelMethod>
+          <IpVersionDate>03/10/2018</IpVersionDate>
+          <IpLastEndorsementDate>00/00/0000</IpLastEndorsementDate>
+          <IpRenewalCvgLapse>0</IpRenewalCvgLapse>
+          <IpOptionFee2Diff>0</IpOptionFee2Diff>
+          <IpPremiumTerm>0</IpPremiumTerm>
+          <IpSoPhone1>0</IpSoPhone1>
+          <IpSoAreacode>0</IpSoAreacode>
+          <IpDeptNo>0</IpDeptNo>
+          <IpBundle2Test>0</IpBundle2Test>
+          <IpErmfFactor>0</IpErmfFactor>
+          <IpPaperlessLock>0</IpPaperlessLock>
+          <IpRenewalRetier>0</IpRenewalRetier>
+          <IpMarriedLock>0</IpMarriedLock>
+          <IpUnderwritingCoNo>0</IpUnderwritingCoNo>
+          <IpPayrollDis>0</IpPayrollDis>
+          <IpExpDate>03/11/2018</IpExpDate>
+          <IpOptionFee1>0</IpOptionFee1>
+          <IpMultiPolicyTest>0</IpMultiPolicyTest>
+          <IpUseNewBillingFlag>1</IpUseNewBillingFlag>
+          <IpMultiCarLock>0</IpMultiCarLock>
+          <IpOptionFee2Tfa>0</IpOptionFee2Tfa>
+          <IpPriorContInsTest>0</IpPriorContInsTest>
+          <IpWelcomeBackDis>0</IpWelcomeBackDis>
+          <IpLevelIiNo>0</IpLevelIiNo>
+          <IpRateVersionDate>00/00/0000</IpRateVersionDate>
+          <IpPrefPayLevel>7</IpPrefPayLevel>
+          <IpHomeOfficeNo>0</IpHomeOfficeNo>
+          <IpMingleMateLock>0</IpMingleMateLock>
+          <IpRenewalRateCapped>0</IpRenewalRateCapped>
+          <IpEDocumentLevel>0</IpEDocumentLevel>
+          <IpOptionFee4>0</IpOptionFee4>
+          <IpOptionFee1Diff>0</IpOptionFee1Diff>
+          <IpGroupdiscLock>0</IpGroupdiscLock>
+          <IpRerateFlag>0</IpRerateFlag>
+          <IpEmailAddressTest>0</IpEmailAddressTest>
+          <IpAffinityLock>0</IpAffinityLock>
+          <IpEftTest>0</IpEftTest>
+          <IpHoPremium>0</IpHoPremium>
+          <IpProductCode>1</IpProductCode>
+          <IpLevelINo>0</IpLevelINo>
+          <IpHoLiabLimit1000>0</IpHoLiabLimit1000>
+          <IpAffinityNo>0</IpAffinityNo>
+          <IpHoDedLimit>0</IpHoDedLimit>
+          <IpCreditScoreType>0</IpCreditScoreType>
+          <IpHoRentersInterestTest>0</IpHoRentersInterestTest>
+          <IpCalculatePayroll>0</IpCalculatePayroll>
+          <IpBundle3Test>0</IpBundle3Test>
+          <IpMarriedDis>0</IpMarriedDis>
+          <IpCurrentCarrierPrem>0</IpCurrentCarrierPrem>
+          <IpAffinityDis>0</IpAffinityDis>
+          <IpMinglePledgeTest>0</IpMinglePledgeTest>
+          <IpNoOfYouthfuls>0</IpNoOfYouthfuls>
+          <IpLevelIiCommRate>0</IpLevelIiCommRate>
+          <IpAssocDis>0</IpAssocDis>
+          <IpComeBackDis>0</IpComeBackDis>
+          <IpCreditSource>0</IpCreditSource>
+          <IpOptionFee3Tfa>0</IpOptionFee3Tfa>
+          <IpOptionFee4Diff>0</IpOptionFee4Diff>
+          <IpOptionFee4Tfa>0</IpOptionFee4Tfa>
+          <IpEffDate>03/10/2018</IpEffDate>
+          <IpMethodCvForms>1</IpMethodCvForms>
+          <IpMingleMateDis>0</IpMingleMateDis>
+          <IpOptionFee2>0</IpOptionFee2>
+          <IpHomeownerLock>0</IpHomeownerLock>
+          <IpMultiPolicyLock>0</IpMultiPolicyLock>
+          <IpCreditVendor>0</IpCreditVendor>
+          <IpSoPhone2>0</IpSoPhone2>
+          <IpOptionFee3Diff>0</IpOptionFee3Diff>
+          <IpSafeSoundLock>0</IpSafeSoundLock>
+          <IpBundle1Test>0</IpBundle1Test>
+          <IpQuoteEffDate>03/11/2018</IpQuoteEffDate>
+          <IpHoUnitsInBldg>0</IpHoUnitsInBldg>
+          <IpContCoverageLock>0</IpContCoverageLock>
+          <IpAlumniLock>0</IpAlumniLock>
+          <IpAssocNo>0</IpAssocNo>
+          <IpEndorserUserIdNo>0</IpEndorserUserIdNo>
+          <IpPremiumFinanceTest>0</IpPremiumFinanceTest>
+          <IpVersionNo>0</IpVersionNo>
+          <IpRateCalcType>0</IpRateCalcType>
+          <IpBillingMethod>0</IpBillingMethod>
+          <IpPaymentMethod>0</IpPaymentMethod>
+          <IpPaperlessDis>0</IpPaperlessDis>
+          <IpNextDriverNo>0</IpNextDriverNo>
+          <IpPrefPayLock>0</IpPrefPayLock>
+          <IpUserIdNo>888</IpUserIdNo>
+          <IpRatemakerVersDate>00/00/0000</IpRatemakerVersDate>
+          <IpProductType>0</IpProductType>
+          <IpDocumentNo>0</IpDocumentNo>
+          <IpContactRecvDate>00/00/0000</IpContactRecvDate>
+          <IpOptionFee3>0</IpOptionFee3>
+          <IpRateAdjTerm>12</IpRateAdjTerm>
+          <IpRenewalAfAccident>0</IpRenewalAfAccident>
+          <IpTermFactor>1</IpTermFactor>
+          <IpServicingOffice>0</IpServicingOffice>
+          <IpIssueDate>03/10/2018</IpIssueDate>
+          <IpRenewalLatePay>0</IpRenewalLatePay>
+          <IpAlumniNo>0</IpAlumniNo>
+          <IpPaidInFullTest>0</IpPaidInFullTest>
+          <IpDrivingCourseLock>0</IpDrivingCourseLock>
+          <IpSr22FilingFee>0</IpSr22FilingFee>
+          <IpRateAdjFactorIncrmnt>0</IpRateAdjFactorIncrmnt>
+          <IpVehicleDiscountsLock>0</IpVehicleDiscountsLock>
+          <IpNextVehNo>0</IpNextVehNo>
+          <IpRetroLoyaltyLevel>0</IpRetroLoyaltyLevel>
+          <IpRetroLoyaltyLock>0</IpRetroLoyaltyLock>
+          <IpRateAdjFactor>0</IpRateAdjFactor>
+          <IpCreditScoreEffDate>00/00/0000</IpCreditScoreEffDate>
+          <IpNoOfCanNotice12Month>0</IpNoOfCanNotice12Month>
+          <IpAlumniDiscLevel>0</IpAlumniDiscLevel>
+          <IpLocationNo>88</IpLocationNo>
+          <IpLevelICommRate>0</IpLevelICommRate>
+          <IpPolicyForm>0</IpPolicyForm>
+          <IpPolicyFee>0</IpPolicyFee>
+        </PolicyInfo>
+        <AddInfo>
+          <Guid>5A635109-50D2-4268-95E6-6DEA6007EE32</Guid>
+          <RiskState>AZ</RiskState>
+          <CurrentPage>Vehicles</CurrentPage>
+          <Application>UD Web</Application>
+          <KemperCorpUrl>http://wwwint.kemperi.com/wps/portal/KemperDirect/Home</KemperCorpUrl>
+          <Redirect></Redirect>
+          <SystemDate>03/10/2018</SystemDate>
+          <CSRQueue></CSRQueue>
+          <ReturnDiscount></ReturnDiscount>
+          <Email />
+          <ClickThruPartnerInfo>
+            <CTID>80001</CTID>
+            <Custom></Custom>
+            <MarketKeyCode>WUD001</MarketKeyCode>
+            <SalesPhone>877.481.8836</SalesPhone>
+            <SalesHours>Mon - Fri 9 am - 8 pm Eastern&amp;lt;br&amp;gt;Saturday 9 am - 1 pm Eastern</SalesHours>
+            <AMFAccountNumber>71305</AMFAccountNumber>
+            <LandingPage></LandingPage>
+            <HTTPReferrer></HTTPReferrer>
+            <Affinity>
+              <IsAffinity>False</IsAffinity>
+              <IsAgent>False</IsAgent>
+              <Logo></Logo>
+              <Description></Description>
+            </Affinity>
+          </ClickThruPartnerInfo>
+          <DNQ>
+            <Knockout>no</Knockout>
+            <Template>0</Template>
+            <Reason>0</Reason>
+            <Description></Description>
+            <EmailSent>0</EmailSent>
+          </DNQ>
+          <UseDefaultPayPlan>true</UseDefaultPayPlan>
+          <Packages></Packages>
+          <HomeOfficeAccountName></HomeOfficeAccountName>
+          <AccountPremierFlag>False</AccountPremierFlag>
+          <SplitZip zip="85003" />
+          <PayRollDeductAcct>2</PayRollDeductAcct>
+          <Discounts>
+            <Esignature>1</Esignature>
+            <Web>1</Web>
+            <PassiveRestraint>0</PassiveRestraint>
+            <Renters>0</Renters>
+            <Homeowners>1</Homeowners>
+            <Group>0</Group>
+          </Discounts>
+          <services enabled="true">
+            <service name="Chat" enabled="true" />
+            <service name="CorrectAddress" enabled="true">
+              <default_data><![CDATA[
+			<CAddressResult>
+				<Result>
+					<DisplayMessage/>
+					<ReturnCodes>1</ReturnCodes>
+					<RuleIndicator>Valid</RuleIndicator>
+					<VerifyTestValue>1</VerifyTestValue>
+					<ResultTestValue>1</ResultTestValue>
+					<InputErrorNumber>0</InputErrorNumber>
+					<InputErrorDescription/>
+				</Result>
+				<SourceName>HomeOwner</SourceName>
+				<CustomerFirstName>Test</CustomerFirstName>
+				<CustomerLastName>UWCLEAN</CustomerLastName>
+				<CustomerMiddleIni/>
+				<CustomerAddress1>401 FALLOWFIELD ROAD</CustomerAddress1>
+				<CustomerAddress2/>
+				<CustomerCity>Camp Hill</CustomerCity>
+				<CustomerState>PA</CustomerState>
+				<CustomerZip>17011</CustomerZip>
+				<CustomerZipAddon/>
+				<StreetNumber>401</StreetNumber>
+				<PreDirectional/>
+				<StreetName>FALLOWFIELD</StreetName>
+				<StreetSuffix>RD</StreetSuffix>
+				<PostDirectional/>
+				<SecondaryDesignation/>
+				<SecondaryNumber/>
+				<City>CAMP HILL</City>
+				<State>PA</State>
+				<ZipAddon>17011-4906</ZipAddon>
+				<Zip>17011</Zip>
+				<Addon>4906</Addon>
+				<LOTNumber/>
+				<DPCCheckdigit>0</DPCCheckdigit>
+				<RecordType/>
+				<DeliveryLine1>401 FALLOWFIELD RD</DeliveryLine1>
+				<DeliveryLine2/>
+				<LastLine/>
+				<LACS/>
+				<CarrierRoute/>
+				<PMBDesignator/>
+				<FirmRecipient/>
+				<Urbanization/>
+				<CountyName>CUMBERLAND</CountyName>
+				<CountyNumber>041</CountyNumber>
+				<Filler/>
+				<ReturnCodes>1</ReturnCodes>
+				<ErrorCodes/>
+				<ErrorDesc/>
+				<SearchesLeft>9999</SearchesLeft>
+				<InputErrorNumber>0</InputErrorNumber>
+				<InputErrorDescription/>
+				<RuleIndicator>Valid</RuleIndicator>
+				<DisplayMessage/>
+				<VerifyTestValue>1</VerifyTestValue>
+				<ResultTestValue>1</ResultTestValue>
+			</CAddressResult>
+			]]></default_data>
+            </service>
+            <service name="Credit" enabled="true" />
+            <service name="eSearch" enabled="true" />
+            <service name="FBY" enabled="true" />
+            <service name="Geotrust" enabled="true" />
+            <service name="GoogleAnalytics" enabled="true" />
+            <service name="MarinTracking" enabled="true" />
+            <service name="MediaPlex" enabled="true" />
+            <service name="OmniPixel" enabled="true" />
+            <service name="SearchVision" enabled="true" />
+            <service name="SocialTwist" enabled="true" />
+            <service name="UrchinTracker" enabled="true" />
+            <service name="YahooQuote" enabled="false">
+              <default_data>KMPR,68.50,Jan 9 2018,4:00pm,-0.15,26.50,27.36,26.45,92264,1.643B,26.71,+0.22%,22.07 - 31.69,2.00,15.00,Kemper Corporation</default_data>
+            </service>
+          </services>
+        </AddInfo>
+      </AiisQuoteMaster>
+    </RETURN>
+  </DRCXML>
+  <Questions>
+    <Question ID="CurrentBI">
+      <Options>
+        <Option value="6">Less than $15,000/$30,000</Option>
+        <Option value="7">$15,000/$30,000</Option>
+        <Option value="8">$20,000/$40,000</Option>
+        <Option value="1">$25,000/$50,000</Option>
+        <Option value="10">$30,000/$60,000</Option>
+        <Option value="2">$50,000/$100,000</Option>
+        <Option value="3">$100,000/$300,000</Option>
+        <Option value="4">Greater than $100,000/$300,000</Option>
+      </Options>
+    </Question>
+    <Question ID="CurrentCarrier">
+      <Options>
+        <Option value="1">1 to 11 months</Option>
+        <Option value="2">12 to 23 months</Option>
+        <Option value="3">24 to 35 months</Option>
+        <Option value="4">36 or more months</Option>
+      </Options>
+    </Question>
+    <Question ID="CurrentCarrierPortal">
+      <Options>
+        <Option value="1">1 - 11 months</Option>
+        <Option value="2">12 - 23 months</Option>
+        <Option value="3">24 - 35 months</Option>
+        <Option value="4">36 or more months</Option>
+        <Option value="0">0 months</Option>
+      </Options>
+    </Question>
+    <Question ID="CurrentInsLapse">
+      <Options>
+        <Option value="9">1 to 11 months</Option>
+        <Option value="2">12 or more months</Option>
+      </Options>
+    </Question>
+    <Question ID="CurrentInsLapseVibe2B">
+      <Options>
+        <Option value="7">Continuously Insured for 3 or more years</Option>
+        <Option value="6">Continuously Insured for 2 more years</Option>
+        <Option value="2">Continuously Insured for 1 more years</Option>
+        <Option value="4">Insurand less than 1 year</Option>
+        <Option value="1">No insurance for last 12 months</Option>
+        <Option value="8">deployed Military for all uninsured days</Option>
+      </Options>
+    </Question>
+    <Question ID="DriverEducationLevel">
+      <Options>
+        <Option value="6">No High School diploma or GED</Option>
+        <Option value="2">High School diploma or GED</Option>
+        <Option value="7">Vocational or Trade School degree</Option>
+        <Option value="8">Some College</Option>
+        <Option value="3">Currently in College</Option>
+        <Option value="1">Bachelors Degree</Option>
+        <Option value="4">Associates Degree</Option>
+        <Option value="5">Graduate work or degree</Option>
+        <Option value="9">Prefer not to disclose</Option>
+      </Options>
+    </Question>
+    <Question ID="DriverMaritalStatus">
+      <Options>
+        <Option value="2">Single</Option>
+        <Option value="1">Married</Option>
+        <Option value="10">Domestic Partnership</Option>
+        <Option value="4">Divorced</Option>
+        <Option value="6">Widowed</Option>
+        <Option value="3">Separated</Option>
+      </Options>
+    </Question>
+    <Question ID="DriverRelationship">
+      <Options>
+        <Option value="3">Spouse</Option>
+        <Option value="5">Child</Option>
+        <Option value="1">Parent</Option>
+        <Option value="4">Brother</Option>
+        <Option value="2">Sister</Option>
+        <Option value="7">Grandparent</Option>
+        <Option value="6">Aunt</Option>
+        <Option value="8">Uncle</Option>
+        <Option value="9">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="DriverWhyNoSpouse">
+      <Options>
+        <Option value="0">Please add spouse to policy</Option>
+        <Option value="1">Never licensed</Option>
+        <Option value="2">Voluntarily surrendered license</Option>
+        <Option value="3">License is suspended or revoked</Option>
+        <Option value="4">Never renewed license</Option>
+        <Option value="5">Insured elsewhere</Option>
+        <Option value="6">Has company vehicle</Option>
+        <Option value="7">Not a permanent resident of household</Option>
+        <Option value="8">Does not drive vehicle</Option>
+        <Option value="9">Do not want spouse on policy</Option>
+      </Options>
+    </Question>
+    <Question ID="HouseholdFamilySize">
+      <Options>
+        <Option value="0">0</Option>
+        <Option value="1">1</Option>
+        <Option value="2">2</Option>
+        <Option value="3">3</Option>
+        <Option value="4">4+</Option>
+      </Options>
+    </Question>
+    <Question ID="HouseholdHear">
+      <Options>
+        <Option value="11">Billboard</Option>
+        <Option value="5">Radio</Option>
+        <Option value="7">Mail Offer</Option>
+        <Option value="3">Friend/Family Referral</Option>
+        <Option value="4">Internet Search</Option>
+        <Option value="15">Social Media</Option>
+        <Option value="2">Email</Option>
+        <Option value="1">Another Website</Option>
+        <Option value="8">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="HouseholdHearUDP">
+      <Options>
+        <Option value="11">Billboard</Option>
+        <Option value="5">Radio</Option>
+        <Option value="7">Mail Offer</Option>
+        <Option value="3">Friend/Family Referral</Option>
+        <Option value="4">Internet Search</Option>
+        <Option value="2">Email</Option>
+        <Option value="1">Another Website</Option>
+        <Option value="8">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="HouseholdHearTeachers">
+      <Options>
+        <Option value="7">Mail Offer</Option>
+        <Option value="3">Friend/Family Referral</Option>
+        <Option value="4">Internet Search</Option>
+        <Option value="15">Social Media</Option>
+        <Option value="2">Email</Option>
+        <Option value="1">Another Website</Option>
+        <Option value="8">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="HouseholdHomeType">
+      <Options>
+        <Option value="1">Apartment/Condo</Option>
+        <Option value="2">Mobile Home</Option>
+        <Option value="3">House Or Other Dwelling</Option>
+      </Options>
+    </Question>
+    <Question ID="HouseholdZipReason">
+      <Options>
+        <Option value="1">Mail is sent to work/school address</Option>
+        <Option value="2">Have more than one residence</Option>
+        <Option value="3">Planning to move</Option>
+        <Option value="4">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="LapseLessThanOneYear">
+      <Options>
+        <Option value="3">1 - 30 days break in coverage</Option>
+        <Option value="4">31+ day break in coverage</Option>
+        <Option value="8">Deployed Military for all uninsured days</Option>
+      </Options>
+    </Question>
+    <Question ID="ReasonNoCoverage">
+      <Options>
+        <Option value="0">Purchased a vehicle in the last 90 days</Option>
+        <Option value="1">Established residence out of the country</Option>
+        <Option value="2">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="VehicleAirbags">
+      <Options>
+        <Option value="0">None</Option>
+        <Option value="1">Driver Side</Option>
+        <Option value="2">Driver and Passenger Side</Option>
+      </Options>
+    </Question>
+    <Question ID="VehicleAntiTheft">
+      <Options>
+        <Option value="0">None</Option>
+        <Option value="1">Alarm Only</Option>
+        <Option value="3">Active Disabling Device</Option>
+        <Option value="2">Passive Disabling Device</Option>
+        <Option value="4">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="VehiclePrimaryUse">
+      <Options>
+        <Option value="2">Personal/Commute</Option>
+        <Option value="1">Pleasure</Option>
+        <Option value="6">Business</Option>
+        <Option value="4">Farming</Option>
+      </Options>
+    </Question>
+    <Question ID="VehicleBusinessType">
+      <Options>
+        <Option value="1">Contractor</Option>
+        <Option value="2">Delivery</Option>
+        <Option value="3">Real-estate</Option>
+        <Option value="4">Taxi/Shuttle Service</Option>
+        <Option value="5">Snow Removal</Option>
+        <Option value="6">Health Care</Option>
+        <Option value="7">Sales (No Delivery)</Option>
+        <Option value="8">Other</Option>
+      </Options>
+    </Question>
+    <Question ID="VehicleSeatBelts">
+      <Options>
+        <Option value="0">None</Option>
+        <Option value="1">Driver Side</Option>
+        <Option value="2">Driver and Passenger Side</Option>
+      </Options>
+    </Question>
+    <Question ID="VehicleAntilockBrakes">
+      <Options>
+        <Option value="1">Yes</Option>
+        <Option value="0">No</Option>
+      </Options>
+    </Question>
+    <Question ID="CurrentlyInsured">
+      <Options>
+        <Option value="1">Yes</Option>
+        <Option value="0">No</Option>
+      </Options>
+    </Question>
+    <Question ID="HadInsuredLast30days">
+      <Options>
+        <Option value="1">Yes</Option>
+        <Option value="0">No</Option>
+      </Options>
+    </Question>
+    <Question ID="GroupsFilterTypes">
+      <Options>
+        <Option value="A">Show All</Option>
+        <Option value="D">Degreed Professionals</Option>
+        <Option value="T">Educational Professionals</Option>
+        <Option value="L">Licensed Professionals</Option>
+      </Options>
+    </Question>
+  </Questions>
+  <Discounts>
+    <Discount ID="MingleMateDiscount">
+      <Name>iMingle Network&lt;sup&gt;&amp;reg;&lt;/sup&gt; Discount</Name>
+      <Description>{iMingleDescription}</Description>
+    </Discount>
+    <Discount ID="PreferPayerDiscount">
+      <Name>Preferred Payer Discount&lt;sup&gt;&amp;trade;&lt;/sup&gt;</Name>
+      <Description>The more you pay up-front, the more you save. Get this discount on your auto insurance policy when you pay more of your premium up front. The larger your down payment, the greater your discount.</Description>
+    </Discount>
+    <Discount ID="PaperlessDiscount">
+      <Name>Free-A-Tree&lt;sup&gt;&amp;reg;&lt;/sup&gt; Discount</Name>
+      <Description>Save on your auto insurance policy (and save some trees!). Get this discount when you provide a valid email address, sign your policy documents online and enroll in our EasyPay automatic payment service.</Description>
+    </Discount>
+    <Discount ID="RetroLoyaltyDiscount">
+      <Name>Retro Loyalty Discount&lt;sup&gt;&amp;trade;&lt;/sup&gt;</Name>
+      <Description>Save money just for switching to {CompanyName}.  With this discount, we reward your loyalty to your previous carrier based on how long you were with them. Retro never looked so good.</Description>
+    </Discount>
+    <Discount ID="SafeSoundDiscount">
+      <Name>Safe &amp; Sound&lt;sup&gt;&amp;reg;&lt;/sup&gt; Discount</Name>
+      <Description>We like to reward good driving. So, you get this discount if you have been continuously insured without any accidents or moving violations during the past 12 months.</Description>
+    </Discount>
+    <Discount ID="MarriedDiscount">
+      <Name>Happily Married Discount&lt;sup&gt;&amp;trade;&lt;/sup&gt;</Name>
+      <Description>We think happy couples make good drivers and deserve a discount. And for any couples who are less than happy, perk up - you get this discount, too. Marriages, as well as legally recognized civil unions and domestic partnerships qualify.</Description>
+    </Discount>
+    <Discount ID="MultPolicyDiscount">
+      <Name>Multi-Policy Discount</Name>
+      <Description>{multi_policy_discount_display}</Description>
+    </Discount>
+    <Discount ID="GroupDiscount">
+      <Name>Group / Affinity Discount</Name>
+      <Description>Get this discount if you belong to any of the groups affiliated with the [Kemper Direct/Teachers/Partnership Direct] family of companies</Description>
+    </Discount>
+    <Discount ID="MulticarDiscount">
+      <Name>Multi-Car Discount</Name>
+      <Description>Get this discount when you insure more than one vehicle on the same policy. This is just one of the many ways we reward our loyal customers.</Description>
+    </Discount>
+    <Discount ID="ContinuousDiscount">
+      <Name>Continuous Insurance Discount</Name>
+      <Description>Responsibility alert! Savings is reflected in your rate since youve had continuous auto insurance.</Description>
+    </Discount>
+    <Discount ID="HomeownershipDiscount">
+      <Name>Homeownership Discount</Name>
+      <Description></Description>
+    </Discount>
+    <Discount ID="WelcomeBackDiscount">
+      <Name>Welcome Back Discount</Name>
+      <Description>Welcome back is for previous policyholders.</Description>
+    </Discount>
+    <Discount ID="ComeBackAndSaveDiscount">
+      <Name>Come Back and Save Discount</Name>
+      <Description>Come Back and Save is for return quoters.</Description>
+    </Discount>
+  </Discounts>
+  <AccidentViolations>
+    <AccidentViolation Type="loss" ID="3141-" Action="add">
+      <Number>3141</Number>
+      <Amount>2549</Amount>
+      <Description>Accident - At Fault (Property Damage Only), $2,570 or less</Description>
+      <Injury>0</Injury>
+      <Sdip>1</Sdip>
+      <Incident>90</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="loss" ID="3141+" Action="add">
+      <Number>3141</Number>
+      <Amount>2571</Amount>
+      <Description>Accident - At Fault (Property Damage Only), Greater than $2,570</Description>
+      <Injury>0</Injury>
+      <Sdip>1</Sdip>
+      <Incident>90</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041+">
+      <Number>2041</Number>
+      <Amount>501</Amount>
+      <Description>Accident - At Fault with payout of $500 or more</Description>
+      <Injury>1</Injury>
+      <Sdip>1</Sdip>
+      <Incident>90</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041-">
+      <Number>2041</Number>
+      <Amount>499</Amount>
+      <Description>Accident - At Fault with payout under $500</Description>
+      <Injury>1</Injury>
+      <Sdip>1</Sdip>
+      <Incident>90</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="3142">
+      <Number>3142</Number>
+      <Amount>1</Amount>
+      <Description>Accident - Not at fault</Description>
+      <Injury>0</Injury>
+      <Sdip>0</Sdip>
+      <Incident>91</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="1">
+      <Number>1</Number>
+      <Description>Careless Driving</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="loss" ID="3300-">
+      <Number>3300</Number>
+      <Amount>999</Amount>
+      <Description>Comprehensive claim (fire, theft, glass, etc.) of less than $1000</Description>
+      <Injury>0</Injury>
+      <Sdip>0</Sdip>
+      <Incident>92</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="loss" ID="3300+">
+      <Number>3300</Number>
+      <Amount>1001</Amount>
+      <Description>Comprehensive claim (fire, theft, glass, etc.) over $1000</Description>
+      <Injury>0</Injury>
+      <Sdip>0</Sdip>
+      <Incident>92</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="5">
+      <Number>5</Number>
+      <Description>Driving under the influence / while impaired</Description>
+      <Type>0</Type>
+      <Incident>5</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="8">
+      <Number>8</Number>
+      <Description>Driving while license suspended / revoked</Description>
+      <Type>0</Type>
+      <Incident>5</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="12">
+      <Number>12</Number>
+      <Description>Driving wrong way</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="18">
+      <Number>18</Number>
+      <Description>Failure to keep proper lane</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="22">
+      <Number>22</Number>
+      <Description>Failure to obey stop sign</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="23">
+      <Number>23</Number>
+      <Description>Failure to obey traffic control device</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="27">
+      <Number>27</Number>
+      <Description>Failure to stop for a school bus</Description>
+      <Type>0</Type>
+      <Incident>5</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="28">
+      <Number>28</Number>
+      <Description>Failure to yield</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="32">
+      <Number>32</Number>
+      <Description>Following too closely</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="40">
+      <Number>40</Number>
+      <Description>Improper passing</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="42">
+      <Number>42</Number>
+      <Description>Improper turning</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="53">
+      <Number>53</Number>
+      <Description>Reckless driving</Description>
+      <Type>0</Type>
+      <Incident>5</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="87">
+      <Number>87</Number>
+      <Description>Refusal to submit to DUI test</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="57">
+      <Number>57</Number>
+      <Description>Speeding 1-15 mph over the limit</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="58">
+      <Number>58</Number>
+      <Description>Speeding 16-29 mph over the limit</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="59">
+      <Number>59</Number>
+      <Description>Speeding 30+ mph over the limit</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="60">
+      <Number>60</Number>
+      <Description>Speeding in a school zone</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="64">
+      <Number>64</Number>
+      <Description>Vehicular manslaughter</Description>
+      <Type>0</Type>
+      <Incident>5</Incident>
+    </AccidentViolation>
+    <AccidentViolation Type="violation" ID="46">
+      <Number>46</Number>
+      <Description>Violation not listed</Description>
+      <Type>1</Type>
+      <Incident>1</Incident>
+    </AccidentViolation>
+  </AccidentViolations>
+</Response>

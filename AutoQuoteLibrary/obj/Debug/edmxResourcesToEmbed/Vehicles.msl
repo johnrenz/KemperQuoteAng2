@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AutoQuoteModelStoreContainer" CdmEntityContainer="AutoQuoteEntities3">
+    <EntitySetMapping Name="ModelYearMakes">
+      <EntityTypeMapping TypeName="AutoQuoteModel.ModelYearMake">
+        <MappingFragment StoreEntitySet="ModelYearMake">
+          <ScalarProperty Name="MODEL_ID" ColumnName="MODEL_ID" />
+          <ScalarProperty Name="YEAR_VER1" ColumnName="YEAR_VER1" />
+          <ScalarProperty Name="MAKE_VER1" ColumnName="MAKE_VER1" />
+          <ScalarProperty Name="MODEL_VER1" ColumnName="MODEL_VER1" />
+          <ScalarProperty Name="BODY_VER1" ColumnName="BODY_VER1" />
+          <ScalarProperty Name="DESCRIPTION_VER1" ColumnName="DESCRIPTION_VER1" />
+          <ScalarProperty Name="YEAR" ColumnName="YEAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vehicles">
+      <EntityTypeMapping TypeName="AutoQuoteModel.Vehicle">
+        <MappingFragment StoreEntitySet="Vehicles">
+          <ScalarProperty Name="PRIME_KEY" ColumnName="PRIME_KEY" />
+          <ScalarProperty Name="VO_MD_YEAR" ColumnName="VO_MD_YEAR" />
+          <ScalarProperty Name="VO_YEAR" ColumnName="VO_YEAR" />
+          <ScalarProperty Name="VO_MODEL_ID" ColumnName="VO_MODEL_ID" />
+          <ScalarProperty Name="VO_YEAR1" ColumnName="VO_YEAR1" />
+          <ScalarProperty Name="VO_MAKE_NO" ColumnName="VO_MAKE_NO" />
+          <ScalarProperty Name="VO_MAKE_CODE" ColumnName="VO_MAKE_CODE" />
+          <ScalarProperty Name="VO_VIN_NO" ColumnName="VO_VIN_NO" />
+          <ScalarProperty Name="VO_IIN_CENTURY" ColumnName="VO_IIN_CENTURY" />
+          <ScalarProperty Name="VO_IIN_YEAR" ColumnName="VO_IIN_YEAR" />
+          <ScalarProperty Name="VO_IIN_NO" ColumnName="VO_IIN_NO" />
+          <ScalarProperty Name="VO_MODEL" ColumnName="VO_MODEL" />
+          <ScalarProperty Name="VO_BODY" ColumnName="VO_BODY" />
+          <ScalarProperty Name="VO_DESCRIPTION" ColumnName="VO_DESCRIPTION" />
+          <ScalarProperty Name="VO_RESTRAINT" ColumnName="VO_RESTRAINT" />
+          <ScalarProperty Name="VO_ANTI_LOCK_BRAKE" ColumnName="VO_ANTI_LOCK_BRAKE" />
+          <ScalarProperty Name="VO_WHEELS_DRIVEN" ColumnName="VO_WHEELS_DRIVEN" />
+          <ScalarProperty Name="VO_SPECIAL_INFO" ColumnName="VO_SPECIAL_INFO" />
+          <ScalarProperty Name="VO_DAYTIME_LIGHTS_TEST" ColumnName="VO_DAYTIME_LIGHTS_TEST" />
+          <ScalarProperty Name="VO_ANTI_THEFT_INFO" ColumnName="VO_ANTI_THEFT_INFO" />
+          <ScalarProperty Name="VO_OLD_FLAG" ColumnName="VO_OLD_FLAG" />
+          <ScalarProperty Name="VO_SYMBOL" ColumnName="VO_SYMBOL" />
+          <ScalarProperty Name="VO_SYMBOL_2" ColumnName="VO_SYMBOL_2" />
+          <ScalarProperty Name="VO_SYMBOL_3" ColumnName="VO_SYMBOL_3" />
+          <ScalarProperty Name="VO_SYMBOL_4" ColumnName="VO_SYMBOL_4" />
+          <ScalarProperty Name="VO_SYMBOL_5" ColumnName="VO_SYMBOL_5" />
+          <ScalarProperty Name="VO_SYMBOL_6" ColumnName="VO_SYMBOL_6" />
+          <ScalarProperty Name="VO_SYMBOL_7" ColumnName="VO_SYMBOL_7" />
+          <ScalarProperty Name="VO_SYMBOL_8" ColumnName="VO_SYMBOL_8" />
+          <ScalarProperty Name="VO_SYMBOL_9" ColumnName="VO_SYMBOL_9" />
+          <ScalarProperty Name="VO_SYMBOL_10" ColumnName="VO_SYMBOL_10" />
+          <ScalarProperty Name="VO_COST_NEW" ColumnName="VO_COST_NEW" />
+          <ScalarProperty Name="VO_VEH_TYPE" ColumnName="VO_VEH_TYPE" />
+          <ScalarProperty Name="VO_EXPOSURE" ColumnName="VO_EXPOSURE" />
+          <ScalarProperty Name="VO_SAFE_VEHICLE" ColumnName="VO_SAFE_VEHICLE" />
+          <ScalarProperty Name="VO_PERFORMANCE" ColumnName="VO_PERFORMANCE" />
+          <ScalarProperty Name="VO_SYMBOL_EXCEPTION" ColumnName="VO_SYMBOL_EXCEPTION" />
+          <ScalarProperty Name="VO_SEAT_BELTS" ColumnName="VO_SEAT_BELTS" />
+          <ScalarProperty Name="VO_AIR_BAG" ColumnName="VO_AIR_BAG" />
+          <ScalarProperty Name="VO_ABS" ColumnName="VO_ABS" />
+          <ScalarProperty Name="VO_DRL" ColumnName="VO_DRL" />
+          <ScalarProperty Name="VO_ANTI_THEFT" ColumnName="VO_ANTI_THEFT" />
+          <ScalarProperty Name="VO_4_DOOR" ColumnName="VO_4_DOOR" />
+          <ScalarProperty Name="VO_INELIGIBLE_VEH_TYPE" ColumnName="VO_INELIGIBLE_VEH_TYPE" />
+          <ScalarProperty Name="VO_ADJUST_TO_MAKE_MODEL" ColumnName="VO_ADJUST_TO_MAKE_MODEL" />
+          <ScalarProperty Name="VO_SOURCE" ColumnName="VO_SOURCE" />
+          <ScalarProperty Name="VO_DATE_ADDED" ColumnName="VO_DATE_ADDED" />
+          <ScalarProperty Name="vo_year_make_model" ColumnName="vo_year_make_model" />
+          <ScalarProperty Name="VO_WEB_MODEL" ColumnName="VO_WEB_MODEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="YearMakes">
+      <EntityTypeMapping TypeName="AutoQuoteModel.YearMake">
+        <MappingFragment StoreEntitySet="YearMake">
+          <ScalarProperty Name="prime_key" ColumnName="prime_key" />
+          <ScalarProperty Name="mk_year" ColumnName="mk_year" />
+          <ScalarProperty Name="MK_NUMBER_VER" ColumnName="MK_NUMBER_VER" />
+          <ScalarProperty Name="MK_DESCRIP" ColumnName="MK_DESCRIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

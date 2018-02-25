@@ -1,0 +1,225 @@
+-------------------------------
+2/21/2018 12:37:32 PM Error in AutoQuoteLibrary.SessionServices.Load-
+No connection string named 'AutoQuoteEntitie7' could be found in the application config file.
+-------------------------------
+-------------------------------
+2/21/2018 2:26:26 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 4aaf7071-60fc-4246-b854-1141cfd043d5
+-------------------------------
+-------------------------------
+2/21/2018 2:43:17 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success c9c8584d-dcaf-4dfb-8eaa-613ca1bf24bf
+-------------------------------
+-------------------------------
+2/21/2018 4:02:11 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success de33526e-2385-4db4-a224-0fe4faa61c78
+-------------------------------
+-------------------------------
+2/21/2018 4:17:57 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success fa8c50b3-ab20-4438-b8db-595ea0404097
+-------------------------------
+-------------------------------
+2/21/2018 4:44:35 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 62508e21-52e4-4d2c-af46-0855a410e86f
+-------------------------------
+-------------------------------
+2/21/2018 4:57:55 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success f9738617-bd41-463d-9f5e-d01d3806bf9c
+-------------------------------
+-------------------------------
+2/21/2018 5:13:17 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 97ae563c-e9b0-4391-8185-1856d78fb119
+-------------------------------
+-------------------------------
+2/21/2018 5:36:31 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 0004f3fe-7bdb-41d4-9356-6d53ec69fda6
+-------------------------------
+-------------------------------
+2/21/2018 5:37:14 PM Error in KemperQuoteAng2.AutoQuoteLibrary.GetVehicleYearMakeWebModel-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/21/2018 5:45:35 PM Error in KemperQuoteAng2.AutoQuoteLibrary.GetVehicleYearMakeWebModel-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/21/2018 5:50:22 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success dd666a7a-94d4-4d5c-a93e-91d0d78f5564
+-------------------------------
+-------------------------------
+2/21/2018 5:51:11 PM Error in KemperQuoteAng2.AutoQuoteLibrary.GetVehicleYearMakeWebModel-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 10:59:17 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 29477385-50bb-47c0-8747-88e90a2163bf
+-------------------------------
+-------------------------------
+2/22/2018 12:18:17 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 3:49:32 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:10:55 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:12:49 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:13:48 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:21:11 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:21:22 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:38:14 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:38:48 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:38:56 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:39:05 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 4:39:15 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success db9e0d6c-0a58-4a06-90f8-a5d76a4403f9
+-------------------------------
+-------------------------------
+2/22/2018 5:12:17 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/22/2018 5:12:44 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/22/2018 5:13:31 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/22/2018 5:13:54 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/22/2018 5:14:08 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/22/2018 5:14:10 PM Error in AutoquoteLibrary.UD3Plugin.GetDiscounts-
+[ 1000021] Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:14:10 PM Error in AutoQutoeFlow.SessionServices.RatedSave-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:32:48 PM Error in AutoquoteLibrary.UD3Plugin.GetDiscounts-
+[ 1000022] Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:32:59 PM Error in AutoQutoeFlow.SessionServices.RatedSave-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:33:33 PM Error in AutoquoteLibrary.UD3Plugin.GetDiscounts-
+[ 1000023] Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:34:11 PM Error in AutoQutoeFlow.SessionServices.RatedSave-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:34:27 PM Error in AutoquoteLibrary.UD3Plugin.GetDiscounts-
+[ 1000024] Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:35:24 PM Error in AutoQutoeFlow.SessionServices.RatedSave-
+Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:35:40 PM Error in AutoquoteLibrary.UD3Plugin.GetDiscounts-
+[ 1000025] Object reference not set to an instance of an object.
+-------------------------------
+-------------------------------
+2/22/2018 5:42:30 PM Error in AutoQutoeFlow.SessionServices.Recalcultate-
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+-------------------------------
+-------------------------------
+2/22/2018 5:42:30 PM Error in AutoQutoeFlow.SessionServices.Recalcultate-
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at AutoQuote.Coverages.item(Int32 varIndexKey)
+   at AutoQuoteLibrary.BL.UD3Plugin.UpdateCoverages(WebSession session) in C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\BL\UD3Plugin.cs:line 223
+   at AutoQuoteLibrary.BL.UD3Plugin.RecalculateQuote(WebSession session) in C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\BL\UD3Plugin.cs:line 3787
+   at AutoQuoteLibrary.Services.SessionServices.Recalculate(WebSession session) in C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\Services\SessionServices.cs:line 1331
+-------------------------------
+-------------------------------
+2/23/2018 9:15:48 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/23/2018 10:22:39 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/23/2018 10:22:58 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/23/2018 10:23:14 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success cd81cb86-62ec-4251-ac05-d84588fc6289
+-------------------------------
+-------------------------------
+2/23/2018 11:52:15 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 11:53:06 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 11:53:50 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 11:54:29 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 11:54:45 AM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 12:17:57 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 12:19:20 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 12:25:02 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------
+-------------------------------
+2/23/2018 12:33:28 PM Error in KemperQuoteAng2.AutoQuoteLibrary.LoadCoveragesAndDiscounts-
+SaveSession Success 33cb97f7-bb12-4eff-bbd6-31b8a53d1cf6
+-------------------------------

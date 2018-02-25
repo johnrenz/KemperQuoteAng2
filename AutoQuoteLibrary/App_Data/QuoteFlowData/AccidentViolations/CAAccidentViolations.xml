@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AccidentViolations>
+	<AccidentViolation Type="accident" ID="2041" Action="add">
+		<Number>2041</Number>
+		<Amount>1</Amount>
+		<Description>Accident – At Fault (With Bodily Injury)</Description>
+	</AccidentViolation>
+	<AccidentViolation Type="accident" ID="2041+" Action="remove">
+		<Number>2041</Number>
+		<Amount>501</Amount>
+		<Description>Accident - At Fault with payout of $500 or more</Description>
+	</AccidentViolation>
+	<AccidentViolation Type="accident" ID="2041-" Action="remove">
+		<Number>2041</Number>
+		<Amount>499</Amount>
+		<Description>Accident - At Fault with payout under $500</Description>
+	</AccidentViolation>
+	<AccidentViolation Type="accident" ID="3141+" Action="add">
+		<Number>3141</Number>
+		<Amount>1001</Amount>
+		<Description>Accident - At Fault (Property Damage Only), Greater than $1000</Description>
+	</AccidentViolation>
+	<AccidentViolation Type="accident" ID="3141-" Action="add">
+		<Number>3141</Number>
+		<Amount>749</Amount>
+		<Description>Accident – At Fault (Property Damage Only), $1000 or less</Description>
+	</AccidentViolation>
+</AccidentViolations>

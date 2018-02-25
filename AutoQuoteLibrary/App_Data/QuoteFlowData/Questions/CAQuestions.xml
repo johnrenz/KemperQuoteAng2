@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Question ID="CurrentBI">
+    <Options>
+      <Option value="6">Less than $15,000/$30,000</Option>
+      <Option value="7">$15,000/$30,000</Option>
+      <Option value="8">$20,000/$40,000</Option>
+      <Option value="1">$25,000/$50,000</Option>
+      <Option value="10">$30,000/$60,000</Option>
+      <Option value="2">$50,000/$100,000</Option>
+      <Option value="3">$100,000/$300,000</Option>
+      <Option value="4">Over $100,000/$300,000</Option>
+      <Option value="0">No Insurance Coverage</Option>
+    </Options>
+  </Question>  
+</Questions>

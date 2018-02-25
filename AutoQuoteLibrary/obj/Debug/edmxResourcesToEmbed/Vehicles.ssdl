@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoQuoteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ModelYearMake">
+    <Key>
+      <PropertyRef Name="MODEL_ID" />
+    </Key>
+    <Property Name="MODEL_ID" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="YEAR_VER1" Type="nchar" MaxLength="4" />
+    <Property Name="MAKE_VER1" Type="nchar" MaxLength="10" />
+    <Property Name="MODEL_VER1" Type="nchar" MaxLength="20" />
+    <Property Name="BODY_VER1" Type="nchar" MaxLength="8" />
+    <Property Name="DESCRIPTION_VER1" Type="nchar" MaxLength="20" />
+    <Property Name="YEAR" Type="nchar" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="Vehicles">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" Nullable="false" />
+    <Property Name="VO_MD_YEAR" Type="char" MaxLength="4" />
+    <Property Name="VO_YEAR" Type="char" MaxLength="4" />
+    <Property Name="VO_MODEL_ID" Type="char" MaxLength="6" />
+    <Property Name="VO_YEAR1" Type="char" MaxLength="4" />
+    <Property Name="VO_MAKE_NO" Type="char" MaxLength="4" />
+    <Property Name="VO_MAKE_CODE" Type="char" MaxLength="3" />
+    <Property Name="VO_VIN_NO" Type="char" MaxLength="7" />
+    <Property Name="VO_IIN_CENTURY" Type="char" MaxLength="2" />
+    <Property Name="VO_IIN_YEAR" Type="char" MaxLength="2" />
+    <Property Name="VO_IIN_NO" Type="char" MaxLength="4" />
+    <Property Name="VO_MODEL" Type="char" MaxLength="20" />
+    <Property Name="VO_BODY" Type="char" MaxLength="8" />
+    <Property Name="VO_DESCRIPTION" Type="char" MaxLength="20" />
+    <Property Name="VO_RESTRAINT" Type="char" MaxLength="1" />
+    <Property Name="VO_ANTI_LOCK_BRAKE" Type="char" MaxLength="1" />
+    <Property Name="VO_WHEELS_DRIVEN" Type="char" MaxLength="1" />
+    <Property Name="VO_SPECIAL_INFO" Type="char" MaxLength="1" />
+    <Property Name="VO_DAYTIME_LIGHTS_TEST" Type="char" MaxLength="1" />
+    <Property Name="VO_ANTI_THEFT_INFO" Type="char" MaxLength="1" />
+    <Property Name="VO_OLD_FLAG" Type="char" MaxLength="1" />
+    <Property Name="VO_SYMBOL" Type="smallint" />
+    <Property Name="VO_SYMBOL_2" Type="smallint" />
+    <Property Name="VO_SYMBOL_3" Type="smallint" />
+    <Property Name="VO_SYMBOL_4" Type="smallint" />
+    <Property Name="VO_SYMBOL_5" Type="smallint" />
+    <Property Name="VO_SYMBOL_6" Type="smallint" />
+    <Property Name="VO_SYMBOL_7" Type="smallint" />
+    <Property Name="VO_SYMBOL_8" Type="smallint" />
+    <Property Name="VO_SYMBOL_9" Type="smallint" />
+    <Property Name="VO_SYMBOL_10" Type="smallint" />
+    <Property Name="VO_COST_NEW" Type="smallint" />
+    <Property Name="VO_VEH_TYPE" Type="smallint" />
+    <Property Name="VO_EXPOSURE" Type="smallint" />
+    <Property Name="VO_SAFE_VEHICLE" Type="smallint" />
+    <Property Name="VO_PERFORMANCE" Type="smallint" />
+    <Property Name="VO_SYMBOL_EXCEPTION" Type="smallint" />
+    <Property Name="VO_SEAT_BELTS" Type="smallint" />
+    <Property Name="VO_AIR_BAG" Type="smallint" />
+    <Property Name="VO_ABS" Type="smallint" />
+    <Property Name="VO_DRL" Type="smallint" />
+    <Property Name="VO_ANTI_THEFT" Type="smallint" />
+    <Property Name="VO_4_DOOR" Type="smallint" />
+    <Property Name="VO_INELIGIBLE_VEH_TYPE" Type="smallint" />
+    <Property Name="VO_ADJUST_TO_MAKE_MODEL" Type="char" MaxLength="5" />
+    <Property Name="VO_SOURCE" Type="smallint" />
+    <Property Name="VO_DATE_ADDED" Type="int" />
+    <Property Name="vo_year_make_model" Type="char" MaxLength="5" />
+    <Property Name="VO_WEB_MODEL" Type="char" MaxLength="27" />
+  </EntityType>
+  <EntityType Name="YearMake">
+    <Key>
+      <PropertyRef Name="prime_key" />
+    </Key>
+    <Property Name="prime_key" Type="int" Nullable="false" />
+    <Property Name="mk_year" Type="nchar" MaxLength="4" />
+    <Property Name="MK_NUMBER_VER" Type="nchar" MaxLength="4" />
+    <Property Name="MK_DESCRIP" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="AutoQuoteModelStoreContainer">
+    <EntitySet Name="ModelYearMake" EntityType="Self.ModelYearMake" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="YearMake" EntityType="Self.YearMake" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

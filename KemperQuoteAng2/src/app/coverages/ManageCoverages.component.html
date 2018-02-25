@@ -1,0 +1,70 @@
+﻿ <form (ngSubmit)="onSubmit()" [formGroup]="coveragesForm">
+    <div>
+        <h1 mat-dialog-title>
+            <span><mat-icon>create</mat-icon>{{modalTitle}}</span>
+
+        </h1>
+        <button class="btn btn-info" type="button" (click)="dialogRef.close()">Cancel</button>&nbsp;
+        <button type="submit" class="btn btn-danger" [disabled]="coveragesForm.invalid">{{modalBtnTitle}}</button>
+        <br /><br />
+    </div>
+    <div style="padding-bottom:1px;background-color:#d8d8d8"></div>
+
+    <div *ngIf="!RecalculateComplete" role="alert" class="alert alert-info alert-dismissible">
+        <mat-progress-spinner mode="indeterminate" style="width:50px; height:50px;margin: auto"></mat-progress-spinner>
+        Recalculating...
+    </div>
+    <div *ngIf="coverageErrors != null && coverageErrors.length > 0" role="alert" class="alert alert-info alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div *ngFor="let coverageError of coverageErrors; let i=index">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span>
+            {{ coverageError }}
+        </div>
+    </div>
+
+    <div class="form-group ">
+        <div formArrayName="CoveragesArray">
+            <ng-template [ngIf]="DBOperation == '1'">
+                <h4>{{ Year.value }} {{ Make.value }} {{ Model.value }}</h4>
+            </ng-template>
+            <table class='table table-striped'>
+                <thead>
+                    <tr>
+                        <th>Coverage Name</th>
+                        <th>Limits/Deductibles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr [formGroupName]="i" *ngFor="let child of coveragesForm.controls.CoveragesArray.controls; let i=index">
+                        <ng-template [ngIf]="child.value.SuppressRendering == 'false' && child.value.CovInputType == 'combo'">
+                            <td>
+                                <span matTooltip="{{child.value.HelpText}}" style="padding-left:0;">
+                                    <img src="/assets/images/k_help.png" alt="help" />
+                                </span>
+                                {{child.value.Name}}
+                            </td>
+                            <td formGroupName="SelectedLimit">
+                                <mat-form-field style="width:100%">
+                                    <mat-select placeHolder="Select Limits"
+                                                [value]="child.value.SelectedLimit.Value"
+                                                formControlName="Value">
+                                        <mat-option *ngFor="let lim of child.value.Limits; let lx=index" [value]="lim.Value">
+                                            {{ lim.Caption }}
+                                        </mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </td>
+                        </ng-template>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <mat-dialog-actions class="mat-dialog-footer">
+        <button class="btn btn-info" type="button" (click)="dialogRef.close()">Cancel</button>&nbsp;
+        <button type="submit" class="btn btn-danger" [disabled]="coveragesForm.invalid">{{modalBtnTitle}}</button>
+
+    </ mat-dialog-actions>
+</form>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AddInfo>
+    <Guid></Guid>
+    <RiskState></RiskState>
+    <CurrentPage>Vehicles</CurrentPage>
+    <Application>UD Web</Application>
+	<KemperCorpUrl>https://kemperdirect.com</KemperCorpUrl>
+    <Redirect></Redirect>
+    <SystemDate></SystemDate>
+    <CSRQueue></CSRQueue>
+    <ReturnDiscount></ReturnDiscount>
+    <ClickThruPartnerInfo>
+        <CTID></CTID>	
+        <Custom></Custom>
+        <MarketKeyCode></MarketKeyCode>
+        <AMFAccountNumber></AMFAccountNumber>
+        <Affinity>
+            <IsAffinity></IsAffinity>
+            <IsAgent></IsAgent>
+            <Logo></Logo>
+            <Description></Description>
+        </Affinity>
+        <Keywords></Keywords>
+        <HTTPReferrer></HTTPReferrer>		
+        <SalesPhone></SalesPhone>
+        <SalesHours></SalesHours>      
+    </ClickThruPartnerInfo>
+    <DNQ>
+        <Knockout>no</Knockout>
+        <Template>0</Template>
+        <Reason>0</Reason>
+        <Description></Description>
+        <EmailSent>0</EmailSent>
+    </DNQ>
+    <UseDefaultPayPlan>false</UseDefaultPayPlan>
+    <Packages></Packages>
+	<HomeOfficeAccountName></HomeOfficeAccountName>
+  <AccountPremierFlag></AccountPremierFlag>
+</AddInfo>

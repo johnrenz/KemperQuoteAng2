@@ -1,0 +1,89 @@
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll.config
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.pdb
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.Unity.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\UDILibrary.xml
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.pdb
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.SqlServer.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.xml
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.SqlServer.xml
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\amqmdnet.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.csprojResolveAssemblyReference.cache
+C:\csharp\mvc\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll.config
+C:\csharp\mvc\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll
+C:\csharp\mvc\AutoQuoteLibrary\bin\AutoQuoteLibrary.pdb
+C:\csharp\mvc\AutoQuoteLibrary\bin\EntityFramework.dll
+C:\csharp\mvc\AutoQuoteLibrary\bin\EntityFramework.SqlServer.dll
+C:\csharp\mvc\AutoQuoteLibrary\bin\amqmdnet.dll
+C:\csharp\mvc\AutoQuoteLibrary\bin\Microsoft.Practices.Unity.dll
+C:\csharp\mvc\AutoQuoteLibrary\bin\EntityFramework.xml
+C:\csharp\mvc\AutoQuoteLibrary\bin\EntityFramework.SqlServer.xml
+C:\csharp\mvc\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\csharp\mvc\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\csharp\mvc\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\csharp\mvc\AutoQuoteLibrary\bin\UDILibrary.xml
+C:\csharp\mvc\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.csprojResolveAssemblyReference.cache
+C:\csharp\mvc\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.dll
+C:\csharp\mvc\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.pdb
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\AddressServicePlugin.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\DRC.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Microsoft.Practices.ObjectBuilder2.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\Quote.dll
+C:\csharp\mvc\AutoQuote\AutoQuoteLibrary\bin\UDILibrary.dll
+E:\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.dll
+E:\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.pdb
+E:\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll.config
+E:\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll
+E:\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.pdb
+E:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.dll
+E:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.SqlServer.dll
+E:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.xml
+E:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.SqlServer.xml
+E:\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.csprojResolveAssemblyReference.cache
+E:\AutoQuote\AutoQuoteLibrary\bin\amqmdnet.dll
+I:\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll.config
+I:\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll
+I:\AutoQuote\AutoQuoteLibrary\bin\AutoQuoteLibrary.pdb
+I:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.dll
+I:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.SqlServer.dll
+I:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.xml
+I:\AutoQuote\AutoQuoteLibrary\bin\EntityFramework.SqlServer.xml
+I:\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.csprojResolveAssemblyReference.cache
+I:\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.dll
+I:\AutoQuote\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.pdb
+E:\AutoQuote\AutoQuoteLibrary\bin\MoreLinq.dll
+E:\AutoQuote\AutoQuoteLibrary\bin\MoreLinq.xml
+I:\AutoQuote\AutoQuoteLibrary\bin\MoreLinq.dll
+I:\AutoQuote\AutoQuoteLibrary\bin\MoreLinq.xml
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll.config
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\AutoQuoteLibrary.pdb
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\EntityFramework.dll
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\EntityFramework.SqlServer.dll
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\MoreLinq.dll
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\EntityFramework.xml
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\EntityFramework.SqlServer.xml
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\bin\MoreLinq.xml
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.csprojResolveAssemblyReference.cache
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.dll
+C:\VS projects\KdQuoteFlow_homeedition2014\homeEdition\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.pdb
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.dll
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.pdb
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll.config
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\AutoQuoteLibrary.dll
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\AutoQuoteLibrary.pdb
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\EntityFramework.dll
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\EntityFramework.SqlServer.dll
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\MoreLinq.dll
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\EntityFramework.xml
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\EntityFramework.SqlServer.xml
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\bin\MoreLinq.xml
+C:\VS projects\KemperQuoteAng2\AutoQuoteLibrary\obj\Debug\AutoQuoteLibrary.csprojResolveAssemblyReference.cache

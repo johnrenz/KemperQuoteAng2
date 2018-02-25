@@ -1,0 +1,8 @@
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\bin\Debug\netstandard2.0\KdQuoteLibrary.deps.json
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\bin\Debug\netstandard2.0\KdQuoteLibrary.dll
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\bin\Debug\netstandard2.0\KdQuoteLibrary.pdb
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\obj\Debug\netstandard2.0\KdQuoteLibrary.csproj.CoreCompileInputs.cache
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\obj\Debug\netstandard2.0\KdQuoteLibrary.AssemblyInfoInputs.cache
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\obj\Debug\netstandard2.0\KdQuoteLibrary.AssemblyInfo.cs
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\obj\Debug\netstandard2.0\KdQuoteLibrary.dll
+C:\Source\dev\KemperQuoteFlowA\KdQuoteLibrary\obj\Debug\netstandard2.0\KdQuoteLibrary.pdb

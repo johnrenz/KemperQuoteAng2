@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PayPlans drc_node="IpPrefPayLevel">
+    <PayPlan id="7" drc_node="IpSmTPrefMonthlyCPrem">
+        <Name>1/11 Down</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <PayPlan id="6" drc_node="IpSmTPrefMonthlyBPrem">
+        <Name>1/8 Down</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <PayPlan id="5" drc_node="IpSmTPrefMonthlyAPrem">
+        <Name>1/6 Down</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <PayPlan id="4" drc_node="IpSmTPref4payPrem">
+        <Name>Quarterly</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <PayPlan id="2" drc_node="IpSmTPref2payPrem">
+        <Name>Semi-Annually</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <PayPlan id="1" drc_node="IpSmTPref1payPrem">
+        <Name>Annually (Pay-In-Full)</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <PayPlan id="3" drc_node="IpSmTPrefPayrollPrem">
+        <Name>Payroll</Name>
+        <PreferredPayerDiscount></PreferredPayerDiscount>
+    </PayPlan>
+    <SelectedPayPlan>0</SelectedPayPlan>
+    <UseDefaultPayPlan>false</UseDefaultPayPlan>
+</PayPlans>

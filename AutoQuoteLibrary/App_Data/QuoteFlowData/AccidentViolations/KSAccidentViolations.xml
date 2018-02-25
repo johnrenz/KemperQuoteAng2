@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccidentViolations>
+	<AccidentViolation Type="violation" ID="91" Action="override">
+		<Number>91</Number>
+		<Description>Speeding less than 7 miles per hour in 30-54 zone</Description>
+	</AccidentViolation>
+	<AccidentViolation Type="violation" ID="92" Action="override">
+		<Number>92</Number>
+		<Description>Speeding less than 11 miles per hour in 55-70 zone</Description>
+	</AccidentViolation>
+  <AccidentViolation Type="violation" ID="93" Action="add">
+    <Number>93</Number>
+    <Description>Speeding less than 7 miles per hour in 30-54 zone</Description>
+  </AccidentViolation>
+  <AccidentViolation Type="violation" ID="94" Action="add">
+    <Number>94</Number>
+    <Description>Speeding less than 11 miles per hour in 55-70 zone</Description>
+  </AccidentViolation>
+</AccidentViolations>

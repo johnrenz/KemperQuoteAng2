@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/DecisionMaker/AccountMaster" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/DecisionMaker/AccountMaster" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/DecisionMaker/AccountMaster">
+      <s:element name="GetCompanyNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCompanyNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCompanyNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strMarketBrand" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strActivity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateAlpha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgencyName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgencyNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgencyNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAgencyNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountPayPlanPdp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountPayPlanPdpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountPayPlanPdpResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetERMFbyAccountNumberAndState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetERMFbyAccountNumberAndStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetERMFbyAccountNumberAndStateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPERMbyAccountNumberAndState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPERMbyAccountNumberAndStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPERMbyAccountNumberAndStateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetERMFsByState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StateNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetERMFsByStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetERMFsByStateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPERMsByState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StateNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPERMsByStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPERMsByStateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgentName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgentNumber" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAgentNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAgentNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccounts">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAccountsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAffinity">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AcctNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAffinityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAffinityResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="stateName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStateResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetForm">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateAlpha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetFormResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetFormResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCov">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EnhancedEndo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CovC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateAlpha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="StandardRentersOnly" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="MarketBrand" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCovResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCovResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDed">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EnhancedEndo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CovC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateAlpha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="StandardRentersOnly" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDedResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBrand">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MarketKeyCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBrandResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBrandResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountPremierProg">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AccountNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StateAlpha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EdDateEffective" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAccountPremierProgResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountPremierProgResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetrieveAccountByMarketKeyCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MarketKeycode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RetrieveAccountByMarketKeyCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RetrieveAccountByMarketKeyCodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommunityList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strZipCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strAccount" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommunityListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCommunityListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommunityInfoFromID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strCommunityId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommunityInfoFromIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCommunityInfoFromIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetCompanyNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCompanyNo" />
+  </wsdl:message>
+  <wsdl:message name="GetCompanyNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCompanyNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountName" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAgencyNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAgencyName" />
+  </wsdl:message>
+  <wsdl:message name="GetAgencyNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAgencyNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountPayPlanPdpSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountPayPlanPdp" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountPayPlanPdpSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountPayPlanPdpResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetERMFbyAccountNumberAndStateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetERMFbyAccountNumberAndState" />
+  </wsdl:message>
+  <wsdl:message name="GetERMFbyAccountNumberAndStateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetERMFbyAccountNumberAndStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPERMbyAccountNumberAndStateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPERMbyAccountNumberAndState" />
+  </wsdl:message>
+  <wsdl:message name="GetPERMbyAccountNumberAndStateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPERMbyAccountNumberAndStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetERMFsByStateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetERMFsByState" />
+  </wsdl:message>
+  <wsdl:message name="GetERMFsByStateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetERMFsByStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPERMsByStateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPERMsByState" />
+  </wsdl:message>
+  <wsdl:message name="GetPERMsByStateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPERMsByStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAgentNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAgentName" />
+  </wsdl:message>
+  <wsdl:message name="GetAgentNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAgentNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccounts" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAffinitySoapIn">
+    <wsdl:part name="parameters" element="tns:GetAffinity" />
+  </wsdl:message>
+  <wsdl:message name="GetAffinitySoapOut">
+    <wsdl:part name="parameters" element="tns:GetAffinityResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStateSoapIn">
+    <wsdl:part name="parameters" element="tns:GetState" />
+  </wsdl:message>
+  <wsdl:message name="GetStateSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSoapIn">
+    <wsdl:part name="parameters" element="tns:GetForm" />
+  </wsdl:message>
+  <wsdl:message name="GetFormSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFormResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCovSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCov" />
+  </wsdl:message>
+  <wsdl:message name="GetCovSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCovResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDedSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDed" />
+  </wsdl:message>
+  <wsdl:message name="GetDedSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDedResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBrandSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBrand" />
+  </wsdl:message>
+  <wsdl:message name="GetBrandSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBrandResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountPremierProgSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountPremierProg" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountPremierProgSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountPremierProgResponse" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveAccountByMarketKeyCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:RetrieveAccountByMarketKeyCode" />
+  </wsdl:message>
+  <wsdl:message name="RetrieveAccountByMarketKeyCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:RetrieveAccountByMarketKeyCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCommunityListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCommunityList" />
+  </wsdl:message>
+  <wsdl:message name="GetCommunityListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCommunityListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCommunityInfoFromIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCommunityInfoFromID" />
+  </wsdl:message>
+  <wsdl:message name="GetCommunityInfoFromIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCommunityInfoFromIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AccountMasterSoap">
+    <wsdl:operation name="GetCompanyNo">
+      <wsdl:input message="tns:GetCompanyNoSoapIn" />
+      <wsdl:output message="tns:GetCompanyNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountName">
+      <wsdl:input message="tns:GetAccountNameSoapIn" />
+      <wsdl:output message="tns:GetAccountNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyName">
+      <wsdl:input message="tns:GetAgencyNameSoapIn" />
+      <wsdl:output message="tns:GetAgencyNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountPayPlanPdp">
+      <wsdl:input message="tns:GetAccountPayPlanPdpSoapIn" />
+      <wsdl:output message="tns:GetAccountPayPlanPdpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetERMFbyAccountNumberAndState">
+      <wsdl:input message="tns:GetERMFbyAccountNumberAndStateSoapIn" />
+      <wsdl:output message="tns:GetERMFbyAccountNumberAndStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPERMbyAccountNumberAndState">
+      <wsdl:input message="tns:GetPERMbyAccountNumberAndStateSoapIn" />
+      <wsdl:output message="tns:GetPERMbyAccountNumberAndStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetERMFsByState">
+      <wsdl:input message="tns:GetERMFsByStateSoapIn" />
+      <wsdl:output message="tns:GetERMFsByStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPERMsByState">
+      <wsdl:input message="tns:GetPERMsByStateSoapIn" />
+      <wsdl:output message="tns:GetPERMsByStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentName">
+      <wsdl:input message="tns:GetAgentNameSoapIn" />
+      <wsdl:output message="tns:GetAgentNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <wsdl:input message="tns:GetAccountsSoapIn" />
+      <wsdl:output message="tns:GetAccountsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAffinity">
+      <wsdl:input message="tns:GetAffinitySoapIn" />
+      <wsdl:output message="tns:GetAffinitySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetState">
+      <wsdl:input message="tns:GetStateSoapIn" />
+      <wsdl:output message="tns:GetStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetForm">
+      <wsdl:input message="tns:GetFormSoapIn" />
+      <wsdl:output message="tns:GetFormSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCov">
+      <wsdl:input message="tns:GetCovSoapIn" />
+      <wsdl:output message="tns:GetCovSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDed">
+      <wsdl:input message="tns:GetDedSoapIn" />
+      <wsdl:output message="tns:GetDedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBrand">
+      <wsdl:input message="tns:GetBrandSoapIn" />
+      <wsdl:output message="tns:GetBrandSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountPremierProg">
+      <wsdl:input message="tns:GetAccountPremierProgSoapIn" />
+      <wsdl:output message="tns:GetAccountPremierProgSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveAccountByMarketKeyCode">
+      <wsdl:input message="tns:RetrieveAccountByMarketKeyCodeSoapIn" />
+      <wsdl:output message="tns:RetrieveAccountByMarketKeyCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommunityList">
+      <wsdl:input message="tns:GetCommunityListSoapIn" />
+      <wsdl:output message="tns:GetCommunityListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommunityInfoFromID">
+      <wsdl:input message="tns:GetCommunityInfoFromIDSoapIn" />
+      <wsdl:output message="tns:GetCommunityInfoFromIDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AccountMasterSoap" type="tns:AccountMasterSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCompanyNo">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCompanyNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountName">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccountName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyName">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAgencyName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountPayPlanPdp">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccountPayPlanPdp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetERMFbyAccountNumberAndState">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetERMFbyAccountNumberAndState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPERMbyAccountNumberAndState">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetPERMbyAccountNumberAndState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetERMFsByState">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetERMFsByState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPERMsByState">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetPERMsByState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentName">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAgentName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccounts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAffinity">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAffinity" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetState">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetForm">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetForm" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCov">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCov" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDed">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetDed" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrand">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetBrand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountPremierProg">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccountPremierProg" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveAccountByMarketKeyCode">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/RetrieveAccountByMarketKeyCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommunityList">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCommunityList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommunityInfoFromID">
+      <soap:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCommunityInfoFromID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AccountMasterSoap12" type="tns:AccountMasterSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCompanyNo">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCompanyNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountName">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccountName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgencyName">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAgencyName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountPayPlanPdp">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccountPayPlanPdp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetERMFbyAccountNumberAndState">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetERMFbyAccountNumberAndState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPERMbyAccountNumberAndState">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetPERMbyAccountNumberAndState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetERMFsByState">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetERMFsByState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPERMsByState">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetPERMsByState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAgentName">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAgentName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccounts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAffinity">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAffinity" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetState">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetForm">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetForm" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCov">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCov" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDed">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetDed" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrand">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetBrand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountPremierProg">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetAccountPremierProg" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RetrieveAccountByMarketKeyCode">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/RetrieveAccountByMarketKeyCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommunityList">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCommunityList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommunityInfoFromID">
+      <soap12:operation soapAction="http://tempuri.org/DecisionMaker/AccountMaster/GetCommunityInfoFromID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AccountMaster">
+    <wsdl:port name="AccountMasterSoap" binding="tns:AccountMasterSoap">
+      <soap:address location="http://udiplyhomwt1/Decisionmaker/aspscript/AccountMaster.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AccountMasterSoap12" binding="tns:AccountMasterSoap12">
+      <soap12:address location="http://udiplyhomwt1/Decisionmaker/aspscript/AccountMaster.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

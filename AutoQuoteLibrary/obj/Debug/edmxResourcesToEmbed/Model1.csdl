@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoQuoteModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ModelYearMake">
+    <Key>
+      <PropertyRef Name="MODEL_ID" />
+    </Key>
+    <Property Name="MODEL_ID" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="YEAR_VER1" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="MAKE_VER1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MODEL_VER1" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="BODY_VER1" Type="String" MaxLength="8" FixedLength="true" Unicode="true" />
+    <Property Name="DESCRIPTION_VER1" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="YEAR" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Quote">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QM_QUOTE_NO_0" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QM_ALT_QUOTE_TEST" Type="Int16" />
+    <Property Name="QM_PHONE_QUOTE_TEST" Type="Int16" />
+    <Property Name="QM_NO_OF_REQUOTES" Type="Int16" />
+    <Property Name="QM_QUOTE_PRINT_TEST" Type="Int16" />
+    <Property Name="QM_QUOTE_TRANS_TYPE" Type="Int16" />
+    <Property Name="QM_LAST_REQUOTE_TRANS" Type="Int16" />
+    <Property Name="QM_COMPLETE_CODE" Type="Int16" />
+    <Property Name="QM_QUOTE_TEST" Type="Int16" />
+    <Property Name="QM_QUOTE_PRINT_POINTER" Type="Int16" />
+    <Property Name="QM_REGUARANTEE_QUOTE_TEST" Type="Int16" />
+    <Property Name="QM_RESPONSE_NO" Type="Int16" />
+    <Property Name="QM_PERSONAL_MESS_NO" Type="Int16" />
+    <Property Name="QM_ACCTNUM_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_MAIL_STNO_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_RISK_STNO_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_MAIL_ZIP_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_RISK_ZIP_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_TIER_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_DNQ_NO" Type="Int16" />
+    <Property Name="QM_STATE_CO_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_DNQ_BY_UW_CO_TEST" Type="Int16" />
+    <Property Name="QM_REQUOTE_DATE" Type="Int32" />
+    <Property Name="QM_QUOTE_CANCEL_DATE" Type="Int32" />
+    <Property Name="QM_QUOTE_CONV_DATE" Type="Int32" />
+    <Property Name="QM_ORIG_QUOTE_DATE" Type="Int32" />
+    <Property Name="QM_TELE_CONTACT_DATE" Type="Int32" />
+    <Property Name="QM_POLICY_EXP_DATE" Type="Int32" />
+    <Property Name="QM_ORIG_COMPLETE_DATE" Type="Int32" />
+    <Property Name="QM_CUSTOMER_TITLE" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="QM_LAST_NAME_OF_CUSTOMER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_FIRST_NAME_OF_CUSTOMER" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MIDDLE_INITIAL" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDTL_CUSTOMER_TITLE" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDTL_LAST_NAME_OF_CUST" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDTL_FIRST_NAME_OF_CUST" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDTL_MIDDLE_INITIAL" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDRESS_LINE_1" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDRESS_LINE_2" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDRESS_CITY" Type="String" MaxLength="22" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDRESS_STATE_CODE" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MAIL_ID" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="QM_CREDIT_SCORE" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RISK_ADDRESS_LINE_1" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RISK_ADDRESS_LINE_2" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RISK_ADDRESS_CITY" Type="String" MaxLength="22" FixedLength="true" Unicode="false" />
+    <Property Name="QM_E_MAIL_ADDRESS" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MESSAGE_LINE1" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MESSAGE_LINE2" Type="String" MaxLength="60" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MARKET_KEY_CODE" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MARKET_KEY_RESERVE" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="QM_SOCIAL_SECURITY_NO" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ALTERNATE_CONTACT" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_MEMBER_NO" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_REFERENCE_NO" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDRESS_STATE_NO" Type="Int16" />
+    <Property Name="QM_RISK_STATE" Type="Int16" />
+    <Property Name="QM_ADDRESS_TERR" Type="Int16" />
+    <Property Name="QM_RISK_TERR" Type="Int16" />
+    <Property Name="QM_PHONE_EXTENSION" Type="Int16" />
+    <Property Name="QM_ORIGIN_CODE_NO" Type="Int16" />
+    <Property Name="QM_QUASI_BIND_TEST" Type="Int16" />
+    <Property Name="QM_SPECIAL_CORRES_NO" Type="Int16" />
+    <Property Name="QM_MULTI_STATE_TEST" Type="Int16" />
+    <Property Name="QM_RENT_OWN_TEST" Type="Int16" />
+    <Property Name="QM_DAY_AREA_CODE" Type="Int16" />
+    <Property Name="QM_DAY_PHONE1" Type="Int16" />
+    <Property Name="QM_DAY_PHONE2" Type="Int16" />
+    <Property Name="QM_DAY_EXT" Type="Int16" />
+    <Property Name="QM_EVE_AREA_CODE" Type="Int16" />
+    <Property Name="QM_EVE_PHONE1" Type="Int16" />
+    <Property Name="QM_EVE_PHONE2" Type="Int16" />
+    <Property Name="QM_EVE_EXT" Type="Int16" />
+    <Property Name="QM_MASTER_STATE_NO" Type="Int16" />
+    <Property Name="QM_MASTER_TERR_NO" Type="Int16" />
+    <Property Name="QM_MASTER_TERR_ADJ_TYPE" Type="Int16" />
+    <Property Name="QM_MASTER_TERR_ADQ_TYPE" Type="Int16" />
+    <Property Name="QM_USER_ID_NO" Type="Int16" />
+    <Property Name="QM_ENDORSER_USER_ID_NO" Type="Int16" />
+    <Property Name="QM_LOCATION_NO" Type="Int16" />
+    <Property Name="QM_DEPT_NO" Type="Int16" />
+    <Property Name="QM_ERMF_FACTOR" Type="Int16" />
+    <Property Name="QM_BILLING_METHOD" Type="Int16" />
+    <Property Name="QM_PRODUCT_CODE" Type="Int16" />
+    <Property Name="QM_VERSION_NO" Type="Int16" />
+    <Property Name="QM_CURRENT_CARRIER_TYPE" Type="Int16" />
+    <Property Name="QM_NO_OF_EMP_3_YRS" Type="Int16" />
+    <Property Name="QM_NO_OF_ADD_3_YRS" Type="Int16" />
+    <Property Name="QM_BEST_TIME_TO_CALL" Type="Int16" />
+    <Property Name="QM_DRIV_EXCLUSION_TEST" Type="Int16" />
+    <Property Name="QM_CURRENT_CARRIER_NO" Type="Int16" />
+    <Property Name="QM_LL_3_APPLIED_TEST" Type="Int16" />
+    <Property Name="QM_SR22_APPLIED_TEST" Type="Int16" />
+    <Property Name="QM_SUB_PRODUCT_CODE" Type="Int16" />
+    <Property Name="QM_CURRENT_LIMITS" Type="Int16" />
+    <Property Name="QM_MARKET_SOURCE_ADQ" Type="Int16" />
+    <Property Name="QM_MASTER_CO_NO" Type="Int16" />
+    <Property Name="QM_REG_OWNER_TEST" Type="Int16" />
+    <Property Name="QM_PREMIUM_FINANCE_CO_NO" Type="Int16" />
+    <Property Name="QM_PREMIUM_FINANCE_TEST" Type="Int16" />
+    <Property Name="QM_RATE_CALC_TYPE" Type="Int16" />
+    <Property Name="QM_CREDIT_SCORE_TYPE" Type="Int16" />
+    <Property Name="QM_MULTI_POLICY_TEST" Type="Int16" />
+    <Property Name="QM_CONVERTED_UW_COMPANY" Type="Int16" />
+    <Property Name="QM_ASSIST_SCORE" Type="Int16" />
+    <Property Name="QM_ZIP_CODE_1" Type="Int32" />
+    <Property Name="QM_ZIP_CODE_2" Type="Int32" />
+    <Property Name="QM_RISK_ZIP_CODE_1" Type="Int32" />
+    <Property Name="QM_RISK_ZIP_CODE_2" Type="Int32" />
+    <Property Name="QM_AMF_ACCOUNT_NO" Type="Int32" />
+    <Property Name="QM_HOME_OFFICE_NO" Type="Int32" />
+    <Property Name="QM_UNDERWRITING_CO_NO" Type="Int32" />
+    <Property Name="QM_LEVEL_I_NO" Type="Int32" />
+    <Property Name="QM_LEVEL_II_NO" Type="Int32" />
+    <Property Name="QM_LEVEL_III_NO" Type="Int32" />
+    <Property Name="QM_DOCUMENT_NO" Type="Int32" />
+    <Property Name="QM_ANNUAL_INCOME" Type="Int32" />
+    <Property Name="QM_SERVICING_OFFICE" Type="Int32" />
+    <Property Name="QM_TERM_FACTOR" Type="Int32" />
+    <Property Name="QM_POLICY_FEE" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_1" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_1_DIFF" Type="Int32" />
+    <Property Name="QM_OPTION_FEE1_TFA" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_2" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_2_DIFF" Type="Int32" />
+    <Property Name="QM_OPTION_FEE2_TFA" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_3" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_3_DIFF" Type="Int32" />
+    <Property Name="QM_OPTION_FEE3_TFA" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_4" Type="Int32" />
+    <Property Name="QM_OPTION_FEE_4_DIFF" Type="Int32" />
+    <Property Name="QM_OPTION_FEE4_TFA" Type="Int32" />
+    <Property Name="QM_WEB_DISCOUNT" Type="Int32" />
+    <Property Name="QM_CURRENT_CARRIER_PREM" Type="Int32" />
+    <Property Name="QM_EFF_DATE" Type="Int32" />
+    <Property Name="QM_EXP_DATE" Type="Int32" />
+    <Property Name="QM_LAST_ENDORSEMENT_DATE" Type="Int32" />
+    <Property Name="QM_ISSUE_DATE" Type="Int32" />
+    <Property Name="QM_VERSION_DATE" Type="Int32" />
+    <Property Name="QM_QUOTE_EFF_DATE" Type="Int32" />
+    <Property Name="QM_CONTACT_RECV_DATE" Type="Int32" />
+    <Property Name="QM_CREDIT_SCORE_EFF_DATE" Type="Int32" />
+    <Property Name="QM_NO_OF_VEHICLES" Type="Int16" />
+    <Property Name="QM_NO_OF_DRIVERS" Type="Int16" />
+    <Property Name="QM_NO_OF_VIOLATIONS" Type="Int16" />
+    <Property Name="QM_NO_OF_ACC_COMP" Type="Int16" />
+    <Property Name="QM_NO_OF_YOUTHFULS" Type="Int16" />
+    <Property Name="QM_POLICY_REFERENCE_NO" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="QM_CREDIT_SOURCE" Type="Int16" />
+    <Property Name="QM_CUST_PROFILE_NO" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_NEXT_DRIVER_NO" Type="Int16" />
+    <Property Name="QM_NEXT_VEHICLE_NO" Type="Int16" />
+    <Property Name="QM_POLICY_EFF_DATE" Type="Int32" />
+    <Property Name="QM_TOTAL_PREMIUM" Type="Int32" />
+    <Property Name="QM_RATE_ADJ_FACTOR" Type="Int32" />
+    <Property Name="QM_RATE_ADJ_FACTOR_INCRMNT" Type="Int16" />
+    <Property Name="QM_PRODUCT_VERSION" Type="Int16" />
+    <Property Name="QM_EMAIL_ADDRESS_TEST" Type="Int16" />
+    <Property Name="QM_NO_OF_DAYS_LAPSED" Type="Int16" />
+    <Property Name="QM_PAID_IN_FULL_TEST" Type="Int16" />
+    <Property Name="QM_PREMIUM_TERM" Type="Int16" />
+    <Property Name="QM_PRIOR_CONT_INS_TEST" Type="Int16" />
+    <Property Name="QM_EFT_TEST" Type="Int16" />
+    <Property Name="QM_CURRENT_CARRIER_TEST" Type="Int16" />
+    <Property Name="QM_SR22_FILING_FEE" Type="Int32" />
+    <Property Name="QM_POST_MARK_DATE" Type="Int32" />
+    <Property Name="QM_RATE_ADJ_TERM" Type="Int16" />
+    <Property Name="QM_PAID_IN_FULL_OPTION_PREM" Type="Int32" />
+    <Property Name="QM_HOMEOWNER_VERIFY_TEST" Type="Int16" />
+    <Property Name="QM_SOLICIT_ID" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="QM_CREDIT_MODEL" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ADDRESS_VERIFICATION_TEST" Type="Int16" />
+    <Property Name="QM_DAY_PHONE_TYPE" Type="Int16" />
+    <Property Name="QM_EVE_PHONE_TYPE" Type="Int16" />
+    <Property Name="QM_EXCLUDE_AUTO_CALL" Type="Int16" />
+    <Property Name="QM_CREDIT_VENDOR" Type="Int16" />
+    <Property Name="QM_METHOD_CV_FORMS" Type="Int16" />
+    <Property Name="QM_TORT_PREMIUM" Type="Int32" />
+    <Property Name="QM_RATE_VERSION_DATE" Type="Int32" />
+    <Property Name="QM_CONTACT_DATE_START" Type="Int32" />
+    <Property Name="QM_CONTACT_DATE_END" Type="Int32" />
+    <Property Name="QM_CONTACT_TIME_START" Type="Int32" />
+    <Property Name="QM_CONTACT_TIME_END" Type="Int32" />
+    <Property Name="QM_CONTACT_TYPE_NO" Type="Int16" />
+    <Property Name="qm_social_security_no_enc" Type="Binary" MaxLength="255" FixedLength="false" />
+    <Property Name="QM_INSP_PRI_INS_WAIVER_TEST" Type="Int16" />
+    <Property Name="QM_INSP_CONT_COV_SINCE_DATE" Type="Int32" />
+    <Property Name="QM_QUOTE_TAX" Type="Int32" />
+    <Property Name="QM_USE_NEW_BILLING_FLAG" Type="Int16" />
+    <Property Name="qm_market_brand" Type="Int16" />
+    <Property Name="qm_policy_form" Type="Int16" />
+    <Property Name="qm_channel_method" Type="Int16" />
+    <Property Name="qm_e_document_level" Type="Int16" />
+    <Property Name="qm_level_i_comm_rate" Type="Int16" />
+    <Property Name="qm_level_ii_comm_rate" Type="Int16" />
+    <Property Name="qm_level_iii_comm_rate" Type="Int16" />
+    <Property Name="qm_ratemaker_vers_date" Type="Int32" />
+    <Property Name="qm_no_of_hh_drivers" Type="Int16" />
+    <Property Name="qm_no_of_can_notice_12_month" Type="Int16" />
+  </EntityType>
+  <EntityType Name="QuoteAccident">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" />
+    <Property Name="PRIME_KEY_A" Type="Int32" Nullable="false" />
+    <Property Name="QM_ACCIDENT_NO" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QM_DRIV_NO_OF_ACC_COMP" Type="Int16" Nullable="false" />
+    <Property Name="QM_ACC_COMP_NO" Type="Int16" />
+    <Property Name="QM_ACC_COMP_IN_NO" Type="Int16" />
+    <Property Name="QM_SDIP_ACC_COMP" Type="Int16" />
+    <Property Name="QM_INJURY_ACC_COMP" Type="Int16" />
+    <Property Name="QM_ACCIDENT_RATING_TYPE" Type="Int16" />
+    <Property Name="QM_ACC_COMP_CHARGED_TEST" Type="Int16" />
+    <Property Name="QM_AMT_OF_ACC_COMP" Type="Int32" />
+    <Property Name="QM_DATE_OF_ACC_COMP" Type="Int32" />
+    <Property Name="QM_DATE_OF_CHARGE_ACC_COMP" Type="Int32" />
+    <Property Name="QM_ACC_COMP_REF_NO" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ACC_COMP_SOURCE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ACC_COMP_LOAD_DATE" Type="Int32" />
+    <Property Name="QM_AMT_OF_ACC_UPDATE" Type="Int32" />
+    <Property Name="qm_coll_paid_amt" Type="Int32" />
+  </EntityType>
+  <EntityType Name="QuoteDriver">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PRIME_KEY_D" Type="Int32" Nullable="false" />
+    <Property Name="QM_DRIVER_NO" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="QM_DRIV_FIRST" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_DRIV_MIDDLE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="QM_DRIV_LAST" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_DRIV_LICENSE" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEH_OF_DRIV" Type="Int16" />
+    <Property Name="QM_DRIV_SEX" Type="Int16" />
+    <Property Name="QM_DRIV_MARRIED_SINGLE" Type="Int16" />
+    <Property Name="QM_DRIV_TRAINING_TEST" Type="Int16" />
+    <Property Name="QM_OPERATOR_TYPE" Type="Int16" />
+    <Property Name="QM_NON_DRINK_SMOKE_TEST" Type="Int16" />
+    <Property Name="QM_MATURE_DRIV_TYPE" Type="Int16" />
+    <Property Name="QM_LL_3_TEST" Type="Int16" />
+    <Property Name="QM_EDUCATION_TEST" Type="Int16" />
+    <Property Name="QM_OCCUPATION_NO" Type="Int16" />
+    <Property Name="QM_OCCUPATION_CAT" Type="Int16" />
+    <Property Name="QM_RELATION_TO_RESP" Type="Int16" />
+    <Property Name="QM_DRIV_LIC_STATE_NO" Type="Int16" />
+    <Property Name="QM_FINANCIAL_RESP_STATE_NO" Type="Int16" />
+    <Property Name="QM_FINANCIAL_RESP_TEST" Type="Int16" />
+    <Property Name="QM_GOOD_DRIV_TEST" Type="Int16" />
+    <Property Name="QM_YOUTH_GROUP_TEST" Type="Int16" />
+    <Property Name="QM_DRIVER_STATUS" Type="Int16" />
+    <Property Name="QM_BIRTH_DATE_OF_DRIV" Type="Int32" />
+    <Property Name="QM_DATE_LICENSED" Type="Int32" />
+    <Property Name="QM_FINANCIAL_RESP_DATE" Type="Int32" />
+    <Property Name="QM_GOOD_STUDENT_DATE" Type="Int32" />
+    <Property Name="QM_DDC_DATE" Type="Int32" />
+    <Property Name="QM_MATURE_DRIV_DATE" Type="Int32" />
+    <Property Name="QM_DRUG_AND_ALCOHOL_DATE" Type="Int32" />
+    <Property Name="QM_MVR_RETURN_DATE" Type="Int32" />
+    <Property Name="QM_MATURE_DRIVER_DIS" Type="Int16" />
+    <Property Name="QM_GOOD_DRIVER_DIS" Type="Int16" />
+    <Property Name="QM_DDC_DISCOUNT" Type="Int16" />
+    <Property Name="QM_NON_DRNK_SMK_DIS" Type="Int16" />
+    <Property Name="QM_DRIV_TRAINING_DIS" Type="Int16" />
+    <Property Name="QM_GOOD_STUDENT_DIS" Type="Int16" />
+    <Property Name="QM_AWAY_SCHOOL_DIS" Type="Int16" />
+    <Property Name="QM_COLLEGE_GRAD_DIS" Type="Int16" />
+    <Property Name="QM_YOUTH_GROUP_DIS" Type="Int16" />
+    <Property Name="QM_DRUG_ALCOHOL_DIS" Type="Int16" />
+    <Property Name="QM_DRIVER_ADDED_DATE" Type="Int32" />
+    <Property Name="QM_CLUE_LAST_ORDER_DATE" Type="Int32" />
+    <Property Name="QM_CLUE_NEXT_ORDER_DATE" Type="Int32" />
+    <Property Name="QM_CLUE_OVERRIDE_ORDER_DATE" Type="Int32" />
+    <Property Name="QM_CLUE_OVERRIDE_YN" Type="Int16" />
+    <Property Name="QM_MVR_LAST_ORDER_DATE" Type="Int32" />
+    <Property Name="QM_MVR_NEXT_ORDER_DATE" Type="Int32" />
+    <Property Name="QM_MVR_OVERRIDE_ORDER_DATE" Type="Int32" />
+    <Property Name="QM_MVR_OVERRIDE_YN" Type="Int16" />
+    <Property Name="QM_ORIG_DRIVER_NO" Type="Int16" />
+    <Property Name="QM_SOC_SEC_NUMBER" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="QM_DRIV_SDIP_POINTS" Type="Int16" />
+    <Property Name="QM_EMPLOYMENT_STATUS" Type="Int16" />
+    <Property Name="QM_age_first_licensed_yrs" Type="Int16" />
+    <Property Name="QM_age_first_licensed_months" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_BI" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_PD" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_PIP" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_UMBI" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_UMPD" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_PPI" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_OTC" Type="Int16" />
+    <Property Name="QM_DRIV_SDIP_POINTS_COLL" Type="Int16" />
+    <Property Name="QM_DRIVER_LICENSE_STATUS" Type="Int16" />
+    <Property Name="QM_DRIVER_EXCLUSION_STATUS" Type="Int16" />
+    <Property Name="qm_soc_sec_number_enc" Type="Binary" MaxLength="255" FixedLength="false" />
+    <Property Name="QM_CLEAN_COVD_DIS" Type="Int16" />
+  </EntityType>
+  <EntityType Name="QuoteVehicle">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PRIME_KEY_V" Type="Int32" Nullable="false" />
+    <Property Name="QM_VEHICLE_NO_V" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEH_MAKE" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEH_MODEL" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEH_BODY_STYLE" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEH_VIN_NUMBER" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_ALT_GARAGE_CITY" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEH_ALT_TERR" Type="Int16" />
+    <Property Name="QM_VEH_YEAR" Type="Int16" />
+    <Property Name="QM_VEH_SYMBOL" Type="Int16" />
+    <Property Name="QM_RETIRED_DRIV_AGE_CAT" Type="Int16" />
+    <Property Name="QM_DISTANCE" Type="Int16" />
+    <Property Name="QM_DAYS_PER_WEEK" Type="Int16" />
+    <Property Name="QM_WEEKS_PER_MONTH" Type="Int16" />
+    <Property Name="QM_VEH_USE" Type="Int16" />
+    <Property Name="QM_PERCENT_BUSINESS" Type="Int16" />
+    <Property Name="QM_VEH_TYPE" Type="Int16" />
+    <Property Name="QM_PERFORMANCE" Type="Int16" />
+    <Property Name="QM_VEH_EXPOSURE" Type="Int16" />
+    <Property Name="QM_TERR_ADJ_TYPE" Type="Int16" />
+    <Property Name="QM_TERR_ADQ_TYPE" Type="Int16" />
+    <Property Name="QM_SAFE_VEH" Type="Int16" />
+    <Property Name="QM_EX_LIAB_TEST" Type="Int16" />
+    <Property Name="QM_STORED_VEH_TEST" Type="Int16" />
+    <Property Name="QM_DISABLING_DEVICE" Type="Int16" />
+    <Property Name="QM_PASSIVE_RESTRAINT" Type="Int16" />
+    <Property Name="QM_AIR_BAG_TEST" Type="Int16" />
+    <Property Name="QM_ANTI_LOCK_BRAKE_TEST" Type="Int16" />
+    <Property Name="QM_REG_TO_NON_RELATIVES_TEST" Type="Int16" />
+    <Property Name="QM_PARKING_TYPE" Type="Int16" />
+    <Property Name="QM_FACTORY_CUST_TEST" Type="Int16" />
+    <Property Name="QM_DRIVE_TYPE_TEST" Type="Int16" />
+    <Property Name="QM_TONAGE_TEST" Type="Int16" />
+    <Property Name="QM_MANUAL_OVERRIDE_TEST" Type="Int16" />
+    <Property Name="QM_MAKE_NUMBER" Type="Int16" />
+    <Property Name="QM_CAMPER_TOP_TEST" Type="Int16" />
+    <Property Name="QM_ALT_ZIP_LOCK_TEST" Type="Int16" />
+    <Property Name="QM_WINDOW_ETCHING_TEST" Type="Int16" />
+    <Property Name="QM_VEHICLE_RECOVERY_TEST" Type="Int16" />
+    <Property Name="QM_DAYTIME_LIGHTS_TEST" Type="Int16" />
+    <Property Name="QM_ALT_GAR_ZIP_CODE_1" Type="Int32" />
+    <Property Name="QM_ALT_GAR_ZIP_CODE_2" Type="Int32" />
+    <Property Name="QM_ANNUAL_MILEAGE" Type="Int32" />
+    <Property Name="QM_COST_NEW" Type="Int32" />
+    <Property Name="QM_COST_OF_CAMPER_TOP" Type="Int32" />
+    <Property Name="QM_ENTER_VEH_DATE" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="QM_COVERED_PROP_AMT" Type="Int32" />
+    <Property Name="QM_CUSTOM_EQUIP_COST" Type="Int32" />
+    <Property Name="QM_STORED_VEH_DATE" Type="Int32" />
+    <Property Name="QM_MODEL_NUMBER" Type="Int32" />
+    <Property Name="QM_ADDL_INSURED_NO" Type="Int32" />
+    <Property Name="QM_LOSS_PAYEE_NO" Type="Int32" />
+    <Property Name="QM_TAX_CODE" Type="Int32" />
+    <Property Name="QM_CURRENT_ODOM" Type="Int32" />
+    <Property Name="QM_PURCHASE_ODOM" Type="Int32" />
+    <Property Name="QM_PURCH_VEH_DATE" Type="Int32" />
+    <Property Name="QM_MULTI_CAR_DIS" Type="Int16" />
+    <Property Name="QM_SAFE_VEH_DIS" Type="Int16" />
+    <Property Name="QM_RETIRED_DRIV_DIS" Type="Int16" />
+    <Property Name="QM_PREMIER_DISCOUNT_DATA" Type="Int16" />
+    <Property Name="QM_RENEWAL_CREDIT_DATA" Type="Int16" />
+    <Property Name="QM_MULTI_POLICY_DIS" Type="Int16" />
+    <Property Name="QM_MUNI_RATE" Type="Int16" />
+    <Property Name="QM_MUNI_SURCHARGE" Type="Int16" />
+    <Property Name="QM_AUTO_SURCHARGE" Type="Int16" />
+    <Property Name="QM_WEB_DATA" Type="Int16" />
+    <Property Name="QM_LEASE_AI_TEST" Type="Int16" />
+    <Property Name="QM_ORIG_VEHICLE_NO" Type="Int16" />
+    <Property Name="QM_RO_ADDL_FIRST_NAME" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_ADDL_LAST_NAME" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_ADDL_MIDDLE_INIT" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_ADDRESS_CITY" Type="String" MaxLength="22" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_ADDRESS_LINE_1" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_FIRST_NAME" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_LAST_NAME" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_MIDDLE_INIT" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_STATE_CODE" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_ZIP_CODE_1" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="QM_RO_ZIP_CODE_2" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VEHICLE_ADDED_DATE" Type="Int32" />
+    <Property Name="QM_ODOM_2" Type="Int32" />
+    <Property Name="QM_ODOM_DATE_2" Type="Int32" />
+    <Property Name="QM_RO_ADDRESS_LINE_2" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+    <Property Name="QM_CUST_EST_PLEASURE_MILES" Type="Int32" />
+    <Property Name="QM_VEH_SYMBOL_LIAB" Type="Int16" />
+    <Property Name="QM_VEH_SYMBOL_COMP" Type="Int16" />
+    <Property Name="QM_VEH_SYMBOL_COLL" Type="Int16" />
+    <Property Name="QM_VEH_SYMBOL_PIP" Type="Int16" />
+    <Property Name="QM_VEH_SYMBOL_YEAR_ADJ" Type="Int16" />
+    <Property Name="QM_VEH_TERR_BI" Type="Int16" />
+    <Property Name="QM_VEH_TERR_PD" Type="Int16" />
+    <Property Name="QM_VEH_TERR_PIP" Type="Int16" />
+    <Property Name="QM_VEH_HI_PERF_IND" Type="Int16" />
+    <Property Name="QM_HOMEOWNER_DIS" Type="Int16" />
+    <Property Name="QM_PD_IN_FULL_DIS" Type="Int16" />
+    <Property Name="QM_INSPECTION_REQ_TEST" Type="Int16" />
+    <Property Name="QM_EFT_DIS" Type="Int16" />
+    <Property Name="QM_VEH_TERR_COMP" Type="Int16" />
+    <Property Name="QM_VEH_TERR_COLL" Type="Int16" />
+    <Property Name="QM_VEH_TERR_UM" Type="Int16" />
+    <Property Name="QM_ADJUST_TO_MAKE_MODEL" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="QM_FL_COUNTY_TEST" Type="Int16" />
+    <Property Name="QM_REPLACEMENT_VEHICLE_FLAG" Type="Int16" />
+    <Property Name="QM_YEAR_MAKE_MODEL" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="QM_CITY_CODE" Type="Int32" />
+    <Property Name="QM_COUNTY_CODE" Type="Int32" />
+    <Property Name="Qm_prior_annual_mileage" Type="Int32" />
+    <Property Name="QM_CURR_ODOM_DATE" Type="Int32" />
+    <Property Name="QM_PRIOR_ODOM" Type="Int32" />
+    <Property Name="QM_PRIOR_ODOM_DATE" Type="Int32" />
+    <Property Name="QM_UPD_ANNUAL_MILEAGE" Type="Int32" />
+    <Property Name="QM_UPD_CURRENT_ODOM" Type="Int32" />
+    <Property Name="QM_UPD_ODOM_DATE" Type="Int32" />
+    <Property Name="QM_ODOM_NEEDS_UPD_FLAG" Type="Int32" />
+    <Property Name="QM_VEH_ISO_COMP" Type="Int16" />
+    <Property Name="QM_VEH_ISO_COLL" Type="Int16" />
+    <Property Name="QM_VEH_WEB_MODEL" Type="String" MaxLength="27" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="QuoteViolation">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" />
+    <Property Name="PRIME_KEY_I" Type="Int32" Nullable="false" />
+    <Property Name="QM_VIOLATION_ID" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QM_DRIV_NO_OF_VIOL" Type="Int16" Nullable="false" />
+    <Property Name="QM_VIOLATION_NO" Type="Int16" Nullable="false" />
+    <Property Name="QM_VIOL_INCIDENT_NO" Type="Int16" />
+    <Property Name="QM_VIOLATION_TYPE" Type="Int16" />
+    <Property Name="QM_VIOLATION_RATING_TYPE" Type="Int16" />
+    <Property Name="QM_VIOL_CHARGED_TEST" Type="Int16" />
+    <Property Name="QM_DATE_OF_VIOL" Type="Int32" />
+    <Property Name="QM_DATE_OF_CHARGE_VIOL" Type="Int32" />
+    <Property Name="QM_VIOL_REF_NO" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="QM_VIOL_SOURCE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="states_master">
+    <Key>
+      <PropertyRef Name="state_master" />
+    </Key>
+    <Property Name="state_master" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="state_number" Type="Double" />
+    <Property Name="state_name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="time_dif" Type="Int32" />
+    <Property Name="quote_redirect" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="pageset" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="allow_amend" Type="Boolean" />
+    <Property Name="esig" Type="Byte" Nullable="false" />
+    <Property Name="vehicle_endorsement" Type="Byte" Nullable="false" />
+    <Property Name="esig_discount" Type="Byte" />
+    <Property Name="allow_ho_instant_renter" Type="Boolean" Nullable="false" />
+    <Property Name="allow_trac_rating" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="allow_trac_bind" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="allow_affinity_auto" Type="Boolean" Nullable="false" />
+    <Property Name="allow_affinity_condo" Type="Boolean" Nullable="false" />
+    <Property Name="allow_affinity_home" Type="Boolean" Nullable="false" />
+    <Property Name="allow_affinity_renters" Type="Boolean" Nullable="false" />
+    <Property Name="allow_affinity_embedded_renter" Type="Boolean" Nullable="false" />
+    <Property Name="is_vibe_state" Type="Boolean" Nullable="false" />
+    <Property Name="is_homeownerDisc" Type="Boolean" Nullable="false" />
+    <Property Name="is_webDisc" Type="Boolean" Nullable="false" />
+    <Property Name="isDnqBySdip_state" Type="Boolean" Nullable="false" />
+    <Property Name="is_ivanka_state" Type="Boolean" Nullable="false" />
+    <Property Name="is_new_bind_state" Type="Boolean" Nullable="false" />
+    <Property Name="is_vibe_6mo_state" Type="Boolean" Nullable="false" />
+    <Property Name="is_EDoc_state" Type="Boolean" Nullable="false" />
+    <Property Name="is_kdquoteflow_state" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_web_session">
+    <Key>
+      <PropertyRef Name="guid" />
+    </Key>
+    <Property Name="guid" Type="Guid" Nullable="false" />
+    <Property Name="drc_xml" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="current_page" Type="String" MaxLength="25" FixedLength="true" Unicode="false" />
+    <Property Name="err_count" Type="Byte" />
+    <Property Name="err_details" Type="String" MaxLength="2500" FixedLength="false" Unicode="false" />
+    <Property Name="first_save" Type="DateTime" Precision="3" />
+    <Property Name="last_save" Type="DateTime" Precision="3" />
+    <Property Name="queue_inuse" Type="Int32" />
+    <Property Name="queue_complete" Type="Byte" />
+    <Property Name="queue_start" Type="DateTime" Precision="3" />
+    <Property Name="queue_end" Type="DateTime" Precision="3" />
+    <Property Name="drc_end" Type="DateTime" Precision="3" />
+    <Property Name="amf_account_no" Type="Int32" />
+    <Property Name="keycode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="quote_number" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="consumer_id" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="comments" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="csr_queue" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="quote_errmsg" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="bind_status" Type="Int32" />
+    <Property Name="uw_comp" Type="Int32" />
+    <Property Name="knockout" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="dnq_template" Type="Byte" />
+    <Property Name="dnq_reason" Type="Byte" />
+    <Property Name="dnq_email_sent" Type="Byte" />
+    <Property Name="oqpremium" Type="Double" />
+    <Property Name="oqpremiumfulltort" Type="Int32" />
+    <Property Name="drc_premium" Type="Int32" />
+    <Property Name="drc_premiumfulltort" Type="Int32" />
+    <Property Name="email_success" Type="Int32" />
+    <Property Name="email_date_sent" Type="DateTime" Precision="3" />
+    <Property Name="email_attempt_no" Type="Byte" />
+    <Property Name="orig_quote_no" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="leadprofileid" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="quote_id" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="orig_app" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dnq_description" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="form_complete" Type="Byte" />
+    <Property Name="email_suppress" Type="Byte" />
+    <Property Name="clickthru_partner_id" Type="Int32" />
+    <Property Name="clickthru_custom" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="amend_status" Type="Int32" />
+    <Property Name="followup_email" Type="DateTime" Precision="0" />
+    <Property Name="state" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="keywords" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="referer_id" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="tbl_web_session_flex">
+    <Key>
+      <PropertyRef Name="guid" />
+    </Key>
+    <Property Name="guid" Type="Guid" Nullable="false" />
+    <Property Name="flex_xml" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_web_split_zips">
+    <Key>
+      <PropertyRef Name="prime_key" />
+    </Key>
+    <Property Name="prime_key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="zip" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="terr" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="definition" Type="String" MaxLength="125" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbl_web_state_zip_ranges">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="state" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="min_zip" Type="Int32" />
+    <Property Name="max_zip" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" />
+    <Property Name="VO_MD_YEAR" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_YEAR" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MODEL_ID" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="VO_YEAR1" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MAKE_NO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MAKE_CODE" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="VO_VIN_NO" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="VO_IIN_CENTURY" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="VO_IIN_YEAR" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="VO_IIN_NO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MODEL" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="VO_BODY" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="VO_DESCRIPTION" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="VO_RESTRAINT" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_ANTI_LOCK_BRAKE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_WHEELS_DRIVEN" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_SPECIAL_INFO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_DAYTIME_LIGHTS_TEST" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_ANTI_THEFT_INFO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_OLD_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_SYMBOL" Type="Int16" />
+    <Property Name="VO_SYMBOL_2" Type="Int16" />
+    <Property Name="VO_SYMBOL_3" Type="Int16" />
+    <Property Name="VO_SYMBOL_4" Type="Int16" />
+    <Property Name="VO_SYMBOL_5" Type="Int16" />
+    <Property Name="VO_SYMBOL_6" Type="Int16" />
+    <Property Name="VO_SYMBOL_7" Type="Int16" />
+    <Property Name="VO_SYMBOL_8" Type="Int16" />
+    <Property Name="VO_SYMBOL_9" Type="Int16" />
+    <Property Name="VO_SYMBOL_10" Type="Int16" />
+    <Property Name="VO_COST_NEW" Type="Int16" />
+    <Property Name="VO_VEH_TYPE" Type="Int16" />
+    <Property Name="VO_EXPOSURE" Type="Int16" />
+    <Property Name="VO_SAFE_VEHICLE" Type="Int16" />
+    <Property Name="VO_PERFORMANCE" Type="Int16" />
+    <Property Name="VO_SYMBOL_EXCEPTION" Type="Int16" />
+    <Property Name="VO_SEAT_BELTS" Type="Int16" />
+    <Property Name="VO_AIR_BAG" Type="Int16" />
+    <Property Name="VO_ABS" Type="Int16" />
+    <Property Name="VO_DRL" Type="Int16" />
+    <Property Name="VO_ANTI_THEFT" Type="Int16" />
+    <Property Name="VO_4_DOOR" Type="Int16" />
+    <Property Name="VO_INELIGIBLE_VEH_TYPE" Type="Int16" />
+    <Property Name="VO_ADJUST_TO_MAKE_MODEL" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="VO_SOURCE" Type="Int16" />
+    <Property Name="VO_DATE_ADDED" Type="Int32" />
+    <Property Name="vo_year_make_model" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="VO_WEB_MODEL" Type="String" MaxLength="27" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="YearMake">
+    <Key>
+      <PropertyRef Name="prime_key" />
+    </Key>
+    <Property Name="prime_key" Type="Int32" Nullable="false" />
+    <Property Name="mk_year" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="MK_NUMBER_VER" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="MK_DESCRIP" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="AutoQuoteEntitie7" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ModelYearMakes" EntityType="Self.ModelYearMake" />
+    <EntitySet Name="Quotes" EntityType="Self.Quote" />
+    <EntitySet Name="QuoteAccidents" EntityType="Self.QuoteAccident" />
+    <EntitySet Name="QuoteDrivers" EntityType="Self.QuoteDriver" />
+    <EntitySet Name="QuoteVehicles" EntityType="Self.QuoteVehicle" />
+    <EntitySet Name="QuoteViolations" EntityType="Self.QuoteViolation" />
+    <EntitySet Name="states_master" EntityType="Self.states_master" />
+    <EntitySet Name="tbl_web_session" EntityType="Self.tbl_web_session" />
+    <EntitySet Name="tbl_web_session_flex" EntityType="Self.tbl_web_session_flex" />
+    <EntitySet Name="tbl_web_split_zips" EntityType="Self.tbl_web_split_zips" />
+    <EntitySet Name="tbl_web_state_zip_ranges" EntityType="Self.tbl_web_state_zip_ranges" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <EntitySet Name="YearMakes" EntityType="Self.YearMake" />
+  </EntityContainer>
+</Schema>

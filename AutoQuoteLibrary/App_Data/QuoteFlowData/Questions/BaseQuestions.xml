@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+	<Question ID="CurrentBI">
+		<Options>
+			<Option value="6">Less than $15,000/$30,000</Option>
+			<Option value="7">$15,000/$30,000</Option>
+			<Option value="8">$20,000/$40,000</Option>
+			<Option value="1">$25,000/$50,000</Option>
+			<Option value="2">$50,000/$100,000</Option>
+			<Option value="3">$100,000/$300,000</Option>
+			<Option value="4">Greater than $100,000/$300,000</Option>
+		</Options>
+	</Question>
+	<Question ID="CurrentCarrier">
+		<Options>
+			<Option value="1">1 - 11 months</Option>
+			<Option value="2">12 - 23 months</Option>
+			<Option value="2X">12 or more months</Option>
+			<Option value="3">24 - 35 months</Option>
+			<Option value="3X">24 or more months</Option>
+			<Option value="4">36 or more months</Option>
+		</Options>
+	</Question>
+	  <Question ID="CurrentCarrierPortal">
+	    <Options>
+	      <Option value="1">1 - 11 months</Option>
+	      <Option value="2">12 - 23 months</Option>
+	      <Option value="3">24 - 35 months</Option>
+	      <Option value="4">36 or more months</Option>
+	      <Option value="0">0 months</Option>
+	    </Options>
+	  </Question>
+	<Question ID="CurrentInsLapse">
+		<Options>
+			<Option value="7">3 or more years</Option>
+			<Option value="6">2 years</Option>
+			<Option value="2">1 year</Option>
+			<Option value="99">Less than 1 year</Option>
+			<Option value="1">No insurance for last 12 months</Option>
+		</Options>
+	</Question>
+	<Question ID="CurrentInsLapseVibe2B">
+		<Options>
+			<Option value="7">Continuously Insured for 3 or more years</Option>
+			<Option value="6">Continuously Insured for 2 more years</Option>
+			<Option value="2">Continuously Insured for 1 more years</Option>
+			<Option value="4">Insurand less than 1 year</Option>
+			<Option value="1">No insurance for last 12 months</Option>
+			<Option value="8">deployed Military for all uninsured days</Option>
+		</Options>
+	</Question>
+	<Question ID="DriverEducationLevel">
+		<Options>
+			<Option value="6">No High School diploma or GED</Option>
+			<Option value="2">High School diploma or GED</Option>
+			<Option value="7">Vocational or Trade School degree</Option>
+			<Option value="8">Some College</Option>
+			<Option value="3">Currently in College</Option>
+			<Option value="1">Bachelors Degree</Option>
+			<Option value="4">Associates Degree</Option>
+			<Option value="5">Graduate work or degree</Option>
+			<Option value="9">Prefer not to disclose</Option>
+		</Options>
+	</Question>
+	<Question ID="DriverMaritalStatus">
+		<Options>
+			<Option value="2">Single</Option>
+			<Option value="1">Married</Option>
+			<Option value="10">Domestic Partnership</Option>
+			<Option value="4">Divorced</Option>
+			<Option value="6">Widowed</Option>
+			<Option value="3">Separated</Option>
+		</Options>
+	</Question>
+	<Question ID="DriverRelationship">
+		<Options>
+			<Option value="3">Spouse</Option>
+			<Option value="5">Child</Option>
+			<Option value="1">Parent</Option>
+			<Option value="4">Brother</Option>
+			<Option value="2">Sister</Option>
+			<Option value="7">Grandparent</Option>
+			<Option value="6">Aunt</Option>
+			<Option value="8">Uncle</Option>
+			<Option value="9">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="DriverWhyNoSpouse">
+		<Options>
+			<Option value="0">Please add spouse to policy</Option>
+			<Option value="1">Never licensed</Option>
+			<Option value="2">Voluntarily surrendered license</Option>
+			<Option value="3">License is suspended or revoked</Option>
+			<Option value="4">Never renewed license</Option>
+			<Option value="5">Insured elsewhere</Option>
+			<Option value="6">Has company vehicle</Option>
+			<Option value="7">Not a permanent resident of household</Option>
+			<Option value="8">Does not drive vehicle</Option>
+			<Option value="9">Do not want spouse on policy</Option>
+		</Options>
+	</Question>
+	<Question ID="HouseholdFamilySize">
+		<Options>
+			<Option value="0">0</Option>
+			<Option value="1">1</Option>
+			<Option value="2">2</Option>
+			<Option value="3">3</Option>
+			<Option value="4">4+</Option>
+		</Options>
+	</Question>
+	<Question ID="HouseholdHear">
+		<Options>
+			<Option value="11">Billboard</Option>
+			<Option value="5">Radio</Option>
+			<Option value="7">Mail Offer</Option>
+			<Option value="3">Friend/Family Referral</Option>
+			<Option value="4">Internet Search</Option>
+			<Option value="15">Social Media</Option>
+			<Option value="2">Email</Option>
+			<Option value="1">Another Website</Option>
+			<Option value="8">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="HouseholdHearUDP">
+		<Options>
+			<Option value="11">Billboard</Option>
+			<Option value="5">Radio</Option>
+			<Option value="7">Mail Offer</Option>
+			<Option value="3">Friend/Family Referral</Option>
+			<Option value="4">Internet Search</Option>
+			<Option value="2">Email</Option>
+			<Option value="1">Another Website</Option>
+			<Option value="8">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="HouseholdHearTeachers">
+		<Options>
+			<Option value="7">Mail Offer</Option>
+			<Option value="3">Friend/Family Referral</Option>
+			<Option value="4">Internet Search</Option>
+			<Option value="15">Social Media</Option>
+			<Option value="2">Email</Option>
+			<Option value="1">Another Website</Option>
+			<Option value="8">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="HouseholdHomeType">
+        <Options>
+            <Option value="1">Apartment/Condo</Option>
+            <Option value="2">Mobile Home</Option>
+            <Option value="3">House Or Other Dwelling</Option>
+        </Options>
+    </Question>
+	<Question ID="HouseholdZipReason">
+		<Options>
+			<Option value="1">Mail is sent to work/school address</Option>
+			<Option value="2">Have more than one residence</Option>
+			<Option value="3">Planning to move</Option>
+			<Option value="4">Other</Option>
+		</Options>
+	</Question>
+    <Question ID="LapseLessThanOneYear">
+        <Options>
+            <Option value="3">1 - 30 days break in coverage</Option>
+            <Option value="4">31+ day break in coverage</Option>
+            <Option value="8">Deployed Military for all uninsured days</Option>
+        </Options>
+    </Question>
+    <Question ID="ReasonNoCoverage">
+        <Options>		
+		<Option value="0">Purchased a vehicle in the last 90 days</Option>	
+		<Option value="1">Established residence out of the country</Option>	
+		<Option value="2">Other</Option>
+        </Options>
+    </Question>
+	<Question ID="VehicleAirbags">
+		<Options>
+			<Option value="0">None</Option>
+			<Option value="1">Driver Side</Option>
+			<Option value="2">Driver and Passenger Side</Option>
+		</Options>
+	</Question>
+	<Question ID="VehicleAntiTheft">
+		<Options>
+			<Option value="0">None</Option>
+			<Option value="1">Alarm Only</Option>
+			<Option value="3">Active Disabling Device</Option>
+			<Option value="2">Passive Disabling Device</Option>
+			<Option value="4">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="VehiclePrimaryUse">
+		<Options>
+			<Option value="2">Personal/Commute</Option>
+			<Option value="1">Pleasure</Option>
+			<Option value="6">Business</Option>
+			<Option value="4">Farming</Option>
+		</Options>
+	</Question>
+	<Question ID="VehicleBusinessType">
+		<Options>
+			<Option value="1">Contractor</Option>
+			<Option value="2">Delivery</Option>
+			<Option value="3">Real-estate</Option>
+			<Option value="4">Taxi/Shuttle Service</Option>
+			<Option value="5">Snow Removal</Option>
+			<Option value="6">Health Care</Option>
+			<Option value="7">Sales (No Delivery)</Option>
+			<Option value="8">Other</Option>
+		</Options>
+	</Question>
+	<Question ID="VehicleSeatBelts">
+		<Options>
+			<Option value="0">None</Option>
+			<Option value="1">Driver Side</Option>
+			<Option value="2">Driver and Passenger Side</Option>
+		</Options>
+	</Question>
+    <Question ID="CurrentlyInsured">
+        <Options>
+            <Option value="1">Yes</Option>
+            <Option value="0">No</Option>
+        </Options>
+    </Question>
+    <Question ID="HadInsuredLast30days">
+        <Options>
+            <Option value="1">Yes</Option>
+            <Option value="0">No</Option>
+        </Options>
+    </Question>
+    <Question ID="GroupsFilterTypes">
+      <Options>
+        <Option value="A">Show All</Option>
+        <Option value="D">Degreed Professionals</Option>
+        <Option value="T">Educational Professionals</Option>
+        <Option value="L">Licensed Professionals</Option>
+      </Options>
+    </Question>  
+</Questions>

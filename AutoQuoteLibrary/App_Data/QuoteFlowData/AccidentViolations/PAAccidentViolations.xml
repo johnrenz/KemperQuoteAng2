@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AccidentViolations>
+    <AccidentViolation Type="accident" ID="2041+" Action="override">
+        <Number>2041</Number>
+        <Amount>5555</Amount>
+        <Description>Accident - At Fault with payout of $1450 or more</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041" Action="add">
+        <Number>2041</Number>
+	    <Amount>1400</Amount>
+	    <Description>Accident - At Fault with payout between $1,350 and $1,449</Description>
+    </AccidentViolation>
+    <AccidentViolation Type="accident" ID="2041-" Action="override">
+        <Number>2041</Number>
+        <Amount>1349</Amount>
+        <Description>Accident - At Fault with payout of less than $1350</Description>
+    </AccidentViolation>
+</AccidentViolations>

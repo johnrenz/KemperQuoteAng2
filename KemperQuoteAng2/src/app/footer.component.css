@@ -1,0 +1,22 @@
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 0;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+footer {
+    background: inherit;
+}
+footer, #footer {
+    background-color: #fff;
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+    line-height: normal;
+    margin: 0 0 30px 0;
+    font-size: .9em;
+    border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+}

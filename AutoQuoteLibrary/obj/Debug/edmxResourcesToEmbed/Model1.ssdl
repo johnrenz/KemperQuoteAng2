@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoQuoteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ModelYearMake">
+    <Key>
+      <PropertyRef Name="MODEL_ID" />
+    </Key>
+    <Property Name="MODEL_ID" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="YEAR_VER1" Type="nchar" MaxLength="4" />
+    <Property Name="MAKE_VER1" Type="nchar" MaxLength="10" />
+    <Property Name="MODEL_VER1" Type="nchar" MaxLength="20" />
+    <Property Name="BODY_VER1" Type="nchar" MaxLength="8" />
+    <Property Name="DESCRIPTION_VER1" Type="nchar" MaxLength="20" />
+    <Property Name="YEAR" Type="nchar" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="Quote">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QM_QUOTE_NO_0" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="QM_ALT_QUOTE_TEST" Type="smallint" />
+    <Property Name="QM_PHONE_QUOTE_TEST" Type="smallint" />
+    <Property Name="QM_NO_OF_REQUOTES" Type="smallint" />
+    <Property Name="QM_QUOTE_PRINT_TEST" Type="smallint" />
+    <Property Name="QM_QUOTE_TRANS_TYPE" Type="smallint" />
+    <Property Name="QM_LAST_REQUOTE_TRANS" Type="smallint" />
+    <Property Name="QM_COMPLETE_CODE" Type="smallint" />
+    <Property Name="QM_QUOTE_TEST" Type="smallint" />
+    <Property Name="QM_QUOTE_PRINT_POINTER" Type="smallint" />
+    <Property Name="QM_REGUARANTEE_QUOTE_TEST" Type="smallint" />
+    <Property Name="QM_RESPONSE_NO" Type="smallint" />
+    <Property Name="QM_PERSONAL_MESS_NO" Type="smallint" />
+    <Property Name="QM_ACCTNUM_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_MAIL_STNO_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_RISK_STNO_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_MAIL_ZIP_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_RISK_ZIP_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_TIER_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_DNQ_NO" Type="smallint" />
+    <Property Name="QM_STATE_CO_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_DNQ_BY_UW_CO_TEST" Type="smallint" />
+    <Property Name="QM_REQUOTE_DATE" Type="int" />
+    <Property Name="QM_QUOTE_CANCEL_DATE" Type="int" />
+    <Property Name="QM_QUOTE_CONV_DATE" Type="int" />
+    <Property Name="QM_ORIG_QUOTE_DATE" Type="int" />
+    <Property Name="QM_TELE_CONTACT_DATE" Type="int" />
+    <Property Name="QM_POLICY_EXP_DATE" Type="int" />
+    <Property Name="QM_ORIG_COMPLETE_DATE" Type="int" />
+    <Property Name="QM_CUSTOMER_TITLE" Type="char" MaxLength="5" />
+    <Property Name="QM_LAST_NAME_OF_CUSTOMER" Type="char" MaxLength="20" />
+    <Property Name="QM_FIRST_NAME_OF_CUSTOMER" Type="char" MaxLength="20" />
+    <Property Name="QM_MIDDLE_INITIAL" Type="char" MaxLength="1" />
+    <Property Name="QM_ADDTL_CUSTOMER_TITLE" Type="char" MaxLength="5" />
+    <Property Name="QM_ADDTL_LAST_NAME_OF_CUST" Type="char" MaxLength="20" />
+    <Property Name="QM_ADDTL_FIRST_NAME_OF_CUST" Type="char" MaxLength="20" />
+    <Property Name="QM_ADDTL_MIDDLE_INITIAL" Type="char" MaxLength="1" />
+    <Property Name="QM_ADDRESS_LINE_1" Type="char" MaxLength="30" />
+    <Property Name="QM_ADDRESS_LINE_2" Type="char" MaxLength="30" />
+    <Property Name="QM_ADDRESS_CITY" Type="char" MaxLength="22" />
+    <Property Name="QM_ADDRESS_STATE_CODE" Type="char" MaxLength="2" />
+    <Property Name="QM_MAIL_ID" Type="char" MaxLength="10" />
+    <Property Name="QM_CREDIT_SCORE" Type="char" MaxLength="4" />
+    <Property Name="QM_RISK_ADDRESS_LINE_1" Type="char" MaxLength="30" />
+    <Property Name="QM_RISK_ADDRESS_LINE_2" Type="char" MaxLength="30" />
+    <Property Name="QM_RISK_ADDRESS_CITY" Type="char" MaxLength="22" />
+    <Property Name="QM_E_MAIL_ADDRESS" Type="char" MaxLength="50" />
+    <Property Name="QM_MESSAGE_LINE1" Type="char" MaxLength="10" />
+    <Property Name="QM_MESSAGE_LINE2" Type="char" MaxLength="60" />
+    <Property Name="QM_MARKET_KEY_CODE" Type="char" MaxLength="6" />
+    <Property Name="QM_MARKET_KEY_RESERVE" Type="char" MaxLength="4" />
+    <Property Name="QM_SOCIAL_SECURITY_NO" Type="char" MaxLength="11" />
+    <Property Name="QM_ALTERNATE_CONTACT" Type="char" MaxLength="30" />
+    <Property Name="QM_MEMBER_NO" Type="char" MaxLength="20" />
+    <Property Name="QM_REFERENCE_NO" Type="char" MaxLength="8" />
+    <Property Name="QM_ADDRESS_STATE_NO" Type="smallint" />
+    <Property Name="QM_RISK_STATE" Type="smallint" />
+    <Property Name="QM_ADDRESS_TERR" Type="smallint" />
+    <Property Name="QM_RISK_TERR" Type="smallint" />
+    <Property Name="QM_PHONE_EXTENSION" Type="smallint" />
+    <Property Name="QM_ORIGIN_CODE_NO" Type="smallint" />
+    <Property Name="QM_QUASI_BIND_TEST" Type="smallint" />
+    <Property Name="QM_SPECIAL_CORRES_NO" Type="smallint" />
+    <Property Name="QM_MULTI_STATE_TEST" Type="smallint" />
+    <Property Name="QM_RENT_OWN_TEST" Type="smallint" />
+    <Property Name="QM_DAY_AREA_CODE" Type="smallint" />
+    <Property Name="QM_DAY_PHONE1" Type="smallint" />
+    <Property Name="QM_DAY_PHONE2" Type="smallint" />
+    <Property Name="QM_DAY_EXT" Type="smallint" />
+    <Property Name="QM_EVE_AREA_CODE" Type="smallint" />
+    <Property Name="QM_EVE_PHONE1" Type="smallint" />
+    <Property Name="QM_EVE_PHONE2" Type="smallint" />
+    <Property Name="QM_EVE_EXT" Type="smallint" />
+    <Property Name="QM_MASTER_STATE_NO" Type="smallint" />
+    <Property Name="QM_MASTER_TERR_NO" Type="smallint" />
+    <Property Name="QM_MASTER_TERR_ADJ_TYPE" Type="smallint" />
+    <Property Name="QM_MASTER_TERR_ADQ_TYPE" Type="smallint" />
+    <Property Name="QM_USER_ID_NO" Type="smallint" />
+    <Property Name="QM_ENDORSER_USER_ID_NO" Type="smallint" />
+    <Property Name="QM_LOCATION_NO" Type="smallint" />
+    <Property Name="QM_DEPT_NO" Type="smallint" />
+    <Property Name="QM_ERMF_FACTOR" Type="smallint" />
+    <Property Name="QM_BILLING_METHOD" Type="smallint" />
+    <Property Name="QM_PRODUCT_CODE" Type="smallint" />
+    <Property Name="QM_VERSION_NO" Type="smallint" />
+    <Property Name="QM_CURRENT_CARRIER_TYPE" Type="smallint" />
+    <Property Name="QM_NO_OF_EMP_3_YRS" Type="smallint" />
+    <Property Name="QM_NO_OF_ADD_3_YRS" Type="smallint" />
+    <Property Name="QM_BEST_TIME_TO_CALL" Type="smallint" />
+    <Property Name="QM_DRIV_EXCLUSION_TEST" Type="smallint" />
+    <Property Name="QM_CURRENT_CARRIER_NO" Type="smallint" />
+    <Property Name="QM_LL_3_APPLIED_TEST" Type="smallint" />
+    <Property Name="QM_SR22_APPLIED_TEST" Type="smallint" />
+    <Property Name="QM_SUB_PRODUCT_CODE" Type="smallint" />
+    <Property Name="QM_CURRENT_LIMITS" Type="smallint" />
+    <Property Name="QM_MARKET_SOURCE_ADQ" Type="smallint" />
+    <Property Name="QM_MASTER_CO_NO" Type="smallint" />
+    <Property Name="QM_REG_OWNER_TEST" Type="smallint" />
+    <Property Name="QM_PREMIUM_FINANCE_CO_NO" Type="smallint" />
+    <Property Name="QM_PREMIUM_FINANCE_TEST" Type="smallint" />
+    <Property Name="QM_RATE_CALC_TYPE" Type="smallint" />
+    <Property Name="QM_CREDIT_SCORE_TYPE" Type="smallint" />
+    <Property Name="QM_MULTI_POLICY_TEST" Type="smallint" />
+    <Property Name="QM_CONVERTED_UW_COMPANY" Type="smallint" />
+    <Property Name="QM_ASSIST_SCORE" Type="smallint" />
+    <Property Name="QM_ZIP_CODE_1" Type="int" />
+    <Property Name="QM_ZIP_CODE_2" Type="int" />
+    <Property Name="QM_RISK_ZIP_CODE_1" Type="int" />
+    <Property Name="QM_RISK_ZIP_CODE_2" Type="int" />
+    <Property Name="QM_AMF_ACCOUNT_NO" Type="int" />
+    <Property Name="QM_HOME_OFFICE_NO" Type="int" />
+    <Property Name="QM_UNDERWRITING_CO_NO" Type="int" />
+    <Property Name="QM_LEVEL_I_NO" Type="int" />
+    <Property Name="QM_LEVEL_II_NO" Type="int" />
+    <Property Name="QM_LEVEL_III_NO" Type="int" />
+    <Property Name="QM_DOCUMENT_NO" Type="int" />
+    <Property Name="QM_ANNUAL_INCOME" Type="int" />
+    <Property Name="QM_SERVICING_OFFICE" Type="int" />
+    <Property Name="QM_TERM_FACTOR" Type="int" />
+    <Property Name="QM_POLICY_FEE" Type="int" />
+    <Property Name="QM_OPTION_FEE_1" Type="int" />
+    <Property Name="QM_OPTION_FEE_1_DIFF" Type="int" />
+    <Property Name="QM_OPTION_FEE1_TFA" Type="int" />
+    <Property Name="QM_OPTION_FEE_2" Type="int" />
+    <Property Name="QM_OPTION_FEE_2_DIFF" Type="int" />
+    <Property Name="QM_OPTION_FEE2_TFA" Type="int" />
+    <Property Name="QM_OPTION_FEE_3" Type="int" />
+    <Property Name="QM_OPTION_FEE_3_DIFF" Type="int" />
+    <Property Name="QM_OPTION_FEE3_TFA" Type="int" />
+    <Property Name="QM_OPTION_FEE_4" Type="int" />
+    <Property Name="QM_OPTION_FEE_4_DIFF" Type="int" />
+    <Property Name="QM_OPTION_FEE4_TFA" Type="int" />
+    <Property Name="QM_WEB_DISCOUNT" Type="int" />
+    <Property Name="QM_CURRENT_CARRIER_PREM" Type="int" />
+    <Property Name="QM_EFF_DATE" Type="int" />
+    <Property Name="QM_EXP_DATE" Type="int" />
+    <Property Name="QM_LAST_ENDORSEMENT_DATE" Type="int" />
+    <Property Name="QM_ISSUE_DATE" Type="int" />
+    <Property Name="QM_VERSION_DATE" Type="int" />
+    <Property Name="QM_QUOTE_EFF_DATE" Type="int" />
+    <Property Name="QM_CONTACT_RECV_DATE" Type="int" />
+    <Property Name="QM_CREDIT_SCORE_EFF_DATE" Type="int" />
+    <Property Name="QM_NO_OF_VEHICLES" Type="smallint" />
+    <Property Name="QM_NO_OF_DRIVERS" Type="smallint" />
+    <Property Name="QM_NO_OF_VIOLATIONS" Type="smallint" />
+    <Property Name="QM_NO_OF_ACC_COMP" Type="smallint" />
+    <Property Name="QM_NO_OF_YOUTHFULS" Type="smallint" />
+    <Property Name="QM_POLICY_REFERENCE_NO" Type="char" MaxLength="10" />
+    <Property Name="QM_CREDIT_SOURCE" Type="smallint" />
+    <Property Name="QM_CUST_PROFILE_NO" Type="char" MaxLength="20" />
+    <Property Name="QM_NEXT_DRIVER_NO" Type="smallint" />
+    <Property Name="QM_NEXT_VEHICLE_NO" Type="smallint" />
+    <Property Name="QM_POLICY_EFF_DATE" Type="int" />
+    <Property Name="QM_TOTAL_PREMIUM" Type="int" />
+    <Property Name="QM_RATE_ADJ_FACTOR" Type="int" />
+    <Property Name="QM_RATE_ADJ_FACTOR_INCRMNT" Type="smallint" />
+    <Property Name="QM_PRODUCT_VERSION" Type="smallint" />
+    <Property Name="QM_EMAIL_ADDRESS_TEST" Type="smallint" />
+    <Property Name="QM_NO_OF_DAYS_LAPSED" Type="smallint" />
+    <Property Name="QM_PAID_IN_FULL_TEST" Type="smallint" />
+    <Property Name="QM_PREMIUM_TERM" Type="smallint" />
+    <Property Name="QM_PRIOR_CONT_INS_TEST" Type="smallint" />
+    <Property Name="QM_EFT_TEST" Type="smallint" />
+    <Property Name="QM_CURRENT_CARRIER_TEST" Type="smallint" />
+    <Property Name="QM_SR22_FILING_FEE" Type="int" />
+    <Property Name="QM_POST_MARK_DATE" Type="int" />
+    <Property Name="QM_RATE_ADJ_TERM" Type="smallint" />
+    <Property Name="QM_PAID_IN_FULL_OPTION_PREM" Type="int" />
+    <Property Name="QM_HOMEOWNER_VERIFY_TEST" Type="smallint" />
+    <Property Name="QM_SOLICIT_ID" Type="char" MaxLength="10" />
+    <Property Name="QM_CREDIT_MODEL" Type="char" MaxLength="8" />
+    <Property Name="QM_ADDRESS_VERIFICATION_TEST" Type="smallint" />
+    <Property Name="QM_DAY_PHONE_TYPE" Type="smallint" />
+    <Property Name="QM_EVE_PHONE_TYPE" Type="smallint" />
+    <Property Name="QM_EXCLUDE_AUTO_CALL" Type="smallint" />
+    <Property Name="QM_CREDIT_VENDOR" Type="smallint" />
+    <Property Name="QM_METHOD_CV_FORMS" Type="smallint" />
+    <Property Name="QM_TORT_PREMIUM" Type="int" />
+    <Property Name="QM_RATE_VERSION_DATE" Type="int" />
+    <Property Name="QM_CONTACT_DATE_START" Type="int" />
+    <Property Name="QM_CONTACT_DATE_END" Type="int" />
+    <Property Name="QM_CONTACT_TIME_START" Type="int" />
+    <Property Name="QM_CONTACT_TIME_END" Type="int" />
+    <Property Name="QM_CONTACT_TYPE_NO" Type="smallint" />
+    <Property Name="qm_social_security_no_enc" Type="varbinary" MaxLength="255" />
+    <Property Name="QM_INSP_PRI_INS_WAIVER_TEST" Type="smallint" />
+    <Property Name="QM_INSP_CONT_COV_SINCE_DATE" Type="int" />
+    <Property Name="QM_QUOTE_TAX" Type="int" />
+    <Property Name="QM_USE_NEW_BILLING_FLAG" Type="smallint" />
+    <Property Name="qm_market_brand" Type="smallint" />
+    <Property Name="qm_policy_form" Type="smallint" />
+    <Property Name="qm_channel_method" Type="smallint" />
+    <Property Name="qm_e_document_level" Type="smallint" />
+    <Property Name="qm_level_i_comm_rate" Type="smallint" />
+    <Property Name="qm_level_ii_comm_rate" Type="smallint" />
+    <Property Name="qm_level_iii_comm_rate" Type="smallint" />
+    <Property Name="qm_ratemaker_vers_date" Type="int" />
+    <Property Name="qm_no_of_hh_drivers" Type="smallint" />
+    <Property Name="qm_no_of_can_notice_12_month" Type="smallint" />
+  </EntityType>
+  <EntityType Name="QuoteAccidents">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" Nullable="false" />
+    <Property Name="PRIME_KEY_A" Type="int" Nullable="false" />
+    <Property Name="QM_ACCIDENT_NO" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="QM_DRIV_NO_OF_ACC_COMP" Type="smallint" Nullable="false" />
+    <Property Name="QM_ACC_COMP_NO" Type="smallint" />
+    <Property Name="QM_ACC_COMP_IN_NO" Type="smallint" />
+    <Property Name="QM_SDIP_ACC_COMP" Type="smallint" />
+    <Property Name="QM_INJURY_ACC_COMP" Type="smallint" />
+    <Property Name="QM_ACCIDENT_RATING_TYPE" Type="smallint" />
+    <Property Name="QM_ACC_COMP_CHARGED_TEST" Type="smallint" />
+    <Property Name="QM_AMT_OF_ACC_COMP" Type="int" />
+    <Property Name="QM_DATE_OF_ACC_COMP" Type="int" />
+    <Property Name="QM_DATE_OF_CHARGE_ACC_COMP" Type="int" />
+    <Property Name="QM_ACC_COMP_REF_NO" Type="char" MaxLength="15" />
+    <Property Name="QM_ACC_COMP_SOURCE" Type="char" MaxLength="1" />
+    <Property Name="QM_ACC_COMP_LOAD_DATE" Type="int" />
+    <Property Name="QM_AMT_OF_ACC_UPDATE" Type="int" />
+    <Property Name="qm_coll_paid_amt" Type="int" />
+  </EntityType>
+  <EntityType Name="QuoteDriver">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PRIME_KEY_D" Type="int" Nullable="false" />
+    <Property Name="QM_DRIVER_NO" Type="char" MaxLength="2" />
+    <Property Name="QM_DRIV_FIRST" Type="char" MaxLength="20" />
+    <Property Name="QM_DRIV_MIDDLE" Type="char" MaxLength="1" />
+    <Property Name="QM_DRIV_LAST" Type="char" MaxLength="20" />
+    <Property Name="QM_DRIV_LICENSE" Type="char" MaxLength="20" />
+    <Property Name="QM_VEH_OF_DRIV" Type="smallint" />
+    <Property Name="QM_DRIV_SEX" Type="smallint" />
+    <Property Name="QM_DRIV_MARRIED_SINGLE" Type="smallint" />
+    <Property Name="QM_DRIV_TRAINING_TEST" Type="smallint" />
+    <Property Name="QM_OPERATOR_TYPE" Type="smallint" />
+    <Property Name="QM_NON_DRINK_SMOKE_TEST" Type="smallint" />
+    <Property Name="QM_MATURE_DRIV_TYPE" Type="smallint" />
+    <Property Name="QM_LL_3_TEST" Type="smallint" />
+    <Property Name="QM_EDUCATION_TEST" Type="smallint" />
+    <Property Name="QM_OCCUPATION_NO" Type="smallint" />
+    <Property Name="QM_OCCUPATION_CAT" Type="smallint" />
+    <Property Name="QM_RELATION_TO_RESP" Type="smallint" />
+    <Property Name="QM_DRIV_LIC_STATE_NO" Type="smallint" />
+    <Property Name="QM_FINANCIAL_RESP_STATE_NO" Type="smallint" />
+    <Property Name="QM_FINANCIAL_RESP_TEST" Type="smallint" />
+    <Property Name="QM_GOOD_DRIV_TEST" Type="smallint" />
+    <Property Name="QM_YOUTH_GROUP_TEST" Type="smallint" />
+    <Property Name="QM_DRIVER_STATUS" Type="smallint" />
+    <Property Name="QM_BIRTH_DATE_OF_DRIV" Type="int" />
+    <Property Name="QM_DATE_LICENSED" Type="int" />
+    <Property Name="QM_FINANCIAL_RESP_DATE" Type="int" />
+    <Property Name="QM_GOOD_STUDENT_DATE" Type="int" />
+    <Property Name="QM_DDC_DATE" Type="int" />
+    <Property Name="QM_MATURE_DRIV_DATE" Type="int" />
+    <Property Name="QM_DRUG_AND_ALCOHOL_DATE" Type="int" />
+    <Property Name="QM_MVR_RETURN_DATE" Type="int" />
+    <Property Name="QM_MATURE_DRIVER_DIS" Type="smallint" />
+    <Property Name="QM_GOOD_DRIVER_DIS" Type="smallint" />
+    <Property Name="QM_DDC_DISCOUNT" Type="smallint" />
+    <Property Name="QM_NON_DRNK_SMK_DIS" Type="smallint" />
+    <Property Name="QM_DRIV_TRAINING_DIS" Type="smallint" />
+    <Property Name="QM_GOOD_STUDENT_DIS" Type="smallint" />
+    <Property Name="QM_AWAY_SCHOOL_DIS" Type="smallint" />
+    <Property Name="QM_COLLEGE_GRAD_DIS" Type="smallint" />
+    <Property Name="QM_YOUTH_GROUP_DIS" Type="smallint" />
+    <Property Name="QM_DRUG_ALCOHOL_DIS" Type="smallint" />
+    <Property Name="QM_DRIVER_ADDED_DATE" Type="int" />
+    <Property Name="QM_CLUE_LAST_ORDER_DATE" Type="int" />
+    <Property Name="QM_CLUE_NEXT_ORDER_DATE" Type="int" />
+    <Property Name="QM_CLUE_OVERRIDE_ORDER_DATE" Type="int" />
+    <Property Name="QM_CLUE_OVERRIDE_YN" Type="smallint" />
+    <Property Name="QM_MVR_LAST_ORDER_DATE" Type="int" />
+    <Property Name="QM_MVR_NEXT_ORDER_DATE" Type="int" />
+    <Property Name="QM_MVR_OVERRIDE_ORDER_DATE" Type="int" />
+    <Property Name="QM_MVR_OVERRIDE_YN" Type="smallint" />
+    <Property Name="QM_ORIG_DRIVER_NO" Type="smallint" />
+    <Property Name="QM_SOC_SEC_NUMBER" Type="char" MaxLength="11" />
+    <Property Name="QM_DRIV_SDIP_POINTS" Type="smallint" />
+    <Property Name="QM_EMPLOYMENT_STATUS" Type="smallint" />
+    <Property Name="QM_age_first_licensed_yrs" Type="smallint" />
+    <Property Name="QM_age_first_licensed_months" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_BI" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_PD" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_PIP" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_UMBI" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_UMPD" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_PPI" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_OTC" Type="smallint" />
+    <Property Name="QM_DRIV_SDIP_POINTS_COLL" Type="smallint" />
+    <Property Name="QM_DRIVER_LICENSE_STATUS" Type="smallint" />
+    <Property Name="QM_DRIVER_EXCLUSION_STATUS" Type="smallint" />
+    <Property Name="qm_soc_sec_number_enc" Type="varbinary" MaxLength="255" />
+    <Property Name="QM_CLEAN_COVD_DIS" Type="smallint" />
+  </EntityType>
+  <EntityType Name="QuoteVehicle">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PRIME_KEY_V" Type="int" Nullable="false" />
+    <Property Name="QM_VEHICLE_NO_V" Type="char" MaxLength="2" />
+    <Property Name="QM_VEH_MAKE" Type="char" MaxLength="10" />
+    <Property Name="QM_VEH_MODEL" Type="char" MaxLength="10" />
+    <Property Name="QM_VEH_BODY_STYLE" Type="char" MaxLength="8" />
+    <Property Name="QM_VEH_VIN_NUMBER" Type="char" MaxLength="30" />
+    <Property Name="QM_ALT_GARAGE_CITY" Type="char" MaxLength="15" />
+    <Property Name="QM_VEH_ALT_TERR" Type="smallint" />
+    <Property Name="QM_VEH_YEAR" Type="smallint" />
+    <Property Name="QM_VEH_SYMBOL" Type="smallint" />
+    <Property Name="QM_RETIRED_DRIV_AGE_CAT" Type="smallint" />
+    <Property Name="QM_DISTANCE" Type="smallint" />
+    <Property Name="QM_DAYS_PER_WEEK" Type="smallint" />
+    <Property Name="QM_WEEKS_PER_MONTH" Type="smallint" />
+    <Property Name="QM_VEH_USE" Type="smallint" />
+    <Property Name="QM_PERCENT_BUSINESS" Type="smallint" />
+    <Property Name="QM_VEH_TYPE" Type="smallint" />
+    <Property Name="QM_PERFORMANCE" Type="smallint" />
+    <Property Name="QM_VEH_EXPOSURE" Type="smallint" />
+    <Property Name="QM_TERR_ADJ_TYPE" Type="smallint" />
+    <Property Name="QM_TERR_ADQ_TYPE" Type="smallint" />
+    <Property Name="QM_SAFE_VEH" Type="smallint" />
+    <Property Name="QM_EX_LIAB_TEST" Type="smallint" />
+    <Property Name="QM_STORED_VEH_TEST" Type="smallint" />
+    <Property Name="QM_DISABLING_DEVICE" Type="smallint" />
+    <Property Name="QM_PASSIVE_RESTRAINT" Type="smallint" />
+    <Property Name="QM_AIR_BAG_TEST" Type="smallint" />
+    <Property Name="QM_ANTI_LOCK_BRAKE_TEST" Type="smallint" />
+    <Property Name="QM_REG_TO_NON_RELATIVES_TEST" Type="smallint" />
+    <Property Name="QM_PARKING_TYPE" Type="smallint" />
+    <Property Name="QM_FACTORY_CUST_TEST" Type="smallint" />
+    <Property Name="QM_DRIVE_TYPE_TEST" Type="smallint" />
+    <Property Name="QM_TONAGE_TEST" Type="smallint" />
+    <Property Name="QM_MANUAL_OVERRIDE_TEST" Type="smallint" />
+    <Property Name="QM_MAKE_NUMBER" Type="smallint" />
+    <Property Name="QM_CAMPER_TOP_TEST" Type="smallint" />
+    <Property Name="QM_ALT_ZIP_LOCK_TEST" Type="smallint" />
+    <Property Name="QM_WINDOW_ETCHING_TEST" Type="smallint" />
+    <Property Name="QM_VEHICLE_RECOVERY_TEST" Type="smallint" />
+    <Property Name="QM_DAYTIME_LIGHTS_TEST" Type="smallint" />
+    <Property Name="QM_ALT_GAR_ZIP_CODE_1" Type="int" />
+    <Property Name="QM_ALT_GAR_ZIP_CODE_2" Type="int" />
+    <Property Name="QM_ANNUAL_MILEAGE" Type="int" />
+    <Property Name="QM_COST_NEW" Type="int" />
+    <Property Name="QM_COST_OF_CAMPER_TOP" Type="int" />
+    <Property Name="QM_ENTER_VEH_DATE" Type="char" MaxLength="8" />
+    <Property Name="QM_COVERED_PROP_AMT" Type="int" />
+    <Property Name="QM_CUSTOM_EQUIP_COST" Type="int" />
+    <Property Name="QM_STORED_VEH_DATE" Type="int" />
+    <Property Name="QM_MODEL_NUMBER" Type="int" />
+    <Property Name="QM_ADDL_INSURED_NO" Type="int" />
+    <Property Name="QM_LOSS_PAYEE_NO" Type="int" />
+    <Property Name="QM_TAX_CODE" Type="int" />
+    <Property Name="QM_CURRENT_ODOM" Type="int" />
+    <Property Name="QM_PURCHASE_ODOM" Type="int" />
+    <Property Name="QM_PURCH_VEH_DATE" Type="int" />
+    <Property Name="QM_MULTI_CAR_DIS" Type="smallint" />
+    <Property Name="QM_SAFE_VEH_DIS" Type="smallint" />
+    <Property Name="QM_RETIRED_DRIV_DIS" Type="smallint" />
+    <Property Name="QM_PREMIER_DISCOUNT_DATA" Type="smallint" />
+    <Property Name="QM_RENEWAL_CREDIT_DATA" Type="smallint" />
+    <Property Name="QM_MULTI_POLICY_DIS" Type="smallint" />
+    <Property Name="QM_MUNI_RATE" Type="smallint" />
+    <Property Name="QM_MUNI_SURCHARGE" Type="smallint" />
+    <Property Name="QM_AUTO_SURCHARGE" Type="smallint" />
+    <Property Name="QM_WEB_DATA" Type="smallint" />
+    <Property Name="QM_LEASE_AI_TEST" Type="smallint" />
+    <Property Name="QM_ORIG_VEHICLE_NO" Type="smallint" />
+    <Property Name="QM_RO_ADDL_FIRST_NAME" Type="char" MaxLength="20" />
+    <Property Name="QM_RO_ADDL_LAST_NAME" Type="char" MaxLength="20" />
+    <Property Name="QM_RO_ADDL_MIDDLE_INIT" Type="char" MaxLength="1" />
+    <Property Name="QM_RO_ADDRESS_CITY" Type="char" MaxLength="22" />
+    <Property Name="QM_RO_ADDRESS_LINE_1" Type="char" MaxLength="30" />
+    <Property Name="QM_RO_FIRST_NAME" Type="char" MaxLength="20" />
+    <Property Name="QM_RO_LAST_NAME" Type="char" MaxLength="20" />
+    <Property Name="QM_RO_MIDDLE_INIT" Type="char" MaxLength="1" />
+    <Property Name="QM_RO_STATE_CODE" Type="char" MaxLength="2" />
+    <Property Name="QM_RO_ZIP_CODE_1" Type="char" MaxLength="5" />
+    <Property Name="QM_RO_ZIP_CODE_2" Type="char" MaxLength="4" />
+    <Property Name="QM_VEHICLE_ADDED_DATE" Type="int" />
+    <Property Name="QM_ODOM_2" Type="int" />
+    <Property Name="QM_ODOM_DATE_2" Type="int" />
+    <Property Name="QM_RO_ADDRESS_LINE_2" Type="char" MaxLength="30" />
+    <Property Name="QM_CUST_EST_PLEASURE_MILES" Type="int" />
+    <Property Name="QM_VEH_SYMBOL_LIAB" Type="smallint" />
+    <Property Name="QM_VEH_SYMBOL_COMP" Type="smallint" />
+    <Property Name="QM_VEH_SYMBOL_COLL" Type="smallint" />
+    <Property Name="QM_VEH_SYMBOL_PIP" Type="smallint" />
+    <Property Name="QM_VEH_SYMBOL_YEAR_ADJ" Type="smallint" />
+    <Property Name="QM_VEH_TERR_BI" Type="smallint" />
+    <Property Name="QM_VEH_TERR_PD" Type="smallint" />
+    <Property Name="QM_VEH_TERR_PIP" Type="smallint" />
+    <Property Name="QM_VEH_HI_PERF_IND" Type="smallint" />
+    <Property Name="QM_HOMEOWNER_DIS" Type="smallint" />
+    <Property Name="QM_PD_IN_FULL_DIS" Type="smallint" />
+    <Property Name="QM_INSPECTION_REQ_TEST" Type="smallint" />
+    <Property Name="QM_EFT_DIS" Type="smallint" />
+    <Property Name="QM_VEH_TERR_COMP" Type="smallint" />
+    <Property Name="QM_VEH_TERR_COLL" Type="smallint" />
+    <Property Name="QM_VEH_TERR_UM" Type="smallint" />
+    <Property Name="QM_ADJUST_TO_MAKE_MODEL" Type="char" MaxLength="5" />
+    <Property Name="QM_FL_COUNTY_TEST" Type="smallint" />
+    <Property Name="QM_REPLACEMENT_VEHICLE_FLAG" Type="smallint" />
+    <Property Name="QM_YEAR_MAKE_MODEL" Type="char" MaxLength="5" />
+    <Property Name="QM_CITY_CODE" Type="int" />
+    <Property Name="QM_COUNTY_CODE" Type="int" />
+    <Property Name="Qm_prior_annual_mileage" Type="int" />
+    <Property Name="QM_CURR_ODOM_DATE" Type="int" />
+    <Property Name="QM_PRIOR_ODOM" Type="int" />
+    <Property Name="QM_PRIOR_ODOM_DATE" Type="int" />
+    <Property Name="QM_UPD_ANNUAL_MILEAGE" Type="int" />
+    <Property Name="QM_UPD_CURRENT_ODOM" Type="int" />
+    <Property Name="QM_UPD_ODOM_DATE" Type="int" />
+    <Property Name="QM_ODOM_NEEDS_UPD_FLAG" Type="int" />
+    <Property Name="QM_VEH_ISO_COMP" Type="smallint" />
+    <Property Name="QM_VEH_ISO_COLL" Type="smallint" />
+    <Property Name="QM_VEH_WEB_MODEL" Type="char" MaxLength="27" />
+  </EntityType>
+  <EntityType Name="QuoteViolations">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" Nullable="false" />
+    <Property Name="PRIME_KEY_I" Type="int" Nullable="false" />
+    <Property Name="QM_VIOLATION_ID" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="QM_DRIV_NO_OF_VIOL" Type="smallint" Nullable="false" />
+    <Property Name="QM_VIOLATION_NO" Type="smallint" Nullable="false" />
+    <Property Name="QM_VIOL_INCIDENT_NO" Type="smallint" />
+    <Property Name="QM_VIOLATION_TYPE" Type="smallint" />
+    <Property Name="QM_VIOLATION_RATING_TYPE" Type="smallint" />
+    <Property Name="QM_VIOL_CHARGED_TEST" Type="smallint" />
+    <Property Name="QM_DATE_OF_VIOL" Type="int" />
+    <Property Name="QM_DATE_OF_CHARGE_VIOL" Type="int" />
+    <Property Name="QM_VIOL_REF_NO" Type="char" MaxLength="15" />
+    <Property Name="QM_VIOL_SOURCE" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="states_master">
+    <Key>
+      <PropertyRef Name="state_master" />
+    </Key>
+    <Property Name="state_master" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="state_number" Type="float" />
+    <Property Name="state_name" Type="varchar" MaxLength="20" />
+    <Property Name="time_dif" Type="int" />
+    <Property Name="quote_redirect" Type="varchar" MaxLength="50" />
+    <Property Name="pageset" Type="varchar" MaxLength="25" />
+    <Property Name="allow_amend" Type="bit" />
+    <Property Name="esig" Type="tinyint" Nullable="false" />
+    <Property Name="vehicle_endorsement" Type="tinyint" Nullable="false" />
+    <Property Name="esig_discount" Type="tinyint" />
+    <Property Name="allow_ho_instant_renter" Type="bit" Nullable="false" />
+    <Property Name="allow_trac_rating" Type="char" MaxLength="1" />
+    <Property Name="allow_trac_bind" Type="char" MaxLength="1" />
+    <Property Name="allow_affinity_auto" Type="bit" Nullable="false" />
+    <Property Name="allow_affinity_condo" Type="bit" Nullable="false" />
+    <Property Name="allow_affinity_home" Type="bit" Nullable="false" />
+    <Property Name="allow_affinity_renters" Type="bit" Nullable="false" />
+    <Property Name="allow_affinity_embedded_renter" Type="bit" Nullable="false" />
+    <Property Name="is_vibe_state" Type="bit" Nullable="false" />
+    <Property Name="is_homeownerDisc" Type="bit" Nullable="false" />
+    <Property Name="is_webDisc" Type="bit" Nullable="false" />
+    <Property Name="isDnqBySdip_state" Type="bit" Nullable="false" />
+    <Property Name="is_ivanka_state" Type="bit" Nullable="false" />
+    <Property Name="is_new_bind_state" Type="bit" Nullable="false" />
+    <Property Name="is_vibe_6mo_state" Type="bit" Nullable="false" />
+    <Property Name="is_EDoc_state" Type="bit" Nullable="false" />
+    <Property Name="is_kdquoteflow_state" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_web_session">
+    <Key>
+      <PropertyRef Name="guid" />
+    </Key>
+    <Property Name="guid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="drc_xml" Type="text" />
+    <Property Name="current_page" Type="char" MaxLength="25" />
+    <Property Name="err_count" Type="tinyint" />
+    <Property Name="err_details" Type="varchar" MaxLength="2500" />
+    <Property Name="first_save" Type="datetime" />
+    <Property Name="last_save" Type="datetime" />
+    <Property Name="queue_inuse" Type="int" />
+    <Property Name="queue_complete" Type="tinyint" />
+    <Property Name="queue_start" Type="datetime" />
+    <Property Name="queue_end" Type="datetime" />
+    <Property Name="drc_end" Type="datetime" />
+    <Property Name="amf_account_no" Type="int" />
+    <Property Name="keycode" Type="varchar" MaxLength="20" />
+    <Property Name="quote_number" Type="varchar" MaxLength="20" />
+    <Property Name="consumer_id" Type="varchar" MaxLength="15" />
+    <Property Name="comments" Type="varchar" MaxLength="300" />
+    <Property Name="csr_queue" Type="varchar" MaxLength="10" />
+    <Property Name="quote_errmsg" Type="varchar" MaxLength="200" />
+    <Property Name="bind_status" Type="int" />
+    <Property Name="uw_comp" Type="int" />
+    <Property Name="knockout" Type="varchar" MaxLength="3" />
+    <Property Name="dnq_template" Type="tinyint" />
+    <Property Name="dnq_reason" Type="tinyint" />
+    <Property Name="dnq_email_sent" Type="tinyint" />
+    <Property Name="oqpremium" Type="float" />
+    <Property Name="oqpremiumfulltort" Type="int" />
+    <Property Name="drc_premium" Type="int" />
+    <Property Name="drc_premiumfulltort" Type="int" />
+    <Property Name="email_success" Type="int" />
+    <Property Name="email_date_sent" Type="datetime" />
+    <Property Name="email_attempt_no" Type="tinyint" />
+    <Property Name="orig_quote_no" Type="varchar" MaxLength="20" />
+    <Property Name="leadprofileid" Type="varchar" MaxLength="20" />
+    <Property Name="quote_id" Type="varchar" MaxLength="15" />
+    <Property Name="orig_app" Type="char" MaxLength="10" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="dnq_description" Type="varchar" MaxLength="1000" />
+    <Property Name="form_complete" Type="tinyint" />
+    <Property Name="email_suppress" Type="tinyint" />
+    <Property Name="clickthru_partner_id" Type="int" />
+    <Property Name="clickthru_custom" Type="varchar" MaxLength="20" />
+    <Property Name="amend_status" Type="int" />
+    <Property Name="followup_email" Type="smalldatetime" />
+    <Property Name="state" Type="char" MaxLength="2" />
+    <Property Name="keywords" Type="varchar" MaxLength="50" />
+    <Property Name="referer_id" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="tbl_web_session_flex">
+    <Key>
+      <PropertyRef Name="guid" />
+    </Key>
+    <Property Name="guid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="flex_xml" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_web_split_zips">
+    <Key>
+      <PropertyRef Name="prime_key" />
+    </Key>
+    <Property Name="prime_key" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="zip" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="terr" Type="varchar" MaxLength="10" />
+    <Property Name="definition" Type="varchar" MaxLength="125" />
+  </EntityType>
+  <EntityType Name="tbl_web_state_zip_ranges">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="state" Type="char" MaxLength="2" Nullable="false" />
+    <Property Name="min_zip" Type="int" />
+    <Property Name="max_zip" Type="int" />
+  </EntityType>
+  <EntityType Name="Vehicles">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="int" Nullable="false" />
+    <Property Name="VO_MD_YEAR" Type="char" MaxLength="4" />
+    <Property Name="VO_YEAR" Type="char" MaxLength="4" />
+    <Property Name="VO_MODEL_ID" Type="char" MaxLength="6" />
+    <Property Name="VO_YEAR1" Type="char" MaxLength="4" />
+    <Property Name="VO_MAKE_NO" Type="char" MaxLength="4" />
+    <Property Name="VO_MAKE_CODE" Type="char" MaxLength="3" />
+    <Property Name="VO_VIN_NO" Type="char" MaxLength="7" />
+    <Property Name="VO_IIN_CENTURY" Type="char" MaxLength="2" />
+    <Property Name="VO_IIN_YEAR" Type="char" MaxLength="2" />
+    <Property Name="VO_IIN_NO" Type="char" MaxLength="4" />
+    <Property Name="VO_MODEL" Type="char" MaxLength="20" />
+    <Property Name="VO_BODY" Type="char" MaxLength="8" />
+    <Property Name="VO_DESCRIPTION" Type="char" MaxLength="20" />
+    <Property Name="VO_RESTRAINT" Type="char" MaxLength="1" />
+    <Property Name="VO_ANTI_LOCK_BRAKE" Type="char" MaxLength="1" />
+    <Property Name="VO_WHEELS_DRIVEN" Type="char" MaxLength="1" />
+    <Property Name="VO_SPECIAL_INFO" Type="char" MaxLength="1" />
+    <Property Name="VO_DAYTIME_LIGHTS_TEST" Type="char" MaxLength="1" />
+    <Property Name="VO_ANTI_THEFT_INFO" Type="char" MaxLength="1" />
+    <Property Name="VO_OLD_FLAG" Type="char" MaxLength="1" />
+    <Property Name="VO_SYMBOL" Type="smallint" />
+    <Property Name="VO_SYMBOL_2" Type="smallint" />
+    <Property Name="VO_SYMBOL_3" Type="smallint" />
+    <Property Name="VO_SYMBOL_4" Type="smallint" />
+    <Property Name="VO_SYMBOL_5" Type="smallint" />
+    <Property Name="VO_SYMBOL_6" Type="smallint" />
+    <Property Name="VO_SYMBOL_7" Type="smallint" />
+    <Property Name="VO_SYMBOL_8" Type="smallint" />
+    <Property Name="VO_SYMBOL_9" Type="smallint" />
+    <Property Name="VO_SYMBOL_10" Type="smallint" />
+    <Property Name="VO_COST_NEW" Type="smallint" />
+    <Property Name="VO_VEH_TYPE" Type="smallint" />
+    <Property Name="VO_EXPOSURE" Type="smallint" />
+    <Property Name="VO_SAFE_VEHICLE" Type="smallint" />
+    <Property Name="VO_PERFORMANCE" Type="smallint" />
+    <Property Name="VO_SYMBOL_EXCEPTION" Type="smallint" />
+    <Property Name="VO_SEAT_BELTS" Type="smallint" />
+    <Property Name="VO_AIR_BAG" Type="smallint" />
+    <Property Name="VO_ABS" Type="smallint" />
+    <Property Name="VO_DRL" Type="smallint" />
+    <Property Name="VO_ANTI_THEFT" Type="smallint" />
+    <Property Name="VO_4_DOOR" Type="smallint" />
+    <Property Name="VO_INELIGIBLE_VEH_TYPE" Type="smallint" />
+    <Property Name="VO_ADJUST_TO_MAKE_MODEL" Type="char" MaxLength="5" />
+    <Property Name="VO_SOURCE" Type="smallint" />
+    <Property Name="VO_DATE_ADDED" Type="int" />
+    <Property Name="vo_year_make_model" Type="char" MaxLength="5" />
+    <Property Name="VO_WEB_MODEL" Type="char" MaxLength="27" />
+  </EntityType>
+  <EntityType Name="YearMake">
+    <Key>
+      <PropertyRef Name="prime_key" />
+    </Key>
+    <Property Name="prime_key" Type="int" Nullable="false" />
+    <Property Name="mk_year" Type="nchar" MaxLength="4" />
+    <Property Name="MK_NUMBER_VER" Type="nchar" MaxLength="4" />
+    <Property Name="MK_DESCRIP" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="AutoQuoteModelStoreContainer">
+    <EntitySet Name="ModelYearMake" EntityType="Self.ModelYearMake" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Quote" EntityType="Self.Quote" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuoteAccidents" EntityType="Self.QuoteAccidents" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuoteDriver" EntityType="Self.QuoteDriver" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuoteVehicle" EntityType="Self.QuoteVehicle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuoteViolations" EntityType="Self.QuoteViolations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="states_master" EntityType="Self.states_master" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_web_session" EntityType="Self.tbl_web_session" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_web_session_flex" EntityType="Self.tbl_web_session_flex" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_web_split_zips" EntityType="Self.tbl_web_split_zips" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_web_state_zip_ranges" EntityType="Self.tbl_web_state_zip_ranges" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="YearMake" EntityType="Self.YearMake" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

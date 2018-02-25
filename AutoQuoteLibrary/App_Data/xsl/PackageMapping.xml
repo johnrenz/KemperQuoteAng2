@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<States>
+    <State ID="PA">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">12</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">13</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="MN">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">16</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="IN">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">16</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="NV">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">12</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">13</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="MO">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">11</currentLimit>
+            <currentLimit limit="10" value="30/60">15</currentLimit>
+            <currentLimit limit="2" value="50/100">12</currentLimit>
+            <currentLimit limit="3" value="100/300">13</currentLimit>
+            <currentLimit limit="4" value="over 100/300">14</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="CO">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">13</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="IL">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">12</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">13</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="OR">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">11</currentLimit>
+	        <currentLimit limit="10" value="30/60">12</currentLimit>
+            <currentLimit limit="2" value="50/100">12</currentLimit>
+            <currentLimit limit="3" value="100/300">13</currentLimit>
+            <currentLimit limit="4" value="over 100/300">14</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="MI">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">13</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="IA">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">16</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="SC">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="VA">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">12</currentLimit>
+            <currentLimit limit="10" value="30/60">13</currentLimit>
+            <currentLimit limit="2" value="50/100">13</currentLimit>
+            <currentLimit limit="3" value="100/300">14</currentLimit>
+            <currentLimit limit="4" value="over 100/300">15</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="WI">
+        <currentLimits>
+            <currentLimit limit="0" value="">11</currentLimit>
+            <currentLimit limit="5" value="Unknown">11</currentLimit>
+            <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+            <currentLimit limit="7" value="15/30">11</currentLimit>
+            <currentLimit limit="8" value="20/40">11</currentLimit>
+            <currentLimit limit="1" value="25/50">11</currentLimit>
+            <currentLimit limit="10" value="30/60">12</currentLimit>
+            <currentLimit limit="2" value="50/100">12</currentLimit>
+            <currentLimit limit="3" value="100/300">13</currentLimit>
+            <currentLimit limit="4" value="over 100/300">14</currentLimit>
+            <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+        </currentLimits>
+    </State>
+    <State ID="NJ">	
+	<currentLimits>
+	    <currentLimit limit="0" value="">11</currentLimit>
+	    <currentLimit limit="5" value="Unknown">11</currentLimit>
+	    <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+	    <currentLimit limit="7" value="15/30">11</currentLimit>		
+	    <currentLimit limit="1" value="25/50">12</currentLimit>
+        <currentLimit limit="10" value="30/60">13</currentLimit>
+	    <currentLimit limit="2" value="50/100">13</currentLimit>
+	    <currentLimit limit="3" value="100/300">14</currentLimit>
+	    <currentLimit limit="4" value="250/500">15</currentLimit>
+	    <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+	</currentLimits>
+   </State>
+  <!-- 7102 wsun 12/13/2010 ca for new quote flow. -->
+  <!-- fcaglar SSR07102 02-10-2011 - CA new quote flow -->
+  <State ID="CA">
+    <currentLimits>
+      <currentLimit limit="0" value="">11</currentLimit>
+      <currentLimit limit="5" value="Unknown">11</currentLimit>
+      <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+      <currentLimit limit="7" value="15/30">11</currentLimit>
+      <currentLimit limit="8" value="20/40">12</currentLimit>
+      <currentLimit limit="1" value="25/50">12</currentLimit>
+      <currentLimit limit="10" value="30/60">12</currentLimit>
+      <currentLimit limit="2" value="50/100">13</currentLimit>
+      <currentLimit limit="3" value="100/300">14</currentLimit>
+      <currentLimit limit="4" value="over 100/300">15</currentLimit>
+      <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+    </currentLimits>
+  </State>
+  <State ID="AZ">
+     <currentLimits>
+        <currentLimit limit="0" value="">11</currentLimit>
+        <currentLimit limit="5" value="Unknown">12</currentLimit>
+        <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+        <currentLimit limit="7" value="15/30">11</currentLimit>
+        <currentLimit limit="8" value="20/40">12</currentLimit>
+        <currentLimit limit="1" value="25/50">12</currentLimit>
+	    <currentLimit limit="10" value="30/60">13</currentLimit>
+        <currentLimit limit="2" value="50/100">13</currentLimit>
+        <currentLimit limit="3" value="100/300">14</currentLimit>
+        <currentLimit limit="4" value="over 100/300">15</currentLimit>
+        <currentLimit limit="9" value="Prior Ins w/ No BI">12</currentLimit>
+    </currentLimits>
+  </State>
+  <State ID="TX">
+     <currentLimits>
+        <currentLimit limit="0" value="">11</currentLimit>
+        <currentLimit limit="5" value="Unknown">11</currentLimit>
+        <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+        <currentLimit limit="7" value="15/30">11</currentLimit>
+        <currentLimit limit="8" value="20/40">11</currentLimit>
+        <currentLimit limit="1" value="25/50">11</currentLimit>
+	    <currentLimit limit="10" value="30/60">12</currentLimit>
+        <currentLimit limit="2" value="50/100">13</currentLimit>
+        <currentLimit limit="3" value="100/300">14</currentLimit>
+        <currentLimit limit="4" value="over 100/300">15</currentLimit>
+        <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+     </currentLimits>
+  </State>
+  <State ID="OH">
+     <currentLimits>
+        <currentLimit limit="0" value="">11</currentLimit>
+        <currentLimit limit="5" value="Unknown">12</currentLimit>
+        <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+        <currentLimit limit="7" value="15/30">12</currentLimit>
+        <currentLimit limit="8" value="20/40">12</currentLimit>
+        <currentLimit limit="1" value="25/50">12</currentLimit>
+	    <currentLimit limit="10" value="30/60">13</currentLimit>
+        <currentLimit limit="2" value="50/100">14</currentLimit>
+        <currentLimit limit="3" value="100/300">15</currentLimit>
+        <currentLimit limit="4" value="over 100/300">16</currentLimit>
+        <currentLimit limit="9" value="Prior Ins w/ No BI">12</currentLimit>
+     </currentLimits>
+  </State>
+  <State ID="CT">
+     <currentLimits>
+        <currentLimit limit="0" value="">11</currentLimit>
+        <currentLimit limit="5" value="Unknown">11</currentLimit>
+        <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+        <currentLimit limit="7" value="15/30">11</currentLimit>
+        <currentLimit limit="8" value="20/40">11</currentLimit>
+        <currentLimit limit="1" value="25/50">12</currentLimit>
+	    <currentLimit limit="10" value="30/60">13</currentLimit>
+        <currentLimit limit="2" value="50/100">13</currentLimit>
+        <currentLimit limit="3" value="100/300">14</currentLimit>
+        <currentLimit limit="4" value="over 100/300">15</currentLimit>
+        <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+     </currentLimits>
+  </State>
+  <State ID="KS">
+     <currentLimits>
+        <currentLimit limit="0" value="">11</currentLimit>
+        <currentLimit limit="5" value="Unknown">11</currentLimit>
+        <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+        <currentLimit limit="7" value="15/30">11</currentLimit>
+        <currentLimit limit="8" value="20/40">11</currentLimit>
+        <currentLimit limit="1" value="25/50">11</currentLimit>
+	    <currentLimit limit="10" value="30/60">12</currentLimit>
+        <currentLimit limit="2" value="50/100">12</currentLimit>
+        <currentLimit limit="3" value="100/300">13</currentLimit>
+        <currentLimit limit="4" value="over 100/300">14</currentLimit>
+        <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+     </currentLimits>
+  </State>
+    <State ID="TN">
+     <currentLimits>
+        <currentLimit limit="0" value="">11</currentLimit>
+        <currentLimit limit="5" value="Unknown">11</currentLimit>
+        <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+        <currentLimit limit="7" value="15/30">11</currentLimit>
+        <currentLimit limit="8" value="20/40">11</currentLimit>
+        <currentLimit limit="1" value="25/50">11</currentLimit>
+	<currentLimit limit="10" value="30/60">12</currentLimit>
+        <currentLimit limit="2" value="50/100">15</currentLimit>
+        <currentLimit limit="3" value="100/300">13</currentLimit>
+        <currentLimit limit="4" value="over 100/300">14</currentLimit>
+        <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+     </currentLimits>
+  </State>
+  <!--6872 jrenz 11/15/2011-->
+  <State ID="MD">
+     <currentLimits>
+         <currentLimit limit="0" value="">11</currentLimit>
+         <currentLimit limit="5" value="Unknown">11</currentLimit>
+         <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+         <currentLimit limit="7" value="15/30">11</currentLimit>
+         <currentLimit limit="8" value="20/40">11</currentLimit>
+         <currentLimit limit="1" value="25/50">11</currentLimit>
+         <currentLimit limit="10" value="30/60">11</currentLimit>
+         <currentLimit limit="2" value="50/100">12</currentLimit>
+         <currentLimit limit="3" value="100/300">13</currentLimit>
+         <currentLimit limit="4" value="over 100/300">14</currentLimit>
+         <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+     </currentLimits>
+  </State>
+  <!--6873 dmetz 04/10/2012-->
+  <State ID="ID">
+     <currentLimits>
+         <currentLimit limit="0" value="">11</currentLimit>
+         <currentLimit limit="5" value="Unknown">11</currentLimit>
+         <currentLimit limit="6" value="less than 15/30">11</currentLimit>
+         <currentLimit limit="7" value="15/30">11</currentLimit>
+         <currentLimit limit="8" value="20/40">11</currentLimit>
+         <currentLimit limit="1" value="25/50">11</currentLimit>
+         <currentLimit limit="10" value="30/60">12</currentLimit>
+         <currentLimit limit="2" value="50/100">12</currentLimit>
+         <currentLimit limit="3" value="100/300">13</currentLimit>
+         <currentLimit limit="4" value="over 100/300">14</currentLimit>
+         <currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+     </currentLimits>
+  </State>
+  <State ID="LA">
+	<currentLimits>
+		<currentLimit limit="0" value="">11</currentLimit>
+		<currentLimit limit="5" value="Unknown">11</currentLimit>
+		<currentLimit limit="6" value="less than 15/30">11</currentLimit>
+		<currentLimit limit="7" value="15/30">11</currentLimit>
+		<currentLimit limit="8" value="20/40">12</currentLimit>
+		<currentLimit limit="1" value="25/50">12</currentLimit>
+		<currentLimit limit="10" value="30/60">13</currentLimit>
+		<currentLimit limit="2" value="50/100">13</currentLimit>
+		<currentLimit limit="3" value="100/300">14</currentLimit>
+		<currentLimit limit="4" value="over 100/300">15</currentLimit>
+		<currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+	</currentLimits>
+  </State>
+  <State ID="UT">
+	<currentLimits>
+		<currentLimit limit="0" value="">11</currentLimit>
+		<currentLimit limit="5" value="Unknown">11</currentLimit>
+		<currentLimit limit="6" value="less than 15/30">11</currentLimit>
+		<currentLimit limit="7" value="15/30">11</currentLimit>
+		<currentLimit limit="8" value="20/40">11</currentLimit>
+		<currentLimit limit="11" value="25/65">11</currentLimit>
+		<currentLimit limit="10" value="30/60">12</currentLimit>
+		<currentLimit limit="2" value="50/100">12</currentLimit>
+		<currentLimit limit="3" value="100/300">13</currentLimit>
+		<currentLimit limit="4" value="over 100/300">14</currentLimit>
+		<currentLimit limit="9" value="Prior Ins w/ No BI">11</currentLimit>
+	</currentLimits>
+  </State>
+</States>

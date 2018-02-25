@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoQuoteModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ModelYearMake">
+    <Key>
+      <PropertyRef Name="MODEL_ID" />
+    </Key>
+    <Property Name="MODEL_ID" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="YEAR_VER1" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="MAKE_VER1" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="MODEL_VER1" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="BODY_VER1" Type="String" MaxLength="8" FixedLength="true" Unicode="true" />
+    <Property Name="DESCRIPTION_VER1" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="YEAR" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="PRIME_KEY" />
+    </Key>
+    <Property Name="PRIME_KEY" Type="Int32" Nullable="false" />
+    <Property Name="VO_MD_YEAR" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_YEAR" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MODEL_ID" Type="String" MaxLength="6" FixedLength="true" Unicode="false" />
+    <Property Name="VO_YEAR1" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MAKE_NO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MAKE_CODE" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="VO_VIN_NO" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="VO_IIN_CENTURY" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="VO_IIN_YEAR" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+    <Property Name="VO_IIN_NO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="VO_MODEL" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="VO_BODY" Type="String" MaxLength="8" FixedLength="true" Unicode="false" />
+    <Property Name="VO_DESCRIPTION" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+    <Property Name="VO_RESTRAINT" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_ANTI_LOCK_BRAKE" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_WHEELS_DRIVEN" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_SPECIAL_INFO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_DAYTIME_LIGHTS_TEST" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_ANTI_THEFT_INFO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_OLD_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="VO_SYMBOL" Type="Int16" />
+    <Property Name="VO_SYMBOL_2" Type="Int16" />
+    <Property Name="VO_SYMBOL_3" Type="Int16" />
+    <Property Name="VO_SYMBOL_4" Type="Int16" />
+    <Property Name="VO_SYMBOL_5" Type="Int16" />
+    <Property Name="VO_SYMBOL_6" Type="Int16" />
+    <Property Name="VO_SYMBOL_7" Type="Int16" />
+    <Property Name="VO_SYMBOL_8" Type="Int16" />
+    <Property Name="VO_SYMBOL_9" Type="Int16" />
+    <Property Name="VO_SYMBOL_10" Type="Int16" />
+    <Property Name="VO_COST_NEW" Type="Int16" />
+    <Property Name="VO_VEH_TYPE" Type="Int16" />
+    <Property Name="VO_EXPOSURE" Type="Int16" />
+    <Property Name="VO_SAFE_VEHICLE" Type="Int16" />
+    <Property Name="VO_PERFORMANCE" Type="Int16" />
+    <Property Name="VO_SYMBOL_EXCEPTION" Type="Int16" />
+    <Property Name="VO_SEAT_BELTS" Type="Int16" />
+    <Property Name="VO_AIR_BAG" Type="Int16" />
+    <Property Name="VO_ABS" Type="Int16" />
+    <Property Name="VO_DRL" Type="Int16" />
+    <Property Name="VO_ANTI_THEFT" Type="Int16" />
+    <Property Name="VO_4_DOOR" Type="Int16" />
+    <Property Name="VO_INELIGIBLE_VEH_TYPE" Type="Int16" />
+    <Property Name="VO_ADJUST_TO_MAKE_MODEL" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="VO_SOURCE" Type="Int16" />
+    <Property Name="VO_DATE_ADDED" Type="Int32" />
+    <Property Name="vo_year_make_model" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="VO_WEB_MODEL" Type="String" MaxLength="27" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="YearMake">
+    <Key>
+      <PropertyRef Name="prime_key" />
+    </Key>
+    <Property Name="prime_key" Type="Int32" Nullable="false" />
+    <Property Name="mk_year" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="MK_NUMBER_VER" Type="String" MaxLength="4" FixedLength="true" Unicode="true" />
+    <Property Name="MK_DESCRIP" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="AutoQuoteEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ModelYearMakes" EntityType="Self.ModelYearMake" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <EntitySet Name="YearMakes" EntityType="Self.YearMake" />
+  </EntityContainer>
+</Schema>

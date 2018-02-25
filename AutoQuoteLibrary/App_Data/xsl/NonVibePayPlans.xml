@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PayPlans>  
+  <PayPlan id="1">
+    <Name>Pay in Full(Non Vibe)</Name>
+    <PaymentCount>1</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <PayPlan id="2">
+    <Name>2 Payments(Non Vibe)</Name>
+    <PaymentCount>2</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <PayPlan id="3">
+    <Name>3 Payments(Non Vibe)</Name>
+    <PaymentCount>3</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <PayPlan id="4">
+    <Name>4 Payments(Non Vibe)</Name>
+    <PaymentCount>4</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <PayPlan id="5">
+    <Name>5 Payments(Non Vibe)</Name>
+    <PaymentCount>5</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <PayPlan id="6">
+    <Name>Monthly(Non Vibe)</Name>
+    <PaymentCount>6</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <PayPlan id="0" >
+    <Name>Payroll Deduction(Non Vibe)</Name>
+    <PaymentCount>0</PaymentCount>
+    <InstallmentFee>0</InstallmentFee>
+  </PayPlan>
+  <SelectedPayPlan>6</SelectedPayPlan>
+  <UseDefaultPayPlan>false</UseDefaultPayPlan>
+</PayPlans>

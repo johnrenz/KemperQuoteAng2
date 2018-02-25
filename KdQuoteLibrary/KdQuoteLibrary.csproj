@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E80F8C42-D9B8-4C9E-B582-2C8293EDB910}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KdQuoteLibrary</RootNamespace>
+    <AssemblyName>KdQuoteLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AddressServicePlugin">
+      <HintPath>..\..\..\test\Shared\SharedDlls\AddressServicePlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonServiceLocator, Version=2.0.1.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\CommonServiceLocator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Database">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Microsoft.Practices.EnterpriseLibrary.Caching.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder2">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Microsoft.Practices.ObjectBuilder2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Quote">
+      <HintPath>..\..\..\test\Shared\SharedDlls\Quote.dll</HintPath>
+    </Reference>
+    <Reference Include="SiteLibrary">
+      <HintPath>..\..\..\test\Shared\SharedDlls\SiteLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SynchronousPluginHelper">
+      <HintPath>..\..\..\test\Shared\SharedDlls\SynchronousPluginHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UDILibrary">
+      <HintPath>..\..\..\test\Shared\SharedDlls\UDILibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Configuration, Version=5.0.3.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.2.0.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Container.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Interception, Version=5.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Interception.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Interception.Configuration, Version=5.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.Interception.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Mvc5, Version=1.3.0.0, Culture=neutral, PublicKeyToken=43da31bc42a85347, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.Mvc5.1.3.0\lib\net45\Unity.Mvc5.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.RegistrationByConvention, Version=2.0.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.RegistrationByConvention.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.ServiceLocation, Version=2.0.3.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.2.0\lib\net45\Unity.ServiceLocation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\UnityConfig.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Interfaces\INavigationServices.cs" />
+    <Compile Include="Interfaces\ISessionServices.cs" />
+    <Compile Include="Interfaces\IVINServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuoteFlowHelper\AddInfo.cs" />
+    <Compile Include="QuoteFlowHelper\Affinity.cs" />
+    <Compile Include="QuoteFlowHelper\Brand.cs" />
+    <Compile Include="QuoteFlowHelper\CacheExpiration.cs" />
+    <Compile Include="QuoteFlowHelper\CalculatedPremium.cs" />
+    <Compile Include="QuoteFlowHelper\ClickThruPartnerInfo.cs" />
+    <Compile Include="QuoteFlowHelper\Coverage.cs" />
+    <Compile Include="QuoteFlowHelper\CoverageError.cs" />
+    <Compile Include="QuoteFlowHelper\Credit.cs" />
+    <Compile Include="QuoteFlowHelper\Discount.cs" />
+    <Compile Include="QuoteFlowHelper\DNQ.cs" />
+    <Compile Include="QuoteFlowHelper\Driver.cs" />
+    <Compile Include="QuoteFlowHelper\Drivers.cs" />
+    <Compile Include="QuoteFlowHelper\DropDownSelection.cs" />
+    <Compile Include="QuoteFlowHelper\EnhancedCoverage.cs" />
+    <Compile Include="QuoteFlowHelper\ErrorMessage.cs" />
+    <Compile Include="QuoteFlowHelper\Group.cs" />
+    <Compile Include="QuoteFlowHelper\HOIRenterInfo.cs" />
+    <Compile Include="QuoteFlowHelper\HOIRenterProvide.cs" />
+    <Compile Include="QuoteFlowHelper\Incident.cs" />
+    <Compile Include="QuoteFlowHelper\InstallmentFee.cs" />
+    <Compile Include="QuoteFlowHelper\Limit.cs" />
+    <Compile Include="QuoteFlowHelper\LinqUtilities.cs" />
+    <Compile Include="QuoteFlowHelper\Option.cs" />
+    <Compile Include="QuoteFlowHelper\Packages.cs" />
+    <Compile Include="QuoteFlowHelper\Page.cs" />
+    <Compile Include="QuoteFlowHelper\PayPlan.cs" />
+    <Compile Include="QuoteFlowHelper\Question.cs" />
+    <Compile Include="QuoteFlowHelper\QuoteEnumerators.cs" />
+    <Compile Include="QuoteFlowHelper\Referral.cs" />
+    <Compile Include="QuoteFlowHelper\RentersRateScenario.cs" />
+    <Compile Include="QuoteFlowHelper\SessionUtilities.cs" />
+    <Compile Include="QuoteFlowHelper\StringExtensions.cs" />
+    <Compile Include="QuoteFlowHelper\Utilities.cs" />
+    <Compile Include="QuoteFlowHelper\Vehicle.cs" />
+    <Compile Include="QuoteFlowHelper\VehicleCoverage.cs" />
+    <Compile Include="QuoteFlowHelper\Vehicles.cs" />
+    <Compile Include="QuoteFlowHelper\WebSession.cs" />
+    <Compile Include="QuoteFlowHelper\WebSessionDRC.cs" />
+    <Compile Include="QuoteFlowHelper\XELementExtensions.cs" />
+    <Compile Include="Service References\AccountMasterWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ScenariosWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Services\BaseServices.cs" />
+    <Compile Include="Services\CacheServices.cs" />
+    <Compile Include="Services\DRCServices.cs" />
+    <Compile Include="Services\LoggingServices.cs" />
+    <Compile Include="Services\NavigationServices.cs" />
+    <Compile Include="Services\RentersServices.cs" />
+    <Compile Include="Services\SessionServices.cs" />
+    <Compile Include="Services\VINServices.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Service References\AccountMasterWS\AccountMaster.wsdl" />
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAccountNameResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAccountPayPlanPdpResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAccountPremierProgResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAffinityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAgencyNameResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetAgentNameResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetBrandResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetCommunityInfoFromIDResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetCommunityListResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetCompanyNoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetCovResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetDedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetERMFbyAccountNumberAndStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetERMFsByStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetFormResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetPERMbyAccountNumberAndStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetPERMsByStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.GetStateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AccountMasterWS\KdQuoteLibrary.AccountMasterWS.RetrieveAccountByMarketKeyCodeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ScenariosWS\KdQuoteLibrary.ScenariosWS.LookupCoveragesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ScenariosWS\KdQuoteLibrary.ScenariosWS.LookupCoveragesWithCityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ScenariosWS\KdQuoteLibrary.ScenariosWS.LookupEndorsementsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ScenariosWS\KdQuoteLibrary.ScenariosWS.LookupEndorsementsWithCityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ScenariosWS\Scenarios.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AccountMasterWS\" />
+    <WCFMetadataStorage Include="Service References\ScenariosWS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountMasterWS\AccountMaster.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountMasterWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountMasterWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AccountMasterWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScenariosWS\Scenarios.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScenariosWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScenariosWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ScenariosWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

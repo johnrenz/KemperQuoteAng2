@@ -1,0 +1,223 @@
+<div *ngIf="sessionObject">
+    <app-header [sessionObject]="sessionObject"></app-header>
+</div>
+<div class="container-fluid">
+    <div class='panel panel-primary'>
+        <div class='panel-heading'>
+            Applicant Information
+        </div>
+        <ng-template #loadingScreen><div class="alert" role="alert"><mat-progress-spinner mode="indeterminate" style="width:50px; height:50px;margin: auto"></mat-progress-spinner>loading...</div></ng-template>
+        <div *ngIf="LoadComplete; else loadingScreen" style="padding:15px">
+
+            <form (ngSubmit)="onSubmit()" [formGroup]="applicantForm" novalidate class="well well-lg">
+                <div class="form-group ">
+
+                    <label class="center-block">
+                        <mat-form-field style="width:100%">
+                            <input matInput formControlName="FirstName" placeholder="First Name">
+                        </mat-form-field>
+                        <div *ngIf="FirstName.invalid && (FirstName.dirty || FirstName.touched)"
+                             class="alert alert-danger">
+                            <div *ngIf="FirstName.errors.required">
+                                First Name is required.
+                            </div>
+                        </div>
+                    </label>
+                    <label class="center-block">
+                        <mat-form-field style="width:100%">
+                            <input matInput maxlength="30" formControlName="LastName" placeholder="Last Name">
+                        </mat-form-field>
+                        <div *ngIf="LastName.invalid && (LastName.dirty || LastName.touched)"
+                             class="alert alert-danger">
+
+                            <div *ngIf="LastName.errors.required">
+                                Last Name is required.
+                            </div>
+                        </div>
+                    </label>
+                    <div formGroupName="CurrentAddress">
+                        <label class="center-block">
+                            <mat-form-field style="width:100%">
+                                <input matInput maxlength="30" formControlName="AddressLine1" placeholder="Address">
+                            </mat-form-field>
+                            <div *ngIf="AddressLine1.invalid && (AddressLine1.dirty || AddressLine1.touched)"
+                                 class="alert alert-danger">
+
+                                <div *ngIf="AddressLine1.errors.required">
+                                    Address is required.
+                                </div>
+                            </div>
+                        </label>
+
+                        <label class="center-block">
+                            <mat-form-field style="width:100%">
+                                <input matInput maxlength="30" formControlName="AddressLine2" placeholder="Address Line 2">
+                            </mat-form-field>
+                        </label>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <mat-form-field>
+                                    <input matInput maxlength="30" formControlName="City" placeholder="City">
+                                </mat-form-field>
+                                <div *ngIf="City.invalid && (City.dirty || City.touched)"
+                                     class="alert alert-danger">
+
+                                    <div *ngIf="City.errors.required">
+                                        city is required.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <mat-form-field>
+                                    <mat-select formControlName="State" [(value)]="selectedStateOption" placeholder="State">
+                                        <mat-option *ngFor="let state of states"
+                                                    [value]="state">
+                                            {{ state }}
+                                        </mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                                <div *ngIf="State.invalid && (State.dirty || State.touched)"
+                                     class="alert alert-danger">
+
+                                    <div *ngIf="State.errors.required">
+                                        state is required.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <mat-form-field>
+                                    <input matInput maxlength="5" pattern="\d{5}" formControlName="ZipCode" placeholder="Postal Code" style="width:5em;">
+                                </mat-form-field>
+                                <div *ngIf="ZipCode.invalid && (ZipCode.dirty || ZipCode.touched)"
+                                     class="alert alert-danger">
+
+                                    Valid Zip Code is required.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <label class="center-block">
+                        
+                          <!-- HomeRentOptions: {{ JSON.stringify(HomeRentOptions) }} <br /> -->
+                        <mat-form-field>
+                            <mat-select formControlName="HomeRentType" [(value)]="selectedHomeRentOption" placeholder="Primary Residence">
+                                <mat-option *ngFor="let option of HomeRentOptions"
+                                            [value]="option.Value">
+                                    {{ option.Description }}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <div *ngIf="HomeRentType.invalid && (HomeRentType.dirty || HomeRentType.touched)"
+                             class="alert alert-danger">
+                            <div *ngIf="HomeRentType.errors.required">
+                                Primary Residence is required.
+                            </div>
+                        </div>
+                    </label>
+
+                    <div [@visibilityChanged]="HomeRentType.value=='1'" class="form-group">
+
+                        <label class="center-block">
+                            <mat-form-field>
+                                <mat-select formControlName="HomeownerShipType" [(value)]="selectedHomeownershipTypeOption" placeholder="What Kind of Home?">
+                                    <mat-option *ngFor="let option of HomeownerShipOptions"
+                                                [value]="option.Value">
+                                        {{ option.Description }}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                            <div *ngIf="HomeownerShipType.invalid && (HomeownerShipType.dirty || HomeownerShipType.touched)"
+                                 class="alert alert-danger">
+                                <div *ngIf="HomeownerShipType.errors.required">
+                                    Kind of Home is required.
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    <div [@visibilityChanged]="HomeRentType.value!='1'" class="form-group ">
+
+                        <label class="center-block">
+                            <mat-form-field style="width:15em;">
+                                <input matInput pattern="[0-9]+" maxlength="4" formControlName="UnitsInBuilding" placeholder="Number of Units in Building/Complex">
+                            </mat-form-field>
+
+                            <div *ngIf="UnitsInBuilding.invalid && (UnitsInBuilding.dirty || UnitsInBuilding.touched)"
+                                 class="alert alert-danger">
+                                Units required.
+                            </div>
+                        </label>
+                    </div>
+
+                    <label class="center-block">
+                        <mat-form-field style="width:15em;">
+                            <input matInput pattern="[0-9]+" maxlength="2" formControlName="NoOfTimesMoved" placeholder="Number of Times Moved">
+                        </mat-form-field>
+                        <div *ngIf="NoOfTimesMoved.invalid && (NoOfTimesMoved.dirty || NoOfTimesMoved.touched)"
+                             class="alert alert-danger">
+                            Times Moved required.
+                        </div>
+                    </label>
+                    <label class="center-block">
+                        <mat-form-field style="width:30em;">
+                            <input matInput pattern="[0-9]+" maxlength="2" formControlName="NoOfLicensedInHousehold" placeholder="Number of Licensed People in Household (including you):">
+                        </mat-form-field>
+                        <div *ngIf="NoOfLicensedInHousehold.invalid && (NoOfLicensedInHousehold.dirty || NoOfLicensedInHousehold.touched)"
+                             class="alert alert-danger">
+                            Number of People required.
+                        </div>
+                    </label>
+                    <label class="center-block">
+                        <mat-form-field style="width:100%">
+                            <input matInput type="email" maxlength="50" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,6})+$" formControlName="Email" placeholder="Email">
+                        </mat-form-field>
+                        <div *ngIf="Email.invalid && (Email.dirty || Email.touched)"
+                             class="alert alert-danger">
+                            Valid email required.
+                        </div>
+                    </label>
+
+                    <label class="center-block">
+                        <mat-form-field style="width:100%">
+                            <input matInput maxlength="4" pattern="\d{4}" formControlName="SSN4" placeholder="Last 4 digits of your Social Security Number:">
+                        </mat-form-field>
+                        <div *ngIf="SSN4.invalid && (SSN4.dirty || SSN4.touched)"
+                             class="alert alert-danger">
+
+                            Please enter 4 digits
+                        </div>
+                    </label>
+                    <label class="center-block">
+                        <mat-form-field>
+                            <mat-select formControlName="HowDidYouHear" [(value)]="selectedHowDidYouHearOption" placeholder="How did you hear about us?">
+                                <mat-option *ngFor="let option of HowDidYouHearOptions"
+                                            [value]="option.Value">
+                                    {{ option.Description }}
+                                </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <div *ngIf="HowDidYouHear.invalid && (HowDidYouHear.dirty || HowDidYouHear.touched)"
+                             class="alert alert-danger">
+                            <div *ngIf="HowDidYouHear.errors.required">
+                                Required
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <span [matTooltip]="!applicantForm.valid ? 'Please complete selections and correct errors on this page!' : null">
+                    <button type="submit" class="btn btn-success" [disabled]="!applicantForm.valid">Submit</button>
+                </span>
+            </form>
+        </div>
+    </div>
+    <!--    
+        <br />
+    <button (click)="getSession()">Get</button>
+    <p>output: {{ getData }}</p>
+    <button (click)="postSession()">Post Session</button>
+    <p>output xml: {{ postSessionXmlData }}</p>
+    <p>output json: {{ postSessionData }}</p>
+    <button (click)="postGuidewire()">Post GW</button>
+    <p>output: {{ postData }}</p>
+        -->
+</div>
+

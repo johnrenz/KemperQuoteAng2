@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EnhanceCoverages>
+    <State code="37" abbrev="PA">
+		<EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="13" abbrev="IN">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="22" abbrev="MN">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="24" abbrev="MO">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="27" abbrev="NV">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="27" abbrev="CO">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+         <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+ <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="27" abbrev="IL">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Ticket Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="27" abbrev="OR">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="27" abbrev="MI">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="14" abbrev="IA">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="39" abbrev="SC">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="45" abbrev="VA">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+    <State code="48" abbrev="WI">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+        <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+	<State code="29" abbrev="NJ">
+		<EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		<EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		</EnhanceCoverage>
+		<EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		<EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+	</State>
+     <State code="2" abbrev="AZ">
+		 <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		 <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+		 <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		 <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		 <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+		 <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		 <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		 <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			 <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			 <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		 </EnhanceCoverage>
+		 <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		 <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+      </State>
+      <State code="34" abbrev="OH">
+		  <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		  <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		  <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		  <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		  <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		  <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+		  <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		  <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		  <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+		  <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		  <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		  <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			  <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			  <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		  </EnhanceCoverage>
+		  <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		  <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+      </State>
+      <State code="42" abbrev="TX">
+        <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		  <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="rateLockTest" name="&#160;&#160;&#160;Price Lock&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		  <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		  <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+            <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+        </EnhanceCoverage>
+        <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+        <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    </State>
+      <State code="6" abbrev="CT">
+		 <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		  <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		 <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>		
+        <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+        <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		 <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		 <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			 <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			 <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		 </EnhanceCoverage>
+		 <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		 <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+      </State>
+	<State code="15" abbrev="KS">
+		<EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>		
+    <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		<EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		</EnhanceCoverage>
+		<EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		<EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+	</State>
+	<State code="41" abbrev="TN">
+		<EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>		
+    <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		<EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		</EnhanceCoverage>
+		<EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		<EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+	</State>
+	<State code="19" abbrev="MD">
+		<EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+		<EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>		
+		<EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+    		<EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    		<EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+    		<EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+		<EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+		<EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+			<DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+		</EnhanceCoverage>
+		<EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+		<EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+	</State>
+  <!--SSR6873 WLU 5/31/2012 -->
+  <State code="11" abbrev="ID">
+    <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+    <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+      <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+      <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+    </EnhanceCoverage>
+    <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+  </State>
+  <!--SSR6873 WLU 5/31/2012 -->
+  <State code="17" abbrev="LA">
+    <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+    <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+      <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+      <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+    </EnhanceCoverage>
+    <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+	<!-- dmetz 07-27-2012 PRD21935 - Remove Pet Protection from LA -->
+	<!--EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage-->
+  </State>
+  <!--SSR6873 WLU 5/31/2012 -->
+  <State code="43" abbrev="UT">
+    <EnhanceCoverage prev="TeachersTenureTest" name="Teachers&#39; Tenure" premium="" category="bundleTeachers" applyTo="Entire Policy"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle1Test" name="Protect Your Sanity&#174;" premium="" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="TowAndLabor" name="&#160;&#160;&#160;Roadside Assistance" Limits="$75 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="RentalExtdTest" name="&#160;&#160;&#160;Rental Car Reimbursement" Limits="$30 each day / $600 maximum" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="tripinterruptTest" name="&#160;&#160;&#160;Trip Interruption" Limits="$600 each occurrence" applyTo="" cov="OTC" category="bundle1"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle2Test" name="Protect Your Wallet&#174;" premium="" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AssuranceTest" name="&#160;&#160;&#160;Renewal Assurance&#8482;" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="DisappearDed" name="&#160;&#160;&#160;Disappearing Deductible" Limits="" applyTo="" cov="COLL" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="AccForgiveTest" name="&#160;&#160;&#160;Accident Forgiveness" Limits="" applyTo="Entire Policy" category="bundle2"></EnhanceCoverage>
+    <EnhanceCoverage prev="bundle3Test" name="Protect Your Family" premium="" category="bundle3"></EnhanceCoverage>
+    <EnhanceCoverage prev="DependentProtTest" name="&#160;&#160;&#160;Dependent Protection" Limits="" applyTo="" cov="bundle3" category="bundle3" >
+      <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Minor Care Expenses" Limits="$1,000 each accident" category="bundle3"></DependentProtTest>
+      <DependentProtTest name="&#160;&#160;&#160;&#160;&#160;&#160;Accidental Death" Limits="$10,000 per policy period" category="bundle3"></DependentProtTest>
+    </EnhanceCoverage>
+    <EnhanceCoverage prev="CarSeatTest" name="&#160;&#160;&#160;Car Seat Replacement" Limits="$1,000 per policy period" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+    <EnhanceCoverage prev="PetTest" name="&#160;&#160;&#160;Pet Protection" Limits="$2,000 each accident" applyTo="" cov="bundle3" category="bundle3" ></EnhanceCoverage>
+  </State>
+</EnhanceCoverages>

@@ -1,0 +1,10 @@
+select 'INSERT INTO dbo.ModelYearMake (YEAR,MODEL_ID,YEAR_VER1,MAKE_VER1,MODEL_VER1,BODY_VER1,DESCRIPTION_VER1) VALUES ('
+,
+'''' + [K_VO_YEAR] + ''','
+      ,'''' + [K_VO_MODEL_ID] + ''','
+      ,'''' + [K_VO_YEAR_VER1] + ''','
+      ,'''' + [K_VO_MAKE_VER1] + ''','
+      ,'''' + [K_VO_MODEL_VER1] + ''','
+      ,'''' + [K_VO_BODY_VER1] + ''','
+      ,'''' + [K_VO_DESCRIPTION_VER1] + ''')'
+  FROM [aiis_t03].[dbo].[D014901]
